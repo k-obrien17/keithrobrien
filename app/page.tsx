@@ -21,11 +21,18 @@ export default function Home() {
           <h1 className="font-serif text-5xl sm:text-6xl leading-tight text-[var(--color-fg)]">
             Keith R. O&apos;Brien
           </h1>
+          <p className="mt-4 font-mono text-sm uppercase tracking-widest text-[var(--color-accent)]">
+            Content strategist, big idea tinkerer, chill dude
+          </p>
           <p className="mt-6 text-xl text-[var(--color-body)]">
-            I run <span className="text-[var(--color-accent)]">Total Emphasis</span>, a B2B ghostwriting practice, and build software on the side.
+            I&apos;m the founder and head consultant at{" "}
+            <span className="text-[var(--color-accent)]">Total Emphasis</span>, a
+            content strategy firm. I create and execute large content strategy
+            projects and ghostwrite for executives across industries.
           </p>
           <p className="mt-4 text-[var(--color-muted)] max-w-xl">
-            This is the personal corner: the projects, the writing, and the rest of what I&apos;m working on.
+            Outside of that, I build software, run a few newsletters, and write.
+            This is where all of it lives.
           </p>
         </FadeIn>
       </section>

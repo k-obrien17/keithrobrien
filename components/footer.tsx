@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const LINKS = [
   { href: "https://www.totalemphasis.com", label: "Total Emphasis" },
-  { href: "https://github.com/k-obrien17", label: "GitHub" },
-  { href: "https://www.linkedin.com/in/keithrobrien", label: "LinkedIn" },
+  { href: "https://www.linkedin.com/in/keithobrien/", label: "LinkedIn" },
   { href: "mailto:keith@totalemphasis.com", label: "Email" },
 ];
 

@@ -1,7 +1,7 @@
 import { Project, ProjectStatus } from "./types";
 
 export const projects: Project[] = [
-  { name: "141 Miles", slug: "141-miles", description: "Jersey Shore events site with an AI-written newsletter.", stack: ["TS", "Next.js", "Drizzle"], status: "maintained", url: "https://www.141miles.com", featured: true },
+  { name: "141 Miles", slug: "141-miles", description: "Jersey Shore events site with an AI-written newsletter.", stack: ["TS", "Next.js", "Drizzle"], status: "active", url: "https://www.141miles.com", featured: true },
   { name: "The Diffraction", slug: "the-diffraction", description: "A music publication and newsletter.", stack: ["Newsletter"], status: "active", url: "https://www.thediffraction.com" },
   { name: "Survival Signal", slug: "survival-signal", description: "A newsletter about how to be an independent worker. On hiatus.", stack: ["Newsletter"], status: "dormant", url: "https://survivalsignal.beehiiv.com" },
   { name: "Total Emphasis Workflow", slug: "tew", description: "Desktop project management for the ghostwriting practice.", stack: ["TS", "React", "Tauri 2"], status: "active", featured: true },

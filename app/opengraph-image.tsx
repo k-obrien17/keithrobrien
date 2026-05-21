@@ -19,10 +19,10 @@ export default function OpengraphImage() {
         }}
       >
         <div style={{ fontSize: 80, color: "#F5F1E8", fontFamily: "serif" }}>
-          Keith R. O&apos;Brien
+          Keith O&apos;Brien
         </div>
         <div style={{ fontSize: 36, color: "#E8843C", marginTop: 16 }}>
-          Ghostwriter · Builder · Writer
+          Content strategist · Big idea tinkerer · Chill dude
         </div>
       </div>
     ),

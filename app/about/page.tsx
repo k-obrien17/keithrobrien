@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/fade-in";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Keith R. O'Brien — content strategist, founder of Total Emphasis, big idea tinkerer.",
+    "Keith O'Brien: content strategist and founder of Total Emphasis, big idea tinkerer.",
 };
 
 const LINKS = [
@@ -13,6 +13,7 @@ const LINKS = [
   { href: "https://www.141miles.com", label: "141 Miles" },
   { href: "https://www.thediffraction.com", label: "The Diffraction" },
   { href: "https://survivalsignal.beehiiv.com", label: "Survival Signal" },
+  { href: "https://github.com/k-obrien17", label: "GitHub" },
   { href: "https://www.linkedin.com/in/keithobrien/", label: "LinkedIn" },
   { href: "mailto:keith@totalemphasis.com", label: "keith@totalemphasis.com" },
 ];

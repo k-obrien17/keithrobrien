@@ -26,17 +26,17 @@ const SITE_URL = "https://keithrobrien.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Keith R. O'Brien",
-    template: "%s · Keith R. O'Brien",
+    default: "Keith O'Brien",
+    template: "%s · Keith O'Brien",
   },
   description:
-    "Keith R. O'Brien — ghostwriter, builder, writer. Total Emphasis, software side-projects, and essays.",
+    "Keith O'Brien: content strategist, big idea tinkerer, chill dude. Founder of Total Emphasis, plus software, newsletters, and writing.",
   openGraph: {
-    title: "Keith R. O'Brien",
+    title: "Keith O'Brien",
     description:
-      "Ghostwriter, builder, writer. Total Emphasis, software side-projects, and essays.",
+      "Content strategist, big idea tinkerer, chill dude. Founder of Total Emphasis, plus software, newsletters, and writing.",
     url: SITE_URL,
-    siteName: "Keith R. O'Brien",
+    siteName: "Keith O'Brien",
     type: "website",
   },
 };

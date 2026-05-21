@@ -5,7 +5,7 @@ import { getAllPosts } from "@/lib/writing";
 
 const FACETS = [
   { href: "https://www.totalemphasis.com", label: "Total Emphasis", desc: "B2B ghostwriting practice", external: true },
-  { href: "/projects", label: "Projects", desc: "Software I build on the side" },
+  { href: "/projects", label: "Projects", desc: "What I build and run on the side" },
   { href: "/writing", label: "Writing", desc: "Essays and thinking" },
   { href: "/about", label: "About", desc: "Who I am, how to reach me" },
 ];
@@ -19,7 +19,7 @@ export default function Home() {
       <section className="py-20 sm:py-28">
         <FadeIn>
           <h1 className="font-serif text-5xl sm:text-6xl leading-tight text-[var(--color-fg)]">
-            Keith R. O&apos;Brien
+            Keith O&apos;Brien
           </h1>
           <p className="mt-4 font-mono text-sm uppercase tracking-widest text-[var(--color-accent)]">
             Content strategist, big idea tinkerer, chill dude

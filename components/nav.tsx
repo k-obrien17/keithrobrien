@@ -18,7 +18,7 @@ export function Nav() {
           href="/"
           className="font-serif text-xl text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors"
         >
-          Keith R. O&apos;Brien
+          Keith O&apos;Brien
         </Link>
         <ul className="flex gap-6 text-sm">
           {LINKS.map((link) => {

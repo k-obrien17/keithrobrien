@@ -5,7 +5,7 @@ import { getAllPosts } from "@/lib/writing";
 
 export const metadata: Metadata = {
   title: "Writing",
-  description: "Essays and notes by Keith R. O'Brien.",
+  description: "Essays and notes by Keith O'Brien.",
 };
 
 export default function WritingIndex() {

@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const LINKS = [
   { href: "https://www.totalemphasis.com", label: "Total Emphasis" },
+  { href: "https://github.com/k-obrien17", label: "GitHub" },
   { href: "https://www.linkedin.com/in/keithobrien/", label: "LinkedIn" },
   { href: "mailto:keith@totalemphasis.com", label: "Email" },
 ];
@@ -11,7 +12,7 @@ export function Footer() {
     <footer className="border-t border-[var(--color-border)] mt-24">
       <div className="mx-auto flex max-w-3xl flex-col gap-4 px-6 py-10 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-[var(--color-muted)]">
-          © {new Date().getFullYear()} Keith R. O&apos;Brien
+          © {new Date().getFullYear()} Keith O&apos;Brien
         </p>
         <ul className="flex flex-wrap gap-5 text-sm">
           {LINKS.map((link) => (

@@ -6,6 +6,7 @@ import { getAllPosts } from "@/lib/writing";
 export const metadata: Metadata = {
   title: "Writing",
   description: "Essays and notes by Keith O'Brien.",
+  alternates: { canonical: "/writing" },
 };
 
 export default function WritingIndex() {

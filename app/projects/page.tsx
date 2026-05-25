@@ -7,6 +7,7 @@ import type { ProjectStatus } from "@/lib/types";
 export const metadata: Metadata = {
   title: "Projects",
   description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+  alternates: { canonical: "/projects" },
 };
 
 const GROUPS: { status: ProjectStatus; label: string }[] = [

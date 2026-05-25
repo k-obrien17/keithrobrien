@@ -16,7 +16,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return { title: post.meta.title, description: post.meta.excerpt };
+  return {
+    title: post.meta.title,
+    description: post.meta.excerpt,
+    alternates: { canonical: `/writing/${slug}` },
+    openGraph: {
+      title: post.meta.title,
+      description: post.meta.excerpt,
+      type: "article",
+      publishedTime: post.meta.date || undefined,
+      url: `/writing/${slug}`,
+    },
+  };
 }
 
 export default async function PostPage({
@@ -28,8 +39,25 @@ export default async function PostPage({
   const post = getPost(slug);
   if (!post || post.meta.draft) notFound();
 
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.meta.title,
+    description: post.meta.excerpt,
+    url: `https://keithrobrien.com/writing/${slug}`,
+    ...(post.meta.date
+      ? { datePublished: post.meta.date, dateModified: post.meta.date }
+      : {}),
+    author: {
+      "@type": "Person",
+      "@id": "https://keithrobrien.com/#person",
+      name: "Keith O'Brien",
+    },
+  };
+
   return (
     <article className="mx-auto max-w-3xl px-6 py-16">
+      <script type="application/ld+json">{JSON.stringify(articleLd)}</script>
       <Link href="/writing" className="text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">
         ← Writing
       </Link>

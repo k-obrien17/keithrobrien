@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Keith O'Brien: content strategist and founder of Total Emphasis, big idea tinkerer.",
+  alternates: { canonical: "/about" },
 };
 
 const LINKS = [

@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   description:
     "Keith O'Brien: content strategist and founder of Total Emphasis, big idea tinkerer.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Keith O'Brien",
+    description:
+      "Keith O'Brien: content strategist and founder of Total Emphasis, big idea tinkerer.",
+    url: "/about",
+    type: "website",
+  },
+  twitter: {
+    title: "About Keith O'Brien",
+    description:
+      "Keith O'Brien: content strategist and founder of Total Emphasis, big idea tinkerer.",
+  },
 };
 
 const LINKS = [

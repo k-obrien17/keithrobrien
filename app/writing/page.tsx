@@ -7,6 +7,16 @@ export const metadata: Metadata = {
   title: "Writing",
   description: "Essays and notes by Keith O'Brien.",
   alternates: { canonical: "/writing" },
+  openGraph: {
+    title: "Writing · Keith O'Brien",
+    description: "Essays and notes by Keith O'Brien.",
+    url: "/writing",
+    type: "website",
+  },
+  twitter: {
+    title: "Writing · Keith O'Brien",
+    description: "Essays and notes by Keith O'Brien.",
+  },
 };
 
 export default function WritingIndex() {

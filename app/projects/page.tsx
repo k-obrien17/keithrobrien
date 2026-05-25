@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   title: "Projects",
   description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
   alternates: { canonical: "/projects" },
+  openGraph: {
+    title: "Projects · Keith O'Brien",
+    description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+    url: "/projects",
+    type: "website",
+  },
+  twitter: {
+    title: "Projects · Keith O'Brien",
+    description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+  },
 };
 
 const GROUPS: { status: ProjectStatus; label: string }[] = [

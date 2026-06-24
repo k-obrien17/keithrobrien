@@ -1,0 +1,14 @@
+{
+  "name": "Keith O'Brien",
+  "tagline": "Content strategist, big idea tinkerer, chill dude",
+  "introPrefix": "I'm the founder and head consultant at ",
+  "introHighlight": "Total Emphasis",
+  "introSuffix": ", a content strategy firm. I create and execute large content strategy projects and ghostwrite for executives across industries.",
+  "secondary": "Outside of that, I build software, run a few newsletters, and write. This is where all of it lives.",
+  "facets": [
+    { "label": "Total Emphasis", "desc": "B2B ghostwriting practice", "href": "https://www.totalemphasis.com", "external": true },
+    { "label": "Projects", "desc": "What I build and run on the side", "href": "/projects" },
+    { "label": "Writing", "desc": "Essays and thinking", "href": "/writing" },
+    { "label": "About", "desc": "Who I am, how to reach me", "href": "/about" }
+  ]
+}

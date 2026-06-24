@@ -2,15 +2,10 @@ import Link from "next/link";
 import { FadeIn } from "@/components/fade-in";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
-
-const FACETS = [
-  { href: "https://www.totalemphasis.com", label: "Total Emphasis", desc: "B2B ghostwriting practice", external: true },
-  { href: "/projects", label: "Projects", desc: "What I build and run on the side" },
-  { href: "/writing", label: "Writing", desc: "Essays and thinking" },
-  { href: "/about", label: "About", desc: "Who I am, how to reach me" },
-];
+import { getHome } from "@/lib/site-content";
 
 export default function Home() {
+  const home = getHome();
   const featured = featuredProjects().slice(0, 3);
   const posts = getAllPosts().slice(0, 2);
 
@@ -19,26 +14,22 @@ export default function Home() {
       <section className="py-20 sm:py-28">
         <FadeIn>
           <h1 className="font-serif text-5xl sm:text-6xl leading-tight text-[var(--color-fg)]">
-            Keith O&apos;Brien
+            {home.name}
           </h1>
           <p className="mt-4 font-mono text-sm uppercase tracking-widest text-[var(--color-accent)]">
-            Content strategist, big idea tinkerer, chill dude
+            {home.tagline}
           </p>
           <p className="mt-6 text-xl text-[var(--color-body)]">
-            I&apos;m the founder and head consultant at{" "}
-            <span className="text-[var(--color-accent)]">Total Emphasis</span>, a
-            content strategy firm. I create and execute large content strategy
-            projects and ghostwrite for executives across industries.
+            {home.introPrefix}
+            <span className="text-[var(--color-accent)]">{home.introHighlight}</span>
+            {home.introSuffix}
           </p>
-          <p className="mt-4 text-[var(--color-muted)] max-w-xl">
-            Outside of that, I build software, run a few newsletters, and write.
-            This is where all of it lives.
-          </p>
+          <p className="mt-4 text-[var(--color-muted)] max-w-xl">{home.secondary}</p>
         </FadeIn>
       </section>
 
       <section className="stagger grid gap-4 sm:grid-cols-2 pb-20">
-        {FACETS.map((f) => (
+        {home.facets.map((f) => (
           <FadeIn key={f.href}>
             <Link
               href={f.href}

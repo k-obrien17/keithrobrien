@@ -139,8 +139,8 @@ Tina-managed content files, then rewire the pages to read from those files.
 - Content extraction (projects + page copy) and page rewiring.
 - `tina/config.ts` with all collections.
 - `/admin` editor stood up.
-- TinaCloud project created; GitHub repo created and pushed; Vercel project
-  created and deployed; env vars set; DNS repointed from the old Eleventy site.
+- TinaCloud project created; Tina env vars set; GitHub→Vercel auto-deploy wired
+  up so editor commits trigger production rebuilds.
 - **Outcome:** Keith can edit every word of the site in a dashboard and publish.
 
 ### Phase 2 — Click-on-the-page visual editing (layered on later)
@@ -154,9 +154,12 @@ Tina-managed content files, then rewire the pages to read from those files.
 
 Live editing **requires** the site to be on GitHub and deployed to Vercel,
 because TinaCloud edits the GitHub repo and Vercel rebuilds from it. These were
-the deferred "ship" steps; they are now prerequisites and fold into Phase 1.
-This also means the new site finally replaces the stale Eleventy site currently
-served at keithrobrien.com.
+the deferred "ship" steps. The GitHub repo and the Vercel deploy are done; the
+DNS cutover from the old Eleventy site to the new Next site at keithrobrien.com
+also completed on 2026-06-24. What still needs to happen before Tina works:
+GitHub→Vercel auto-deploy must be connected (today the project deploys from the
+CLI, so TinaCloud commits would not trigger a rebuild). Wiring up that
+integration is the one real prerequisite that folds into Phase 1.
 
 ## Risks & mitigations
 - **Next 16 is very new.** Core Tina admin path is supported; visual editing
@@ -180,7 +183,7 @@ served at keithrobrien.com.
    change live within ~2 minutes.
 2. No visible change to the site at the moment of extraction (faithful
    migration).
-3. The site is deployed at keithrobrien.com (replacing the Eleventy site), on
-   GitHub, with Vercel auto-deploy.
+3. The site at keithrobrien.com is served from GitHub via Vercel auto-deploy,
+   so TinaCloud commits trigger a rebuild without CLI intervention.
 4. Existing SEO/structured-data output is preserved after the refactor.
 5. Total recurring cost remains $0.

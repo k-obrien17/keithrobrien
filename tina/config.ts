@@ -59,6 +59,39 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "pageHome",
+        label: "Home page",
+        path: "content/site",
+        format: "json",
+        match: { include: "home" },
+        ui: {
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          { type: "string", name: "name", label: "Name (h1)", required: true },
+          { type: "string", name: "tagline", label: "Tagline", required: true },
+          { type: "string", name: "introPrefix", label: "Intro — before highlight", ui: { component: "textarea" } },
+          { type: "string", name: "introHighlight", label: "Intro — highlighted word(s)" },
+          { type: "string", name: "introSuffix", label: "Intro — after highlight", ui: { component: "textarea" } },
+          { type: "string", name: "secondary", label: "Secondary paragraph", ui: { component: "textarea" } },
+          {
+            type: "object",
+            name: "facets",
+            label: "Facets",
+            list: true,
+            ui: {
+              itemProps: (item: { label?: string }) => ({ label: item?.label || "Untitled" }),
+            },
+            fields: [
+              { type: "string", name: "label", label: "Label", required: true },
+              { type: "string", name: "desc", label: "Description", required: true },
+              { type: "string", name: "href", label: "Link" },
+              { type: "boolean", name: "external", label: "Opens in new tab" },
+            ],
+          },
+        ],
+      },
     ],
   },
 });

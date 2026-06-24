@@ -92,6 +92,35 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "pageAbout",
+        label: "About page",
+        path: "content/site",
+        format: "json",
+        match: { include: "about" },
+        ui: {
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          { type: "string", name: "bio", label: "Bio", ui: { component: "textarea" } },
+          { type: "string", name: "newsletters", label: "Newsletters (Markdown)", ui: { component: "textarea" } },
+          { type: "string", name: "previously", label: "Previously", ui: { component: "textarea" } },
+          { type: "string", name: "outsideOfWork", label: "Outside of work", ui: { component: "textarea" } },
+          {
+            type: "object",
+            name: "links",
+            label: "Elsewhere links",
+            list: true,
+            ui: {
+              itemProps: (item: { label?: string }) => ({ label: item?.label || "Untitled" }),
+            },
+            fields: [
+              { type: "string", name: "label", label: "Label", required: true },
+              { type: "string", name: "href", label: "URL", required: true },
+            ],
+          },
+        ],
+      },
     ],
   },
 });

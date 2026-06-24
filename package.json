@@ -9,12 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tinacms/cli": "1.9.7",
     "gray-matter": "^4.0.3",
     "next": "16.2.6",
     "next-mdx-remote": "^6.0.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "reading-time": "^1.5.0"
+    "reading-time": "^1.5.0",
+    "tinacms": "2.7.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

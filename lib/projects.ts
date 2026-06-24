@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "./types";
+import { Project } from "./types";
 
 export const projects: Project[] = [
   { name: "141 Miles", slug: "141-miles", description: "Jersey Shore events site with an AI-written newsletter.", stack: ["TS", "Next.js", "Drizzle"], status: "active", url: "https://www.141miles.com", featured: true },
@@ -22,14 +22,6 @@ export const projects: Project[] = [
   { name: "Backyard Marquee", slug: "backyard-marquee", description: "Concert lineup builder.", stack: ["JS", "React", "Express", "Turso"], status: "active" },
   { name: "Obsidian Interface", slug: "obsidian-interface", description: "A local-first Bun server that exposes the Obsidian vault to other tools via HTTP. Runs under launchd.", stack: ["Bun", "Server", "Obsidian"], status: "active" },
 ];
-
-export function projectsByStatus(): Record<ProjectStatus, Project[]> {
-  return {
-    active: projects.filter((p) => p.status === "active"),
-    maintained: projects.filter((p) => p.status === "maintained"),
-    dormant: projects.filter((p) => p.status === "dormant"),
-  };
-}
 
 export function featuredProjects(): Project[] {
   return projects.filter((p) => p.featured);

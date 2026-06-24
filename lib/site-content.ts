@@ -20,3 +20,22 @@ export interface Home {
 export function getHome(): Home {
   return homeJson as Home;
 }
+
+import aboutJson from "@/content/site/about.json";
+
+export interface AboutLink {
+  label: string;
+  href: string;
+}
+
+export interface About {
+  bio: string;
+  newsletters: string;
+  previously: string;
+  outsideOfWork: string;
+  links: AboutLink[];
+}
+
+export function getAbout(): About {
+  return aboutJson as About;
+}

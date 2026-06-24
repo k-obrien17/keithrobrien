@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { MDXRemote } from "next-mdx-remote/rsc";
 import { FadeIn } from "@/components/fade-in";
+import { getAbout } from "@/lib/site-content";
 
 export const metadata: Metadata = {
   title: "About",
@@ -21,28 +23,14 @@ export const metadata: Metadata = {
   },
 };
 
-const LINKS = [
-  { href: "https://www.totalemphasis.com", label: "Total Emphasis" },
-  { href: "https://www.141miles.com", label: "141 Miles" },
-  { href: "https://www.thediffraction.com", label: "The Diffraction" },
-  { href: "https://survivalsignal.beehiiv.com", label: "Survival Signal" },
-  { href: "https://github.com/k-obrien17", label: "GitHub" },
-  { href: "https://www.linkedin.com/in/keithobrien/", label: "LinkedIn" },
-  { href: "mailto:keith@totalemphasis.com", label: "keith@totalemphasis.com" },
-];
-
 export default function AboutPage() {
+  const about = getAbout();
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
       <FadeIn>
         <h1 className="font-serif text-4xl text-[var(--color-fg)] mb-8">About</h1>
         <div className="prose text-[var(--color-body)]">
-          <p>
-            I&apos;m the founder and head consultant at Total Emphasis, a content
-            strategy firm. I specialize in creating and executing large content
-            strategy projects and ghostwriting for executives in multiple
-            industries.
-          </p>
+          <MDXRemote source={about.bio} />
         </div>
       </FadeIn>
 
@@ -51,30 +39,7 @@ export default function AboutPage() {
           Newsletters
         </h2>
         <div className="prose text-[var(--color-body)]">
-          <p>
-            I run several newsletters:{" "}
-            <Link
-              href="https://www.141miles.com"
-              className="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
-            >
-              141 Miles
-            </Link>
-            , a publication about the Jersey Shore, and{" "}
-            <Link
-              href="https://www.thediffraction.com"
-              className="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
-            >
-              The Diffraction
-            </Link>
-            , a music publication. On hiatus:{" "}
-            <Link
-              href="https://survivalsignal.beehiiv.com"
-              className="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
-            >
-              Survival Signal
-            </Link>
-            , a newsletter about how to be an independent worker.
-          </p>
+          <MDXRemote source={about.newsletters} />
         </div>
       </FadeIn>
 
@@ -83,10 +48,7 @@ export default function AboutPage() {
           Previously
         </h2>
         <div className="prose text-[var(--color-body)]">
-          <p>
-            I&apos;ve held roles at tmrw life sciences, Haymarket Media, Horizon
-            Media, and Attention USA.
-          </p>
+          <MDXRemote source={about.previously} />
         </div>
       </FadeIn>
 
@@ -95,10 +57,7 @@ export default function AboutPage() {
           Outside of work
         </h2>
         <div className="prose text-[var(--color-body)]">
-          <p>
-            I&apos;m an avid learner: I read and cook a lot, and I&apos;m trying
-            very hard to remain on the soccer pitch and lower my golf handicap.
-          </p>
+          <MDXRemote source={about.outsideOfWork} />
         </div>
       </FadeIn>
 
@@ -107,7 +66,7 @@ export default function AboutPage() {
           Elsewhere
         </h2>
         <ul className="flex flex-wrap gap-5">
-          {LINKS.map((link) => (
+          {about.links.map((link) => (
             <li key={link.href}>
               <Link
                 href={link.href}

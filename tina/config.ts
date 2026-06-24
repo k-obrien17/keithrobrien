@@ -121,6 +121,19 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "article",
+        label: "Articles",
+        path: "content/writing",
+        format: "mdx",
+        fields: [
+          { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "datetime", name: "date", label: "Date", required: true },
+          { type: "string", name: "excerpt", label: "Excerpt", ui: { component: "textarea" } },
+          { type: "boolean", name: "draft", label: "Draft" },
+          { type: "rich-text", name: "body", label: "Body", isBody: true },
+        ],
+      },
     ],
   },
 });

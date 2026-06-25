@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { FadeIn } from "@/components/fade-in";
+import { Container } from "@/components/container";
+import { Section } from "@/components/section";
+import { IndexTable } from "@/components/index-table";
 import { getAllPosts } from "@/lib/writing";
 
 export const metadata: Metadata = {
@@ -22,29 +23,47 @@ export const metadata: Metadata = {
 export default function WritingIndex() {
   const posts = getAllPosts();
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16">
-      <h1 className="font-serif text-4xl text-[var(--color-fg)] mb-10">Writing</h1>
-      {posts.length === 0 ? (
-        <p className="text-[var(--color-muted)]">Nothing published yet.</p>
-      ) : (
-        <ul className="stagger space-y-8">
-          {posts.map((post) => (
-            <FadeIn key={post.slug}>
-              <li>
-                <Link href={`/writing/${post.slug}`} className="group block">
-                  <h2 className="font-serif text-2xl text-[var(--color-fg)] group-hover:text-[var(--color-accent)] transition-colors">
+    <>
+      {/* Title + intro */}
+      <Container className="pt-[104px] pb-[64px]">
+        <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
+          {"// essays and notes"}
+        </p>
+        <h1 className="text-[34px] leading-[1.42] font-medium tracking-[-0.015em] max-w-[760px] text-[var(--color-fg)]">
+          Writing
+        </h1>
+      </Container>
+
+      <Section label="All posts">
+        {posts.length === 0 ? (
+          <p className="text-[13.5px] text-[var(--color-muted)]">
+            Nothing published yet.
+          </p>
+        ) : (
+          <IndexTable
+            columns={[
+              { label: "#", className: "w-11", accent: true },
+              { label: "TITLE", className: "flex-1 pr-4" },
+              { label: "DATE", className: "w-[110px] text-right" },
+            ]}
+            rows={posts.map((post, i) => ({
+              cells: [
+                String(i + 1).padStart(2, "0"),
+                <span key="t" className="flex flex-col gap-[6px]">
+                  <span className="text-[var(--color-fg)] font-medium">
                     {post.title}
-                  </h2>
-                  <p className="mt-1 font-mono text-xs text-[var(--color-muted)]">
-                    {post.date} · {post.readingTime}
-                  </p>
-                  <p className="mt-2 text-[var(--color-body)]">{post.excerpt}</p>
-                </Link>
-              </li>
-            </FadeIn>
-          ))}
-        </ul>
-      )}
-    </div>
+                  </span>
+                  <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
+                    {post.excerpt}
+                  </span>
+                </span>,
+                post.date,
+              ],
+              href: `/writing/${post.slug}`,
+            }))}
+          />
+        )}
+      </Section>
+    </>
   );
 }

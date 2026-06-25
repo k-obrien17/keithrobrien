@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { FadeIn } from "@/components/fade-in";
+import { Container } from "@/components/container";
+import { Section } from "@/components/section";
 import { getAbout } from "@/lib/site-content";
 
 export const metadata: Metadata = {
@@ -26,58 +27,60 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const about = getAbout();
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16">
-      <FadeIn>
-        <h1 className="font-serif text-4xl text-[var(--color-fg)] mb-8">About</h1>
-        <div className="prose text-[var(--color-body)]">
+    <>
+      {/* Intro */}
+      <Container className="pt-[104px] pb-[64px]">
+        <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
+          {"// about"}
+        </p>
+        <h1 className="text-[34px] leading-[1.42] font-medium tracking-[-0.015em] max-w-[760px] text-[var(--color-fg)]">
+          About
+        </h1>
+        <div className="prose mt-[34px]">
           <MDXRemote source={about.bio} />
         </div>
-      </FadeIn>
+      </Container>
 
-      <FadeIn>
-        <h2 className="font-serif text-2xl text-[var(--color-fg)] mt-12 mb-4">
-          Newsletters
-        </h2>
-        <div className="prose text-[var(--color-body)]">
+      <Section label="Newsletters">
+        <div className="prose">
           <MDXRemote source={about.newsletters} />
         </div>
-      </FadeIn>
+      </Section>
 
-      <FadeIn>
-        <h2 className="font-serif text-2xl text-[var(--color-fg)] mt-12 mb-4">
-          Previously
-        </h2>
-        <div className="prose text-[var(--color-body)]">
+      <Section label="Previously">
+        <div className="prose">
           <MDXRemote source={about.previously} />
         </div>
-      </FadeIn>
+      </Section>
 
-      <FadeIn>
-        <h2 className="font-serif text-2xl text-[var(--color-fg)] mt-12 mb-4">
-          Outside of work
-        </h2>
-        <div className="prose text-[var(--color-body)]">
+      <Section
+        label={
+          <>
+            Outside
+            <br />
+            of work
+          </>
+        }
+      >
+        <div className="prose">
           <MDXRemote source={about.outsideOfWork} />
         </div>
-      </FadeIn>
+      </Section>
 
-      <FadeIn>
-        <h2 className="font-serif text-2xl text-[var(--color-fg)] mt-12 mb-4">
-          Elsewhere
-        </h2>
-        <ul className="flex flex-wrap gap-5">
+      <Section label="Elsewhere">
+        <ul className="flex flex-wrap gap-x-6 gap-y-3">
           {about.links.map((link) => (
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] transition-colors"
+                className="text-[13px] text-[var(--color-accent)] transition-opacity hover:opacity-55"
               >
                 {link.label}
               </Link>
             </li>
           ))}
         </ul>
-      </FadeIn>
-    </div>
+      </Section>
+    </>
   );
 }

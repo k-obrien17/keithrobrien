@@ -56,16 +56,21 @@ export default async function PostPage({
   };
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-16">
+    <article className="max-w-[940px] mx-auto px-8 pt-[104px] pb-24">
       <script type="application/ld+json">{JSON.stringify(articleLd)}</script>
-      <Link href="/writing" className="text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">
-        ← Writing
+      <Link
+        href="/writing"
+        className="text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+      >
+        &larr; writing
       </Link>
-      <h1 className="mt-6 font-serif text-4xl text-[var(--color-fg)] leading-tight">{post.meta.title}</h1>
-      <p className="mt-2 font-mono text-xs text-[var(--color-muted)]">
+      <h1 className="mt-7 text-[30px] leading-[1.3] font-medium tracking-[-0.015em] text-[var(--color-fg)] max-w-[760px]">
+        {post.meta.title}
+      </h1>
+      <p className="mt-3 text-[12px] text-[var(--color-muted)]">
         {post.meta.date} · {post.meta.readingTime}
       </p>
-      <div className="prose mt-8 text-[var(--color-body)]">
+      <div className="prose mt-10">
         <MDXRemote source={post.content} />
       </div>
     </article>

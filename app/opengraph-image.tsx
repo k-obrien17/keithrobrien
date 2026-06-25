@@ -14,14 +14,14 @@ export default function OpengraphImage() {
           flexDirection: "column",
           alignItems: "flex-start",
           justifyContent: "center",
-          background: "#14120E",
+          background: "#ffffff",
           padding: "80px",
         }}
       >
-        <div style={{ fontSize: 80, color: "#F5F1E8", fontFamily: "serif" }}>
+        <div style={{ fontSize: 80, color: "#15140f", fontFamily: "monospace", fontWeight: 600 }}>
           Keith O&apos;Brien
         </div>
-        <div style={{ fontSize: 36, color: "#E8843C", marginTop: 16 }}>
+        <div style={{ fontSize: 36, color: "#b9512a", marginTop: 16, fontFamily: "monospace" }}>
           Content strategist · Big idea tinkerer · Chill dude
         </div>
       </div>

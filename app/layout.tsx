@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
-import { Instrument_Serif, DM_Sans, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
-const serif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+// IBM Plex Mono — the whole site is mono by default (structure, headings,
+// chrome). Plex Sans is the sibling cut used only for long-form article bodies
+// (see .prose in globals.css). next/font self-hosts + subsets both, so there's
+// no Google Fonts <link>.
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
-  weight: "400",
   display: "swap",
 });
-const sans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-const mono = Geist_Mono({
-  variable: "--font-geist-mono",
+
+const plexSans = IBM_Plex_Sans({
+  variable: "--font-plex-sans",
+  weight: ["400", "500", "600"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -87,9 +89,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${serif.variable} ${sans.variable} ${mono.variable}`}
+      className={`${plexMono.variable} ${plexSans.variable}`}
     >
-      <body className="min-h-screen flex flex-col">
+      <body className="antialiased min-h-screen flex flex-col">
         <script type="application/ld+json">
           {JSON.stringify(jsonLd)}
         </script>

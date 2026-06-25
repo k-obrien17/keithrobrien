@@ -1,36 +1,17 @@
-"use client";
+import type { ReactNode } from "react";
 
-import { useEffect, useRef, useState } from "react";
-
+/**
+ * Neutralized: the Total Emphasis design system uses no entrance animations.
+ * This is now a pass-through wrapper so existing usages keep working but render
+ * their children immediately, with no fade/translate. Hover fades on links and
+ * rows are handled per-component.
+ */
 export function FadeIn({
   children,
   className = "",
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div ref={ref} className={`fade-in-up ${visible ? "visible" : ""} ${className}`}>
-      {children}
-    </div>
-  );
+  return <div className={className}>{children}</div>;
 }

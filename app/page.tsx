@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { FadeIn } from "@/components/fade-in";
+import { Container } from "@/components/container";
+import { Section } from "@/components/section";
+import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
 import { getHome } from "@/lib/site-content";
@@ -10,74 +12,126 @@ export default function Home() {
   const posts = getAllPosts().slice(0, 2);
 
   return (
-    <div className="mx-auto max-w-3xl px-6">
-      <section className="py-20 sm:py-28">
-        <FadeIn>
-          <h1 className="font-serif text-5xl sm:text-6xl leading-tight text-[var(--color-fg)]">
-            {home.name}
-          </h1>
-          <p className="mt-4 font-mono text-sm uppercase tracking-widest text-[var(--color-accent)]">
-            {home.tagline}
-          </p>
-          <p className="mt-6 text-xl text-[var(--color-body)]">
-            {home.introPrefix}
-            <span className="text-[var(--color-accent)]">{home.introHighlight}</span>
-            {home.introSuffix}
-          </p>
-          <p className="mt-4 text-[var(--color-muted)] max-w-xl">{home.secondary}</p>
-        </FadeIn>
-      </section>
+    <>
+      {/* Hero */}
+      <Container className="pt-[104px] pb-[88px]">
+        <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
+          {`// ${home.tagline}`}
+        </p>
+        <h1 className="text-[34px] leading-[1.42] font-medium tracking-[-0.015em] max-w-[760px] text-[var(--color-fg)]">
+          {home.name}
+        </h1>
+        <p className="mt-[34px] text-[14.5px] leading-[1.95] text-[var(--color-body)] max-w-[600px]">
+          {home.introPrefix}
+          <span className="text-[var(--color-accent)]">{home.introHighlight}</span>
+          {home.introSuffix}
+        </p>
+        <p className="mt-[18px] text-[13.5px] leading-[1.9] text-[var(--color-muted)] max-w-[580px]">
+          {home.secondary}
+        </p>
+      </Container>
 
-      <section className="stagger grid gap-4 sm:grid-cols-2 pb-20">
-        {home.facets.map((f) => (
-          <FadeIn key={f.href}>
+      {/* Explore / facets */}
+      <Section label="Explore">
+        <div className="grid grid-cols-1 gap-7 sm:grid-cols-2">
+          {home.facets.map((f) => (
             <Link
+              key={f.href}
               href={f.href}
-              {...(f.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-              className="block h-full rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-bg-alt)] p-6 hover:border-[var(--color-accent)] transition-colors"
+              {...(f.external
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
+              className="group block"
             >
-              <h2 className="font-serif text-2xl text-[var(--color-fg)]">{f.label}</h2>
-              <p className="mt-2 text-sm text-[var(--color-muted)]">{f.desc}</p>
+              <div className="text-[14px] font-medium text-[var(--color-fg)] transition-opacity group-hover:opacity-55">
+                {f.label}{" "}
+                <span className="text-[var(--color-accent)]">&rarr;</span>
+              </div>
+              <p className="mt-[8px] text-[12.5px] leading-[1.8] text-[var(--color-muted)]">
+                {f.desc}
+              </p>
             </Link>
-          </FadeIn>
-        ))}
-      </section>
+          ))}
+        </div>
+      </Section>
 
+      {/* Selected projects */}
       {featured.length > 0 && (
-        <section className="pb-20">
-          <h2 className="font-serif text-3xl text-[var(--color-fg)] mb-6">Featured projects</h2>
-          <ul className="space-y-4">
-            {featured.map((p) => (
-              <li key={p.slug} className="border-b border-[var(--color-border)] pb-4">
-                <div className="flex items-baseline justify-between gap-4">
-                  <span className="text-[var(--color-fg)]">{p.name}</span>
-                  <span className="font-mono text-xs text-[var(--color-muted)]">{p.stack.join(" · ")}</span>
-                </div>
-                <p className="mt-1 text-sm text-[var(--color-muted)]">{p.description}</p>
-              </li>
-            ))}
-          </ul>
-          <Link href="/projects" className="mt-6 inline-block text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">
-            All projects →
+        <Section
+          label={
+            <>
+              Selected
+              <br />
+              projects
+            </>
+          }
+        >
+          <IndexTable
+            columns={[
+              { label: "#", className: "w-11", accent: true },
+              { label: "PROJECT", className: "flex-1 pr-4" },
+              { label: "STACK", className: "w-[160px]" },
+            ]}
+            rows={featured.map((p, i) => ({
+              cells: [
+                String(i + 1).padStart(2, "0"),
+                <span key="t" className="flex flex-col gap-[6px]">
+                  <span className="text-[var(--color-fg)] font-medium">
+                    {p.name}
+                  </span>
+                  <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
+                    {p.description}
+                  </span>
+                </span>,
+                p.stack.slice(0, 2).join(" · "),
+              ],
+              href: p.url ?? "/projects",
+              external: Boolean(p.url),
+              ariaLabel: p.url ? `${p.name} (opens in new window)` : undefined,
+            }))}
+          />
+          <Link
+            href="/projects"
+            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            all projects &rarr;
           </Link>
-        </section>
+        </Section>
       )}
 
+      {/* Latest writing */}
       {posts.length > 0 && (
-        <section className="pb-20">
-          <h2 className="font-serif text-3xl text-[var(--color-fg)] mb-6">Latest writing</h2>
-          <ul className="space-y-4">
-            {posts.map((post) => (
-              <li key={post.slug}>
-                <Link href={`/writing/${post.slug}`} className="group block">
-                  <span className="text-[var(--color-fg)] group-hover:text-[var(--color-accent)] transition-colors">{post.title}</span>
-                  <p className="mt-1 text-sm text-[var(--color-muted)]">{post.excerpt}</p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <Section label="Writing">
+          <IndexTable
+            columns={[
+              { label: "#", className: "w-11", accent: true },
+              { label: "TITLE", className: "flex-1 pr-4" },
+              { label: "DATE", className: "w-[110px] text-right" },
+            ]}
+            rows={posts.map((post, i) => ({
+              cells: [
+                String(i + 1).padStart(2, "0"),
+                <span key="t" className="flex flex-col gap-[6px]">
+                  <span className="text-[var(--color-fg)] font-medium">
+                    {post.title}
+                  </span>
+                  <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
+                    {post.excerpt}
+                  </span>
+                </span>,
+                post.date,
+              ],
+              href: `/writing/${post.slug}`,
+            }))}
+          />
+          <Link
+            href="/writing"
+            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            all writing &rarr;
+          </Link>
+        </Section>
       )}
-    </div>
+    </>
   );
 }

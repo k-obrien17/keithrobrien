@@ -2,44 +2,96 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
+// Minimal mono nav (Total Emphasis design system). Sticky, translucent, links
+// fade on hover; accent "say hi" mailto on the right.
 const LINKS = [
-  { href: "/projects", label: "Projects" },
-  { href: "/writing", label: "Writing" },
-  { href: "/about", label: "About" },
+  { href: "/projects", label: "projects" },
+  { href: "/writing", label: "writing" },
+  { href: "/about", label: "about" },
 ];
+
+const EMAIL = "keith@totalemphasis.com";
 
 export function Nav() {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const isActive = (href: string) => pathname.startsWith(href);
+
   return (
-    <header className="border-b border-[var(--color-border)]">
-      <nav className="mx-auto flex max-w-3xl items-center justify-between px-6 py-5">
+    <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-white/[0.88] backdrop-blur-[8px]">
+      <nav className="max-w-[940px] mx-auto px-8 py-5 flex items-baseline justify-between">
         <Link
           href="/"
-          className="font-serif text-xl text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors"
+          className="text-[13.5px] font-semibold text-[var(--color-fg)] transition-opacity hover:opacity-55"
         >
-          Keith O&apos;Brien
+          keith o&apos;brien
         </Link>
-        <ul className="flex gap-6 text-sm">
-          {LINKS.map((link) => {
-            const active = pathname.startsWith(link.href);
-            return (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className={
-                    active
-                      ? "text-[var(--color-accent)]"
-                      : "text-[var(--color-muted)] hover:text-[var(--color-fg)] transition-colors"
-                  }
-                >
-                  {link.label}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+
+        {/* Desktop links */}
+        <div className="hidden md:flex items-baseline gap-[26px] text-[12.5px]">
+          {LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`transition-opacity hover:opacity-55 ${
+                isActive(link.href)
+                  ? "text-[var(--color-fg)]"
+                  : "text-[var(--color-muted)]"
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
+          <a
+            href={`mailto:${EMAIL}`}
+            className="text-[var(--color-accent)] transition-opacity hover:opacity-55"
+          >
+            say hi
+          </a>
+        </div>
+
+        {/* Mobile toggle */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          aria-label={isOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isOpen}
+        >
+          {isOpen ? "close" : "menu"}
+        </button>
       </nav>
+
+      {/* Mobile menu */}
+      {isOpen && (
+        <div className="md:hidden border-t border-[var(--color-border)]">
+          <div className="max-w-[940px] mx-auto px-8 py-4 flex flex-col gap-3 text-[13.5px]">
+            {LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setIsOpen(false)}
+                className={`transition-opacity hover:opacity-55 ${
+                  isActive(link.href)
+                    ? "text-[var(--color-fg)]"
+                    : "text-[var(--color-muted)]"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <a
+              href={`mailto:${EMAIL}`}
+              onClick={() => setIsOpen(false)}
+              className="text-[var(--color-accent)] transition-opacity hover:opacity-55"
+            >
+              say hi
+            </a>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

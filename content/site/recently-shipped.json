@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "name": "Personal hub rebuild",
+      "date": "2026-06",
+      "what": "Rewrote keithrobrien.com in the Total Emphasis design system on Next.js 16."
+    },
+    {
+      "name": "Live editing",
+      "date": "2026-06",
+      "what": "Added TinaCMS-backed /admin so I can edit projects, home, about, and writing without touching code."
+    },
+    {
+      "name": "AI-readable surface",
+      "date": "2026-06",
+      "what": "Shipped llms.txt and llms-full.txt so answer engines and AI agents can cite my work accurately."
+    }
+  ]
+}

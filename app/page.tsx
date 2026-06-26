@@ -4,12 +4,13 @@ import { Section } from "@/components/section";
 import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
-import { getHome } from "@/lib/site-content";
+import { getHome, getRecentlyShipped } from "@/lib/site-content";
 
 export default function Home() {
   const home = getHome();
   const featured = featuredProjects().slice(0, 3);
   const posts = getAllPosts().slice(0, 2);
+  const shipped = getRecentlyShipped();
 
   return (
     <>
@@ -54,6 +55,47 @@ export default function Home() {
           ))}
         </div>
       </Section>
+
+      {/* Recently shipped */}
+      {shipped.length > 0 && (
+        <Section
+          label={
+            <>
+              Recently
+              <br />
+              shipped
+            </>
+          }
+        >
+          <IndexTable
+            columns={[
+              { label: "#", className: "w-11", accent: true },
+              { label: "SHIP", className: "flex-1 pr-4" },
+              { label: "WHEN", className: "w-[110px] text-right" },
+            ]}
+            rows={shipped.map((item, i) => ({
+              cells: [
+                String(i + 1).padStart(2, "0"),
+                <span key="t" className="flex flex-col gap-[6px]">
+                  <span className="text-[var(--color-fg)] font-medium">
+                    {item.name}
+                  </span>
+                  <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
+                    {item.what}
+                  </span>
+                </span>,
+                item.date,
+              ],
+            }))}
+          />
+          <Link
+            href="/now"
+            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            what I&apos;m on now &rarr;
+          </Link>
+        </Section>
+      )}
 
       {/* Selected projects */}
       {featured.length > 0 && (

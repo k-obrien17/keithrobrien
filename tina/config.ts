@@ -122,6 +122,49 @@ export default defineConfig({
         ],
       },
       {
+        name: "pageNow",
+        label: "Now page",
+        path: "content/site",
+        format: "json",
+        match: { include: "now" },
+        ui: {
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          { type: "string", name: "updated", label: "Last updated (YYYY-MM-DD)", required: true },
+          { type: "string", name: "intro", label: "Intro", ui: { component: "textarea" } },
+          { type: "string", name: "building", label: "Building (Markdown)", ui: { component: "textarea" } },
+          { type: "string", name: "running", label: "Running (Markdown)", ui: { component: "textarea" } },
+          { type: "string", name: "elsewhere", label: "Elsewhere (Markdown)", ui: { component: "textarea" } },
+        ],
+      },
+      {
+        name: "recentlyShipped",
+        label: "Recently shipped",
+        path: "content/site",
+        format: "json",
+        match: { include: "recently-shipped" },
+        ui: {
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          {
+            type: "object",
+            name: "list",
+            label: "Items",
+            list: true,
+            ui: {
+              itemProps: (item: { name?: string }) => ({ label: item?.name || "Untitled" }),
+            },
+            fields: [
+              { type: "string", name: "name", label: "Name", required: true },
+              { type: "string", name: "date", label: "Date (YYYY-MM)", required: true },
+              { type: "string", name: "what", label: "What shipped", required: true, ui: { component: "textarea" } },
+            ],
+          },
+        ],
+      },
+      {
         name: "article",
         label: "Articles",
         path: "content/writing",

@@ -1,4 +1,7 @@
 import homeJson from "@/content/site/home.json";
+import aboutJson from "@/content/site/about.json";
+import nowJson from "@/content/site/now.json";
+import shippedJson from "@/content/site/recently-shipped.json";
 
 export interface Facet {
   label: string;
@@ -21,8 +24,6 @@ export function getHome(): Home {
   return homeJson as Home;
 }
 
-import aboutJson from "@/content/site/about.json";
-
 export interface AboutLink {
   label: string;
   href: string;
@@ -38,4 +39,26 @@ export interface About {
 
 export function getAbout(): About {
   return aboutJson as About;
+}
+
+export interface Now {
+  updated: string;
+  intro: string;
+  building: string;
+  running: string;
+  elsewhere: string;
+}
+
+export function getNow(): Now {
+  return nowJson as Now;
+}
+
+export interface RecentlyShippedItem {
+  name: string;
+  date: string;
+  what: string;
+}
+
+export function getRecentlyShipped(): RecentlyShippedItem[] {
+  return (shippedJson as { list: RecentlyShippedItem[] }).list;
 }

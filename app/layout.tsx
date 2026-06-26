@@ -29,15 +29,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   title: {
-    default: "Keith O'Brien — Content Strategist & Founder of Total Emphasis",
+    default: "Keith O'Brien: Builder, Operator, Founder of Total Emphasis",
     template: "%s · Keith O'Brien",
   },
   description:
-    "Keith O'Brien: content strategist, big idea tinkerer, chill dude. Founder of Total Emphasis, plus software, newsletters, and writing.",
+    "Keith O'Brien: builder, operator, big idea tinkerer. Runs Total Emphasis, a B2B content strategy practice, plus software, newsletters, and writing.",
   openGraph: {
     title: "Keith O'Brien",
     description:
-      "Content strategist, big idea tinkerer, chill dude. Founder of Total Emphasis, plus software, newsletters, and writing.",
+      "Builder, operator, big idea tinkerer. Runs Total Emphasis, plus software, newsletters, and writing.",
     url: SITE_URL,
     siteName: "Keith O'Brien",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Keith O'Brien",
     description:
-      "Content strategist, big idea tinkerer, chill dude. Founder of Total Emphasis.",
+      "Builder, operator, big idea tinkerer. Runs Total Emphasis.",
   },
 };
 

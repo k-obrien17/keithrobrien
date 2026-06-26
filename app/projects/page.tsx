@@ -8,19 +8,19 @@ import { Project } from "@/lib/types";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
+    "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
   alternates: { canonical: "/projects" },
   openGraph: {
     title: "Projects · Keith O'Brien",
     description:
-      "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
+      "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
     url: "/projects",
     type: "website",
   },
   twitter: {
     title: "Projects · Keith O'Brien",
     description:
-      "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
+      "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
   },
 };
 

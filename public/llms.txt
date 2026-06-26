@@ -1,10 +1,10 @@
 # Keith O'Brien
 
-> Content strategist and founder of Total Emphasis, a B2B content strategy and ghostwriting firm. Also builds software, runs newsletters, and writes.
+> Builder and operator. Runs Total Emphasis, a B2B content strategy and ghostwriting practice. Builds and ships software, newsletters, and tools that support it.
 
 *Last updated: 2026-06-26*
 
-Keith O'Brien (also Keith R. O'Brien) is the founder and head consultant at Total Emphasis, a B2B content strategy and ghostwriting firm. He builds large content strategy programs and ghostwrites executive bylines, LinkedIn posts, and thought leadership pieces for founders and executives across industries. Outside the business he builds software side-projects, runs several newsletters, and writes essays. keithrobrien.com is his personal hub; totalemphasis.com is the business.
+Keith O'Brien (also Keith R. O'Brien) is the founder and operator of Total Emphasis, a B2B content strategy and ghostwriting practice. He runs large content strategy programs and ghostwrites executive bylines, LinkedIn posts, and thought leadership pieces for founders and executives across industries. He also builds and ships the software and newsletters that support the practice: a Jersey Shore events site with an AI-written newsletter, MCP servers for a personal CRM and an articles index, a desktop workflow app for the ghostwriting pipeline, and a music publication. keithrobrien.com is his personal hub; totalemphasis.com is the business.
 
 ## Work
 - [Total Emphasis](https://www.totalemphasis.com): B2B content strategy and ghostwriting practice

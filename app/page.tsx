@@ -43,10 +43,10 @@ export default function Home() {
                 : {})}
               className="group block"
             >
-              <div className="text-[14px] font-medium text-[var(--color-fg)] transition-opacity group-hover:opacity-55">
+              <h3 className="text-[14px] font-medium text-[var(--color-fg)] transition-opacity group-hover:opacity-55">
                 {f.label}{" "}
                 <span className="text-[var(--color-accent)]">&rarr;</span>
-              </div>
+              </h3>
               <p className="mt-[8px] text-[12.5px] leading-[1.8] text-[var(--color-muted)]">
                 {f.desc}
               </p>

@@ -7,17 +7,20 @@ import { Project } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+  description:
+    "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
   alternates: { canonical: "/projects" },
   openGraph: {
     title: "Projects · Keith O'Brien",
-    description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+    description:
+      "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
     url: "/projects",
     type: "website",
   },
   twitter: {
     title: "Projects · Keith O'Brien",
-    description: "Software, newsletters, and other things Keith O'Brien builds on the side.",
+    description:
+      "Software, newsletters, and side-projects Keith O'Brien builds outside the content strategy practice: Tauri desktop apps, MCP servers, and more.",
   },
 };
 

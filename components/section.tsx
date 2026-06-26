@@ -28,9 +28,9 @@ export function Section({
       <div
         className={`max-w-[940px] mx-auto px-8 py-14 grid grid-cols-1 gap-6 md:grid-cols-[150px_1fr] md:gap-12 ${className}`}
       >
-        <div className="text-[11.5px] uppercase tracking-[0.1em] text-[var(--color-faint)] leading-[1.5]">
+        <h2 className="text-[11.5px] uppercase tracking-[0.1em] text-[var(--color-faint)] leading-[1.5] font-normal">
           {label}
-        </div>
+        </h2>
         <div>{children}</div>
       </div>
     </section>

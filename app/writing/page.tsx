@@ -6,17 +6,20 @@ import { getAllPosts } from "@/lib/writing";
 
 export const metadata: Metadata = {
   title: "Writing",
-  description: "Essays and notes by Keith O'Brien.",
+  description:
+    "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
   alternates: { canonical: "/writing" },
   openGraph: {
     title: "Writing · Keith O'Brien",
-    description: "Essays and notes by Keith O'Brien.",
+    description:
+      "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
     url: "/writing",
     type: "website",
   },
   twitter: {
     title: "Writing · Keith O'Brien",
-    description: "Essays and notes by Keith O'Brien.",
+    description:
+      "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
   },
 };
 

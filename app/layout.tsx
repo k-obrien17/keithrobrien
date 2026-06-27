@@ -90,6 +90,7 @@ const jsonLd = {
         "https://www.linkedin.com/in/keithobrien/",
         "https://github.com/k-obrien17",
         "https://www.totalemphasis.com",
+        "https://muckrack.com/keithobrien",
         "https://www.141miles.com",
         "https://www.thediffraction.com",
       ],

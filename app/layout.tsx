@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   title: {
-    default: "Keith O'Brien: Builder, Operator, Founder of Total Emphasis",
+    default: "Keith O'Brien: Content Strategist, Ghostwriter, Builder",
     template: "%s · Keith O'Brien",
   },
   description:
-    "Keith O'Brien: builder, operator, big idea tinkerer. Runs Total Emphasis, a B2B content strategy practice, plus software, newsletters, and writing.",
+    "Keith O'Brien is a content strategist, thought-leadership ghostwriter, and builder, and the founder of Total Emphasis. He helps founders and executives turn what they know into content people consume, then builds the tools that get it out the door.",
   openGraph: {
     title: "Keith O'Brien",
     description:
@@ -60,7 +60,27 @@ const jsonLd = {
       name: "Keith O'Brien",
       alternateName: "Keith R. O'Brien",
       url: SITE_URL,
-      jobTitle: "Content Strategist & Founder",
+      jobTitle: "Content Strategist, Thought-Leadership Ghostwriter & Builder",
+      description:
+        "Content strategist and thought-leadership ghostwriter who helps founders and executives turn what they know into content people consume, then builds the tools that get it out the door. A reporter since 2001 and former editor-in-chief of PRWeek, founder of Total Emphasis (2017). Based in Brooklyn.",
+      knowsAbout: [
+        "Executive Thought Leadership",
+        "B2B Content Strategy",
+        "Ghostwriting",
+        "Executive Communications",
+        "LinkedIn Ghostwriting",
+        "Personal Branding",
+        "Bylined Articles",
+        "Newsletters",
+        "Whitepapers",
+        "Longform Content",
+        "SEO Content",
+        "Content Systems",
+        "AdTech",
+        "MarTech",
+        "SaaS",
+        "Software Development",
+      ],
       worksFor: {
         "@type": "Organization",
         name: "Total Emphasis",

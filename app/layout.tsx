@@ -30,24 +30,24 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   title: {
-    default: "Keith O'Brien: Content Strategist, Ghostwriter, Builder",
+    default: "Keith O'Brien: B2B Executive Ghostwriter, Former PRWeek EIC",
     template: "%s · Keith O'Brien",
   },
   description:
-    "Keith O'Brien is a content strategist, thought-leadership ghostwriter, and builder, and the founder of Total Emphasis. He helps founders and executives turn what they know into content people consume, then builds the tools that get it out the door.",
+    "Keith O'Brien is a B2B executive ghostwriter and former PRWeek editor-in-chief. He founded Total Emphasis in 2017 and works with C-suite and VP-level operators in SaaS, fintech, AdTech, and financial services.",
   openGraph: {
-    title: "Keith O'Brien",
+    title: "Keith O'Brien, B2B Executive Ghostwriter",
     description:
-      "Builder, operator, big idea tinkerer. Runs Total Emphasis, plus software, newsletters, and writing.",
+      "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
     url: SITE_URL,
     siteName: "Keith O'Brien",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Keith O'Brien",
+    title: "Keith O'Brien, B2B Executive Ghostwriter",
     description:
-      "Builder, operator, big idea tinkerer. Runs Total Emphasis.",
+      "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
   },
 };
 

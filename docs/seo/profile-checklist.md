@@ -1,6 +1,6 @@
 # Off-site profile tracker
 
-Two jobs in one file: (1) a registry of active profiles to sweep annually, and (2) the pending list of profiles still to create.
+Two jobs in one file: (1) a registry of active profiles to sweep semiannually (January 1 and July 1), and (2) the pending list of profiles still to create.
 
 **Canonical bio source:** `~/Desktop/obsidian-workspace/vault/120-Resources/Keith O'Brien Experience.md`. Pull verbatim. Do not synthesize.
 
@@ -22,9 +22,9 @@ Two jobs in one file: (1) a registry of active profiles to sweep annually, and (
 
 ---
 
-## Annual sweep
+## Semiannual sweep
 
-Pick one date a year. January 1 or birthday or some other anchor that's easy to remember. Walk through every active profile below:
+**Anchor dates: January 1 and July 1.** Pick whichever Saturday or Sunday is closest if those fall mid-week and you need the time. Walk through every active profile below:
 
 1. Open the URL.
 2. Confirm bio matches the current canonical (re-pull from the source file in case it's been updated).
@@ -34,7 +34,9 @@ Pick one date a year. January 1 or birthday or some other anchor that's easy to 
 6. Update the "Last reviewed" date in the table below.
 7. If anything has drifted, fix it on the profile AND note in the canonical source if the canonical changed.
 
-Quarterly micro-sweep (15 min): scan for any new profiles created since the last sweep, add them to the registry, and check the empirical LLM baseline (task #4) to see whether the new ones are getting cited.
+Quarterly micro-sweep (15 min, around April 1 and October 1): scan for any new profiles created since the last full sweep, add them to the registry, and check the empirical LLM baseline (task #4) to see whether the new ones are getting cited. No bio re-review at the micro-sweep, just registry hygiene.
+
+**Next scheduled sweep: 2026-07-01.** (~3 days from this file being written.)
 
 ---
 
@@ -152,4 +154,4 @@ Update this table on each sweep.
 
 Add an entry each time you sweep so future-you knows the last touch.
 
-- **2026-06-28** — File restructured into tracker format. Crunchbase Person profile setup in progress. No sweep performed yet.
+- **2026-06-28** — File restructured into tracker format. Sweep cadence locked at semiannual (January 1 and July 1) with quarterly micro-sweep checkpoints. Crunchbase Person profile setup in progress. No full sweep performed yet. First scheduled sweep: 2026-07-01.

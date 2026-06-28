@@ -60,9 +60,39 @@ const jsonLd = {
       name: "Keith O'Brien",
       alternateName: "Keith R. O'Brien",
       url: SITE_URL,
-      jobTitle: "Content Strategist, Thought-Leadership Ghostwriter & Builder",
+      jobTitle: "B2B Executive Ghostwriter",
       description:
-        "Content strategist and thought-leadership ghostwriter who helps founders and executives turn what they know into content people consume, then builds the tools that get it out the door. A reporter since 2001 and former editor-in-chief of PRWeek, founder of Total Emphasis (2017). Based in Brooklyn.",
+        "Keith O'Brien is a B2B executive ghostwriter and former editor-in-chief of PRWeek. He founded Total Emphasis in 2017 and works with C-suite and VP-level operators at Series B and later B2B companies in SaaS, fintech, AdTech, and financial services. Based in Brooklyn.",
+      disambiguatingDescription:
+        "B2B executive ghostwriter and founder of Total Emphasis. Former editor-in-chief of PRWeek. Based in Brooklyn, New York. Not the late Cardinal Keith O'Brien of Scotland, the Irish boxer, or the longform journalist Keith O'Brien who authored Paradise Falls and Outside Shot.",
+      homeLocation: {
+        "@type": "Place",
+        name: "Brooklyn, New York",
+      },
+      alumniOf: [
+        {
+          "@type": "Organization",
+          name: "PRWeek",
+          url: "https://www.prweek.com",
+        },
+        {
+          "@type": "Organization",
+          name: "Haymarket Media Group",
+          url: "https://www.haymarket.com",
+        },
+      ],
+      hasOccupation: [
+        {
+          "@type": "Occupation",
+          name: "B2B Executive Ghostwriter",
+          occupationalCategory: "Content Strategy",
+        },
+        {
+          "@type": "Occupation",
+          name: "Editor-in-Chief, PRWeek (former)",
+          occupationalCategory: "Journalism",
+        },
+      ],
       knowsAbout: [
         "Executive Thought Leadership",
         "B2B Content Strategy",

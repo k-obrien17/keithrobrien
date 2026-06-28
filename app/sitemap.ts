@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/writing";
 const SITE_URL = "https://www.keithrobrien.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/projects", "/writing", "/now", "/about"].map((route) => ({
+  const staticRoutes = ["", "/projects", "/writing", "/now", "/about", "/about/keith-obrien"].map((route) => ({
     url: `${SITE_URL}${route}`,
     lastModified: new Date(),
   }));

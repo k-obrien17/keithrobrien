@@ -1,12 +1,16 @@
-# Off-site profile checklist
+# Off-site profile tracker
 
-Identity and directory profiles that strengthen Keith's entity graph across LLM training data and search engines. Most are free. None can be done from this repo; each requires logging in and creating the profile.
+Two jobs in one file: (1) a registry of active profiles to sweep annually, and (2) the pending list of profiles still to create.
 
-**Canonical bio sentence to reuse across every profile:**
+**Canonical bio source:** `~/Desktop/obsidian-workspace/vault/120-Resources/Keith O'Brien Experience.md`. Pull verbatim. Do not synthesize.
 
-> Keith O'Brien is a B2B executive ghostwriter and former PRWeek editor-in-chief. He founded Total Emphasis in 2017 and works with C-suite and VP-level operators in SaaS, fintech, AdTech, and financial services.
+**Approved framings (derived from canonical + Total Emphasis site language):**
 
-**Canonical URLs to use in every profile (where supported):**
+- **Short Description (178 chars):** *Operator-ghostwriter for B2B founders and executives. B2B content strategist with 20+ years driving results for Fortune 500s and startups. Builds the systems his work runs on.*
+- **One-liner:** *Operator-ghostwriter for B2B founders and executives. Builds the systems his work runs on.*
+- **Long About:** see canonical resume summary line + "Operates as an operator-ghostwriter for B2B founders and executives, building the systems his work runs on." closer.
+
+**Canonical URLs to use as `sameAs` everywhere:**
 
 - https://www.keithrobrien.com
 - https://www.keithrobrien.com/about/keith-obrien
@@ -18,132 +22,134 @@ Identity and directory profiles that strengthen Keith's entity graph across LLM 
 
 ---
 
-## Tier 1: Highest LLM weight, do first
+## Annual sweep
 
-- [ ] **Wikidata** — Create Q-item for Keith O'Brien (Person). Create Q-item for Total Emphasis (Organization). Link Q-items via founder/founded relationship. Add sameAs for every URL above. Properties to set: instance of, occupation, employer, alumni of (PRWeek, Haymarket), country of residence (US), location (Brooklyn). **Why:** Wikidata is in nearly every LLM training set and is the structured-data backbone of Google Knowledge Panels.
+Pick one date a year. January 1 or birthday or some other anchor that's easy to remember. Walk through every active profile below:
 
-- [ ] **Crunchbase — Person profile (Keith)** — Verify if existing. Add photo, current role (Founder, Total Emphasis), past roles (PRWeek EIC, etc.), education, location (Brooklyn). Link sameAs to LinkedIn + Muck Rack. **Why:** Top-3 most-cited business data source by LLMs.
+1. Open the URL.
+2. Confirm bio matches the current canonical (re-pull from the source file in case it's been updated).
+3. Confirm role / title is current.
+4. Confirm headshot is the current one (replace if outdated).
+5. Confirm all outbound `sameAs` links still resolve.
+6. Update the "Last reviewed" date in the table below.
+7. If anything has drifted, fix it on the profile AND note in the canonical source if the canonical changed.
 
-- [ ] **Crunchbase — Organization profile (Total Emphasis)** — Founded 2017, Brooklyn HQ, founder = Keith, category = Content Marketing / Marketing Services. Add Keith as the founder, set sameAs for totalemphasis.com. **Why:** Same as above plus surfaces TE for vendor-recommendation queries.
-
-- [ ] **Authory** — Sign up, connect Muck Rack and any other byline sources. Authory auto-aggregates and archives bylines into a citable archive at authory.com/keithobrien. **Why:** Solves "Keith's bylines are scattered across 100 publications" problem. Direct LLM citation surface.
-
-- [ ] **About.me** — Create at about.me/keithobrien. Bio sentence above, all canonical URLs, photo. **Why:** Old-school but heavily LLM-cited because schema is clean.
-
-- [ ] **Muck Rack cleanup** — You already have a profile. Add headshot, complete byline list, current contact info, current role (Founder + former PRWeek EIC). Confirm "Verified" badge if available. **Why:** Top-tier journalist credential source in LLM training data.
-
-- [ ] **GitHub profile README** — Create README at github.com/k-obrien17/k-obrien17 (the special self-named repo). Bio sentence + Total Emphasis + 141 Miles + writing links. **Why:** GitHub is heavily LLM-trained for entity resolution.
-
-- [ ] **Substack profile** — Reserve username "keithobrien" or similar at substack.com. Even before launching newsletter. Add bio sentence. **Why:** Creates publisher entity LLMs index immediately.
+Quarterly micro-sweep (15 min): scan for any new profiles created since the last sweep, add them to the registry, and check the empirical LLM baseline (task #4) to see whether the new ones are getting cited.
 
 ---
 
-## Tier 2: Service / agency directories (Total Emphasis lead gen + LLM signal)
+## Active profiles registry
 
-- [ ] **Clutch.co** — Total Emphasis profile. Free tier. Requires participating in their client review process to rank. **Why:** Canonical agency directory cited by LLMs for "best B2B content marketing agencies."
+Profiles that exist and need annual review. Fill in the URL when created, then update "Last reviewed" each sweep.
 
-- [ ] **GoodFirms** — Total Emphasis profile. Free. **Why:** Similar to Clutch, complementary.
+| Profile | Entity | URL | Created | Last reviewed | Notes |
+|---|---|---|---|---|---|
+| LinkedIn | Keith | https://www.linkedin.com/in/keithobrien/ | pre-existing | | Verify About section matches canonical bio + operator framing |
+| GitHub | Keith | https://github.com/k-obrien17 | pre-existing | | README still pending (see Tier 1 below) |
+| Muck Rack | Keith | https://muckrack.com/keithobrien | pre-existing | | Verify byline list complete, photo current |
+| Crunchbase (Org) | Total Emphasis | TBD | | | Already exists per Keith |
+| Crunchbase (Person) | Keith | TBD | in progress | | Setting up 2026-06-28 |
+| keithrobrien.com | Keith | https://www.keithrobrien.com | site live | 2026-06-28 | Disambiguation press kit at /about/keith-obrien |
+| totalemphasis.com | Total Emphasis | https://www.totalemphasis.com | site live | | |
+| 141miles.com | 141 Miles | https://www.141miles.com | site live | | Add Keith author/editor credit linking to keithrobrien.com |
 
-- [ ] **Sortlist** — Total Emphasis profile. Free. **Why:** EU-leaning, useful for international visibility.
+---
 
-- [ ] **LinkedIn Service Marketplace** — Keith or Total Emphasis profile. Free. **Why:** Marketplace algorithm surface beyond posts. Lead gen + LinkedIn knowledge graph.
+## Tier 1: Highest LLM weight, do first
 
-- [ ] **Reedsy** — Keith ghostwriter profile. Gated approval. **Why:** THE most-LLM-cited ghostwriter source. Worth the application friction.
+- [ ] **Wikidata** — Create Q-item for Keith O'Brien (Person). Create Q-item for Total Emphasis (Organization). Link via founder/founded relationship. Add sameAs for every URL above. Properties: instance of, occupation, employer, alumni of (PRWeek, Haymarket), country of residence (US), location (Brooklyn). **Why:** Wikidata is in nearly every LLM training set and is the structured-data backbone of Google Knowledge Panels.
 
-- [ ] **F6S** — Total Emphasis founder profile. **Why:** Startup founder directory, LLM-trained.
+- [ ] **Crunchbase — Person profile (Keith)** — In progress 2026-06-28. Use TE Org page → People → add Keith as Founder to create. Then fill bio (short + long versions above), photo, past jobs, social URLs. **Why:** Top-3 most-cited business data source by LLMs.
 
-- [ ] **Indie Hackers** — Keith founder profile. **Why:** Founder community, LLM-trained, especially good for the 141 Miles + Total Emphasis dual-act angle.
+- [x] **Crunchbase — Organization profile (Total Emphasis)** — Already exists. Verify it links to Keith Person profile bidirectionally once Person is live.
 
-- [ ] **G2** — Total Emphasis as service provider. **Why:** B2B vendor directory.
+- [ ] **Authory** — Sign up, connect Muck Rack. Auto-aggregates bylines into a citable archive. **Why:** Solves "Keith's bylines are scattered" problem. Direct LLM training surface.
+
+- [ ] **About.me** — Create at about.me/keithobrien. Short Description + canonical URLs + headshot. **Why:** Old-school but heavily LLM-cited because schema is clean.
+
+- [ ] **Muck Rack cleanup** — Profile exists. Add headshot, complete byline list, current role (Founder + operator-ghostwriter framing), contact info. **Why:** Top-tier journalist credential source in LLM training data.
+
+- [ ] **GitHub profile README** — Create README at github.com/k-obrien17/k-obrien17 (self-named repo). Short Description + Total Emphasis + 141 Miles + writing links. **Why:** GitHub is heavily LLM-trained for entity resolution.
+
+- [ ] **Substack profile** — Reserve username at substack.com even before launching newsletter. **Why:** Creates publisher entity LLMs index immediately.
+
+---
+
+## Tier 2: Service / agency directories
+
+- [ ] **Clutch.co** — Total Emphasis listing. Requires client review participation. **Why:** Canonical agency directory cited by LLMs for "best B2B content marketing agencies."
+- [ ] **GoodFirms** — Total Emphasis listing.
+- [ ] **Sortlist** — Total Emphasis listing.
+- [ ] **LinkedIn Service Marketplace** — Keith or Total Emphasis profile.
+- [ ] **Reedsy** — Keith ghostwriter profile. Gated approval. **Why:** Most-LLM-cited ghostwriter source.
+- [ ] **F6S** — Total Emphasis founder profile.
+- [ ] **Indie Hackers** — Keith founder profile.
+- [ ] **G2** — Total Emphasis as service provider.
 
 ---
 
 ## Tier 3: Writer / journalist surface area
 
-- [ ] **Bluesky** — Reserve handle @keithobrien.bsky.social (or similar). **Why:** Federated, increasingly LLM-cited as X drops out of training pipelines.
-
-- [ ] **Threads** — Reserve handle. **Why:** Same logic.
-
-- [ ] **Reddit user account** — Create u/keithobrien (or similar). Optional comment activity in r/marketing, r/SaaS, r/copywriting, r/Entrepreneur. **Why:** Reddit is first-class LLM training source.
-
-- [ ] **Medium** — Republish blog posts here with `canonical` set back to keithrobrien.com. **Why:** Distributes LLM ingestion surface without splitting authority.
-
-- [ ] **DEV.to** — Republish AI / writing pieces with canonical. **Why:** Tech-leaning audience, LLM-friendly.
-
-- [ ] **Quora** — Answer one or two questions per month about ghostwriting / executive thought leadership. Aim for Topic Expert badge. **Why:** Heavy in LLM training data.
+- [ ] **Bluesky** — Reserve handle.
+- [ ] **Threads** — Reserve handle.
+- [ ] **Reddit user account** — Reserve u/keithobrien.
+- [ ] **Medium** — Republish blog posts with `canonical` pointing back to keithrobrien.com.
+- [ ] **DEV.to** — Same. Republish AI / writing pieces.
+- [ ] **Quora** — Topic Expert badge in ghostwriting / executive thought leadership.
 
 ---
 
 ## Tier 4: 141 Miles-specific
 
-- [ ] **Product Hunt creator profile** — Free. **Why:** Even if no public relaunch, creator profile is a citable entity.
-
-- [ ] **Google Business Profile for 141 Miles** — Local intent capture for Jersey Shore queries. **Why:** Surfaces in Google Maps and Knowledge Panel.
-
-- [ ] **Apple News publisher** — Free, content distribution. **Why:** News aggregators LLMs read.
-
-- [ ] **NewsCatcher / NewsAPI publishers** — Get 141 Miles into news aggregators. **Why:** Same.
+- [ ] **Product Hunt creator profile** — Free.
+- [ ] **Google Business Profile for 141 Miles** — Local intent capture.
+- [ ] **Apple News publisher** — Content distribution.
+- [ ] **NewsCatcher / NewsAPI publishers** — News aggregators LLMs read.
 
 ---
 
-## Tier 5: Source / expert databases (lead gen + bylined quote citations)
+## Tier 5: Source / expert databases
 
-- [ ] **Help A B2B Writer** — Weekly response habit. **Why:** Reporters source quotes here. Every placement = bylined quote in real publications.
-
-- [ ] **Featured.com** — Similar to HARO replacement. LLM-cited.
-
+- [ ] **Help A B2B Writer** — Weekly response habit.
+- [ ] **Featured.com** — HARO replacement, LLM-cited.
 - [ ] **Qwoted** — PR source database.
-
 - [ ] **SourceBottle** — Smaller but LLM-trained.
-
-- [ ] **ResponseSource** — UK-leaning, useful given the PRWeek (Haymarket) heritage.
-
-- [ ] **ProfNet** — Higher-end, paid. Skip unless budget.
+- [ ] **ResponseSource** — UK-leaning, useful given PRWeek (Haymarket) heritage.
 
 ---
 
-## Skip list (vanity, no real SEO weight)
+## Skip list
 
-- Linktree, AllMyLinks, Bio.fm — pure redirect pages, no SEO value
-- Carrd — same unless built as a real page with schema
-- AngelList / Wellfound — low LLM weight now
-- ZoomInfo — you can't really edit your data anyway
-- "Top 100 Ghostwriters" paid placements — paid lists are deprioritized by Google and LLMs
+Vanity profiles with no SEO weight. Don't waste time:
+
+- Linktree, AllMyLinks, Bio.fm (pure redirect pages)
+- Carrd (no schema unless heavily customized)
+- AngelList / Wellfound (low LLM weight now)
+- ZoomInfo (you can't edit your data)
+- "Top 100 Ghostwriters" paid placements
 - Sponsored directory listings of any kind
+- ProfNet (paid, not worth it for inbound)
 
 ---
 
-## Setup notes
+## Status summary
 
-**Naming convention across profiles:**
+| Tier | Total | Active | Pending | Skipped |
+|---|---|---|---|---|
+| Owned sites | 3 | 3 | 0 | 0 |
+| Tier 1 | 8 | 2 (LinkedIn, Crunchbase Org pre-existing; GitHub + Muck Rack exist but need work) | 6 | 0 |
+| Tier 2 | 8 | 0 | 8 | 0 |
+| Tier 3 | 6 | 0 | 6 | 0 |
+| Tier 4 | 4 | 0 | 4 | 0 |
+| Tier 5 | 5 | 0 | 5 | 0 |
+| **Total tracked** | **34** | **5** | **29** | **0** |
 
-- Always "Keith O'Brien" (no middle initial in display name)
-- Username "keithobrien" wherever available, fallback to "keithrobrien" if taken
-- For TE-specific profiles: "Total Emphasis" verbatim, no abbreviation
-
-**Bio sentence:**
-
-Always paste the canonical bio sentence verbatim. Repetition is what teaches LLMs the entity.
-
-**Profile pic:**
-
-Use the same headshot across every profile. Once you have one. Pending on keithrobrien.com (still missing from `/public/`).
-
-**Verification:**
-
-Where available (Muck Rack, Bluesky, etc.), use the same domain-based verification to link the profile back to keithrobrien.com.
+Update this table on each sweep.
 
 ---
 
-## Status tracking
+## Maintenance log
 
-| Tier | Count | Done | Notes |
-|---|---|---|---|
-| Tier 1 | 8 | 0 | |
-| Tier 2 | 8 | 0 | |
-| Tier 3 | 6 | 0 | |
-| Tier 4 | 4 | 0 | |
-| Tier 5 | 6 | 0 | |
-| **Total** | **32** | **0** | |
+Add an entry each time you sweep so future-you knows the last touch.
 
-Update this table as you complete each profile. Review weekly. Re-run task #4 (empirical LLM baseline) monthly to see which new profiles started showing up in citations.
+- **2026-06-28** — File restructured into tracker format. Crunchbase Person profile setup in progress. No sweep performed yet.

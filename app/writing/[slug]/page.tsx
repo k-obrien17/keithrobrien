@@ -44,13 +44,13 @@ export default async function PostPage({
     "@type": "BlogPosting",
     headline: post.meta.title,
     description: post.meta.excerpt,
-    url: `https://keithrobrien.com/writing/${slug}`,
+    url: `https://www.keithrobrien.com/writing/${slug}`,
     ...(post.meta.date
       ? { datePublished: post.meta.date, dateModified: post.meta.date }
       : {}),
     author: {
       "@type": "Person",
-      "@id": "https://keithrobrien.com/#person",
+      "@id": "https://www.keithrobrien.com/#person",
       name: "Keith O'Brien",
     },
   };

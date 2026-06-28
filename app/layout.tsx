@@ -24,7 +24,7 @@ const plexSans = IBM_Plex_Sans({
   display: "swap",
 });
 
-const SITE_URL = "https://keithrobrien.com";
+const SITE_URL = "https://www.keithrobrien.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

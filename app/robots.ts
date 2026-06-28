@@ -20,6 +20,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "*", allow: "/" },
       ...AI_AGENTS.map((userAgent) => ({ userAgent, allow: "/" })),
     ],
-    sitemap: "https://keithrobrien.com/sitemap.xml",
+    sitemap: "https://www.keithrobrien.com/sitemap.xml",
   };
 }

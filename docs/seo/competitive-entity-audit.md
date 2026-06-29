@@ -7,7 +7,7 @@ Inspecting structured data, sameAs chains, and Person schema across the most-lik
 
 ## Top-line finding
 
-**Almost nobody in the competitive set is doing entity-graph work.** Keith already has more structured data on `/about/keith-obrien` alone than every direct competitor combined. The entity-side of AEO is wide open. Wikidata Q-item creation would put Keith ahead of every competitor instantly.
+**Almost nobody in the competitive set is doing entity-graph work.** Keith already has more structured data on `/about/keith-obrien` alone than every direct competitor combined. The entity-side of AEO is wide open. The fastest move to widen the lead: claim ORCID and ISNI identifiers (free, no notability bar, designed exactly for entity disambiguation). Wikidata is the obvious-sounding move but requires Wikipedia-level notability; deprioritize until press coverage accumulates.
 
 ## Per-competitor results
 

@@ -59,7 +59,11 @@ Profiles that exist and need annual review. Fill in the URL when created, then u
 
 ## Tier 1: Highest LLM weight, do first
 
-- [ ] **Wikidata** — Create Q-item for Keith O'Brien (Person). Create Q-item for Total Emphasis (Organization). Link via founder/founded relationship. Add sameAs for every URL above. Properties: instance of, occupation, employer, alumni of (PRWeek, Haymarket), country of residence (US), location (Brooklyn). **Why:** Wikidata is in nearly every LLM training set and is the structured-data backbone of Google Knowledge Panels.
+- [ ] **ORCID** — Free researcher/scholar identifier at orcid.org/register. Self-administered. 16-digit ID designed for entity disambiguation. Used by publishers, databases, academic systems. **Why:** the practical entity-identifier alternative to Wikidata. Wikidata requires Wikipedia-level notability that the audit confirmed is too high a bar; ORCID has zero notability bar. Add the ID + ORCID URL to Person schema sameAs once assigned.
+
+- [ ] **ISNI** — International Standard Name Identifier, 16-digit number for public persons. Free, requested through ISNI International Agency, uses ORCID as the verifying party. Used by libraries, publishers, the music industry. **Why:** stable cross-platform identifier. Once assigned it never changes. Catalogs the name in databases LLMs respect.
+
+- [ ] **Wikidata Q-item** — DEPRIORITIZED. Original plan was to create one, but Wikidata requires a Wikipedia sitelink (or equivalent secondary-source notability) for Person Q-items to survive deletion review. Revisit only after meaningful press coverage accumulates (probably 12-24 months out). ORCID + ISNI fill the structured-identifier gap until then.
 
 - [ ] **Crunchbase — Person profile (Keith)** — In progress 2026-06-28. Use TE Org page → People → add Keith as Founder to create. Then fill bio (short + long versions above), photo, past jobs, social URLs. **Why:** Top-3 most-cited business data source by LLMs.
 

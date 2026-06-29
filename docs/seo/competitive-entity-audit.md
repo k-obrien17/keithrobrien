@@ -60,7 +60,7 @@ Keith is already winning the entity-graph competition by a wide margin. The rema
 
 ## Implications for next moves
 
-**1. Wikidata Q-item just became higher priority.** Right now zero competitors have one. The first ghostwriter with a real Wikidata Q-item gets a structural advantage that compounds over every LLM training cycle. Free. Ten years of compounding return.
+**1. Wikidata is downstream of Wikipedia notability, not an input.** Original draft of this audit recommended creating a Wikidata Q-item. That advice was wrong. Wikidata requires a Wikipedia sitelink (or equivalent notability) for a Person Q-item to survive deletion review. Without significant secondary press coverage, a Q-item created by anyone gets nominated for deletion. The right structured-identifier moves are **ORCID** (free, self-administered, designed for entity disambiguation, can be created today) and **ISNI** (free, requested via ISNI agency, uses ORCID as verifying party). Both are real entity identifiers libraries and publishers use. Both work for non-Wikipedia-notable people.
 
 **2. Don't try to outpublish Justin Welsh.** He publishes a Saturday essay every week for 15+ years. The entity-side gap is the asymmetric opportunity. Closing the intent-side gap is a fight Keith probably loses to Justin Welsh on volume.
 

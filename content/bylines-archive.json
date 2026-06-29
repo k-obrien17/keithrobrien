@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-28",
-  "total": 484,
+  "total": 524,
   "by_publication": [
     {
       "slug": "prweek",
@@ -33,13 +33,48 @@
       "count": 23
     },
     {
+      "slug": "advertisingweek",
+      "display": "Advertising Week",
+      "count": 8
+    },
+    {
+      "slug": "fastcompany",
+      "display": "Fast Company",
+      "count": 7
+    },
+    {
       "slug": "substack",
       "display": "Substack",
       "count": 4
     },
     {
+      "slug": "ncsolutions",
+      "display": "NCSolutions",
+      "count": 4
+    },
+    {
+      "slug": "entrepreneur",
+      "display": "Entrepreneur",
+      "count": 4
+    },
+    {
+      "slug": "martechseries",
+      "display": "MarTech Series",
+      "count": 3
+    },
+    {
       "slug": "beehiiv",
       "display": "Beehiiv",
+      "count": 3
+    },
+    {
+      "slug": "mediapost",
+      "display": "MediaPost",
+      "count": 3
+    },
+    {
+      "slug": "propertycasualty360",
+      "display": "PropertyCasualty360",
       "count": 3
     },
     {
@@ -48,13 +83,38 @@
       "count": 3
     },
     {
-      "slug": "goodtime",
-      "display": "Goodtime",
+      "slug": "spiceworks",
+      "display": "Spiceworks",
       "count": 2
+    },
+    {
+      "slug": "goodtime",
+      "display": "GoodTime.io",
+      "count": 2
+    },
+    {
+      "slug": "forbes",
+      "display": "Forbes",
+      "count": 2
+    },
+    {
+      "slug": "adexchanger",
+      "display": "AdExchanger",
+      "count": 2
+    },
+    {
+      "slug": "digiday",
+      "display": "Digiday",
+      "count": 1
     },
     {
       "slug": "33across",
       "display": "33Across",
+      "count": 1
+    },
+    {
+      "slug": "thedrum",
+      "display": "The Drum",
       "count": 1
     }
   ],
@@ -170,6 +230,17 @@
       "ghostwritten_for": "IBM"
     },
     {
+      "title": "Culture Captured: The Power of Keeping Pace with Everyday People\u2019s Online Voices \u2013 Advertising Week",
+      "date": "2024-03-27",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
+      "original_url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "What is customer service?",
       "date": "2024-03-27",
       "publication": "ibm",
@@ -225,6 +296,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "Culture Captured: The Power of Keeping Pace with Everyday People\u2019s Online Voices \u2013 Advertising Week",
+      "date": "2024-03-06",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
+      "original_url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Billion-Dollar Decisions at Risk: The Alarming Rise of Survey Fraud",
       "date": "2024-03-01",
       "publication": "realeyesit",
@@ -234,6 +316,28 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "Don\u2019t fear the new: Taking calculated risks in advertising",
+      "date": "2024-02-28",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/91035285/dont-fear-the-new-taking-calculated-risks-in-advertising",
+      "original_url": "https://www.fastcompany.com/91035285/dont-fear-the-new-taking-calculated-risks-in-advertising",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The Embedded, Immersive Future of Personal Finance",
+      "date": "2024-02-22",
+      "publication": "spiceworks",
+      "publication_display": "Spiceworks",
+      "url": "https://www.spiceworks.com/finance/fintech/guest-article/ai-driven-solutions-reshaping-personal-finance/",
+      "original_url": "https://www.spiceworks.com/finance/fintech/guest-article/ai-driven-solutions-reshaping-personal-finance/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Helping Advertisers See the Bigger Picture of Attention",
@@ -566,6 +670,17 @@
       "ghostwritten_for": "IBM"
     },
     {
+      "title": "Reviewing the agency review process: There\u2019s a better way",
+      "date": "2023-11-15",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90981513/reviewing-the-agency-review-process-theres-a-better-way",
+      "original_url": "https://www.fastcompany.com/90981513/reviewing-the-agency-review-process-theres-a-better-way",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Attention as a Catalyst for Change",
       "date": "2023-11-13",
       "publication": "realeyesit",
@@ -575,6 +690,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "Here\u2019s Why \u200b\u200bOptimizing for Clicks is Not \u200b\u200bOptimizing at All",
+      "date": "2023-11-08",
+      "publication": "martechseries",
+      "publication_display": "MarTech Series",
+      "url": "https://martechseries.com/mts-insights/guest-authors/heres-why-optimizing-for-clicks-is-not-optimizing-at-all/",
+      "original_url": "https://martechseries.com/mts-insights/guest-authors/heres-why-optimizing-for-clicks-is-not-optimizing-at-all/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Helping Advertisers Solve the Attention Puzzle",
@@ -597,6 +723,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "Digging Deeper Into Advertising\u2019s Lost Half",
+      "date": "2023-10-16",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/digging-deeper-into-advertisings-lost-half/",
+      "original_url": "https://advertisingweek.com/digging-deeper-into-advertisings-lost-half/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Six keys to achieving advanced container monitoring",
@@ -638,6 +775,28 @@
       "publication_display": "Substack",
       "url": "https://involuntaryresponse.substack.com/p/coming-soon",
       "original_url": "https://involuntaryresponse.substack.com/p/coming-soon",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Balancing Digital Growth and ESG Goals for the Ultimate Cloud Cost Optimization",
+      "date": "2023-09-06",
+      "publication": "martechseries",
+      "publication_display": "MarTech Series",
+      "url": "https://martechseries.com/mts-insights/guest-authors/balancing-digital-growth-and-esg-goals-for-the-ultimate-cloud-cost-optimization/",
+      "original_url": "https://martechseries.com/mts-insights/guest-authors/balancing-digital-growth-and-esg-goals-for-the-ultimate-cloud-cost-optimization/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Going all-in for your clients: A uniquely human endeavor",
+      "date": "2023-08-23",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90941685/going-all-in-for-your-clients-a-uniquely-human-endeavor",
+      "original_url": "https://www.fastcompany.com/90941685/going-all-in-for-your-clients-a-uniquely-human-endeavor",
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
@@ -800,12 +959,23 @@
       "title": "Diversity, Equity, and Inclusion in Hiring: The Ultimate Guide",
       "date": "2023-06-29",
       "publication": "goodtime",
-      "publication_display": "Goodtime",
+      "publication_display": "GoodTime.io",
       "url": "https://goodtime.io/blog/dei/diversity-vs-inclusion-in-hiring-whats-the-difference/",
       "original_url": "https://goodtime.io/blog/dei/diversity-vs-inclusion-in-hiring-whats-the-difference/",
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "GoodTime.io"
+    },
+    {
+      "title": "Adding Sales Effect Outcomes to Marketing Mix Models Unlocks Insights",
+      "date": "2023-06-23",
+      "publication": "ncsolutions",
+      "publication_display": "NCSolutions",
+      "url": "https://info.ncsolutions.com/blog/adding-sales-effect-outcomes-to-marketing-mix-models-unlocks-insights",
+      "original_url": "https://info.ncsolutions.com/blog/adding-sales-effect-outcomes-to-marketing-mix-models-unlocks-insights",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "What is business analytics?",
@@ -828,6 +998,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "ChatGPT won\u2019t replace human-led strategy, but it will enhance it",
+      "date": "2023-06-08",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90904950/chatgpt-wont-replace-human-led-strategy-but-it-will-enhance-it",
+      "original_url": "https://www.fastcompany.com/90904950/chatgpt-wont-replace-human-led-strategy-but-it-will-enhance-it",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Pushing Attention Forward During its Formative Years",
@@ -973,6 +1154,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "Marketers Cannot Lose Authenticity in Their Quest to Embrace AI",
+      "date": "2023-04-28",
+      "publication": "martechseries",
+      "publication_display": "MarTech Series",
+      "url": "https://martechseries.com/mts-insights/guest-authors/marketers-cannot-lose-authenticity-in-their-quest-to-embrace-ai/",
+      "original_url": "https://martechseries.com/mts-insights/guest-authors/marketers-cannot-lose-authenticity-in-their-quest-to-embrace-ai/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "How to get started in generative AI",
       "date": "2023-04-18",
       "publication": "ust",
@@ -1050,6 +1242,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "2023 Is The Year To Finally Commit To Email Automation",
+      "date": "2023-03-16",
+      "publication": "mediapost",
+      "publication_display": "MediaPost",
+      "url": "https://www.mediapost.com/publications/article/383469/2023-is-the-year-to-finally-commit-to-email-automa.html",
+      "original_url": "https://www.mediapost.com/publications/article/383469/2023-is-the-year-to-finally-commit-to-email-automa.html",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Creative Attention Even More Important in a Post-ATT World",
       "date": "2023-03-13",
       "publication": "realeyesit",
@@ -1059,6 +1262,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "Why going small is the big move you should consider",
+      "date": "2023-03-08",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90871143/why-going-small-is-the-big-move-you-should-consider",
+      "original_url": "https://www.fastcompany.com/90871143/why-going-small-is-the-big-move-you-should-consider",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Flowers Foods\u2019 Early Iterative Testing Increased Creative Performance by 25%",
@@ -1116,6 +1330,28 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "Why More Marketers Should Embrace Product-Led Growth Mindset",
+      "date": "2023-02-08",
+      "publication": "mediapost",
+      "publication_display": "MediaPost",
+      "url": "https://www.mediapost.com/publications/article/382365/why-more-marketers-should-embrace-product-led-grow.html#reply",
+      "original_url": "https://www.mediapost.com/publications/article/382365/why-more-marketers-should-embrace-product-led-grow.html#reply",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Advertising predictions that will shake up the media industry in 2023",
+      "date": "2023-02-07",
+      "publication": "digiday",
+      "publication_display": "Digiday",
+      "url": "https://digiday.com/sponsored/advertising-predictions-that-will-shake-up-the-media-industry-in-2023/",
+      "original_url": "https://digiday.com/sponsored/advertising-predictions-that-will-shake-up-the-media-industry-in-2023/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "How to Effectively Use Preroll Ads",
       "date": "2023-01-31",
       "publication": "dmnews",
@@ -1149,6 +1385,39 @@
       "ghostwritten_for": null
     },
     {
+      "title": "5 Cost-Controlling Measures Your Company Can Start Taking Today",
+      "date": "2023-01-25",
+      "publication": "entrepreneur",
+      "publication_display": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/5-cost-controlling-measures-your-company-can-start-taking/443236",
+      "original_url": "https://www.entrepreneur.com/business-news/5-cost-controlling-measures-your-company-can-start-taking/443236",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "5 Unique Ways to Show Your Team Gratitude This Employee Appreciation Day",
+      "date": "2023-01-25",
+      "publication": "entrepreneur",
+      "publication_display": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/5-unique-ways-to-show-your-team-gratitude-this-employee/443383",
+      "original_url": "https://www.entrepreneur.com/business-news/5-unique-ways-to-show-your-team-gratitude-this-employee/443383",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "5 Ways Your Company Can Survive Rising Fuel Costs",
+      "date": "2023-01-25",
+      "publication": "entrepreneur",
+      "publication_display": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/5-ways-your-company-can-survive-rising-fuel-costs/443233",
+      "original_url": "https://www.entrepreneur.com/business-news/5-ways-your-company-can-survive-rising-fuel-costs/443233",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Is Project Management a Good Career Choice in 2023?",
       "date": "2023-01-20",
       "publication": "dmnews",
@@ -1167,6 +1436,39 @@
       "url": "http://web.archive.org/web/20240521074619/https://www.dmnews.com/the-top-marketing-publications-and-blogs-to-read-in-2023/",
       "original_url": "https://www.dmnews.com/the-top-marketing-publications-and-blogs-to-read-in-2023",
       "wayback_url": "http://web.archive.org/web/20240521074619/https://www.dmnews.com/the-top-marketing-publications-and-blogs-to-read-in-2023/",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Video telematics: A win-win for insurers, fleet owners",
+      "date": "2023-01-13",
+      "publication": "propertycasualty360",
+      "publication_display": "PropertyCasualty360",
+      "url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/?slreturn=20230017115721",
+      "original_url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/?slreturn=20230017115721",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Video telematics: A win-win for insurers, fleet owners",
+      "date": "2023-01-13",
+      "publication": "propertycasualty360",
+      "publication_display": "PropertyCasualty360",
+      "url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/?slreturn=20230520141435",
+      "original_url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/?slreturn=20230520141435",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Video telematics: A win-win for insurers, fleet owners",
+      "date": "2023-01-13",
+      "publication": "propertycasualty360",
+      "publication_display": "PropertyCasualty360",
+      "url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/",
+      "original_url": "https://www.propertycasualty360.com/2023/01/13/video-telematics-a-win-win-for-insurers-fleet-owners/",
+      "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
     },
@@ -1191,6 +1493,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "Gen Z: All About the Convenience Store",
+      "date": "2022-12-13",
+      "publication": "ncsolutions",
+      "publication_display": "NCSolutions",
+      "url": "https://info.ncsolutions.com/blog/gen-z-all-about-the-convenience-store",
+      "original_url": "https://info.ncsolutions.com/blog/gen-z-all-about-the-convenience-store",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "What is Experience-led Digital Transformation",
@@ -1248,6 +1561,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "2023 trend watch: a pivotal year in commerce, streaming and authenticity for marketers",
+      "date": "2022-11-28",
+      "publication": "thedrum",
+      "publication_display": "The Drum",
+      "url": "https://www.thedrum.com/opinion/2022/11/28/2023-trend-watch-pivotal-year-commerce-streaming-and-authenticity-marketers",
+      "original_url": "https://www.thedrum.com/opinion/2022/11/28/2023-trend-watch-pivotal-year-commerce-streaming-and-authenticity-marketers",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "ARF\u2019s Stipp: We Need to Study Inattention As Well As Attention",
       "date": "2022-11-17",
       "publication": "realeyesit",
@@ -1268,6 +1592,39 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "5 Ways to Show Your Team Appreciation During the Holidays (and Why You Should)",
+      "date": "2022-11-03",
+      "publication": "entrepreneur",
+      "publication_display": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/5-ways-to-show-your-team-appreciation-during-the-holidays/438404",
+      "original_url": "https://www.entrepreneur.com/business-news/5-ways-to-show-your-team-appreciation-during-the-holidays/438404",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Tech Companies Forcing A Return To The Office Are Ignoring The Data",
+      "date": "2022-11-03",
+      "publication": "forbes",
+      "publication_display": "Forbes",
+      "url": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/11/03/tech-companies-forcing-a-return-to-the-office-are-ignoring-the-data/?sh=5d4d565459ee",
+      "original_url": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/11/03/tech-companies-forcing-a-return-to-the-office-are-ignoring-the-data/?sh=5d4d565459ee",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Tech Companies Forcing A Return To The Office Are Ignoring The Data",
+      "date": "2022-11-03",
+      "publication": "forbes",
+      "publication_display": "Forbes",
+      "url": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/11/03/tech-companies-forcing-a-return-to-the-office-are-ignoring-the-data/?sh=2be6a1ef59ee",
+      "original_url": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/11/03/tech-companies-forcing-a-return-to-the-office-are-ignoring-the-data/?sh=2be6a1ef59ee",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Attention\u2019s Big Moment Has Arrived",
@@ -1303,6 +1660,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "Income and Inflation - Is There a Correlation?",
+      "date": "2022-10-20",
+      "publication": "ncsolutions",
+      "publication_display": "NCSolutions",
+      "url": "https://info.ncsolutions.com/blog/income-and-inflation-is-there-a-correlation",
+      "original_url": "https://info.ncsolutions.com/blog/income-and-inflation-is-there-a-correlation",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Attention Helping Determine Quality of an Impression",
       "date": "2022-10-13",
       "publication": "realeyesit",
@@ -1312,6 +1680,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "ZIPping around with marketing data",
+      "date": "2022-10-10",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90816064/zipping-around-with-marketing-data",
+      "original_url": "https://www.fastcompany.com/90816064/zipping-around-with-marketing-data",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Attention Industry Needs to Move Upstream to Content Creation",
@@ -1468,6 +1847,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "How Startups Can Hire Wisely During Challenging Time",
+      "date": "2022-09-11",
+      "publication": "spiceworks",
+      "publication_display": "Spiceworks",
+      "url": "https://www.spiceworks.com/hr/recruitment-onboarding/guest-article/how-startups-can-hire-wisely/",
+      "original_url": "https://www.spiceworks.com/hr/recruitment-onboarding/guest-article/how-startups-can-hire-wisely/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Hi-Tech Platform-as-a-service: The Digital Chip Revolution",
       "date": "2022-08-30",
       "publication": "ust",
@@ -1589,6 +1979,17 @@
       "ghostwritten_for": "Realeyes"
     },
     {
+      "title": "How to use tech to help recruit better candidates",
+      "date": "2022-06-07",
+      "publication": "fastcompany",
+      "publication_display": "Fast Company",
+      "url": "https://www.fastcompany.com/90758202/how-to-use-tech-to-help-recruit-better-candidates",
+      "original_url": "https://www.fastcompany.com/90758202/how-to-use-tech-to-help-recruit-better-candidates",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "How low-code/no-code supercharges application modernization",
       "date": "2022-06-01",
       "publication": "ust",
@@ -1598,6 +1999,28 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "UST"
+    },
+    {
+      "title": "Innovation in Automation is Vital for Agency Success",
+      "date": "2022-05-25",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/innovation-in-automation-is-vital-for-agency-success/",
+      "original_url": "https://advertisingweek.com/innovation-in-automation-is-vital-for-agency-success/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "What\u2019s On the Mind of Today\u2019s CPG Marketers?",
+      "date": "2022-05-25",
+      "publication": "ncsolutions",
+      "publication_display": "NCSolutions",
+      "url": "https://info.ncsolutions.com/blog/whats-on-the-mind-of-todays-cpg-marketers",
+      "original_url": "https://info.ncsolutions.com/blog/whats-on-the-mind-of-todays-cpg-marketers",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Realeyes & TVision Partner to Expand Full Suite of Attention Metrics",
@@ -1620,6 +2043,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "Realeyes"
+    },
+    {
+      "title": "Gen Z\u2019s Influence is Already Here, Are You Ready?",
+      "date": "2022-05-18",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/gen-zs-influence-is-already-here-are-you-ready/",
+      "original_url": "https://advertisingweek.com/gen-zs-influence-is-already-here-are-you-ready/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Turning \u201cdata-driven\u201d into a practice, not just a promise",
@@ -1732,6 +2166,28 @@
       "ghostwritten_for": "UST"
     },
     {
+      "title": "Why AI Helps Maximize Product Lifecycle Marketing",
+      "date": "2022-03-15",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
+      "original_url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Why AI Helps Maximize Product Lifecycle Marketing",
+      "date": "2022-03-15",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
+      "original_url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Ensuring Your Product Strategy is Fit-for-Growth",
       "date": "2022-03-15",
       "publication": "ust",
@@ -1776,6 +2232,17 @@
       "ghostwritten_for": "UST"
     },
     {
+      "title": "The Way For Brands To Create Immersive Experiences",
+      "date": "2022-02-12",
+      "publication": "mediapost",
+      "publication_display": "MediaPost",
+      "url": "https://www.mediapost.com/publications/article/371145/the-way-for-brands-to-create-immersive-experiences.html",
+      "original_url": "https://www.mediapost.com/publications/article/371145/the-way-for-brands-to-create-immersive-experiences.html",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Coca-Cola 'It's Beautiful'... Yeah, But Did it Work?",
       "date": "2022-02-10",
       "publication": "realeyesit",
@@ -1801,7 +2268,7 @@
       "title": "Interview Strategy Basics: Build the Candidate Relationship",
       "date": "2022-02-01",
       "publication": "goodtime",
-      "publication_display": "Goodtime",
+      "publication_display": "GoodTime.io",
       "url": "https://goodtime.io/blog/candidate-relationship/interview-strategy-basics-build-the-candidate-relationship/",
       "original_url": "https://goodtime.io/blog/candidate-relationship/interview-strategy-basics-build-the-candidate-relationship/",
       "wayback_url": "",
@@ -1871,6 +2338,17 @@
       "url": "http://web.archive.org/web/20250207202249/https://www.dmnews.com/marketing-team-data/",
       "original_url": "https://www.dmnews.com/marketing-team-data",
       "wayback_url": "http://web.archive.org/web/20250207202249/https://www.dmnews.com/marketing-team-data/",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "What is the 90/10 Measurement Trap, and How Can Advertisers Avoid It?",
+      "date": "2021-11-18",
+      "publication": "advertisingweek",
+      "publication_display": "Advertising Week",
+      "url": "https://advertisingweek.com/what-is-the-90-10-measurement-trap-and-how-can-advertisers-avoid-it/",
+      "original_url": "https://advertisingweek.com/what-is-the-90-10-measurement-trap-and-how-can-advertisers-avoid-it/",
+      "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
     },
@@ -1963,6 +2441,17 @@
       "ghostwritten_for": "UST"
     },
     {
+      "title": "Here\u2019s How to Improve Connected TV Ad Measurement",
+      "date": "2021-07-01",
+      "publication": "adexchanger",
+      "publication_display": "AdExchanger",
+      "url": "https://www.adexchanger.com/tv-and-video/heres-how-to-improve-connected-tv-ad-measurement/",
+      "original_url": "https://www.adexchanger.com/tv-and-video/heres-how-to-improve-connected-tv-ad-measurement/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "The Top 3 Benefits of a Digitally Mature Organization",
       "date": "2021-06-10",
       "publication": "ust",
@@ -2027,6 +2516,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "UST"
+    },
+    {
+      "title": "Waterfall CTV Buying Is The Best Choice For Most Advertisers",
+      "date": "2020-12-10",
+      "publication": "adexchanger",
+      "publication_display": "AdExchanger",
+      "url": "https://www.adexchanger.com/tv-and-video/waterfall-ctv-buying-is-the-best-choice-for-most-advertisers/",
+      "original_url": "https://www.adexchanger.com/tv-and-video/waterfall-ctv-buying-is-the-best-choice-for-most-advertisers/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     },
     {
       "title": "Five Reasons Why AGL is the Obvious Choice for the Automotive Industry",

@@ -8,7 +8,12 @@ export const metadata: Metadata = {
   title: "Writing",
   description:
     "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
-  alternates: { canonical: "/writing" },
+  alternates: {
+    canonical: "/writing",
+    types: {
+      "application/rss+xml": "/writing/feed.xml",
+    },
+  },
   openGraph: {
     title: "Writing · Keith O'Brien",
     description:

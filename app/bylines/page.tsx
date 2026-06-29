@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { Section } from "@/components/section";
-import archive from "@/content/press-archive.json";
+import archive from "@/content/bylines-archive.json";
 
 const SITE_URL = "https://www.keithrobrien.com";
-const PAGE_URL = `${SITE_URL}/press`;
+const PAGE_URL = `${SITE_URL}/bylines`;
 
 type Item = {
   title: string;
@@ -29,17 +29,17 @@ type Archive = {
 const data = archive as Archive;
 
 export const metadata: Metadata = {
-  title: "Press & Bylines",
+  title: "Bylines",
   description: `Archive of ${data.total} bylines and ghostwritten pieces by Keith O'Brien across PRWeek, IBM, Realeyes, UST, Forbes, Fast Company, AdvertisingWeek, DMN, and other publications, 2004 to present.`,
-  alternates: { canonical: "/press" },
+  alternates: { canonical: "/bylines" },
   openGraph: {
-    title: "Keith O'Brien — Press & Bylines",
+    title: "Keith O'Brien — Bylines",
     description: `${data.total} pieces across ${data.by_publication.length} publications, 2004 to present.`,
-    url: "/press",
+    url: "/bylines",
     type: "website",
   },
   twitter: {
-    title: "Keith O'Brien — Press & Bylines",
+    title: "Keith O'Brien — Bylines",
     description: `${data.total} pieces across ${data.by_publication.length} publications, 2004 to present.`,
   },
 };
@@ -60,7 +60,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   "@id": `${PAGE_URL}#collectionpage`,
   url: PAGE_URL,
-  name: "Press & Bylines — Keith O'Brien",
+  name: "Bylines — Keith O'Brien",
   description: `Archive of ${data.total} pieces written or ghostwritten by Keith O'Brien across ${data.by_publication.length} publications.`,
   mainEntity: { "@id": `${SITE_URL}/#person` },
   isPartOf: { "@id": `${SITE_URL}/#website` },
@@ -95,10 +95,10 @@ export default function PressPage() {
 
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
-          {"// press"}
+          {"// bylines"}
         </p>
         <h1 className="text-[34px] leading-[1.42] font-medium tracking-[-0.015em] max-w-[760px] text-[var(--color-fg)]">
-          Press &amp; Bylines
+          Bylines
         </h1>
         <div className="prose mt-[34px]">
           <p>

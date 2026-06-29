@@ -54,9 +54,35 @@ function projectLink(project: Project) {
   );
 }
 
+const SITE_URL = "https://www.keithrobrien.com";
+const PAGE_URL = `${SITE_URL}/projects`;
+
 export default function ProjectsPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${PAGE_URL}#collectionpage`,
+    url: PAGE_URL,
+    name: "Projects · Keith O'Brien",
+    description:
+      "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
+    mainEntity: { "@id": `${SITE_URL}/#person` },
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    hasPart: projects.filter((p) => p.url).map((p) => ({
+      "@type": "SoftwareApplication",
+      name: p.name,
+      description: p.description,
+      url: p.url,
+      applicationCategory: "DeveloperApplication",
+      operatingSystem: "Web",
+      author: { "@id": `${SITE_URL}/#person` },
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+
       {/* Title + intro */}
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">

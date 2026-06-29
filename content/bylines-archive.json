@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28",
+  "generated_at": "2026-06-29",
   "total": 534,
   "by_publication": [
     {
@@ -58,6 +58,11 @@
       "count": 4
     },
     {
+      "slug": "whyisthisinteresting",
+      "display": "Why Is This Interesting?",
+      "count": 3
+    },
+    {
       "slug": "martechseries",
       "display": "MarTech Series",
       "count": 3
@@ -80,11 +85,6 @@
     {
       "slug": "midnightquestion",
       "display": "Midnight Question",
-      "count": 3
-    },
-    {
-      "slug": "whyisthisinteresting",
-      "display": "Why Is This Interesting?",
       "count": 3
     },
     {
@@ -134,6 +134,28 @@
     }
   ],
   "items": [
+    {
+      "title": "The Complete Game Edition | WITI Recommends",
+      "date": "2025-10-23",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://www.interesting.us/editions/the-complete-game-edition",
+      "original_url": "https://www.interesting.us/editions/the-complete-game-edition",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The 4DX Edition",
+      "date": "2025-04-15",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
+      "original_url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
     {
       "title": "Balancing originality and mainstream success in art",
       "date": "2024-06-21",
@@ -2709,6 +2731,17 @@
       "ghostwritten_for": "UST"
     },
     {
+      "title": "Why is this interesting? - The Yuru-chara Edition | WITI Recommends",
+      "date": "2019-07-08",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
+      "original_url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "How to Recover From Your Worst Mistake",
       "date": "2019-06-25",
       "publication": "keithrobrien",
@@ -3144,6 +3177,17 @@
       "publication_display": "PRWeek",
       "url": "https://www.prweek.com/article/1272092/agency-business-report-2009-pr-poised-rise-above-challenges",
       "original_url": "https://www.prweek.com/article/1272092/agency-business-report-2009-pr-poised-rise-above-challenges",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The industry, like newspapers, might have problem with youth ",
+      "date": "2008-12-17",
+      "publication": "prweek",
+      "publication_display": "PRWeek",
+      "url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
+      "original_url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
@@ -5954,17 +5998,6 @@
       "ghostwritten_for": null
     },
     {
-      "title": "The industry, like newspapers, might have problem with youth ",
-      "date": "",
-      "publication": "prweek",
-      "publication_display": "PRWeek",
-      "url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
-      "original_url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
       "title": "Leading Spanish bank launches robust microservices architecture with Kubernetes",
       "date": "",
       "publication": "ust",
@@ -5974,39 +6007,6 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "UST"
-    },
-    {
-      "title": "The 4DX Edition",
-      "date": "",
-      "publication": "whyisthisinteresting",
-      "publication_display": "Why Is This Interesting?",
-      "url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
-      "original_url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
-      "title": "The Complete Game Edition | WITI Recommends",
-      "date": "",
-      "publication": "whyisthisinteresting",
-      "publication_display": "Why Is This Interesting?",
-      "url": "https://www.interesting.us/editions/the-complete-game-edition",
-      "original_url": "https://www.interesting.us/editions/the-complete-game-edition",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
-      "title": "Why is this interesting? - The Yuru-chara Edition | WITI Recommends",
-      "date": "",
-      "publication": "whyisthisinteresting",
-      "publication_display": "Why Is This Interesting?",
-      "url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
-      "original_url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
     }
   ]
 }

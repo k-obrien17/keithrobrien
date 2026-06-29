@@ -65,7 +65,7 @@ export function Footer() {
               </span>
             ))}
           </div>
-          <span>content strategy &middot; software &middot; newsletters</span>
+          <span>operator-ghostwriter &middot; software &middot; newsletters</span>
         </div>
       </div>
     </footer>

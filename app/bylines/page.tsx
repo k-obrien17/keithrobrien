@@ -26,7 +26,21 @@ type Archive = {
   items: Item[];
 };
 
-const data = archive as Archive;
+const rawData = archive as Archive;
+
+// Temporary scope: show only these publications until Keith reviews the rest.
+// To re-expand, add slugs here or set to null to show everything.
+const ALLOWED_PUBLICATIONS = new Set<string>(["prweek", "ibm", "realeyesit"]);
+
+const data: Archive = {
+  ...rawData,
+  items: rawData.items.filter((i) => ALLOWED_PUBLICATIONS.has(i.publication)),
+  by_publication: rawData.by_publication.filter((p) =>
+    ALLOWED_PUBLICATIONS.has(p.slug)
+  ),
+  total: rawData.items.filter((i) => ALLOWED_PUBLICATIONS.has(i.publication))
+    .length,
+};
 
 export const metadata: Metadata = {
   title: "Bylines",

@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Erica Schneider",
+    "url": "https://www.ericaschneider.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "erica coe",
+    "meta_desc": ""
+  },
+  {
+    "name": "Devin Reed",
+    "url": "https://www.devinreed.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "",
+    "meta_desc": ""
+  },
+  {
+    "name": "Tommy Walker",
+    "url": "https://www.tommywalker.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "Coming Soon",
+    "meta_desc": ""
+  },
+  {
+    "name": "Camille Trent",
+    "url": "https://www.camilletrent.com",
+    "errors": [
+      "HTTPSConnectionPool(host='www.camilletrent.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.camilletrent.com', port=443): Failed to resolve 'www.camilletrent.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    ],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "",
+    "meta_desc": ""
+  },
+  {
+    "name": "Tom Critchlow",
+    "url": "https://tomcritchlow.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "Tom Critchlow. Move. Think. Create.",
+    "meta_desc": "Tom Critchlow. Move. Think. Create."
+  },
+  {
+    "name": "Justin Welsh",
+    "url": "https://www.justinwelsh.me",
+    "errors": [],
+    "schema": [
+      "Person",
+      "WebSite"
+    ],
+    "sameAs": [],
+    "person_schema": true,
+    "wikidata_q": null,
+    "title": "Justin Welsh \u2014 The Saturday Essay",
+    "meta_desc": "I write one essay every Saturday for ambitious people living and working on their own terms."
+  },
+  {
+    "name": "Letterdrop",
+    "url": "https://letterdrop.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "Letterdrop - Competitor Intent",
+    "meta_desc": "Find contacts starting sales cycles with your competitors"
+  },
+  {
+    "name": "Reedsy",
+    "url": "https://reedsy.com",
+    "errors": [],
+    "schema": [],
+    "sameAs": [],
+    "person_schema": false,
+    "wikidata_q": null,
+    "title": "Reedsy: Find the perfect editor, designer or marketer | Reedsy",
+    "meta_desc": "Reedsy allows authors to find and work with the best publishing professionals: from developmental editors to book cover designers, publicists and translators."
+  }
+]

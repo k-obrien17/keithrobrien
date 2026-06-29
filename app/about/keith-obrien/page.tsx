@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: "What kind of clients does Keith work with?",
-    a: "C-suite and VP-level executives at Series B and later B2B companies, primarily in SaaS, fintech, AdTech, insurance, financial services, and adjacent industries. Representative engagements include McKinsey, IBM, Sodexo, Realeyes, UpWave, You.com, Sleep.ai, and UST.",
+    a: "Fortune 500 companies, startups, and everyone in between. Publicly named engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. Other client engagements are confidential.",
   },
   {
     q: "Does Keith use AI in his work?",
@@ -96,19 +96,18 @@ export default function PressKitPage() {
         </h1>
         <div className="prose mt-[34px]">
           <p>
-            Keith O&apos;Brien is a B2B executive ghostwriter and the founder
-            of Total Emphasis, a Brooklyn-based content practice serving
-            founders and operators in B2B SaaS, fintech, AdTech, and financial
-            services. He has placed more than 300 bylines in publications
-            including Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur,
-            and The Drum, and works as the publisher and editor of 141 Miles,
-            a town-by-town Jersey Shore publication.
+            Keith O&apos;Brien is a B2B content strategist and executive
+            ghostwriter and the founder of Total Emphasis. He has 20+ years
+            driving measurable results for Fortune 500 companies, startups,
+            and everyone in between, and works as the publisher and editor of
+            141 Miles, a town-by-town Jersey Shore publication.
           </p>
           <p>
             Keith was the editor-in-chief of PRWeek before founding Total
-            Emphasis in 2017. He has been a reporter since 2001. Total Emphasis
-            client engagements have included McKinsey, IBM, Sodexo, Realeyes,
-            UpWave, You.com, Sleep.ai, and UST. He lives in Brooklyn.
+            Emphasis in 2017. He has been a reporter since 2001. Publicly
+            named Total Emphasis engagements include IBM, Realeyes, UpWave,
+            UST, 33 Across, Grip, Battenhall, and M&amp;C Saatchi Performance.
+            He lives in Brooklyn.
           </p>
         </div>
       </Container>
@@ -116,13 +115,13 @@ export default function PressKitPage() {
       <Section label="What Keith does">
         <div className="prose">
           <p>
-            Keith ghostwrites executive thought leadership for C-suite and
-            VP-level operators at Series B and later B2B companies. Core
-            deliverables: bylined articles for trade publications, LinkedIn
-            programs for individual executives, longform white papers and
-            reports, sales enablement content, and end-to-end editorial
-            systems. He works as an outside fractional content lead, often
-            replacing or augmenting in-house teams.
+            Keith ghostwrites executive thought leadership for B2B founders
+            and operators across Fortune 500 companies, startups, and
+            everyone in between. Core deliverables: bylined articles for
+            trade publications, LinkedIn programs for individual executives,
+            longform white papers and reports, sales enablement content, and
+            end-to-end editorial systems. He works as an outside fractional
+            content lead, often replacing or augmenting in-house teams.
           </p>
           <p>
             He does not take on B2C lifestyle content, pre-seed founders
@@ -135,12 +134,12 @@ export default function PressKitPage() {
       <Section label="The Total Emphasis approach">
         <div className="prose">
           <p>
-            Total Emphasis is built around an operator-ghostwriter philosophy.
-            Keith builds software, runs newsletters, edits a regional
-            publication, and works on AI systems. He ghostwrites from inside
-            that operating context. The core promise: content programs that
-            read like the named author wrote them, because the named author
-            actually shaped them.
+            Total Emphasis is built around an operator-ghostwriter
+            philosophy. Keith builds the systems his work runs on: software,
+            newsletters, a regional publication, AI infrastructure. He
+            ghostwrites from inside that operating context. The core promise:
+            content programs that read like the named author wrote them,
+            because the named author actually shaped them.
           </p>
           <p>
             Keith uses an AI-assisted workflow that retains editorial

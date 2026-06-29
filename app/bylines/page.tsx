@@ -30,7 +30,14 @@ const rawData = archive as Archive;
 
 // Temporary scope: show only these publications until Keith reviews the rest.
 // To re-expand, add slugs here or set to null to show everything.
-const ALLOWED_PUBLICATIONS = new Set<string>(["prweek", "ibm", "realeyesit"]);
+const ALLOWED_PUBLICATIONS = new Set<string>([
+  "prweek",
+  "ibm",
+  "realeyesit",
+  "dmnews",
+  "medium",
+  "econsultancy",
+]);
 
 const data: Archive = {
   ...rawData,

@@ -1,11 +1,11 @@
 {
   "generated_at": "2026-06-28",
-  "total": 524,
+  "total": 531,
   "by_publication": [
     {
       "slug": "prweek",
       "display": "PRWeek",
-      "count": 260
+      "count": 261
     },
     {
       "slug": "realeyesit",
@@ -25,7 +25,7 @@
     {
       "slug": "dmnews",
       "display": "DMN",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "keithrobrien",
@@ -103,6 +103,11 @@
       "count": 2
     },
     {
+      "slug": "econsultancy",
+      "display": "Econsultancy",
+      "count": 2
+    },
+    {
       "slug": "digiday",
       "display": "Digiday",
       "count": 1
@@ -115,6 +120,11 @@
     {
       "slug": "thedrum",
       "display": "The Drum",
+      "count": 1
+    },
+    {
+      "slug": "medium",
+      "display": "Medium",
       "count": 1
     }
   ],
@@ -2716,6 +2726,28 @@
       "ghostwritten_for": null
     },
     {
+      "title": "Three emerging opportunities for digital transformation",
+      "date": "2018-12-04",
+      "publication": "econsultancy",
+      "publication_display": "Econsultancy",
+      "url": "https://econsultancy.com/three-emerging-opportunities-digital-transformation/",
+      "original_url": "https://econsultancy.com/three-emerging-opportunities-digital-transformation/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The most regulated industries have biggest imperative for digital transformation, says Econsultancy\u2019s DT Lead",
+      "date": "2018-09-24",
+      "publication": "econsultancy",
+      "publication_display": "Econsultancy",
+      "url": "https://econsultancy.com/digital-transformation-regulated-industries-biggest-imperative/",
+      "original_url": "https://econsultancy.com/digital-transformation-regulated-industries-biggest-imperative/",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "A Media Play In Two Acts",
       "date": "2018-07-10",
       "publication": "keithrobrien",
@@ -3024,12 +3056,56 @@
       "ghostwritten_for": null
     },
     {
+      "title": "What People Don't Know About Chatbots, From the Creators Themselves",
+      "date": "2016-11-29",
+      "publication": "dmnews",
+      "publication_display": "DMN",
+      "url": "http://web.archive.org/web/20170805093340/http://www.dmnews.com:80/mobile-marketing/what-people-dont-know-about-chatbots-from-the-creators-themselves/article/574746/",
+      "original_url": "https://dmnews.com/mobile-marketing/what-people-dont-know-about-chatbots-from-the-creators-themselves/article/574746/",
+      "wayback_url": "http://web.archive.org/web/20170805093340/http://www.dmnews.com:80/mobile-marketing/what-people-dont-know-about-chatbots-from-the-creators-themselves/article/574746/",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "What We Can Learn From the Postmortem on #Brexit Social Media",
+      "date": "2016-06-24",
+      "publication": "dmnews",
+      "publication_display": "DMN",
+      "url": "http://web.archive.org/web/20161102050024/http://www.dmnews.com:80/agency/what-we-can-learn-from-the-postmortem-on-brexit-social-media/article/505354/?",
+      "original_url": "http://www.dmnews.com/agency/what-we-can-learn-from-the-postmortem-on-brexit-social-media/article/505354/",
+      "wayback_url": "http://web.archive.org/web/20161102050024/http://www.dmnews.com:80/agency/what-we-can-learn-from-the-postmortem-on-brexit-social-media/article/505354/?",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The Digital Culture and Marketing Buzzwords We'll Use in 2017",
+      "date": "2016-06-14",
+      "publication": "dmnews",
+      "publication_display": "DMN",
+      "url": "http://web.archive.org/web/20180515072546/http://www.dmnews.com:80/social-media/the-digital-culture-and-marketing-buzzwords-well-use-in-2017/article/503179/",
+      "original_url": "https://dmnews.com/social-media/the-digital-culture-and-marketing-buzzwords-well-use-in-2017/article/503179/",
+      "wayback_url": "http://web.archive.org/web/20180515072546/http://www.dmnews.com:80/social-media/the-digital-culture-and-marketing-buzzwords-well-use-in-2017/article/503179/",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
       "title": "Five minutes with Offerpop cofounder Mark Cooper",
       "date": "2015-02-24",
       "publication": "prweek",
       "publication_display": "PRWeek",
       "url": "https://www.prweek.com/article/1335508/five-minutes-offerpop-cofounder-mark-cooper",
       "original_url": "https://www.prweek.com/article/1335508/five-minutes-offerpop-cofounder-mark-cooper",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "How to fix football (aka soccer)",
+      "date": "2014-06-12",
+      "publication": "medium",
+      "publication_display": "Medium",
+      "url": "https://medium.com/@keithobrien/how-to-fix-football-aka-soccer-2fdf5be80992",
+      "original_url": "https://medium.com/@keithobrien/how-to-fix-football-aka-soccer-2fdf5be80992",
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
@@ -5868,6 +5944,17 @@
       "publication_display": "PRWeek",
       "url": "https://www.prweek.com/article/1246321/thomas-reno-leaves-gci-group-remains-new-york-hill-knowlton",
       "original_url": "https://www.prweek.com/article/1246321/thomas-reno-leaves-gci-group-remains-new-york-hill-knowlton",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The industry, like newspapers, might have problem with youth ",
+      "date": "",
+      "publication": "prweek",
+      "publication_display": "PRWeek",
+      "url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
+      "original_url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null

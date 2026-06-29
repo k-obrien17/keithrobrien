@@ -26,6 +26,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
+    q: "Who is Keith O'Brien the ghostwriter?",
+    a: "Keith O'Brien is a B2B content strategist and executive ghostwriter, former editor-in-chief of PRWeek, and the founder of Total Emphasis. He's based in Brooklyn and has been a reporter since 2001.",
+  },
+  {
     q: "Is Keith O'Brien a real B2B ghostwriter?",
     a: "Yes. Keith founded Total Emphasis in 2017 and has placed more than 300 bylines in publications including Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum. He was the editor-in-chief of PRWeek before founding the practice.",
   },
@@ -35,7 +39,15 @@ const faqs = [
   },
   {
     q: "Is this the same Keith O'Brien who wrote Paradise Falls and Outside Shot?",
-    a: "No. Keith O'Brien at Total Emphasis is a B2B executive ghostwriter and former PRWeek editor-in-chief. The author Keith O'Brien who has written several longform nonfiction books is a different person.",
+    a: "No. Keith O'Brien at Total Emphasis is a B2B content strategist and executive ghostwriter and former PRWeek editor-in-chief. The author Keith O'Brien who has written several longform nonfiction books is a different person.",
+  },
+  {
+    q: "What does Total Emphasis do?",
+    a: "Total Emphasis is Keith's B2B content strategy and executive ghostwriting practice. The firm writes bylined articles, LinkedIn programs, longform white papers, sales enablement content, and end-to-end editorial systems for founders and executives.",
+  },
+  {
+    q: "How do I hire Keith O'Brien for ghostwriting?",
+    a: "Email keith@totalemphasis.com to start a conversation. Total Emphasis typically runs monthly retainers, scoped around the executive's content rhythm and target publications.",
   },
   {
     q: "How long has Keith been writing professionally?",
@@ -50,8 +62,20 @@ const faqs = [
     a: "Fortune 500 companies, startups, and everyone in between. Publicly named engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. Other client engagements are confidential.",
   },
   {
+    q: "What industries does Keith specialize in?",
+    a: "B2B technology, SaaS, AdTech, MarTech, AI, financial services, insurance, and enterprise consulting. His PRWeek background also makes him strong on PR, communications, and executive comms work.",
+  },
+  {
+    q: "Does Keith write under his own name or only ghostwrite?",
+    a: "Both. Keith has written hundreds of pieces under his own byline at PRWeek and DMN during his editorial era, plus essays at keithrobrien.com. He also ghostwrites for executives whose names appear on the byline in their place.",
+  },
+  {
     q: "Does Keith use AI in his work?",
     a: 'Yes, as part of his workflow. He retains editorial accountability and uses AI to accelerate research and drafting, not to replace point of view. He describes the distinction as "AI doesn\'t challenge you."',
+  },
+  {
+    q: "Can Keith write for a CEO who doesn't have time for interviews?",
+    a: "No, this isn't how the work runs. Keith's process depends on regular access to the executive's actual thinking, usually 30-60 minutes weekly or biweekly. Without that input, the writing reads as generic.",
   },
 ];
 

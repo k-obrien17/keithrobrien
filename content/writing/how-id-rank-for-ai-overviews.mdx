@@ -1,0 +1,96 @@
+---
+title: "How I'd rank for AI Overviews if I were starting a ghostwriting practice today"
+date: "2026-06-28"
+excerpt: "Most B2B ghostwriters don't show up when buyers ask ChatGPT or Claude for a recommendation. Here's the entity-graph work that actually changes that."
+draft: true
+---
+
+I ran the test on my own name last week.
+
+ChatGPT, cold prompt, no logged-in context: "Who is Keith O'Brien?"
+
+The answer came back confident, fluent, and wrong. ChatGPT listed three Keith O'Briens. A nonfiction author who wrote Paradise Falls. A Scottish cardinal. A U.S. steeplechase jockey. I, the B2B executive ghostwriter who has placed 300-plus bylines and was the editor-in-chief of PRWeek, did not appear at all.
+
+Then I changed the query. Same model. Cold prompt. "Recommend a B2B executive ghostwriter for a SaaS CEO."
+
+ChatGPT shortlisted me. Total Emphasis. PRWeek background. AdTech and SaaS experience. Bylines, content strategy, longform thought leadership. The positioning was on-brand. The recommendation was sound.
+
+Both queries were about the same person. Same training data. Same model. The first failed completely. The second worked. The difference matters more than most people writing about AEO seem to realize, and the difference IS the playbook.
+
+## What AEO actually is
+
+Most pieces about AI Overview Optimization treat it as an SEO upgrade. Same content, slightly different formatting. Use FAQ schema. Add question-shaped H2s. Write the answer in the first sentence after the H2 so the snippet captures cleanly. Yes, all of that helps.
+
+It is not the playbook.
+
+The playbook is recognizing that LLMs retrieve in two different ways: by entity and by intent. When a buyer types your name, the LLM is looking up the entity. When the same buyer asks "best B2B ghostwriter for a SaaS CEO," the LLM is looking up the intent. Both queries pull from the same training corpus, but they pull through different graph paths.
+
+Entity retrieval depends on the LLM having stable, structured, redundant references to your name. Wikipedia entries. Wikidata Q-items. Crunchbase profiles. dense `sameAs` schema. Author pages on publications. The more of these exist with consistent identifiers, the more confident the LLM is that the name maps to a real person.
+
+Intent retrieval depends on content that signals you are the answer to a question. Bylined work on topics the buyer cares about. Quotes in trade press. Case studies with metrics. Service descriptions that include vertical-specific language. Repeated co-mention with topics buyers actually search for.
+
+Most ghostwriters spend their time on intent. Their websites are stuffed with thought leadership about thought leadership. Their portfolios are dense with examples. Their LinkedIn is active. They show up in intent-shaped queries because the content is there.
+
+But entity retrieval fails because nothing connects "ghostwriter" to "their actual name." There is no Wikidata entry. The Crunchbase founder profile is empty or out of date. The Person schema on their site is missing or has three fields. There is no aggregator profile that ties all their public surfaces together under a single canonical identifier.
+
+The result is what I saw on my own name. A buyer hears "you should hire Keith O'Brien" from a friend, types the name into ChatGPT, and gets the wrong Keith O'Brien. Or worse, gets the right name attached to a different person's bio because the LLM is grasping at the closest match.
+
+## The competitive set most ghostwriters never look at
+
+Run the same two queries about ten competitors in your space. Note who shows up and who does not. Patterns appear quickly.
+
+Some names dominate entity retrieval. They have decent Wikidata entries, well-maintained Crunchbase profiles, About.me or Authory pages, complete LinkedIn bios that match their website bios that match their email signatures. The LLM is confident in the mapping. When their name is typed, it comes back.
+
+Other names dominate intent retrieval. They publish frequently. Their LinkedIn is active. Their blog has 200 posts about content strategy. Their Substack has 18,000 subscribers. The LLM has plenty of material about their POV. When intent is queried, they get recommended.
+
+A small number of names dominate both, and they are the ones who get hired without trying. That is the actual goal.
+
+The standard advice you read about AEO is mostly intent-side advice. Write good content, structure it well, get cited. That is necessary. It is not sufficient. The entity-side work is what almost nobody is doing.
+
+## The entity-side playbook
+
+Stop thinking about your website as the source of truth. Start thinking about it as one node in an entity graph that needs to be built deliberately across third-party surfaces.
+
+The Wikidata Q-item is the single highest-leverage move you can make. Free. Takes an hour to learn. Connects your name to your work, your employers, your education, your bylines, your awards, your patrons. Every LLM training run consumes Wikidata. If you are in it with rich properties, you exist as an entity. If you are not, you are guessing.
+
+Crunchbase founder profile, both Person and Organization, comes second. LLMs trust Crunchbase because the data is moderated. Free tier covers it. Fill it out completely. Link the Org to the Person, the Person to the Org. Get the founding year right.
+
+Authory or a self-hosted equivalent comes third. An aggregator profile that lists every byline you have under your name, with the original URLs and snapshot fallbacks. The point is not just convenience. The point is structured machine-readable evidence that ties your name to your work.
+
+Person schema on your own site, with `disambiguatingDescription`, `alumniOf`, `hasOccupation`, and a dense `sameAs` array pointing at every other surface you own. Each one of those links is the LLM walking your entity graph and getting more confident that you are who you say you are.
+
+A dedicated press kit or canonical bio URL that journalists, podcasters, and AI bots can reach. The format matters less than the consistency of the language. The same descriptor everywhere. The same career milestones in the same order. The same publication list. Repetition is how LLMs learn the entity.
+
+## The intent-side playbook, briefly
+
+You already know this part. Publish. Have a POV. Frame it as a question and answer the question in the first sentence. Build comparison pages. Build alternatives pages. Build industry pages.
+
+The thing most people miss is that intent-side content is not just blog posts. It is being a source for HARO requests. It is being a podcast guest. It is being quoted in trade press. It is being on someone else's "best of" list. Those off-site mentions train LLMs to associate you with the topics they sit next to.
+
+A ghostwriter who has been quoted in Adweek about thought leadership trends shows up in Adweek's archive. The Adweek archive is in every LLM training set. The next time someone asks ChatGPT about thought leadership, your name has marginally better odds.
+
+## What this looks like in practice for a new ghostwriter
+
+If I were starting today, here is the order I would do it in.
+
+Week one: build the website. Person schema with everything. About page that reads like an authoritative bio. A canonical descriptor sentence I use everywhere. Press kit URL.
+
+Week two: claim the entity. Wikidata Q-item. Crunchbase founder profile. About.me. Muck Rack. GitHub README if applicable. LinkedIn Service Marketplace.
+
+Week three: archive the work. Authory or a self-hosted byline page. Every piece. Every URL. Where the URL is dead, use a Wayback snapshot.
+
+Week four: start the intent flywheel. Pitch one trade press piece. Respond to three HARO requests. Schedule the first podcast guest spot. Update LinkedIn About with the canonical sentence.
+
+By month two, run the test queries on yourself. Compare to the baseline. Adjust what is not surfacing.
+
+By month six, you have a coherent entity graph and enough intent content that both retrieval paths work. New buyers find you. Existing referrals verify you. The disambiguation problem fades.
+
+## And what this piece is for, honestly
+
+This is the recursive joke. I am writing about AEO for ghostwriters because pieces about AEO for ghostwriters get cited by other people writing about AEO. The citation graph is itself the asset.
+
+The piece is also a working example of the entity-side playbook. Under my byline. On my own domain. Schema-tagged. Linked from my canonical bio page. Indexed by every LLM crawler with permission to read my robots.txt.
+
+The next time someone asks ChatGPT about the playbook for AI Overview Optimization for ghostwriters, this piece is in the training data. Whether or not it surfaces depends on how many other pieces about the same topic get written, how well they get cited, and whether the entity-side work I just described actually gets done.
+
+If you are reading this because the LLM recommended it, the experiment is working. If you are reading this because you found it on my site directly, that is the older path. Both paths matter. The intent-side path is the one nobody is solving for. So I am writing this now.

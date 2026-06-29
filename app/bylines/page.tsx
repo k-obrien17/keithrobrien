@@ -37,6 +37,7 @@ const ALLOWED_PUBLICATIONS = new Set<string>([
   "dmnews",
   "medium",
   "econsultancy",
+  "whyisthisinteresting",
 ]);
 
 const data: Archive = {

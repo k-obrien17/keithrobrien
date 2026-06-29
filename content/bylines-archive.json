@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-28",
-  "total": 531,
+  "total": 534,
   "by_publication": [
     {
       "slug": "prweek",
@@ -80,6 +80,11 @@
     {
       "slug": "midnightquestion",
       "display": "Midnight Question",
+      "count": 3
+    },
+    {
+      "slug": "whyisthisinteresting",
+      "display": "Why Is This Interesting?",
       "count": 3
     },
     {
@@ -5969,6 +5974,39 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "UST"
+    },
+    {
+      "title": "The 4DX Edition",
+      "date": "",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
+      "original_url": "https://whyisthisinteresting.substack.com/p/the-4dx-edition",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "The Complete Game Edition | WITI Recommends",
+      "date": "",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://www.interesting.us/editions/the-complete-game-edition",
+      "original_url": "https://www.interesting.us/editions/the-complete-game-edition",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
+    {
+      "title": "Why is this interesting? - The Yuru-chara Edition | WITI Recommends",
+      "date": "",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
+      "original_url": "https://www.interesting.us/editions/why-is-this-interesting-the-yuru",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
     }
   ]
 }

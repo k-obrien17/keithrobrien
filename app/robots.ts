@@ -10,8 +10,17 @@ const AI_AGENTS = [
   "PerplexityBot",
   "Perplexity-User",
   "Google-Extended",
+  "GoogleOther",
   "Applebot-Extended",
   "CCBot",
+  "DuckAssistBot",
+  "Amazonbot",
+  "YouBot",
+  "Diffbot",
+  "Meta-ExternalAgent",
+  "cohere-ai",
+  "Bytespider",
+  "ImagesiftBot",
 ];
 
 export default function robots(): MetadataRoute.Robots {

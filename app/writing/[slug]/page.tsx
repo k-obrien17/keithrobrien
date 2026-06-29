@@ -39,12 +39,14 @@ export default async function PostPage({
   const post = getPost(slug);
   if (!post || post.meta.draft) notFound();
 
+  const POST_URL = `https://www.keithrobrien.com/writing/${slug}`;
   const articleLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${POST_URL}#article`,
     headline: post.meta.title,
     description: post.meta.excerpt,
-    url: `https://www.keithrobrien.com/writing/${slug}`,
+    url: POST_URL,
     ...(post.meta.date
       ? { datePublished: post.meta.date, dateModified: post.meta.date }
       : {}),
@@ -52,7 +54,21 @@ export default async function PostPage({
       "@type": "Person",
       "@id": "https://www.keithrobrien.com/#person",
       name: "Keith O'Brien",
+      url: "https://www.keithrobrien.com/about/keith-obrien",
     },
+    publisher: {
+      "@type": "Person",
+      "@id": "https://www.keithrobrien.com/#person",
+      name: "Keith O'Brien",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": POST_URL,
+    },
+    isPartOf: {
+      "@id": "https://www.keithrobrien.com/#website",
+    },
+    inLanguage: "en-US",
   };
 
   return (

@@ -4,15 +4,17 @@ import { getAllPosts, getPost } from "@/lib/writing";
 
 export const dynamic = "force-static";
 
-const UPDATED = "2026-06-27";
+const UPDATED = "2026-06-28";
 
 const PREAMBLE = `# Keith O'Brien: Full Site Content
 
-> Content strategist, thought-leadership ghostwriter, and builder. Founder of Total Emphasis, a Brooklyn content systems, strategy, and ghostwriting firm. Builds and ships the software, newsletters, and tools behind the work.
+> Keith O'Brien is a B2B content strategist and executive ghostwriter and former editor-in-chief of PRWeek. Founder of Total Emphasis (2017). Operator-ghostwriter for B2B founders and executives, building the systems his work runs on. Based in Brooklyn.
 
 *Last updated: ${UPDATED}*
 
-Keith O'Brien (also Keith R. O'Brien) is a content strategist and thought-leadership ghostwriter, and the founder of Total Emphasis, a Brooklyn content systems, strategy, and ghostwriting firm. He helps founders and executives turn what they know into content people actually consume, then builds the tools that get it out the door. A reporter since 2001 and former editor-in-chief of PRWeek, he has ghostwritten executive thought leadership since 2009, from LinkedIn posts and bylines to newsletters, reports, and whitepapers, for Fortune 500 companies, top consultancies, and high-growth startups across AdTech, SaaS, global consulting, telecom, and security. He also builds the tools behind the practice: a Jersey Shore events site with an AI-written newsletter, MCP servers for a personal CRM and an articles index, a desktop workflow app for the ghostwriting pipeline, and a music publication. keithrobrien.com is his personal hub; totalemphasis.com is the business.`;
+Keith O'Brien is a B2B content strategist and executive ghostwriter based in Brooklyn and the founder of Total Emphasis. He was the editor-in-chief of PRWeek (and DMN) before founding the practice in 2017. He has been a reporter since 2001 and has produced 100+ published bylines in Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum, plus 484 pieces tracked in his bylines archive at /bylines. Publicly named Total Emphasis engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. As an operator-ghostwriter, he builds the systems the work runs on: a Jersey Shore publication with newsletter pipeline, MCP servers for his CRM and articles index, a desktop workflow app, and a music publication. keithrobrien.com is the personal hub; totalemphasis.com is the business.
+
+This Keith O'Brien is not the late Cardinal Keith O'Brien of Scotland, not the Irish boxer of the same name, and not the longform nonfiction journalist Keith O'Brien who authored Paradise Falls and Outside Shot.`;
 
 export function GET() {
   const home = getHome();

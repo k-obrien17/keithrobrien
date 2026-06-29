@@ -1,14 +1,15 @@
 {
   "name": "Keith O'Brien",
-  "tagline": "Builder, operator, big idea tinkerer",
-  "introPrefix": "I run ",
+  "tagline": "B2B executive ghostwriter · Former PRWeek EIC · Brooklyn",
+  "introPrefix": "I'm a B2B content strategist and executive ghostwriter, the former editor-in-chief of PRWeek, and the founder of ",
   "introHighlight": "Total Emphasis",
-  "introSuffix": ", a content systems, strategy, and ghostwriting firm, and build the tools that get the work out the door. I ghostwrite thought leadership for founders and executives across industries, from AdTech and SaaS to consulting, telecom, and security.",
-  "secondary": "This is the hub: projects shipped, newsletters running, essays in flight.",
+  "introSuffix": ". 20+ years driving measurable results for Fortune 500 companies, startups, and everyone in between. Operator-ghostwriter for B2B founders and executives, building the systems the work runs on. Based in Brooklyn.",
+  "secondary": "This is the hub: the bylines archive (484 published pieces), the side projects I run, the essays I publish, and how to reach me.",
   "facets": [
     { "label": "Total Emphasis", "desc": "B2B ghostwriting practice", "href": "https://www.totalemphasis.com", "external": true },
+    { "label": "Bylines", "desc": "484 published pieces across 30+ outlets", "href": "/bylines" },
+    { "label": "Writing", "desc": "Essays under my own name", "href": "/writing" },
     { "label": "Projects", "desc": "What I build and run on the side", "href": "/projects" },
-    { "label": "Writing", "desc": "Essays and thinking", "href": "/writing" },
     { "label": "About", "desc": "Who I am, how to reach me", "href": "/about" }
   ]
 }

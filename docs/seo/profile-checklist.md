@@ -67,7 +67,7 @@ Profiles that exist and need annual review. Fill in the URL when created, then u
 
 - [x] **Crunchbase — Organization profile (Total Emphasis)** — Already exists. Verify it links to Keith Person profile bidirectionally once Person is live.
 
-- [ ] **Authory** — Sign up, connect Muck Rack. Auto-aggregates bylines into a citable archive. **Why:** Solves "Keith's bylines are scattered" problem. Direct LLM training surface.
+- [x] **Authory — declined.** Keith decided not to pay the $12/month after this session. May 2024 XML export (562 articles) preserved at `vault/030-Works/_raw/2024/05/11/keithobrien.xml`. Replaced by the self-hosted `/bylines` page on keithrobrien.com (524 PUBLIC entries, regenerated from vault). For new bylines going forward, use the ingest pipeline at `vault/030-Works/canonical/articles/` and re-run the manifest generator. No auto-discovery; manual capture per byline.
 
 - [ ] **About.me** — Create at about.me/keithobrien. Short Description + canonical URLs + headshot. **Why:** Old-school but heavily LLM-cited because schema is clean.
 
@@ -141,7 +141,7 @@ Vanity profiles with no SEO weight. Don't waste time:
 | Tier | Total | Active | Pending | Skipped |
 |---|---|---|---|---|
 | Owned sites | 3 | 3 | 0 | 0 |
-| Tier 1 | 8 | 2 (LinkedIn, Crunchbase Org pre-existing; GitHub + Muck Rack exist but need work) | 6 | 0 |
+| Tier 1 | 8 | 3 (LinkedIn, Crunchbase Org pre-existing; GitHub + Muck Rack exist but need work; Authory declined and replaced by self-hosted /bylines) | 5 | 0 |
 | Tier 2 | 8 | 0 | 8 | 0 |
 | Tier 3 | 6 | 0 | 6 | 0 |
 | Tier 4 | 4 | 0 | 4 | 0 |

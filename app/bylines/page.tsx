@@ -155,6 +155,39 @@ export default function PressPage() {
         </ul>
       </Section>
 
+      <Section label="Recent">
+        <p className="text-[12px] text-[var(--color-fg-muted)] mb-4">
+          Most recent 15 pieces across all publications
+        </p>
+        <ul className="space-y-3">
+          {data.items.slice(0, 15).map((item, idx) => (
+            <li
+              key={`recent-${idx}`}
+              className="border-b border-[var(--color-border)] pb-3 last:border-b-0"
+            >
+              <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-4">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[14px] text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors flex-1"
+                >
+                  {item.title}
+                </a>
+                <span className="text-[12px] text-[var(--color-fg-muted)] whitespace-nowrap mt-1 sm:mt-0">
+                  {item.publication_display} &middot; {formatDate(item.date)}
+                </span>
+              </div>
+              {item.ghostwritten_for ? (
+                <p className="text-[11px] text-[var(--color-fg-muted)] mt-1">
+                  Ghostwritten for {item.ghostwritten_for}
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      </Section>
+
       {data.by_publication.map((pub) => {
         const items = data.items.filter((i) => i.publication === pub.slug);
         if (items.length === 0) return null;

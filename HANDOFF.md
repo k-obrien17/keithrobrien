@@ -92,7 +92,7 @@ cd ~/Desktop/Claude/Projects/keithrobrien && npm run build && git add -A && git 
 
 ## Operational notes for next session
 
-- **Vault index sync is broken** — pre-existing pre-session frontmatter parse errors in 030-Evidence/Citations block `bun run src/index.ts index sync` in the vault-chatbot project. Task #23 captures the fix needed. qmd-search MCP server won't see new 030-Works entries until this is resolved.
+- **Vault index sync — FIXED.** Frontmatter cleanup complete (commit `d2f499d848` in vault git). 292 citation files had de-dented list items fixed, 40 trade-press canonical files had escaped-apostrophe issues fixed, 3 specific files hand-repaired. Vault index now syncs cleanly — 16,399 notes, 0 frontmatter errors. qmd-search MCP can query the new 030-Works archive entries. The fix script lives at `/private/tmp/.../fix_citations_yaml.py` (scratchpad; archive if you want to keep it).
 - **Footgun guard blocks direct `git push` to main** — Keith needs to run with `!` prefix in his terminal, or use PR workflow.
 - **Mention policy is binding** — never name McKinsey, Sodexo, Google DeepMind, Sleep.ai, You.com, Block, SageSure, Substance Collective, Bloomberg, Kyndryl, Northern Trust, Ball Corporation, Salesforce Venture Funds on public surfaces. PUBLIC clients only: IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, M&C Saatchi Performance, BlueWhale, GoodTime, AgendaZoom, ConquestVR, Rasa, TVDataNow, Catch+Release, Factoreal, T-Mobile (dormant), plus partners (M Booth, LaunchSquad, WE Communications, Charts and Leisure, Gather, Pace PR, JMAC, Caliber).
 - **Canonical bio is FROZEN** at `vault/120-Resources/Keith O'Brien Experience.md`. Always pull verbatim; never synthesize.

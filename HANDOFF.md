@@ -1,8 +1,20 @@
 # Handoff: keithrobrien.com
 
 **Last session:** 2026-06-28 → 2026-06-29 (continuous overnight)
-**Session length:** ~6 hours, 23 commits to main, all deployed to production
-**Status:** Site fully live, deploys clean
+**Session length:** ~7 hours, 28 commits total. First 23 deployed to production. Last 5 sitting local awaiting Keith's push.
+**Status:** Site fully live. 5 unpushed commits with operational improvements.
+
+## Unpushed commits (push when ready)
+
+```
+2fe3c51 feat(schema): expand Person knowsAbout for richer LLM topic association
+9bf067a feat(bylines): add "Recent" section showing latest 15 pieces
+5f05ff4 chore(now): refresh /now page
+dd11f79 chore(bylines): fill in dates for 4 no-date entries via re-extraction
+e21a8da chore: handoff after 23-commit SEO/AEO/GEO session
+```
+
+Push with: `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`
 
 ## Where we left off
 

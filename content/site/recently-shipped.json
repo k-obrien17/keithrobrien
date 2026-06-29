@@ -1,19 +1,29 @@
 {
   "list": [
     {
-      "name": "Personal hub rebuild",
+      "name": "Bylines archive",
       "date": "2026-06",
-      "what": "Rewrote keithrobrien.com in the Total Emphasis design system on Next.js 16."
+      "what": "Self-hosted archive of 484 published pieces across PRWeek, IBM, Realeyes, UST, DMN, Econsultancy, and others. Wayback-recovered where original URLs 404."
     },
     {
-      "name": "Builder/operator framing",
+      "name": "Disambiguation press kit",
       "date": "2026-06",
-      "what": "Rewrote the brand across the site to lead with what I build and run, not just consult on."
+      "what": "Dedicated press kit at /about/keith-obrien with ProfilePage + FAQPage schema and a 13-question voice-search FAQ. Solves the wrong-Keith problem in LLM retrieval."
+    },
+    {
+      "name": "Rich entity schema",
+      "date": "2026-06",
+      "what": "Person schema with disambiguatingDescription, alumniOf, hasOccupation, 25 knowsAbout topics, and a sameAs chain spanning every major external profile. Every list page is a CollectionPage."
     },
     {
       "name": "AI-readable surface",
       "date": "2026-06",
-      "what": "Shipped llms.txt and llms-full.txt so answer engines and AI agents can cite my work accurately."
+      "what": "Shipped llms.txt and llms-full.txt so answer engines and AI agents can cite the work accurately. robots.txt explicitly allows 20 LLM crawlers."
+    },
+    {
+      "name": "Personal hub rebuild",
+      "date": "2026-06",
+      "what": "Rewrote keithrobrien.com in the Total Emphasis design system on Next.js 16."
     }
   ]
 }

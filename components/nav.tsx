@@ -8,6 +8,7 @@ import { useState } from "react";
 // fade on hover; accent "say hi" mailto on the right.
 const LINKS = [
   { href: "/projects", label: "projects" },
+  { href: "/bylines", label: "bylines" },
   { href: "/writing", label: "writing" },
   { href: "/now", label: "now" },
   { href: "/about", label: "about" },

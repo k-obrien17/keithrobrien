@@ -5,6 +5,9 @@ const EMAIL = "keith@totalemphasis.com";
 
 const LINKS = [
   { href: "https://www.totalemphasis.com", label: "total emphasis", external: true },
+  { href: "https://www.141miles.com", label: "141 miles", external: true },
+  { href: "/bylines", label: "bylines", external: false },
+  { href: "https://muckrack.com/keithobrien", label: "muck rack", external: true },
   { href: "https://github.com/k-obrien17", label: "github", external: true },
   { href: "https://www.linkedin.com/in/keithobrien/", label: "linkedin", external: true },
 ];
@@ -42,14 +45,23 @@ export function Footer() {
             {LINKS.map((link) => (
               <span key={link.href} className="flex items-baseline gap-x-3">
                 <span aria-hidden="true">&middot;</span>
-                <a
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-opacity hover:opacity-55"
-                >
-                  {link.label}
-                </a>
+                {link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-opacity hover:opacity-55"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.href}
+                    className="transition-opacity hover:opacity-55"
+                  >
+                    {link.label}
+                  </Link>
+                )}
               </span>
             ))}
           </div>

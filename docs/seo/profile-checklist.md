@@ -59,11 +59,9 @@ Profiles that exist and need annual review. Fill in the URL when created, then u
 
 ## Tier 1: Highest LLM weight, do first
 
-- [ ] **ORCID** — Free researcher/scholar identifier at orcid.org/register. Self-administered. 16-digit ID designed for entity disambiguation. Used by publishers, databases, academic systems. **Why:** the practical entity-identifier alternative to Wikidata. Wikidata requires Wikipedia-level notability that the audit confirmed is too high a bar; ORCID has zero notability bar. Add the ID + ORCID URL to Person schema sameAs once assigned.
+- [ ] **Wikidata, ORCID, ISNI — all DEPRIORITIZED for now.** Wikidata requires Wikipedia-level notability that journalist-ghostwriters rarely qualify for. ORCID is academic-leaning, low adoption in trade press, and gives a non-academic limited entity-graph weight. ISNI is library-standard but requires a verifying party (typically ORCID), and adoption is uneven for working journalists. The honest assessment: for a B2B ghostwriter who isn't Wikipedia-famous yet, there is no single fast structural fix at this layer. Revisit Wikidata after sustained press coverage accumulates (12-24 months); skip ORCID and ISNI unless a specific publisher requires one.
 
-- [ ] **ISNI** — International Standard Name Identifier, 16-digit number for public persons. Free, requested through ISNI International Agency, uses ORCID as the verifying party. Used by libraries, publishers, the music industry. **Why:** stable cross-platform identifier. Once assigned it never changes. Catalogs the name in databases LLMs respect.
-
-- [ ] **Wikidata Q-item** — DEPRIORITIZED. Original plan was to create one, but Wikidata requires a Wikipedia sitelink (or equivalent secondary-source notability) for Person Q-items to survive deletion review. Revisit only after meaningful press coverage accumulates (probably 12-24 months out). ORCID + ISNI fill the structured-identifier gap until then.
+**Instead, double down on the journalist-specific platforms below in Tier 1 (Muck Rack, Crunchbase, Authory) which actually move entity disambiguation for non-academic writers.**
 
 - [ ] **Crunchbase — Person profile (Keith)** — In progress 2026-06-28. Use TE Org page → People → add Keith as Founder to create. Then fill bio (short + long versions above), photo, past jobs, social URLs. **Why:** Top-3 most-cited business data source by LLMs.
 

@@ -7,7 +7,7 @@ Inspecting structured data, sameAs chains, and Person schema across the most-lik
 
 ## Top-line finding
 
-**Almost nobody in the competitive set is doing entity-graph work.** Keith already has more structured data on `/about/keith-obrien` alone than every direct competitor combined. The entity-side of AEO is wide open. The fastest move to widen the lead: claim ORCID and ISNI identifiers (free, no notability bar, designed exactly for entity disambiguation). Wikidata is the obvious-sounding move but requires Wikipedia-level notability; deprioritize until press coverage accumulates.
+**Almost nobody in the competitive set is doing entity-graph work.** Keith already has more structured data on `/about/keith-obrien` alone than every direct competitor combined. The entity-side of AEO is wide open. But the structural fixes are bleaker than the original draft of this audit suggested: Wikidata requires Wikipedia notability journalist-ghostwriters rarely have. ORCID and ISNI are academic/library identifiers with limited trade-press adoption. The real journalist-relevant moves are density across Muck Rack, Crunchbase, Authory, About.me, and a dense `sameAs` graph linking them all. Keep accumulating press coverage; revisit Wikipedia/Wikidata in 12-24 months.
 
 ## Per-competitor results
 
@@ -60,7 +60,7 @@ Keith is already winning the entity-graph competition by a wide margin. The rema
 
 ## Implications for next moves
 
-**1. Wikidata is downstream of Wikipedia notability, not an input.** Original draft of this audit recommended creating a Wikidata Q-item. That advice was wrong. Wikidata requires a Wikipedia sitelink (or equivalent notability) for a Person Q-item to survive deletion review. Without significant secondary press coverage, a Q-item created by anyone gets nominated for deletion. The right structured-identifier moves are **ORCID** (free, self-administered, designed for entity disambiguation, can be created today) and **ISNI** (free, requested via ISNI agency, uses ORCID as verifying party). Both are real entity identifiers libraries and publishers use. Both work for non-Wikipedia-notable people.
+**1. There is no single structural fix at the identifier layer for non-academic ghostwriters.** Wikidata requires Wikipedia notability. ORCID is academic-oriented with limited trade-press adoption. ISNI is library-oriented and requires a verifying party. None of these is the magic move for a B2B ghostwriter. The real entity-graph density comes from the journalist-specific platforms: Muck Rack (built for journalists), Crunchbase (built for founders), Authory (built for byline aggregation), About.me (lightweight catch-all). Combined with rich Person schema and a dense `sameAs` chain across all of them, that's the practical playbook. Wikipedia/Wikidata become possible only after sustained press coverage accumulates over 12-24 months.
 
 **2. Don't try to outpublish Justin Welsh.** He publishes a Saturday essay every week for 15+ years. The entity-side gap is the asymmetric opportunity. Closing the intent-side gap is a fight Keith probably loses to Justin Welsh on volume.
 

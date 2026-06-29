@@ -23,10 +23,36 @@ export const metadata: Metadata = {
   },
 };
 
+const SITE_URL = "https://www.keithrobrien.com";
+const PAGE_URL = `${SITE_URL}/writing`;
+
 export default function WritingIndex() {
   const posts = getAllPosts();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${PAGE_URL}#collectionpage`,
+    url: PAGE_URL,
+    name: "Writing · Keith O'Brien",
+    description:
+      "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
+    mainEntity: { "@id": `${SITE_URL}/#person` },
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    hasPart: posts.map((p) => ({
+      "@type": "BlogPosting",
+      "@id": `${SITE_URL}/writing/${p.slug}#article`,
+      headline: p.title,
+      url: `${SITE_URL}/writing/${p.slug}`,
+      datePublished: p.date || undefined,
+      author: { "@id": `${SITE_URL}/#person` },
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+
       {/* Title + intro */}
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">

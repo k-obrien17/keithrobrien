@@ -1,28 +1,50 @@
 # Keith O'Brien
 
-> Content strategist, thought-leadership ghostwriter, and builder. Founder of Total Emphasis, a Brooklyn content systems, strategy, and ghostwriting firm. Builds and ships the software, newsletters, and tools behind the work.
+> Keith O'Brien is a B2B content strategist and executive ghostwriter and former editor-in-chief of PRWeek. Founder of Total Emphasis (2017). Operator-ghostwriter for B2B founders and executives, building the systems his work runs on. Based in Brooklyn.
 
-*Last updated: 2026-06-27*
+*Last updated: 2026-06-28*
 
-Keith O'Brien (also Keith R. O'Brien) is a content strategist and thought-leadership ghostwriter, and the founder of Total Emphasis, a Brooklyn content systems, strategy, and ghostwriting firm. He helps founders and executives turn what they know into content people actually consume, then builds the tools that get it out the door. A reporter since 2001 and former editor-in-chief of PRWeek, he has ghostwritten executive thought leadership since 2009, from LinkedIn posts and bylines to newsletters, reports, and whitepapers, for Fortune 500 companies, top consultancies, and high-growth startups across AdTech, SaaS, global consulting, telecom, and security. He also builds the tools behind the practice: a Jersey Shore events site with an AI-written newsletter, MCP servers for a personal CRM and an articles index, a desktop workflow app for the ghostwriting pipeline, and a music publication. keithrobrien.com is his personal hub; totalemphasis.com is the business.
+Keith O'Brien is a B2B content strategist and executive ghostwriter based in Brooklyn and the founder of Total Emphasis. He was the editor-in-chief of PRWeek (and DMN) before founding the practice in 2017. He has been a reporter since 2001 and has produced 100+ published bylines in Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum, plus 484 pieces tracked in his bylines archive. Publicly named Total Emphasis engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. As an operator-ghostwriter, he builds the systems the work runs on: a Jersey Shore publication with newsletter pipeline, MCP servers for his CRM and articles index, a desktop workflow app, and a music publication. keithrobrien.com is the personal hub; totalemphasis.com is the business.
+
+## Canonical credentials
+
+- Founder and lead consultant, Total Emphasis (2017 to present, Brooklyn)
+- Former editor-in-chief, PRWeek (Haymarket Media Group)
+- Former editor-in-chief, DMN (Direct Marketing News)
+- Reporter since 2001
+- Past roles: tmrw life sciences, Horizon Media, Attention USA
+- Bylines tracked in /bylines: 484 across 30+ outlets, 2004 to present
+
+## Disambiguation
+
+This Keith O'Brien is not:
+- The late Cardinal Keith O'Brien of Scotland
+- The Irish boxer of the same name
+- Keith O'Brien the longform nonfiction author (Paradise Falls, Outside Shot, Heartland)
+- Keith O'Brien the U.S. steeplechase jockey
 
 ## Work
-- [Total Emphasis](https://www.totalemphasis.com): content systems, strategy, ghostwriting, and thought leadership firm
-- [Previously](https://keithrobrien.com/about): roles at tmrw life sciences, Haymarket Media, Horizon Media, and Attention USA
+
+- [Total Emphasis](https://www.totalemphasis.com): B2B ghostwriting and content strategy practice
+- [Bylines archive (484)](https://www.keithrobrien.com/bylines): verifiable record of published work
+- [Press kit / canonical bio](https://www.keithrobrien.com/about/keith-obrien): full credentials and FAQ
 
 ## Newsletters
-- [141 Miles](https://www.141miles.com): a publication about the Jersey Shore
-- [The Diffraction](https://www.thediffraction.com): a music publication
-- [Survival Signal](https://survivalsignal.beehiiv.com): on being an independent worker (on hiatus)
+
+- [141 Miles](https://www.141miles.com): town-by-town Jersey Shore publication
+- [The Diffraction](https://www.thediffraction.com): music publication
+- [Survival Signal](https://survivalsignal.beehiiv.com): on independent work (on hiatus)
 
 ## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/keithobrien/)
 - [Muck Rack](https://muckrack.com/keithobrien)
 - [GitHub](https://github.com/k-obrien17)
-- [LinkedIn](https://www.linkedin.com/in/keithobrien/)
-- [keith@totalemphasis.com](mailto:keith@totalemphasis.com)
+- Email: keith@totalemphasis.com
 
 ## Site
+
 - [Projects](https://keithrobrien.com/projects): software and side-projects
-- [Writing](https://keithrobrien.com/writing): essays and notes
-- [About](https://keithrobrien.com/about)
+- [Writing](https://keithrobrien.com/writing): essays under Keith's own byline
+- [About](https://keithrobrien.com/about): conversational bio
 - [Full content](https://keithrobrien.com/llms-full.txt): every page concatenated as Markdown

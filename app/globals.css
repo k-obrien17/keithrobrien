@@ -32,6 +32,14 @@
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 400ms ease;
+
+  /* Contrast overrides (app-specific; the generated te-tokens values fail
+     WCAG AA at the small mono sizes we render meta/label/table-header text).
+     Darkened to clear 4.5:1 on the white bg while keeping the warm hue.
+     Fix belongs here per te-tokens.css header, not in the generated file. */
+  --color-muted: #6c6a60;   /* meta text — was #7a786e (~4.47:1) */
+  --color-faint: #6a685c;   /* section labels — was #82806e (~4.0:1) */
+  --color-faint-2: #6f6c5e; /* table header — was #918f83 (~3.2:1) */
 }
 
 @theme inline {

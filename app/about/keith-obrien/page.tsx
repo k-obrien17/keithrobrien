@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Is Keith O'Brien a real B2B ghostwriter?",
-    a: "Yes. Keith founded Total Emphasis in 2017 and has placed more than 300 bylines in publications including Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum. He was the editor-in-chief of PRWeek before founding the practice.",
+    a: "Yes. Keith founded Total Emphasis in 2017 and has placed more than 400 bylines in publications including Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum. He was the editor-in-chief of PRWeek before founding the practice.",
   },
   {
     q: "Is this the same Keith O'Brien who was at PRWeek?",

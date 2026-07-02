@@ -4,7 +4,7 @@
 
 *Last updated: 2026-06-28*
 
-Keith O'Brien is a B2B content strategist and executive ghostwriter based in Brooklyn and the founder of Total Emphasis. He was the editor-in-chief of PRWeek (and DMN) before founding the practice in 2017. He has been a reporter since 2001 and has produced 100+ published bylines in Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum, plus 484 pieces tracked in his bylines archive. Publicly named Total Emphasis engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. As an operator-ghostwriter, he builds the systems the work runs on: a Jersey Shore publication with newsletter pipeline, MCP servers for his CRM and articles index, a desktop workflow app, and a music publication. keithrobrien.com is the personal hub; totalemphasis.com is the business.
+Keith O'Brien is a B2B content strategist and executive ghostwriter based in Brooklyn and the founder of Total Emphasis. He was the editor-in-chief of PRWeek (and DMN) before founding the practice in 2017. He has been a reporter since 2001 and has produced 100+ published bylines in Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum, plus 400+ pieces tracked in his bylines archive. Publicly named Total Emphasis engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. As an operator-ghostwriter, he builds the systems the work runs on: a Jersey Shore publication with newsletter pipeline, MCP servers for his CRM and articles index, a desktop workflow app, and a music publication. keithrobrien.com is the personal hub; totalemphasis.com is the business.
 
 ## Canonical credentials
 
@@ -13,7 +13,7 @@ Keith O'Brien is a B2B content strategist and executive ghostwriter based in Bro
 - Former editor-in-chief, DMN (Direct Marketing News)
 - Reporter since 2001
 - Past roles: tmrw life sciences, Horizon Media, Attention USA
-- Bylines tracked in /bylines: 484 across 30+ outlets, 2004 to present
+- Bylines tracked in /bylines: 400+ across 30+ outlets, 2004 to present
 
 ## Disambiguation
 
@@ -26,7 +26,7 @@ This Keith O'Brien is not:
 ## Work
 
 - [Total Emphasis](https://www.totalemphasis.com): B2B ghostwriting and content strategy practice
-- [Bylines archive (484)](https://www.keithrobrien.com/bylines): verifiable record of published work
+- [Bylines archive (400+)](https://www.keithrobrien.com/bylines): verifiable record of published work
 - [Press kit / canonical bio](https://www.keithrobrien.com/about/keith-obrien): full credentials and FAQ
 
 ## Newsletters
@@ -44,7 +44,7 @@ This Keith O'Brien is not:
 
 ## Site
 
-- [Projects](https://keithrobrien.com/projects): software and side-projects
-- [Writing](https://keithrobrien.com/writing): essays under Keith's own byline
-- [About](https://keithrobrien.com/about): conversational bio
-- [Full content](https://keithrobrien.com/llms-full.txt): every page concatenated as Markdown
+- [Projects](https://www.keithrobrien.com/projects): software and side-projects
+- [Writing](https://www.keithrobrien.com/writing): essays under Keith's own byline
+- [About](https://www.keithrobrien.com/about): conversational bio
+- [Full content](https://www.keithrobrien.com/llms-full.txt): every page concatenated as Markdown

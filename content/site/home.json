@@ -4,10 +4,10 @@
   "introPrefix": "I'm a B2B content strategist and executive ghostwriter, the former editor-in-chief of PRWeek, and the founder of ",
   "introHighlight": "Total Emphasis",
   "introSuffix": ". 20+ years driving measurable results for Fortune 500 companies, startups, and everyone in between. Operator-ghostwriter for B2B founders and executives, building the systems the work runs on. Based in Brooklyn.",
-  "secondary": "This is the hub: the bylines archive (484 published pieces), the side projects I run, the essays I publish, and how to reach me.",
+  "secondary": "This is the hub: the bylines archive (400+ published pieces), the side projects I run, the essays I publish, and how to reach me.",
   "facets": [
     { "label": "Total Emphasis", "desc": "B2B ghostwriting practice", "href": "https://www.totalemphasis.com", "external": true },
-    { "label": "Bylines", "desc": "484 published pieces across 30+ outlets", "href": "/bylines" },
+    { "label": "Bylines", "desc": "400+ published pieces across 30+ outlets", "href": "/bylines" },
     { "label": "Writing", "desc": "Essays under my own name", "href": "/writing" },
     { "label": "Projects", "desc": "What I build and run on the side", "href": "/projects" },
     { "label": "About", "desc": "Who I am, how to reach me", "href": "/about" }

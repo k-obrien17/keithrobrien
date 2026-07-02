@@ -40,7 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# tinacms
-/public/admin
-/tina/__generated__
 .env.local

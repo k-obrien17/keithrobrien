@@ -2,24 +2,50 @@
 
 ## Current task
 
-kro.com architecture interview. Visual design stays; this is pure information-architecture work — taxonomy, nav structure, what surfaces exist, what content categories are, how the kro.com identity relates to Total Emphasis.
+kro.com architecture reorg. The 36-deliverable spec is now committed at
+`docs/architecture/2026-q3-site-rebuild.md` (recovered from the 2026-06-29 transcript,
+punctuation house-styled). Nav is now LOCKED. Next is Phase 1 execution on Keith's go.
 
 ## Status
 
-Pure strategic discussion this session, no code edits. A comprehensive 36-deliverable architecture spec was delivered in conversation (workshop metaphor, full sitemap, page templates, content models, prioritized phases). Keith made three load-bearing decisions: (1) **polished register** on kro.com (not lab/raw), (2) **kro.com = irrepressibly curious operator hub, NOT buyer-funnel** — TE.com handles buyer-funnel separately, (3) **Keith's proprietorship of Total Emphasis must be a core, visible component of kro.com identity (Level 2 prominence: dedicated /total-emphasis page in kro.com voice, linking out).**
+Nav decided this session (2026-07-02). **Verb lane:**
 
-Nav structure still unlocked. Several variants were proposed and rejected. The Inputs/Outputs frame was explored and killed. Crate/Stack/Inputs/Sources labels for the consumption page are unresolved. No thesis-shaped nav item picked yet. No hero copy picked.
+```
+keith o'brien    write · build · collect · about       total emphasis ↗ · say hi
+```
+
+- `write` (bylines fold under it), `build` (chosen over "systems"), `collect` (the
+  music/reading/watching hub, chosen over Crate/Shelf/Stack/Consume), `about` (resume +
+  press kit inside), `total emphasis ↗` (right-side slot, external arrow, Level-2 visible),
+  `say hi` mailto.
+- No `/start` page (home is orientation). `now` folds onto home, keep `/now` page. No
+  thesis-shaped nav item. All-verb lane, no noun labels.
+
+Three load-bearing decisions still stand from the 2026-06-30 session: polished register;
+kro.com = curious-operator hub NOT buyer-funnel (TE owns funnel); TE proprietorship is
+Level-2 visible via `/total-emphasis`. Full decision log + still-open items are in the
+architecture doc.
+
+Also shipped this session (unrelated to the reorg): a full ship-check audit (report in
+`~/.claude/ship-check-reports/2026-07-02-*`) plus its blocker fixes (TinaCMS removed, byline
+count reconciled to 400+, WCAG contrast, OG tagline, llms.txt www, CLAUDE.md drift), and a
+new WITI byline added to the archive. All committed, tree clean, nothing pushed.
 
 ## Next concrete step
 
-Lock the nav before writing any code. Specifically: (1) consumption-page label (Crate / Inputs / Sources / other), (2) Build vs Systems for the projects-page label, (3) whether there's one thesis-shaped nav item or all verbs/nouns, (4) how `/total-emphasis` surfaces (footer, nav slot with external arrow, or sub-page only). Once locked, Phase 1 = rename `/projects` → `/build` (or `/systems`), `/writing` → `/write`, add `/total-emphasis`, rewrite homepage hero.
+Phase 1 execution (spec section 35), on Keith's go: rename `/projects` → `/build` and
+`/writing` → `/write` (with redirects + update all internal links, sitemap, llms.txt),
+rewrite `components/nav.tsx` to the locked nav, add the `/total-emphasis` slot. The
+`/collect` hub and hero rewrite follow once Keith supplies content (playlists/tracklists/
+Spotify links, reading + watching picks, `/total-emphasis` copy) and picks hero copy
+(spec §27 A/B/C; verb-triad favors A). Still open, unrelated: the empty Writing-section
+call on the current live site, and optional vault upstream-capture of the WITI byline.
 
 ## Open questions
 
-- Final nav structure (5-6 items, which labels)
-- Consumption page name (Crate, Sources, Inputs, Currently, or other)
-- Whether kro.com nav includes a thesis-shaped item (Sivers-style) or stays verb/noun
-- Hero copy: A (playful three-verb), B (workshop metaphor), C (terse builder), or something else
+- Nav: RESOLVED 2026-07-02 (write · build · collect · about + total emphasis ↗ + say hi). See Status.
+- Hero copy: A (playful three-verb), B (workshop metaphor), C (terse builder), or something else. Verb-triad nav favors A.
+- Content Keith must supply before /collect + /total-emphasis can be built: playlists/tracklists/Spotify links, reading + watching picks, /total-emphasis copy
 - Newsletter direction (task #22): revive Survival Signal on Beehiiv as monthly "dispatches from the workshop," or different path
 - Resume page format and source (assumed: page rendered from canonical bio at `vault/120-Resources/Keith O'Brien Experience.md`)
 - The seven personal-gap questions Keith hasn't answered yet:

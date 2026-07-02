@@ -34,20 +34,39 @@ these win.
 6. **Resume** renders from the canonical bio at
    `vault/120-Resources/Keith O'Brien Experience.md`.
 
-## Still-open decisions (blockers before any code)
+## Nav locked (2026-07-02)
 
-Nav is not locked. Lock these first:
+The nav is decided. **Verb lane, three content verbs plus utility items:**
 
-1. Consumption-page label: Crate / Inputs / Sources / Currently / other. (The Inputs/Outputs
-   frame was explored and killed.)
-2. Projects page label: **Build** or **Systems**.
-3. One thesis-shaped nav item (Sivers-style), or keep all verb/noun.
-4. How `/total-emphasis` surfaces: footer, a nav slot with an external arrow, or sub-page only.
-5. Hero copy: spec section 27 option A / B / C, or another.
+```
+keith o'brien    write · build · collect · about       total emphasis ↗ · say hi
+```
 
-Once locked, Phase 1 (spec section 35) is the first execution step: rename `/projects` to
-`/build` (or `/systems`), `/writing` to `/write`, add `/total-emphasis`, rewrite the
-homepage hero.
+- **write** (`/write`) — essays under Keith's name; **bylines** folds under it (reachable at `/bylines`).
+- **build** (`/build`) — projects, renamed. "Build" chosen over "Systems."
+- **collect** (`/collect`) — the consumption hub: `/collect/music`, `/collect/reading`, `/collect/watching`. "Collect" chosen over Crate / Shelf / Stack / Consume: it is an active, taste-signaling verb that matches the verb lane without the passive read of "consume" or the tech-collision of "stack."
+- **about** (`/about`) — bio; resume + press kit (`/about/keith-obrien`) live inside.
+- **total emphasis ↗** (`/total-emphasis`) — right-side nav slot with an external arrow, satisfying the Level-2 "core, visible" decision without cluttering the content verbs.
+- **say hi** — accent mailto, right-aligned (as today).
+
+Structural consequences:
+- **No `/start` page.** Home is the orientation surface (dropped from the spec's proposal).
+- **`now` folds onto home** as a section; keep the `/now` page for the now.page convention.
+- **No thesis-shaped nav item.** Six items is the ceiling.
+- Do not mix verbs and nouns: the lane is all-verb (write / build / collect), so a noun label like "shelf" is out.
+
+## Still-open decisions
+
+1. **Hero copy:** spec section 27 option A / B / C, or another. (The verb-triad identity favors A.)
+2. **Content sourcing** for the net-new surfaces, which only Keith can supply:
+   - `/collect/music` — playlist titles, tracklists, Spotify links
+   - `/collect/reading` and `/collect/watching` — starter picks
+   - `/total-emphasis` — the kro-voice page copy
+
+Phase 1 (spec section 35) is now unblocked and can execute on Keith's go: rename `/projects`
+to `/build` and `/writing` to `/write` (with redirects), update `components/nav.tsx` to the
+locked nav, add the `/total-emphasis` slot. The `/collect` hub and hero rewrite follow once
+the content above exists.
 
 ---
 

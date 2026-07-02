@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29",
-  "total": 534,
+  "generated_at": "2026-07-02",
+  "total": 535,
   "by_publication": [
     {
       "slug": "prweek",
@@ -60,7 +60,7 @@
     {
       "slug": "whyisthisinteresting",
       "display": "Why Is This Interesting?",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "martechseries",
@@ -134,6 +134,17 @@
     }
   ],
   "items": [
+    {
+      "title": "The Multi-Player World Cup Ad Edition",
+      "date": "2026-06-30",
+      "publication": "whyisthisinteresting",
+      "publication_display": "Why Is This Interesting?",
+      "url": "https://whyisthisinteresting.substack.com/p/the-multi-player-world-cup-ad-edition",
+      "original_url": "https://whyisthisinteresting.substack.com/p/the-multi-player-world-cup-ad-edition",
+      "wayback_url": "",
+      "is_keith_byline": true,
+      "ghostwritten_for": null
+    },
     {
       "title": "The Complete Game Edition | WITI Recommends",
       "date": "2025-10-23",

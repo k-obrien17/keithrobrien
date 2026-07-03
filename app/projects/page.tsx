@@ -74,11 +74,6 @@ const GROUPS: {
     label: "Knowledge",
     intro: "Search, archive, logging, and agent tools that make the working system usable.",
   },
-  {
-    key: "playground",
-    label: "Playground",
-    intro: "Games, sports tools, and smaller experiments that are useful or instructive without being flagship work.",
-  },
 ];
 
 function displayName(project: Project) {
@@ -144,8 +139,7 @@ export default function ProjectsPage() {
         </h1>
         <p className="mt-[34px] text-[14.5px] leading-[1.95] text-[var(--color-body)] max-w-[580px]">
           Software, newsletters, systems, and experiments. Some are public
-          projects; some are private infrastructure for the writing practice;
-          a few are playground builds that taught me something useful.
+          projects; some are private infrastructure for the writing practice.
         </p>
       </Container>
 

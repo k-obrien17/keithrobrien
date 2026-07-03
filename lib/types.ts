@@ -2,8 +2,7 @@ export type ProjectStatus = "active" | "maintained" | "dormant";
 export type ProjectGroup =
   | "public"
   | "practice"
-  | "knowledge"
-  | "playground";
+  | "knowledge";
 
 export interface Project {
   name: string;

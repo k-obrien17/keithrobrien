@@ -29,22 +29,6 @@
       "url": "https://survivalsignal.beehiiv.com"
     },
     {
-      "name": "Tenword",
-      "slug": "tenword",
-      "description": "Album reviews in ten words or fewer, written in the voice of the record.",
-      "stack": ["Next.js", "Turso", "Music"],
-      "status": "active",
-      "group": "public"
-    },
-    {
-      "name": "Jajajas",
-      "slug": "jajajas",
-      "description": "A small store for stickers, cards, and shirts, wired to Stripe and print-on-demand fulfillment.",
-      "stack": ["Next.js", "Stripe", "Printful"],
-      "status": "active",
-      "group": "public"
-    },
-    {
       "name": "Total Emphasis Workflow",
       "publicName": "Workflow Desk",
       "slug": "tew",
@@ -134,65 +118,6 @@
       "stack": ["Bun", "Claude", "Capture"],
       "status": "active",
       "group": "knowledge"
-    },
-    {
-      "name": "Media Library",
-      "publicName": "Media Log",
-      "slug": "media-library",
-      "description": "Personal tracker for movies, shows, and other media consumption.",
-      "stack": ["TypeScript", "React"],
-      "status": "active",
-      "group": "knowledge"
-    },
-    {
-      "name": "World Cup Squads",
-      "slug": "world-cup-squads",
-      "description": "Private fantasy game for the 2026 World Cup, with squad-building and in-person draft modes.",
-      "stack": ["Next.js", "Turso", "Game"],
-      "status": "active",
-      "group": "playground"
-    },
-    {
-      "name": "World Cup Price Tracker",
-      "publicName": "World Cup Price Watch",
-      "slug": "wc-price-tracker",
-      "description": "Once-a-day tracker for public World Cup 2026 ticket-price movements.",
-      "stack": ["Bun", "SQLite", "Dashboard"],
-      "status": "active",
-      "group": "playground"
-    },
-    {
-      "name": "Soccer Trivia",
-      "publicName": "Trivia FC",
-      "slug": "soccer-trivia",
-      "description": "Kid-facing soccer trivia and chore game packaged as a macOS app.",
-      "stack": ["Python", "Pygame"],
-      "status": "maintained",
-      "group": "playground"
-    },
-    {
-      "name": "Daily 10",
-      "slug": "daily-10",
-      "description": "Daily practice app.",
-      "stack": ["React", "Tauri"],
-      "status": "maintained",
-      "group": "playground"
-    },
-    {
-      "name": "8th Chair",
-      "slug": "8th-chair",
-      "description": "Curated expert Q&A platform.",
-      "stack": ["React"],
-      "status": "dormant",
-      "group": "playground"
-    },
-    {
-      "name": "Backyard Marquee",
-      "slug": "backyard-marquee",
-      "description": "Concert lineup builder.",
-      "stack": ["React", "Express", "Turso"],
-      "status": "dormant",
-      "group": "playground"
     }
   ]
 }

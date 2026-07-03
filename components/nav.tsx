@@ -12,7 +12,6 @@ const LINKS = [
   { href: "/writing", label: "write" },
   { href: "/projects", label: "build" },
   { href: "/collect", label: "collect" },
-  { href: "/now", label: "now" },
   { href: "/about", label: "about" },
 ];
 

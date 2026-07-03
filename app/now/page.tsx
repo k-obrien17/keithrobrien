@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description:
     "What Keith O'Brien is currently building, running, and shipping. Updated when the work changes, not on a schedule.",
   alternates: { canonical: "/now" },
+  robots: { index: false, follow: false },
   openGraph: {
     title: "Now · Keith O'Brien",
     description:

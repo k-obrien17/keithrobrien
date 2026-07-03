@@ -88,12 +88,6 @@ export default function Home() {
               ],
             }))}
           />
-          <Link
-            href="/now"
-            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
-          >
-            what I&apos;m on now &rarr;
-          </Link>
         </Section>
       )}
 

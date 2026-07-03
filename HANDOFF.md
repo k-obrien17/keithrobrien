@@ -2,24 +2,32 @@
 
 ## Current task
 
-kro.com architecture reorg. The 36-deliverable spec is now committed at
-`docs/architecture/2026-q3-site-rebuild.md` (recovered from the 2026-06-29 transcript,
-punctuation house-styled). Nav is now LOCKED. Next is Phase 1 execution on Keith's go.
+kro.com architecture reorg. The 36-deliverable spec is committed at
+`docs/architecture/2026-q3-site-rebuild.md`. Nav is LOCKED and now WIRED (commit
+`f8a8b47`). Remaining Phase 1 work is content-gated on Keith.
 
 ## Status
 
-Nav decided this session (2026-07-02). **Verb lane:**
+Nav wired this session (2026-07-03, commit `f8a8b47`). **Live verb lane:**
 
 ```
-keith o'brien    write · build · collect · about       total emphasis ↗ · say hi
+keith o'brien    write · build · collect · now · about       total emphasis ↗ · say hi
 ```
 
-- `write` (bylines fold under it), `build` (chosen over "systems"), `collect` (the
-  music/reading/watching hub, chosen over Crate/Shelf/Stack/Consume), `about` (resume +
-  press kit inside), `total emphasis ↗` (right-side slot, external arrow, Level-2 visible),
-  `say hi` mailto.
-- No `/start` page (home is orientation). `now` folds onto home, keep `/now` page. No
-  thesis-shaped nav item. All-verb lane, no noun labels.
+- **Decision revised 2026-07-03:** `now` KEPT as its own nav item (Keith wants it as the
+  live "what I'm working on right now" surface), not folded onto home. 5-item lane, one more
+  than the originally locked 4.
+- **No URL renames.** Keith chose to save the redirects: labels read as verbs but slugs stay
+  (`write`→`/writing`, `build`→`/projects`). No live URLs moved. This supersedes spec §35's
+  `/projects`→`/build` / `/writing`→`/write` rename step — do NOT rename.
+- `total emphasis ↗` points straight at `https://totalemphasis.com` for now (external,
+  new tab). The `/total-emphasis` Level-2 interstitial page is NOT built yet (needs copy).
+- `write` (bylines fold under it), `build` (chosen over "systems"), `collect`
+  (music/reading/watching hub), `about` (resume + press kit inside), `say hi` mailto.
+
+**`/collect` hub shipped** (`app/collect/page.tsx`): minimal index listing three lanes —
+`watching` (live link to `/collect/watching`), `music` + `reading` (stubbed "coming soon").
+`/collect` and `/collect/watching` registered in sitemap; Collect line added to llms.txt.
 
 Three load-bearing decisions still stand from the 2026-06-30 session: polished register;
 kro.com = curious-operator hub NOT buyer-funnel (TE owns funnel); TE proprietorship is
@@ -33,17 +41,19 @@ new WITI byline added to the archive. All committed, tree clean, nothing pushed.
 
 ## Next concrete step
 
-Phase 1 execution (spec section 35), on Keith's go: rename `/projects` → `/build` and
-`/writing` → `/write` (with redirects + update all internal links, sitemap, llms.txt),
-rewrite `components/nav.tsx` to the locked nav, add the `/total-emphasis` slot. The
-`/collect` hub and hero rewrite follow once Keith supplies content (playlists/tracklists/
-Spotify links, reading + watching picks, `/total-emphasis` copy) and picks hero copy
-(spec §27 A/B/C; verb-triad favors A). Still open, unrelated: the empty Writing-section
-call on the current live site, and optional vault upstream-capture of the WITI byline.
+Nav is wired. Remaining Phase 1 is content-gated — nothing mechanical left to do without
+Keith's input. Waiting on Keith to supply, then execute:
+1. `/collect` music + reading content (tracklists + Spotify link; reading picks) → fills the
+   two stubbed lanes in `app/collect/page.tsx`.
+2. `/total-emphasis` copy → build the Level-2 interstitial and repoint the nav's
+   `total emphasis ↗` from the external totalemphasis.com to the internal `/total-emphasis`.
+3. Hero rewrite (spec §27 A/B/C; verb-triad favors A) once Keith picks.
+Still open, unrelated: the empty Writing-section call on the current live site, and optional
+vault upstream-capture of the WITI byline.
 
 ## Open questions
 
-- Nav: RESOLVED 2026-07-02 (write · build · collect · about + total emphasis ↗ + say hi). See Status.
+- Nav: RESOLVED + WIRED 2026-07-03 (write · build · collect · now · about + total emphasis ↗ + say hi). `now` kept as its own item; no URL renames. See Status.
 - Hero copy: A (playful three-verb), B (workshop metaphor), C (terse builder), or something else. Verb-triad nav favors A.
 - Content Keith must supply before /collect + /total-emphasis can be built: playlists/tracklists/Spotify links, reading + watching picks, /total-emphasis copy
 - Newsletter direction (task #22): revive Survival Signal on Beehiiv as monthly "dispatches from the workshop," or different path
@@ -67,20 +77,21 @@ call on the current live site, and optional vault upstream-capture of the WITI b
 - The 36-deliverable architecture spec is now committed at `docs/architecture/2026-q3-site-rebuild.md` (recovered from the 2026-06-29 transcript). No longer at-risk.
 - 6 memory entries written this multi-session: keith-canonical-bio, feedback-pillar-pieces, client-mention-policy, archive-conventions, seo-aeo-decisions, keith-primary-focus-141-miles. Pre-load with /resume on session start.
 - "AI doesn't challenge you" pillar stays parked — Keith said the framing isn't right. Do not propose it as Issue 1 or pillar.
-- Three commits unpushed since previous handoff: RSS feed, footer tagline, prior handoff doc. Push with `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`
+- **16 commits unpushed on `main`** (nothing is live until pushed). Includes this session's nav wiring (`f8a8b47`) plus the prior backlog (RSS feed, footer tagline, Tina removal, a11y/byline-count fixes, spec recovery, nav+content-model locks, `/collect/watching`). Push with `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`.
+- **Spec §35 is partly superseded:** the `/projects`→`/build` and `/writing`→`/write` rename step is CANCELLED (Keith chose to keep slugs, save the redirects). Nav labels are verbs; URLs unchanged.
 
 ## Git state
 
 - Branch: main
-- Last commit: 719b083 chore: update handoff — pivoting to Keith-directed kro.com edits
-- Uncommitted changes: no
-- Unpushed: 3 commits (719b083, 08a9799, 00b1f9e)
+- Last commit: f8a8b47 feat(nav): wire locked verb-lane nav + /collect hub
+- Uncommitted changes: HANDOFF.md only (this update)
+- Unpushed: 16 commits (f8a8b47 back through 00b1f9e)
 - Stashed: no
 
 ## Reason for handoff
 
-session paused
+nav wired; remaining Phase 1 content-gated on Keith
 
 ## Updated
 
-2026-06-30T14:08:26Z
+2026-07-03

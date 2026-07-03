@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-02",
-  "total": 535,
+  "generated_at": "2026-07-03",
+  "total": 532,
   "by_publication": [
     {
       "slug": "prweek",
       "display": "PRWeek",
-      "count": 261
+      "count": 260
     },
     {
       "slug": "realeyesit",
@@ -33,14 +33,19 @@
       "count": 23
     },
     {
-      "slug": "advertisingweek",
-      "display": "Advertising Week",
-      "count": 8
-    },
-    {
       "slug": "fastcompany",
       "display": "Fast Company",
       "count": 7
+    },
+    {
+      "slug": "advertisingweek",
+      "display": "Advertising Week",
+      "count": 6
+    },
+    {
+      "slug": "whyisthisinteresting",
+      "display": "Why Is This Interesting?",
+      "count": 4
     },
     {
       "slug": "substack",
@@ -55,11 +60,6 @@
     {
       "slug": "entrepreneur",
       "display": "Entrepreneur",
-      "count": 4
-    },
-    {
-      "slug": "whyisthisinteresting",
-      "display": "Why Is This Interesting?",
       "count": 4
     },
     {
@@ -344,17 +344,6 @@
       "ghostwritten_for": "Realeyes"
     },
     {
-      "title": "Culture Captured: The Power of Keeping Pace with Everyday People\u2019s Online Voices \u2013 Advertising Week",
-      "date": "2024-03-06",
-      "publication": "advertisingweek",
-      "publication_display": "Advertising Week",
-      "url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
-      "original_url": "https://advertisingweek.com/culture-captured-the-power-of-keeping-pace-with-everyday-peoples-online-voices/",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
       "title": "Billion-Dollar Decisions at Risk: The Alarming Rise of Survey Fraud",
       "date": "2024-03-01",
       "publication": "realeyesit",
@@ -388,17 +377,6 @@
       "ghostwritten_for": null
     },
     {
-      "title": "Helping Advertisers See the Bigger Picture of Attention",
-      "date": "2024-02-16",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/helping-advertisers-see-the-bigger-picture-of-attention",
-      "original_url": "https://blog.realeyesit.com/helping-advertisers-see-the-bigger-picture-of-attention",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "Customer service vs customer experience: Key differentiators",
       "date": "2024-02-16",
       "publication": "ibm",
@@ -419,6 +397,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "Helping Advertisers See the Bigger Picture of Attention",
+      "date": "2024-02-16",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/helping-advertisers-see-the-bigger-picture-of-attention",
+      "original_url": "https://blog.realeyesit.com/helping-advertisers-see-the-bigger-picture-of-attention",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "The customer experience evolution: Today\u2019s data-driven, real-time discipline",
@@ -465,17 +454,6 @@
       "ghostwritten_for": "IBM"
     },
     {
-      "title": "Attention is All About Delivering Value",
-      "date": "2024-01-19",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/attention-is-all-about-delivering-value",
-      "original_url": "https://blog.realeyesit.com/attention-is-all-about-delivering-value",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "Exploring the hyper-competitive future of customer experience",
       "date": "2024-01-19",
       "publication": "ibm",
@@ -485,6 +463,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "Attention is All About Delivering Value",
+      "date": "2024-01-19",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/attention-is-all-about-delivering-value",
+      "original_url": "https://blog.realeyesit.com/attention-is-all-about-delivering-value",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "What is dependency mapping?",
@@ -641,17 +630,6 @@
       "ghostwritten_for": "IBM"
     },
     {
-      "title": "Kantar's Comprehensive Approach to Attention",
-      "date": "2023-12-04",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/kantars-comprehensive-approach-to-attention",
-      "original_url": "https://blog.realeyesit.com/kantars-comprehensive-approach-to-attention",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "Smart Home & Technology? The Top 10 Pros and Cons",
       "date": "2023-12-04",
       "publication": "dmnews",
@@ -661,6 +639,17 @@
       "wayback_url": "http://web.archive.org/web/20250410185922/https://dmnews.com/top-10-pros-and-cons-of-smart-technology/",
       "is_keith_byline": true,
       "ghostwritten_for": null
+    },
+    {
+      "title": "Kantar's Comprehensive Approach to Attention",
+      "date": "2023-12-04",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/kantars-comprehensive-approach-to-attention",
+      "original_url": "https://blog.realeyesit.com/kantars-comprehensive-approach-to-attention",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "5 Technologies to Perfect Your Content Marketing Strategy",
@@ -696,17 +685,6 @@
       "ghostwritten_for": "IBM"
     },
     {
-      "title": "Exploring Attention\u2019s Renaissance",
-      "date": "2023-11-16",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/exploring-attentions-renaissance",
-      "original_url": "https://blog.realeyesit.com/exploring-attentions-renaissance",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "What is employee experience?",
       "date": "2023-11-16",
       "publication": "ibm",
@@ -716,6 +694,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "Exploring Attention\u2019s Renaissance",
+      "date": "2023-11-16",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/exploring-attentions-renaissance",
+      "original_url": "https://blog.realeyesit.com/exploring-attentions-renaissance",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "Reviewing the agency review process: There\u2019s a better way",
@@ -916,17 +905,6 @@
       "ghostwritten_for": "Realeyes"
     },
     {
-      "title": "Let the Attention Data Tell the Story",
-      "date": "2023-08-03",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/let-the-attention-data-tell-the-story",
-      "original_url": "https://blog.realeyesit.com/let-the-attention-data-tell-the-story",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "How organizations can successfully measure an application health monitoring process",
       "date": "2023-08-03",
       "publication": "ibm",
@@ -938,6 +916,17 @@
       "ghostwritten_for": "IBM"
     },
     {
+      "title": "Let the Attention Data Tell the Story",
+      "date": "2023-08-03",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/let-the-attention-data-tell-the-story",
+      "original_url": "https://blog.realeyesit.com/let-the-attention-data-tell-the-story",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
+    },
+    {
       "title": "Incident management vs. problem management: What\u2019s the difference?",
       "date": "2023-08-01",
       "publication": "ibm",
@@ -947,17 +936,6 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
-    },
-    {
-      "title": "Moving Beyond Viewability to Focus on Consumer Engagement",
-      "date": "2023-07-24",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/moving-beyond-viewability-to-focus-on-consumer-engagement",
-      "original_url": "https://blog.realeyesit.com/moving-beyond-viewability-to-focus-on-consumer-engagement",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "Keith O'Brien",
@@ -980,6 +958,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "Moving Beyond Viewability to Focus on Consumer Engagement",
+      "date": "2023-07-24",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/moving-beyond-viewability-to-focus-on-consumer-engagement",
+      "original_url": "https://blog.realeyesit.com/moving-beyond-viewability-to-focus-on-consumer-engagement",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "Moving Towards an Attention Revolution in Advertising",
@@ -1070,17 +1059,6 @@
       "ghostwritten_for": "Realeyes"
     },
     {
-      "title": "ARF Winning Paper Upends Industry Norms About Digital Environments",
-      "date": "2023-06-05",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/arf-winning-paper-upends-industry-norms-about-digital-environments",
-      "original_url": "https://blog.realeyesit.com/arf-winning-paper-upends-industry-norms-about-digital-environments",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "What is IT automation?",
       "date": "2023-06-05",
       "publication": "ibm",
@@ -1090,6 +1068,17 @@
       "wayback_url": "",
       "is_keith_byline": false,
       "ghostwritten_for": "IBM"
+    },
+    {
+      "title": "ARF Winning Paper Upends Industry Norms About Digital Environments",
+      "date": "2023-06-05",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/arf-winning-paper-upends-industry-norms-about-digital-environments",
+      "original_url": "https://blog.realeyesit.com/arf-winning-paper-upends-industry-norms-about-digital-environments",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "What is maintenance, repair, and operations?",
@@ -1191,17 +1180,6 @@
       "ghostwritten_for": "UST"
     },
     {
-      "title": "Attention is the Remedy for Constant Distraction",
-      "date": "2023-04-28",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/attention-is-the-remedy-for-constant-distraction",
-      "original_url": "https://blog.realeyesit.com/attention-is-the-remedy-for-constant-distraction",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "Marketers Cannot Lose Authenticity in Their Quest to Embrace AI",
       "date": "2023-04-28",
       "publication": "martechseries",
@@ -1211,6 +1189,17 @@
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
+    },
+    {
+      "title": "Attention is the Remedy for Constant Distraction",
+      "date": "2023-04-28",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/attention-is-the-remedy-for-constant-distraction",
+      "original_url": "https://blog.realeyesit.com/attention-is-the-remedy-for-constant-distraction",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "How to get started in generative AI",
@@ -1279,17 +1268,6 @@
       "ghostwritten_for": null
     },
     {
-      "title": "Attention: A Complex Phenomenon Whose Time Is Now",
-      "date": "2023-03-16",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/attention-a-complex-phenomenon-whose-time-is-now",
-      "original_url": "https://blog.realeyesit.com/attention-a-complex-phenomenon-whose-time-is-now",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "2023 Is The Year To Finally Commit To Email Automation",
       "date": "2023-03-16",
       "publication": "mediapost",
@@ -1299,6 +1277,17 @@
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null
+    },
+    {
+      "title": "Attention: A Complex Phenomenon Whose Time Is Now",
+      "date": "2023-03-16",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/attention-a-complex-phenomenon-whose-time-is-now",
+      "original_url": "https://blog.realeyesit.com/attention-a-complex-phenomenon-whose-time-is-now",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "Creative Attention Even More Important in a Post-ATT World",
@@ -2225,17 +2214,6 @@
       "ghostwritten_for": null
     },
     {
-      "title": "Why AI Helps Maximize Product Lifecycle Marketing",
-      "date": "2022-03-15",
-      "publication": "advertisingweek",
-      "publication_display": "Advertising Week",
-      "url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
-      "original_url": "https://advertisingweek.com/why-ai-helps-maximize-product-lifecycle-marketing/",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
       "title": "Ensuring Your Product Strategy is Fit-for-Growth",
       "date": "2022-03-15",
       "publication": "ust",
@@ -2357,17 +2335,6 @@
       "ghostwritten_for": null
     },
     {
-      "title": "Optimizing for Attention Drives Brand Lift",
-      "date": "2021-11-23",
-      "publication": "realeyesit",
-      "publication_display": "Realeyes",
-      "url": "https://blog.realeyesit.com/teads-study-optimizing-attention-drives-brand-lift",
-      "original_url": "https://blog.realeyesit.com/teads-study-optimizing-attention-drives-brand-lift",
-      "wayback_url": "",
-      "is_keith_byline": false,
-      "ghostwritten_for": "Realeyes"
-    },
-    {
       "title": "The 5 Best Marketing Strategies for eCommerce Companies",
       "date": "2021-11-23",
       "publication": "dmnews",
@@ -2377,6 +2344,17 @@
       "wayback_url": "http://web.archive.org/web/20250512144013/https://dmnews.com/ecommerce-marketing-strategies/",
       "is_keith_byline": true,
       "ghostwritten_for": null
+    },
+    {
+      "title": "Optimizing for Attention Drives Brand Lift",
+      "date": "2021-11-23",
+      "publication": "realeyesit",
+      "publication_display": "Realeyes",
+      "url": "https://blog.realeyesit.com/teads-study-optimizing-attention-drives-brand-lift",
+      "original_url": "https://blog.realeyesit.com/teads-study-optimizing-attention-drives-brand-lift",
+      "wayback_url": "",
+      "is_keith_byline": false,
+      "ghostwritten_for": "Realeyes"
     },
     {
       "title": "9 Pieces of Marketing Data Every Business Should Track",
@@ -3353,17 +3331,6 @@
       "publication_display": "PRWeek",
       "url": "https://www.prweek.com/article/1252989/dialogue-begin",
       "original_url": "https://www.prweek.com/article/1252989/dialogue-begin",
-      "wayback_url": "",
-      "is_keith_byline": true,
-      "ghostwritten_for": null
-    },
-    {
-      "title": "The industry, like newspapers, might have problem with youth",
-      "date": "2008-04-24",
-      "publication": "prweek",
-      "publication_display": "PRWeek",
-      "url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
-      "original_url": "https://www.prweek.com/article/1249603/industry-newspapers-problem-youth",
       "wayback_url": "",
       "is_keith_byline": true,
       "ghostwritten_for": null

@@ -3,22 +3,22 @@ import { Container } from "@/components/container";
 import { Section } from "@/components/section";
 import { IndexTable } from "@/components/index-table";
 import { projects } from "@/lib/projects";
-import { Project } from "@/lib/types";
+import { Project, ProjectGroup } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "Builds",
   description:
     "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
   alternates: { canonical: "/projects" },
   openGraph: {
-    title: "Projects · Keith O'Brien",
+    title: "Builds · Keith O'Brien",
     description:
       "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
     url: "/projects",
     type: "website",
   },
   twitter: {
-    title: "Projects · Keith O'Brien",
+    title: "Builds · Keith O'Brien",
     description:
       "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
   },
@@ -54,6 +54,57 @@ function projectLink(project: Project) {
   );
 }
 
+const GROUPS: {
+  key: ProjectGroup;
+  label: string;
+  intro: string;
+}[] = [
+  {
+    key: "public",
+    label: "Public",
+    intro: "Projects and publications meant to be found by people outside the workshop.",
+  },
+  {
+    key: "practice",
+    label: "Practice",
+    intro: "Infrastructure for Total Emphasis and the client-writing operation.",
+  },
+  {
+    key: "knowledge",
+    label: "Knowledge",
+    intro: "Search, archive, logging, and agent tools that make the working system usable.",
+  },
+  {
+    key: "playground",
+    label: "Playground",
+    intro: "Games, sports tools, and smaller experiments that are useful or instructive without being flagship work.",
+  },
+];
+
+function displayName(project: Project) {
+  return project.publicName ?? project.name;
+}
+
+function projectRows(group: ProjectGroup) {
+  return projects
+    .filter((project) => project.group === group)
+    .map((project, i) => ({
+      cells: [
+        String(i + 1).padStart(2, "0"),
+        <span key="t" className="flex flex-col gap-[6px]">
+          <span className="text-[var(--color-fg)] font-medium">
+            {displayName(project)}
+          </span>
+          <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
+            {project.description}
+          </span>
+        </span>,
+        project.stack.join(" · "),
+        projectLink(project),
+      ],
+    }));
+}
+
 const SITE_URL = "https://www.keithrobrien.com";
 const PAGE_URL = `${SITE_URL}/projects`;
 
@@ -63,14 +114,14 @@ export default function ProjectsPage() {
     "@type": "CollectionPage",
     "@id": `${PAGE_URL}#collectionpage`,
     url: PAGE_URL,
-    name: "Projects · Keith O'Brien",
+    name: "Builds · Keith O'Brien",
     description:
       "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
     mainEntity: { "@id": `${SITE_URL}/#person` },
     isPartOf: { "@id": `${SITE_URL}/#website` },
     hasPart: projects.filter((p) => p.url).map((p) => ({
       "@type": "SoftwareApplication",
-      name: p.name,
+      name: displayName(p),
       description: p.description,
       url: p.url,
       applicationCategory: "DeveloperApplication",
@@ -89,40 +140,34 @@ export default function ProjectsPage() {
           {"// what I build on the side"}
         </p>
         <h1 className="text-[34px] leading-[1.42] font-medium tracking-[-0.015em] max-w-[760px] text-[var(--color-fg)]">
-          Projects
+          Builds
         </h1>
         <p className="mt-[34px] text-[14.5px] leading-[1.95] text-[var(--color-body)] max-w-[580px]">
-          Software, newsletters, and other things I build and run outside the
-          content strategy work. Most started as one-night experiments. A few
-          became things I use every day.
+          Software, newsletters, systems, and experiments. Some are public
+          projects; some are private infrastructure for the writing practice;
+          a few are playground builds that taught me something useful.
         </p>
       </Container>
 
-      <Section label="Everything">
-        <IndexTable
-          columns={[
-            { label: "#", className: "w-11", accent: true },
-            { label: "PROJECT", className: "flex-1 pr-4" },
-            { label: "STACK", className: "w-[170px] pr-4" },
-            { label: "", className: "w-[90px] text-right" },
-          ]}
-          rows={projects.map((project, i) => ({
-            cells: [
-              String(i + 1).padStart(2, "0"),
-              <span key="t" className="flex flex-col gap-[6px]">
-                <span className="text-[var(--color-fg)] font-medium">
-                  {project.name}
-                </span>
-                <span className="text-[12px] leading-[1.65] text-[var(--color-muted)]">
-                  {project.description}
-                </span>
-              </span>,
-              project.stack.join(" · "),
-              projectLink(project),
-            ],
-          }))}
-        />
-      </Section>
+      {GROUPS.map((group) => (
+        <Section key={group.key} label={group.label}>
+          <p className="mb-7 max-w-[580px] text-[13.5px] leading-[1.8] text-[var(--color-muted)]">
+            {group.intro}
+          </p>
+          <IndexTable
+            columns={[
+              { label: "#", className: "w-11", accent: true },
+              { label: "BUILD", className: "min-w-0 flex-1 pr-4" },
+              {
+                label: "STACK",
+                className: "hidden w-[170px] pr-4 sm:block",
+              },
+              { label: "", className: "w-[64px] text-right sm:w-[90px]" },
+            ]}
+            rows={projectRows(group.key)}
+          />
+        </Section>
+      ))}
     </>
   );
 }

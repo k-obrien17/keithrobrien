@@ -55,6 +55,27 @@ Structural consequences:
 - **No thesis-shaped nav item.** Six items is the ceiling.
 - Do not mix verbs and nouns: the lane is all-verb (write / build / collect), so a noun label like "shelf" is out.
 
+## Writing / bylines content model (locked 2026-07-02)
+
+The organizing axis is **whose name the work is under, not where it was published.**
+
+- **`write` = Keith's own voice only:** on-site essays (MDX) plus his own named bylines
+  elsewhere, shown as a curated "published elsewhere" link list. Both are Keith writing as
+  Keith; venue is incidental.
+- **Ghostwritten work does NOT live on kro.** It becomes a **direct link to Total Emphasis**
+  (the business owns that proof). The archive's `ghostwritten_for` entries (164 of 535) drop
+  off kro's public surface; a single "ghostwritten work → Total Emphasis" link replaces them.
+- **Curated, not exhaustive.** The "published elsewhere" list is a hand-picked selection, not
+  all 371 own-byline entries. Note that 261 of the own-bylines are PRWeek news items from the
+  EIC years; curation should trim these to highlights so `/write` is not a PRWeek wall.
+
+**Linked number change (do at the same time as the split, never before):** the public byline
+count currently reads "400+", which counts own + ghostwritten against the mixed archive. When
+ghostwritten leaves kro, the honest figure is the curated own-byline count (roughly "300+"
+depending on how deep PRWeek is kept). Update home.json, about.json, recently-shipped.json,
+the keith-obrien FAQ, llms.txt, and llms-full together at that moment so nothing contradicts.
+Until the split ships, the live `/bylines` still shows the mixed 407, so "400+" stays correct.
+
 ## Still-open decisions
 
 1. **Hero copy:** spec section 27 option A / B / C, or another. (The verb-triad identity favors A.)

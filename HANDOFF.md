@@ -59,10 +59,12 @@ call on the current live site, and optional vault upstream-capture of the WITI b
 
 ## Don't forget
 
+- **Writing/bylines content model (2026-07-02):** `write` = Keith's own voice only (on-site essays + a CURATED "published elsewhere" list of his own bylines). Ghostwritten work does NOT live on kro — it's a direct link to Total Emphasis. Axis = whose name it's under, not venue.
+- **Byline-number footgun:** public count currently "400+" (counts own + ghostwritten vs mixed 407-item view). When ghostwritten splits out to TE, the honest number becomes the curated own-byline count (~"300+"; own = 371 total, 261 of them PRWeek). Change the number in the SAME commit as the split (home.json, about.json, recently-shipped.json, keith-obrien FAQ, llms.txt, llms-full) so nothing contradicts. Until then, "400+" is correct.
 - Keith confirmed: music page = text tracklist + Spotify playlist link (not embeds). Diffraction stays as separate publication, linked from music.
 - TE.com is read-only from this session — cross-link only, never edit
 - Polished register decided — drop status labels (live/prototype/retired), no Field Notes nav category, Crate is curated picks not weekly diary
-- The brief Keith pasted (36-point architecture spec) is captured in conversation but NOT yet committed as a doc. Could become `docs/architecture/2026-q3-site-rebuild.md` if useful.
+- The 36-deliverable architecture spec is now committed at `docs/architecture/2026-q3-site-rebuild.md` (recovered from the 2026-06-29 transcript). No longer at-risk.
 - 6 memory entries written this multi-session: keith-canonical-bio, feedback-pillar-pieces, client-mention-policy, archive-conventions, seo-aeo-decisions, keith-primary-focus-141-miles. Pre-load with /resume on session start.
 - "AI doesn't challenge you" pillar stays parked — Keith said the framing isn't right. Do not propose it as Issue 1 or pillar.
 - Three commits unpushed since previous handoff: RSS feed, footer tagline, prior handoff doc. Push with `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`

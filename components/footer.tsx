@@ -38,8 +38,16 @@ export function Footer() {
           </a>
         </div>
 
+        {/* Canonical bio (SEO / colophon) */}
+        <p className="mt-24 max-w-[640px] text-[12px] leading-[1.85] text-[var(--color-dark-faint)]">
+          Keith O&apos;Brien is a B2B executive ghostwriter and former
+          editor-in-chief of PRWeek, founder of Total Emphasis, and an
+          operator-ghostwriter building the systems his work runs on. Based in
+          Brooklyn.
+        </p>
+
         {/* Footer rule row */}
-        <div className="mt-24 pt-6 border-t border-[var(--color-dark-rule)] flex flex-col gap-3 md:flex-row md:items-baseline md:justify-between text-[11.5px] text-[var(--color-dark-faint)]">
+        <div className="mt-10 pt-6 border-t border-[var(--color-dark-rule)] flex flex-col gap-3 md:flex-row md:items-baseline md:justify-between text-[11.5px] text-[var(--color-dark-faint)]">
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
             <span>&copy; {year} Keith O&apos;Brien</span>
             {LINKS.map((link) => (

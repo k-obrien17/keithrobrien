@@ -29,6 +29,22 @@
       "url": "https://survivalsignal.beehiiv.com"
     },
     {
+      "name": "8th Chair",
+      "slug": "8th-chair",
+      "description": "Curated expert Q&A platform.",
+      "stack": ["React"],
+      "status": "active",
+      "group": "public"
+    },
+    {
+      "name": "Backyard Marquee",
+      "slug": "backyard-marquee",
+      "description": "Concert lineup builder.",
+      "stack": ["React", "Express", "Turso"],
+      "status": "active",
+      "group": "public"
+    },
+    {
       "name": "Total Emphasis Workflow",
       "publicName": "Workflow Desk",
       "slug": "tew",
@@ -116,6 +132,15 @@
       "slug": "ideas",
       "description": "Capture and synthesis tool for ideas, drafts, and one-line riffs that become vault notes.",
       "stack": ["Bun", "Claude", "Capture"],
+      "status": "active",
+      "group": "knowledge"
+    },
+    {
+      "name": "Media Library",
+      "publicName": "Media Log",
+      "slug": "media-library",
+      "description": "Personal tracker for movies, shows, and other media consumption.",
+      "stack": ["TypeScript", "React"],
       "status": "active",
       "group": "knowledge"
     }

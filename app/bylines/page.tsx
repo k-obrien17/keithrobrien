@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Container } from "@/components/container";
 import { Section } from "@/components/section";
 import archive from "@/content/bylines-archive.json";

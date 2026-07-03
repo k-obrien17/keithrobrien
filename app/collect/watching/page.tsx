@@ -3,8 +3,6 @@ import { Container } from "@/components/container";
 import { Section } from "@/components/section";
 import data from "@/content/collect/watching.json";
 
-const SITE_URL = "https://www.keithrobrien.com";
-
 type Entry = {
   title: string;
   year: number | null;

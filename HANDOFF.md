@@ -20,8 +20,11 @@ keith o'brien    write · build · collect · now · about       total emphasis 
 - **No URL renames.** Keith chose to save the redirects: labels read as verbs but slugs stay
   (`write`→`/writing`, `build`→`/projects`). No live URLs moved. This supersedes spec §35's
   `/projects`→`/build` / `/writing`→`/write` rename step — do NOT rename.
-- `total emphasis ↗` points straight at `https://totalemphasis.com` for now (external,
-  new tab). The `/total-emphasis` Level-2 interstitial page is NOT built yet (needs copy).
+- `total emphasis ↗` points straight at `https://totalemphasis.com` (external, new tab).
+  **The `/total-emphasis` interstitial page is CANCELLED (2026-07-03)** — thin page, weak
+  SEO, adds friction. Proprietorship signal now lives in the nav slot's direct link plus an
+  inline anchor-text link on the first "Total Emphasis" mention in the `/about` bio
+  (`content/site/about.json`). Do not build the interstitial. Spec decision 3 updated.
 - `write` (bylines fold under it), `build` (chosen over "systems"), `collect`
   (music/reading/watching hub), `about` (resume + press kit inside), `say hi` mailto.
 
@@ -45,9 +48,8 @@ Nav is wired. Remaining Phase 1 is content-gated — nothing mechanical left to 
 Keith's input. Waiting on Keith to supply, then execute:
 1. `/collect` music + reading content (tracklists + Spotify link; reading picks) → fills the
    two stubbed lanes in `app/collect/page.tsx`.
-2. `/total-emphasis` copy → build the Level-2 interstitial and repoint the nav's
-   `total emphasis ↗` from the external totalemphasis.com to the internal `/total-emphasis`.
-3. Hero rewrite (spec §27 A/B/C; verb-triad favors A) once Keith picks.
+2. Hero rewrite (spec §27 A/B/C; verb-triad favors A) once Keith picks.
+(`/total-emphasis` interstitial cancelled — see Status. Nav links direct to the external site.)
 Still open, unrelated: the empty Writing-section call on the current live site, and optional
 vault upstream-capture of the WITI byline.
 
@@ -55,7 +57,7 @@ vault upstream-capture of the WITI byline.
 
 - Nav: RESOLVED + WIRED 2026-07-03 (write · build · collect · now · about + total emphasis ↗ + say hi). `now` kept as its own item; no URL renames. See Status.
 - Hero copy: A (playful three-verb), B (workshop metaphor), C (terse builder), or something else. Verb-triad nav favors A.
-- Content Keith must supply before /collect + /total-emphasis can be built: playlists/tracklists/Spotify links, reading + watching picks, /total-emphasis copy
+- Content Keith must supply before /collect lanes can be built: playlists/tracklists/Spotify links, reading picks (watching already shipped). (/total-emphasis interstitial cancelled 2026-07-03 — no copy needed.)
 - Newsletter direction (task #22): revive Survival Signal on Beehiiv as monthly "dispatches from the workshop," or different path
 - Resume page format and source (assumed: page rendered from canonical bio at `vault/120-Resources/Keith O'Brien Experience.md`)
 - The seven personal-gap questions Keith hasn't answered yet:
@@ -77,15 +79,15 @@ vault upstream-capture of the WITI byline.
 - The 36-deliverable architecture spec is now committed at `docs/architecture/2026-q3-site-rebuild.md` (recovered from the 2026-06-29 transcript). No longer at-risk.
 - 6 memory entries written this multi-session: keith-canonical-bio, feedback-pillar-pieces, client-mention-policy, archive-conventions, seo-aeo-decisions, keith-primary-focus-141-miles. Pre-load with /resume on session start.
 - "AI doesn't challenge you" pillar stays parked — Keith said the framing isn't right. Do not propose it as Issue 1 or pillar.
-- **16 commits unpushed on `main`** (nothing is live until pushed). Includes this session's nav wiring (`f8a8b47`) plus the prior backlog (RSS feed, footer tagline, Tina removal, a11y/byline-count fixes, spec recovery, nav+content-model locks, `/collect/watching`). Push with `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`.
+- Backlog through `ffa566f` (nav wiring + `/collect` hub) was pushed to `origin/main` 2026-07-03; site is auto-deploying. Push new local commits with `! cd /Users/keithobrien/Desktop/Claude/Projects/keithrobrien && git push origin main`.
 - **Spec §35 is partly superseded:** the `/projects`→`/build` and `/writing`→`/write` rename step is CANCELLED (Keith chose to keep slugs, save the redirects). Nav labels are verbs; URLs unchanged.
 
 ## Git state
 
 - Branch: main
-- Last commit: f8a8b47 feat(nav): wire locked verb-lane nav + /collect hub
-- Uncommitted changes: HANDOFF.md only (this update)
-- Unpushed: 16 commits (f8a8b47 back through 00b1f9e)
+- Last commit: ffa566f (pushed) + this cancellation commit on top
+- Uncommitted changes: no
+- Unpushed: 1 commit (the /total-emphasis cancellation) until next push
 - Stashed: no
 
 ## Reason for handoff

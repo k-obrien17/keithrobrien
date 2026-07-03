@@ -24,9 +24,13 @@ these win.
    owns the buyer-funnel. kro.com soft-links out to it. This confirms and hardens the
    kro/TE split the spec opens with.
 3. **Keith's proprietorship of Total Emphasis is a core, visible part of kro.com identity**
-   (Level 2 prominence): a dedicated `/total-emphasis` page written in kro.com voice that
-   links out to the business. The spec's section 15 `/work-with-me` treatment is lighter
-   than this; `/total-emphasis` is the newer, load-bearing surface.
+   (Level 2 prominence). ~~A dedicated `/total-emphasis` page written in kro.com voice that
+   links out to the business.~~ **REVISED 2026-07-03: the `/total-emphasis` page is
+   CANCELLED.** A thin interstitial adds click-friction for humans and is a weak SEO asset.
+   The proprietorship signal lives instead in two already-shipped places: the `total
+   emphasis ↗` nav slot links directly to totalemphasis.com, and `/about` states it in
+   Keith's own voice with an inline anchor-text link on the first "Total Emphasis" mention.
+   Do not build the interstitial page.
 4. **Music page** = text tracklist + Spotify playlist link, no embeds. The Diffraction
    stays a separate publication, linked from the music page.
 5. The **"AI doesn't challenge you"** pillar is parked; the framing is not right. Do not
@@ -46,7 +50,7 @@ keith o'brien    write · build · collect · about       total emphasis ↗ · 
 - **build** (`/build`) — projects, renamed. "Build" chosen over "Systems."
 - **collect** (`/collect`) — the consumption hub: `/collect/music`, `/collect/reading`, `/collect/watching`. "Collect" chosen over Crate / Shelf / Stack / Consume: it is an active, taste-signaling verb that matches the verb lane without the passive read of "consume" or the tech-collision of "stack."
 - **about** (`/about`) — bio; resume + press kit (`/about/keith-obrien`) live inside.
-- **total emphasis ↗** (`/total-emphasis`) — right-side nav slot with an external arrow, satisfying the Level-2 "core, visible" decision without cluttering the content verbs.
+- **total emphasis ↗** (`https://totalemphasis.com`) — right-side nav slot with an external arrow, satisfying the Level-2 "core, visible" decision without cluttering the content verbs. REVISED 2026-07-03: links directly to the external site (no `/total-emphasis` interstitial; see decision 3).
 - **say hi** — accent mailto, right-aligned (as today).
 
 Structural consequences:

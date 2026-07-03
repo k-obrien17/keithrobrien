@@ -5,16 +5,19 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 // Minimal mono nav (Total Emphasis design system). Sticky, translucent, links
-// fade on hover; accent "say hi" mailto on the right.
+// fade on hover. Verb lane on the left; the Total Emphasis proprietorship and
+// "say hi" mailto sit in the right-side slot. URL slugs stay put (/writing,
+// /projects) while labels read as verbs, so no live URLs move.
 const LINKS = [
-  { href: "/projects", label: "projects" },
-  { href: "/bylines", label: "bylines" },
-  { href: "/writing", label: "writing" },
+  { href: "/writing", label: "write" },
+  { href: "/projects", label: "build" },
+  { href: "/collect", label: "collect" },
   { href: "/now", label: "now" },
   { href: "/about", label: "about" },
 ];
 
 const EMAIL = "keith@totalemphasis.com";
+const TE_URL = "https://totalemphasis.com";
 
 export function Nav() {
   const pathname = usePathname();
@@ -47,6 +50,14 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
+          <a
+            href={TE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            total emphasis <span aria-hidden="true">↗</span>
+          </a>
           <a
             href={`mailto:${EMAIL}`}
             className="text-[var(--color-accent)] transition-opacity hover:opacity-55"
@@ -84,6 +95,15 @@ export function Nav() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={TE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="text-[var(--color-muted)] transition-opacity hover:opacity-55"
+            >
+              total emphasis <span aria-hidden="true">↗</span>
+            </a>
             <a
               href={`mailto:${EMAIL}`}
               onClick={() => setIsOpen(false)}

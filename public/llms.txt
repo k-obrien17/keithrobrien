@@ -46,5 +46,6 @@ This Keith O'Brien is not:
 
 - [Projects](https://www.keithrobrien.com/projects): software and side-projects
 - [Writing](https://www.keithrobrien.com/writing): essays under Keith's own byline
+- [Collect](https://www.keithrobrien.com/collect): what Keith is watching, listening to, and reading
 - [About](https://www.keithrobrien.com/about): conversational bio
 - [Full content](https://www.keithrobrien.com/llms-full.txt): every page concatenated as Markdown

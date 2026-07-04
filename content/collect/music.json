@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-04",
+  "source": "hand-curated",
+  "note": "Hand-edited. Keith's songs of the year. No external pipeline; edit this file directly.",
+  "songs_of_the_year": [
+    {
+      "year": 2025,
+      "spotify_url": "https://open.spotify.com/playlist/0WplxqNHOgKxnlLJYkbuvK",
+      "tracks": [
+        { "track": "1Corinthians", "artist": "billy woods, Despot, El-P", "album": "GOLLIWOG" },
+        { "track": "Melodie Is A Wound", "artist": "Stereolab", "album": "Melodie Is A Wound" },
+        { "track": "T&A", "artist": "Blondshell", "album": "T&A" },
+        { "track": "Victory Lap", "artist": "Fred again.., Skepta, PlaqueBoyMax", "album": "Victory Lap" },
+        { "track": "BIRDS", "artist": "Turnstile", "album": "SEEIN' STARS / BIRDS" },
+        { "track": "Cinderella", "artist": "Model/Actriz", "album": "Cinderella" },
+        { "track": "4 Raws", "artist": "EsDeeKid", "album": "Rebel" },
+        { "track": "Chains & Whips", "artist": "Clipse, Kendrick Lamar, Pharrell Williams", "album": "Let God Sort Em Out" },
+        { "track": "Tonight", "artist": "PinkPantheress", "album": "Fancy That" },
+        { "track": "Bologna", "artist": "Destroyer, Fiver", "album": "Dan's Boogie" },
+        { "track": "Passenger Seat", "artist": "Wolf Alice", "album": "The Clearing" },
+        { "track": "Suddenly", "artist": "Brian Eno, Beatie Wolfe", "album": "Suddenly/Big Empty Country (Edit)" },
+        { "track": "Reliquia", "artist": "ROSALÍA", "album": "LUX" },
+        { "track": "Nettles", "artist": "Ethel Cain", "album": "Willoughby Tucker, I'll Always Love You" },
+        { "track": "Get Still", "artist": "Alan Sparhawk, Trampled by Turtles", "album": "With Trampled by Turtles" },
+        { "track": "Idiot Box", "artist": "Sharon Van Etten", "album": "Sharon Van Etten & The Attachment Theory" },
+        { "track": "Eusexua", "artist": "FKA twigs", "album": "EUSEXUA" },
+        { "track": "Iona", "artist": "Sister Ray Davies", "album": "Holy Island" },
+        { "track": "Defense", "artist": "Panda Bear", "album": "Sinister Grift" },
+        { "track": "A thousand lies", "artist": "Smerz", "album": "Big city life" },
+        { "track": "NUEVAYoL", "artist": "Bad Bunny", "album": "DeBÍ TiRAR MáS FOToS" },
+        { "track": "Garden", "artist": "Maria Somerville", "album": "Luster" },
+        { "track": "Play", "artist": "james K", "album": "Play" },
+        { "track": "Spit", "artist": "Gelli Haha", "album": "Switcheroo" },
+        { "track": "Total euphoria", "artist": "caroline", "album": "caroline 2" }
+      ]
+    }
+  ]
+}

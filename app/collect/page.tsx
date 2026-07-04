@@ -36,8 +36,8 @@ const LANES: Lane[] = [
   },
   {
     label: "music",
-    href: null,
-    blurb: "Tracklists and a Spotify link. Coming soon.",
+    href: "/collect/music",
+    blurb: "Songs of the year, ranked, with a Spotify link.",
   },
   {
     label: "reading",

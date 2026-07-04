@@ -1,0 +1,35 @@
+{
+  "year": 2024,
+  "note": "Hand-curated. Music (songs of the year) and reading. Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/1qZZVy0bRMX3otyhtpwPLG",
+    "tracks": [
+      { "track": "BYE BYE", "artist": "Kim Gordon", "album": "The Collective" },
+      { "track": "Silver Thread Golden Needle", "artist": "A. G. Cook", "album": "Silver Thread Golden Needle" },
+      { "track": "Reason Why (feat. Kim Petras and BC Kingdom)", "artist": "SOPHIE, Kim Petras, BC Kingdom", "album": "SOPHIE" },
+      { "track": "U Should Not Be Doing That", "artist": "Amyl and The Sniffers", "album": "U Should Not Be Doing That" },
+      { "track": "Von dutch", "artist": "Charli xcx", "album": "BRAT" },
+      { "track": "Starburster", "artist": "Fontaines D.C.", "album": "Romance" },
+      { "track": "Maybe Blue", "artist": "Gouge Away", "album": "Deep Sage" },
+      { "track": "Volume", "artist": "Caribou", "album": "Honey" },
+      { "track": "Down Bad", "artist": "TATYANA", "album": "Down Bad" },
+      { "track": "Floating On A Moment", "artist": "Beth Gibbons", "album": "Lives Outgrown" },
+      { "track": "Wonderland", "artist": "Daniel Avery", "album": "Wonderland" },
+      { "track": "Right Back to It", "artist": "Waxahatchee, MJ Lenderman", "album": "Tigers Blood" },
+      { "track": "BIRDS OF A FEATHER", "artist": "Billie Eilish", "album": "HIT ME HARD AND SOFT" },
+      { "track": "I Guess Time Just Makes Fools of Us All", "artist": "Father John Misty", "album": "Mahashmashana" },
+      { "track": "Sexy to Someone", "artist": "Clairo", "album": "Charm" },
+      { "track": "Can U Hear", "artist": "Alan Sparhawk", "album": "White Roses, My God" },
+      { "track": "Defense", "artist": "Panda Bear", "album": "Sinister Grift" },
+      { "track": "Holy, Holy", "artist": "Geordie Greep", "album": "The New Sound" },
+      { "track": "Life Is", "artist": "Jessica Pratt", "album": "Here in the Pitch" },
+      { "track": "Image", "artist": "Magdalena Bay", "album": "Imaginal Disk" },
+      { "track": "Docket (feat. Bully)", "artist": "Blondshell, Bully", "album": "Docket (feat. Bully)" },
+      { "track": "Leash (Babygirl Original Soundtrack)", "artist": "Sky Ferreira", "album": "Leash (Babygirl Original Soundtrack)" },
+      { "track": "Starburned and Unkissed", "artist": "Caroline Polachek", "album": "I Saw The TV Glow (Original Soundtrack)" },
+      { "track": "Vaster Than Empires (featuring Alan Sparhawk)", "artist": "Trent Reznor and Atticus Ross", "album": "Vaster Than Empires (featuring Alan Sparhawk)" },
+      { "track": "Waiting For Stevie", "artist": "Pearl Jam", "album": "Dark Matter" }
+    ]
+  },
+  "reading": []
+}

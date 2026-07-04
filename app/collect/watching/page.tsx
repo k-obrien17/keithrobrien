@@ -15,17 +15,17 @@ type Entry = {
 export const metadata: Metadata = {
   title: "Watching",
   description:
-    "Movies and TV Keith O'Brien is watching: a top 10 of all time and the most recently logged, pulled from a self-hosted media library.",
+    "Movies and TV Keith O'Brien is watching: a top 10 of all time and the most recently rated, pulled from a self-hosted media library.",
   alternates: { canonical: "/collect/watching" },
   openGraph: {
     title: "Keith O'Brien — Watching",
-    description: "Top 10 films and top 10 TV shows of all time, plus what I've watched most recently.",
+    description: "Top 10 films and top 10 TV shows of all time, plus what I've rated most recently.",
     url: "/collect/watching",
     type: "website",
   },
   twitter: {
     title: "Keith O'Brien — Watching",
-    description: "Top 10 films and top 10 TV shows of all time, plus what I've watched most recently.",
+    description: "Top 10 films and top 10 TV shows of all time, plus what I've rated most recently.",
   },
 };
 
@@ -127,9 +127,9 @@ export default function WatchingPage() {
         </ol>
       </Section>
 
-      <Section label="Recently watched">
+      <Section label="Recently rated">
         <p className="text-[12px] text-[var(--color-muted)] mb-4">
-          The last {recent.length} I logged, newest first
+          The last {recent.length} I rated, newest first
         </p>
         <ul className="space-y-3">
           {recent.map((entry, idx) => (
@@ -153,9 +153,9 @@ export default function WatchingPage() {
         </ul>
       </Section>
 
-      <Section label="Recently watched TV">
+      <Section label="Recently rated TV">
         <p className="text-[12px] text-[var(--color-muted)] mb-4">
-          The last {recentTv.length} TV shows I logged, newest first
+          The last {recentTv.length} TV shows I rated, newest first
         </p>
         <ul className="space-y-3">
           {recentTv.map((entry, idx) => (

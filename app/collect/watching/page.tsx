@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/collect/watching" },
   openGraph: {
     title: "Keith O'Brien — Watching",
-    description: "Top 10 movies of all time, and what I've watched most recently.",
+    description: "Top 10 films and top 10 TV shows of all time, plus what I've watched most recently.",
     url: "/collect/watching",
     type: "website",
   },
   twitter: {
     title: "Keith O'Brien — Watching",
-    description: "Top 10 movies of all time, and what I've watched most recently.",
+    description: "Top 10 films and top 10 TV shows of all time, plus what I've watched most recently.",
   },
 };
 
@@ -63,7 +63,9 @@ function Meta({ children }: { children: React.ReactNode }) {
 
 export default function WatchingPage() {
   const top = data.top_movies as Entry[];
+  const topTv = data.top_tv as Entry[];
   const recent = data.recently_watched as Entry[];
+  const recentTv = data.recent_tv as Entry[];
 
   return (
     <>
@@ -104,6 +106,27 @@ export default function WatchingPage() {
         </ol>
       </Section>
 
+      <Section label="Top 10 TV shows">
+        <ol className="space-y-3">
+          {topTv.map((entry, idx) => (
+            <li
+              key={`toptv-${idx}`}
+              className="border-b border-[var(--color-border)] pb-3 last:border-b-0"
+            >
+              <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-4">
+                <span className="text-[12px] text-[var(--color-muted)] tabular-nums w-6 shrink-0">
+                  {idx + 1}
+                </span>
+                <span className="flex-1">
+                  <TitleCell entry={entry} />
+                </span>
+                <Meta>{entry.score.toFixed(1)}</Meta>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Section>
+
       <Section label="Recently watched">
         <p className="text-[12px] text-[var(--color-muted)] mb-4">
           The last {recent.length} I logged, newest first
@@ -122,6 +145,27 @@ export default function WatchingPage() {
                       tv
                     </span>
                   ) : null}
+                </span>
+                <Meta>{entry.score.toFixed(1)}</Meta>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </Section>
+
+      <Section label="Recently watched TV">
+        <p className="text-[12px] text-[var(--color-muted)] mb-4">
+          The last {recentTv.length} TV shows I logged, newest first
+        </p>
+        <ul className="space-y-3">
+          {recentTv.map((entry, idx) => (
+            <li
+              key={`recenttv-${idx}`}
+              className="border-b border-[var(--color-border)] pb-3 last:border-b-0"
+            >
+              <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-4">
+                <span className="flex-1">
+                  <TitleCell entry={entry} />
                 </span>
                 <Meta>{entry.score.toFixed(1)}</Meta>
               </div>

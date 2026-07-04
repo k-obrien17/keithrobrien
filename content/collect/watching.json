@@ -148,44 +148,44 @@
   ],
   "recently_watched": [
     {
-      "title": "Twelve Monkeys",
-      "year": 1995,
-      "score": 9.4,
-      "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/63",
-      "logged": "2026-07-04"
-    },
-    {
-      "title": "Walk the Line",
-      "year": 2005,
-      "score": 8,
-      "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/69",
-      "logged": "2026-07-04"
-    },
-    {
-      "title": "Stranger Things",
-      "year": 2016,
-      "score": 7.1,
-      "type": "tv",
-      "tmdb_url": "https://www.themoviedb.org/tv/66732",
-      "logged": "2026-07-03"
-    },
-    {
-      "title": "Beavis and Butt-Head",
-      "year": 1993,
+      "title": "As Good as It Gets",
+      "year": 1997,
       "score": 7.5,
-      "type": "tv",
-      "tmdb_url": "https://www.themoviedb.org/tv/13943",
-      "logged": "2026-07-03"
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/2898",
+      "logged": "2026-07-04"
     },
     {
-      "title": "Orange Is the New Black",
-      "year": 2013,
-      "score": 6.5,
-      "type": "tv",
-      "tmdb_url": "https://www.themoviedb.org/tv/1424",
-      "logged": "2026-07-03"
+      "title": "Sideways",
+      "year": 2004,
+      "score": 8.3,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/9675",
+      "logged": "2026-07-04"
+    },
+    {
+      "title": "The Aviator",
+      "year": 2004,
+      "score": 8.2,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/2567",
+      "logged": "2026-07-04"
+    },
+    {
+      "title": "Capote",
+      "year": 2005,
+      "score": 7.5,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/398",
+      "logged": "2026-07-04"
+    },
+    {
+      "title": "Brokeback Mountain",
+      "year": 2005,
+      "score": 6.8,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/142",
+      "logged": "2026-07-04"
     }
   ],
   "recent_tv": [

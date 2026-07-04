@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { Section } from "@/components/section";
+import { getYears } from "@/lib/collect";
 
 export const metadata: Metadata = {
   title: "Collect",
@@ -41,7 +42,7 @@ const LANES: Lane[] = [
   },
   {
     label: "reading",
-    href: null,
+    href: "/collect/reading",
     blurb: "Books and pieces worth keeping. Coming soon.",
   },
 ];
@@ -105,6 +106,24 @@ export default function CollectPage() {
             <LaneRow key={lane.label} lane={lane} />
           ))}
         </div>
+      </Section>
+
+      <Section label="By year">
+        <p className="text-[12px] text-[var(--color-muted)] mb-4">
+          Everything I loved in a given year, gathered on one page.
+        </p>
+        <ul className="flex flex-wrap gap-x-5 gap-y-3">
+          {getYears().map((y) => (
+            <li key={y}>
+              <Link
+                href={`/collect/${y}`}
+                className="text-[15px] text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors tabular-nums"
+              >
+                {y}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </Section>
     </>
   );

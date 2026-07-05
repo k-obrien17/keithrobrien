@@ -178,51 +178,63 @@ export default function PressKitPage() {
 
       <Section label="Career">
         <div className="prose">
-          <ul>
-            <li>
-              2017 to present: Founder and lead ghostwriter, Total Emphasis
-              (Brooklyn, NY)
-            </li>
-            <li>Editor-in-chief, PRWeek (Haymarket Media Group)</li>
-            <li>
-              Earlier editorial roles at tmrw life sciences, Horizon Media,
-              and Attention USA
-            </li>
-            <li>Reporting career since 2001</li>
-          </ul>
+          <div className="flex flex-col gap-[18px] mb-8">
+            <div>
+              <strong>Total Emphasis</strong> - Founder and lead consultant
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2017 to present · Brooklyn, NY
+              </span>
+            </div>
+            <div>
+              <strong>Gather</strong> - Writer and content strategist
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2023 to present · Brooklyn, NY
+              </span>
+            </div>
+            <div>
+              <strong>TMRW Life Sciences</strong> - Director of content and
+              digital marketing
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2019 to 2020 · New York, NY
+              </span>
+            </div>
+            <div>
+              <strong>Econsultancy</strong> - Digital transformation lead
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2018 to 2019 · New York, NY
+              </span>
+            </div>
+            <div>
+              <strong>Haymarket Media (PRWeek, DMNews)</strong> - VP digital
+              strategy / Editor-in-chief
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2004 to 2009 and 2014 to 2017 · New York, NY
+              </span>
+            </div>
+            <div>
+              <strong>Horizon Media</strong> - Director of social activations
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2012 to 2014 · New York, NY
+              </span>
+            </div>
+            <div>
+              <strong>Attention</strong> - Director, media and entertainment
+              <br />
+              <span className="text-[var(--color-muted)]">
+                2009 to 2012 · New York, NY
+              </span>
+            </div>
+          </div>
           <p>
             Bylines in PRWeek, Forbes, Fast Company, AdExchanger, Digiday,
             Entrepreneur, The Drum, and other trade publications.
           </p>
-        </div>
-      </Section>
-
-      <Section label="Representative client outcomes">
-        <div className="prose">
-          <ul>
-            <li>
-              <strong>IBM:</strong> Grew unbranded organic share from 3% to
-              25% across three years. Moved IBM from last to first in B2B
-              search for several core categories.
-            </li>
-            <li>
-              <strong>Sodexo:</strong> Lifted average LinkedIn engagement from
-              0.5% to 6.5% across 31 posts and three executives in nine months.
-            </li>
-            <li>
-              <strong>Sleep.ai:</strong> Placed a Forbes byline within seven
-              months of engagement, from a starting LinkedIn audience of zero.
-            </li>
-            <li>
-              <strong>Realeyes:</strong> Authored the I-COM Best AI
-              Award-winning case study covering an 18% incremental sales lift.
-            </li>
-            <li>
-              <strong>UpWave:</strong> Five-year continuous retainer with
-              placements across AdExchanger, Marketing Dive, The Drum, Forbes
-              Councils, and other outlets.
-            </li>
-          </ul>
         </div>
       </Section>
 

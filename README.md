@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# keithrobrien.com
 
-## Getting Started
+Personal site for Keith O'Brien: a static-first hub for bylines, personal writing, side projects, and public profile context.
 
-First, run the development server:
+Live site: [keithrobrien.com](https://www.keithrobrien.com)
+
+## What This Shows
+
+- A public bylines archive with 400+ published pieces.
+- A personal hub that connects writing, software projects, newsletters, and professional background.
+- A static content model using checked-in JSON and MDX rather than a database or CMS.
+- SEO/AI-discovery surfaces including sitemap, robots, RSS, Open Graph images, `llms.txt`, and `llms-full.txt`.
+- A restrained design system adapted from the Total Emphasis visual language.
+
+## Stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- MDX via `next-mdx-remote`
+- Vercel
+
+## Content Model
+
+The site intentionally avoids a backend. Content lives in the repo:
+
+- `content/site/*.json` for home/about/project copy
+- `content/writing/*.mdx` for essays
+- `content/bylines-archive.json` for the bylines archive
+- `content/collect/*.json` for media and collection pages
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Useful checks:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```text
+app/          Next.js routes, metadata, feeds, and generated text surfaces
+components/   shared layout and display components
+content/      site copy, writing, bylines, and collection data
+lib/          typed content loaders and helpers
+public/       static assets and AI-readable files
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Public-Repo Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This repo contains the public site source only. Internal handoff notes, private strategy docs, vault paths, and unpublished planning material should stay out of the public tree.

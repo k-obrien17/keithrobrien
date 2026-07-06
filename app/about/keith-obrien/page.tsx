@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Who is Keith O'Brien the ghostwriter?",
-    a: "Keith O'Brien is a B2B content strategist and executive ghostwriter, former editor-in-chief of PRWeek, and the founder of Total Emphasis. He's based in Brooklyn and has been a reporter since 2001.",
+    a: "Keith O'Brien is a B2B content strategist and executive ghostwriter, former editor-in-chief of PRWeek, and the founder of Total Emphasis. He's based in Brooklyn and has been a reporter since 2004.",
   },
   {
     q: "Is Keith O'Brien a real B2B ghostwriter?",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "How long has Keith been writing professionally?",
-    a: "Since 2001.",
+    a: "Since 2004.",
   },
   {
     q: "Where is Total Emphasis based?",
@@ -128,7 +128,7 @@ export default function PressKitPage() {
           </p>
           <p>
             Keith was the editor-in-chief of PRWeek before founding Total
-            Emphasis in 2017. He has been a reporter since 2001. Publicly
+            Emphasis in 2017. He has been a reporter since 2004. Publicly
             named Total Emphasis engagements include IBM, Realeyes, UpWave,
             UST, 33 Across, Grip, Battenhall, and M&amp;C Saatchi Performance.
             He lives in Brooklyn.

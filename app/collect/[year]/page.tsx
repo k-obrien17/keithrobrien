@@ -29,13 +29,25 @@ export async function generateMetadata({
   const y = parseYear(year);
   if (y === null || !getYears().includes(y)) return {};
   const title = `Best of ${y}`;
-  const description = `Keith O'Brien's favorites of ${y}: music, film, TV, and reading in one place.`;
+  const description = `Keith O'Brien's favorites of ${y} in one place: songs of the year with a Spotify link, top films ranked by his own score, TV, and reading.`;
   return {
     title,
     description,
     alternates: { canonical: `/collect/${y}` },
-    openGraph: { title: `Keith O'Brien — ${title}`, description, url: `/collect/${y}`, type: "website" },
-    twitter: { title: `Keith O'Brien — ${title}`, description },
+    openGraph: {
+      title: `Keith O'Brien — ${title}`,
+      description,
+      url: `/collect/${y}`,
+      type: "website",
+      siteName: "Keith O'Brien",
+      images: ["/opengraph-image"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Keith O'Brien — ${title}`,
+      description,
+      images: ["/opengraph-image"],
+    },
   };
 }
 
@@ -89,6 +101,14 @@ export default async function YearPage({
               </p>
             ) : null}
             <MusicList tracks={data.music.tracks} />
+            <p className="mt-5 text-[13px]">
+              <Link
+                href={`/collect/music/${y}`}
+                className="text-[var(--color-accent)] hover:underline underline-offset-4"
+              >
+                Songs of {y} →
+              </Link>
+            </p>
           </>
         ) : (
           <ComingSoon />
@@ -96,7 +116,21 @@ export default async function YearPage({
       </Section>
 
       <Section label="Film">
-        {data.film.length ? <FilmList films={data.film} /> : <ComingSoon />}
+        {data.film.length ? (
+          <>
+            <FilmList films={data.film} />
+            <p className="mt-5 text-[13px]">
+              <Link
+                href={`/collect/watching/${y}`}
+                className="text-[var(--color-accent)] hover:underline underline-offset-4"
+              >
+                Films of {y} →
+              </Link>
+            </p>
+          </>
+        ) : (
+          <ComingSoon />
+        )}
       </Section>
 
       <Section label="TV">

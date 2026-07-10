@@ -7,7 +7,7 @@ import { getYears } from "@/lib/collect";
 export const metadata: Metadata = {
   title: "Collect",
   description:
-    "What Keith O'Brien is watching, listening to, and reading: curated picks, not a feed.",
+    "What Keith O'Brien is watching, listening to, and reading: all-time top tens, songs of the year, and favorite films by year. Curated picks, not a feed.",
   alternates: { canonical: "/collect" },
   openGraph: {
     title: "Keith O'Brien — Collect",
@@ -15,11 +15,15 @@ export const metadata: Metadata = {
       "What I'm watching, listening to, and reading. Curated picks, not a feed.",
     url: "/collect",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Keith O'Brien — Collect",
     description:
       "What I'm watching, listening to, and reading. Curated picks, not a feed.",
+    images: ["/opengraph-image"],
   },
 };
 

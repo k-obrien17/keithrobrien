@@ -15,10 +15,14 @@ export const metadata: Metadata = {
     description: "Songs of the year, by year, plus an all-time list.",
     url: "/collect/music",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Keith O'Brien — Music",
     description: "Songs of the year, by year, plus an all-time list.",
+    images: ["/opengraph-image"],
   },
 };
 

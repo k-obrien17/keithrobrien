@@ -20,8 +20,12 @@ export const metadata: Metadata = {
       "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",
     url: "/writing",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "Writing · Keith O'Brien",
     description:
       "Essays and notes by Keith O'Brien on content strategy, ghostwriting, software side-projects, and the work of running an independent practice.",

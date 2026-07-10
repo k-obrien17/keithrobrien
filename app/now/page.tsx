@@ -16,8 +16,12 @@ export const metadata: Metadata = {
       "What Keith O'Brien is currently building, running, and shipping. Updated when the work changes, not on a schedule.",
     url: "/now",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "Now · Keith O'Brien",
     description:
       "What Keith O'Brien is currently building, running, and shipping. Updated when the work changes, not on a schedule.",

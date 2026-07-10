@@ -16,8 +16,12 @@ export const metadata: Metadata = {
       "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",
     url: "/projects",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "Builds · Keith O'Brien",
     description:
       "Software, MCP servers, newsletters, and tools Keith O'Brien builds and ships in service of Total Emphasis and as standalone projects across the practice.",

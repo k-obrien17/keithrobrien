@@ -16,8 +16,12 @@ export const metadata: Metadata = {
       "Keith O'Brien is a B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
     url: "/about/keith-obrien",
     type: "profile",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "Keith O'Brien, B2B Executive Ghostwriter",
     description:
       "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",

@@ -23,13 +23,25 @@ export async function generateMetadata({
   const y = parseYear(year);
   if (y === null || !getMusicYears().includes(y)) return {};
   const title = `Songs of ${y}`;
-  const description = `Keith O'Brien's songs of the year for ${y}: a ranked tracklist with a Spotify link.`;
+  const description = `Keith O'Brien's songs of the year for ${y}: a hand-picked, ranked tracklist with a Spotify playlist link. One list per year, kept by hand.`;
   return {
     title,
     description,
     alternates: { canonical: `/collect/music/${y}` },
-    openGraph: { title: `Keith O'Brien — ${title}`, description, url: `/collect/music/${y}`, type: "website" },
-    twitter: { title: `Keith O'Brien — ${title}`, description },
+    openGraph: {
+      title: `Keith O'Brien — ${title}`,
+      description,
+      url: `/collect/music/${y}`,
+      type: "website",
+      siteName: "Keith O'Brien",
+      images: ["/opengraph-image"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Keith O'Brien — ${title}`,
+      description,
+      images: ["/opengraph-image"],
+    },
   };
 }
 

@@ -16,8 +16,12 @@ export const metadata: Metadata = {
       "Keith O'Brien is the founder and operator of Total Emphasis, a B2B content strategy practice. Previously: tmrw life sciences, Haymarket, Horizon, Attention USA.",
     url: "/about",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "About Keith O'Brien",
     description:
       "Keith O'Brien is the founder and operator of Total Emphasis, a B2B content strategy practice. Previously: tmrw life sciences, Haymarket, Horizon, Attention USA.",

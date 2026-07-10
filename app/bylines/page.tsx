@@ -58,8 +58,12 @@ export const metadata: Metadata = {
     description: `${data.total} pieces across ${data.by_publication.length} publications, 2004 to present.`,
     url: "/bylines",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
     title: "Keith O'Brien — Bylines",
     description: `${data.total} pieces across ${data.by_publication.length} publications, 2004 to present.`,
   },

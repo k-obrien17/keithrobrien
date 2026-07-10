@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Container } from "@/components/container";
 import { Section } from "@/components/section";
+import { getFilmYears } from "@/lib/collect";
 import data from "@/content/collect/watching.json";
 
 type Entry = {
@@ -22,10 +24,14 @@ export const metadata: Metadata = {
     description: "Top 10 films and top 10 TV shows of all time, plus what I've rated most recently.",
     url: "/collect/watching",
     type: "website",
+    siteName: "Keith O'Brien",
+    images: ["/opengraph-image"],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Keith O'Brien — Watching",
     description: "Top 10 films and top 10 TV shows of all time, plus what I've rated most recently.",
+    images: ["/opengraph-image"],
   },
 };
 
@@ -125,6 +131,24 @@ export default function WatchingPage() {
             </li>
           ))}
         </ol>
+      </Section>
+
+      <Section label="By year">
+        <p className="text-[12px] text-[var(--color-muted)] mb-4">
+          Favorite films by release year, ranked by score.
+        </p>
+        <ul className="flex flex-wrap gap-x-5 gap-y-3">
+          {getFilmYears().map((y) => (
+            <li key={y}>
+              <Link
+                href={`/collect/watching/${y}`}
+                className="text-[15px] text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors tabular-nums"
+              >
+                {y}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </Section>
 
       <Section label="Recently rated">

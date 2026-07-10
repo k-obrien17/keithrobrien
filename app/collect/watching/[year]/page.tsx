@@ -23,13 +23,25 @@ export async function generateMetadata({
   const y = parseYear(year);
   if (y === null || !getFilmYears().includes(y)) return {};
   const title = `Films of ${y}`;
-  const description = `Keith O'Brien's favorite films released in ${y}, ranked by score from a self-hosted media library.`;
+  const description = `Keith O'Brien's favorite films released in ${y}, ranked by his own score out of 10 and pulled from a self-hosted media library. Links go to TMDB.`;
   return {
     title,
     description,
     alternates: { canonical: `/collect/watching/${y}` },
-    openGraph: { title: `Keith O'Brien — ${title}`, description, url: `/collect/watching/${y}`, type: "website" },
-    twitter: { title: `Keith O'Brien — ${title}`, description },
+    openGraph: {
+      title: `Keith O'Brien — ${title}`,
+      description,
+      url: `/collect/watching/${y}`,
+      type: "website",
+      siteName: "Keith O'Brien",
+      images: ["/opengraph-image"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Keith O'Brien — ${title}`,
+      description,
+      images: ["/opengraph-image"],
+    },
   };
 }
 

@@ -5,6 +5,47 @@
   "min_pool": 10,
   "per_year": 5,
   "years": {
+    "1984": {
+      "film": [
+        {
+          "title": "Once Upon a Time in America",
+          "year": 1984,
+          "score": 9.2,
+          "type": "film",
+          "tmdb_url": null
+        },
+        {
+          "title": "Indiana Jones and the Temple of Doom",
+          "year": 1984,
+          "score": 8.7,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/87"
+        },
+        {
+          "title": "Amadeus",
+          "year": 1984,
+          "score": 8.7,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/279"
+        },
+        {
+          "title": "Ghostbusters",
+          "year": 1984,
+          "score": 8.6,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/620"
+        },
+        {
+          "title": "Beverly Hills Cop",
+          "year": 1984,
+          "score": 8.5,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/90"
+        }
+      ],
+      "tv": [],
+      "pool": 10
+    },
     "1990": {
       "film": [
         {
@@ -45,6 +86,88 @@
       ],
       "tv": [],
       "pool": 14
+    },
+    "1991": {
+      "film": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "year": 1991,
+          "score": 9.4,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/280"
+        },
+        {
+          "title": "The Silence of the Lambs",
+          "year": 1991,
+          "score": 9.2,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/274"
+        },
+        {
+          "title": "Boyz n the Hood",
+          "year": 1991,
+          "score": 9.1,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/650"
+        },
+        {
+          "title": "Barton Fink",
+          "year": 1991,
+          "score": 8.8,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/290"
+        },
+        {
+          "title": "Cape Fear",
+          "year": 1991,
+          "score": 8.6,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/1598"
+        }
+      ],
+      "tv": [],
+      "pool": 16
+    },
+    "1992": {
+      "film": [
+        {
+          "title": "Twin Peaks: Fire Walk with Me",
+          "year": 1992,
+          "score": 9.3,
+          "type": "film",
+          "tmdb_url": null
+        },
+        {
+          "title": "Sneakers",
+          "year": 1992,
+          "score": 9,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/2322"
+        },
+        {
+          "title": "Reservoir Dogs",
+          "year": 1992,
+          "score": 8.9,
+          "type": "film",
+          "tmdb_url": null
+        },
+        {
+          "title": "A Few Good Men",
+          "year": 1992,
+          "score": 8.8,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/881"
+        },
+        {
+          "title": "Batman Returns",
+          "year": 1992,
+          "score": 8.3,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/364"
+        }
+      ],
+      "tv": [],
+      "pool": 12
     },
     "1993": {
       "film": [
@@ -290,7 +413,7 @@
         }
       ],
       "tv": [],
-      "pool": 18
+      "pool": 19
     },
     "1999": {
       "film": [
@@ -331,7 +454,7 @@
         }
       ],
       "tv": [],
-      "pool": 19
+      "pool": 21
     },
     "2000": {
       "film": [
@@ -374,6 +497,47 @@
       "tv": [],
       "pool": 17
     },
+    "2001": {
+      "film": [
+        {
+          "title": "The Royal Tenenbaums",
+          "year": 2001,
+          "score": 9.5,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/9428"
+        },
+        {
+          "title": "Mulholland Drive",
+          "year": 2001,
+          "score": 9.3,
+          "type": "film",
+          "tmdb_url": null
+        },
+        {
+          "title": "Training Day",
+          "year": 2001,
+          "score": 9,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/2034"
+        },
+        {
+          "title": "Y Tu Mamá También",
+          "year": 2001,
+          "score": 8.6,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/1391"
+        },
+        {
+          "title": "Donnie Darko",
+          "year": 2001,
+          "score": 8.4,
+          "type": "film",
+          "tmdb_url": null
+        }
+      ],
+      "tv": [],
+      "pool": 16
+    },
     "2002": {
       "film": [
         {
@@ -414,6 +578,47 @@
       ],
       "tv": [],
       "pool": 19
+    },
+    "2003": {
+      "film": [
+        {
+          "title": "Lost in Translation",
+          "year": 2003,
+          "score": 9.4,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/153"
+        },
+        {
+          "title": "Kill Bill: Vol. 1",
+          "year": 2003,
+          "score": 9.3,
+          "type": "film",
+          "tmdb_url": null
+        },
+        {
+          "title": "Master and Commander: The Far Side of the World",
+          "year": 2003,
+          "score": 9.1,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/8619"
+        },
+        {
+          "title": "The Matrix Reloaded",
+          "year": 2003,
+          "score": 8.5,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/604"
+        },
+        {
+          "title": "X2",
+          "year": 2003,
+          "score": 8.1,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/36658"
+        }
+      ],
+      "tv": [],
+      "pool": 16
     },
     "2004": {
       "film": [
@@ -1070,6 +1275,47 @@
       ],
       "tv": [],
       "pool": 14
+    },
+    "2020": {
+      "film": [
+        {
+          "title": "Tenet",
+          "year": 2020,
+          "score": 9.1,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/577922"
+        },
+        {
+          "title": "Sound of Metal",
+          "year": 2020,
+          "score": 7.9,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/502033"
+        },
+        {
+          "title": "Mank",
+          "year": 2020,
+          "score": 7.7,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/614560"
+        },
+        {
+          "title": "On the Rocks",
+          "year": 2020,
+          "score": 7.5,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/575417"
+        },
+        {
+          "title": "Soul",
+          "year": 2020,
+          "score": 7.3,
+          "type": "film",
+          "tmdb_url": "https://www.themoviedb.org/movie/508442"
+        }
+      ],
+      "tv": [],
+      "pool": 10
     },
     "2021": {
       "film": [

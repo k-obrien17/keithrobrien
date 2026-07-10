@@ -148,43 +148,43 @@
   ],
   "recently_watched": [
     {
-      "title": "Men in Black 3",
-      "year": 2012,
-      "score": 6.3,
+      "title": "Palm Springs",
+      "year": 2020,
+      "score": 6.8,
       "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/41154",
+      "tmdb_url": "https://www.themoviedb.org/movie/587792",
       "logged": "2026-07-10"
     },
     {
-      "title": "X-Men Origins: Wolverine",
-      "year": 2009,
-      "score": 6.9,
+      "title": "The Italian Job",
+      "year": 2003,
+      "score": 6,
       "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/2080",
+      "tmdb_url": "https://www.themoviedb.org/movie/9654",
       "logged": "2026-07-10"
     },
     {
-      "title": "The Simpsons Movie",
-      "year": 2007,
-      "score": 7.5,
-      "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/35",
-      "logged": "2026-07-10"
-    },
-    {
-      "title": "Thor: Love and Thunder",
-      "year": 2022,
-      "score": 6.7,
-      "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/616037",
-      "logged": "2026-07-10"
-    },
-    {
-      "title": "Spectre",
-      "year": 2015,
+      "title": "The School of Rock",
+      "year": 2003,
       "score": 7.3,
       "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/206647",
+      "tmdb_url": "https://www.themoviedb.org/movie/1584",
+      "logged": "2026-07-10"
+    },
+    {
+      "title": "Big Fish",
+      "year": 2003,
+      "score": 7.2,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/587",
+      "logged": "2026-07-10"
+    },
+    {
+      "title": "Pearl Harbor",
+      "year": 2001,
+      "score": 5.5,
+      "type": "film",
+      "tmdb_url": "https://www.themoviedb.org/movie/676",
       "logged": "2026-07-10"
     }
   ],

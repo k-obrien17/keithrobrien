@@ -40,6 +40,11 @@ const LANES: Lane[] = [
     blurb: "A top 10 of all time and the most recently logged, out of 10.",
   },
   {
+    label: "albums",
+    href: "/collect/albums",
+    blurb: "A top 10 of all time, out of 10, from a ranking app I built.",
+  },
+  {
     label: "music",
     href: "/collect/music",
     blurb: "Songs of the year, ranked, with a Spotify link.",

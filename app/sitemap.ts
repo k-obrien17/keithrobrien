@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const collectRoutes = [
     "/collect",
     "/collect/watching",
+    "/collect/albums",
     "/collect/music",
     "/collect/reading",
     ...getYears().map((y) => `/collect/${y}`),

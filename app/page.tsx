@@ -4,13 +4,14 @@ import { Section } from "@/components/section";
 import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
-import { getHome, getRecentlyShipped } from "@/lib/site-content";
+import { getHome, getListening, getRecentlyShipped } from "@/lib/site-content";
 
 export default function Home() {
   const home = getHome();
   const featured = featuredProjects().slice(0, 3);
   const posts = getAllPosts().slice(0, 2);
   const shipped = getRecentlyShipped();
+  const listening = getListening();
 
   return (
     <>
@@ -88,6 +89,32 @@ export default function Home() {
               ],
             }))}
           />
+        </Section>
+      )}
+
+      {/* Listening */}
+      {listening.playlistId && (
+        <Section label="Listening">
+          <p className="text-[12.5px] leading-[1.8] text-[var(--color-muted)] mb-6 max-w-[580px]">
+            {listening.note}
+          </p>
+          <iframe
+            src={`https://open.spotify.com/embed/playlist/${listening.playlistId}?theme=0`}
+            width="100%"
+            height="352"
+            style={{ border: 0 }}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Spotify playlist: current rotation"
+          />
+          <a
+            href={`https://open.spotify.com/playlist/${listening.playlistId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            open in Spotify &rarr;
+          </a>
         </Section>
       )}
 

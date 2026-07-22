@@ -2,6 +2,7 @@ import homeJson from "@/content/site/home.json";
 import aboutJson from "@/content/site/about.json";
 import nowJson from "@/content/site/now.json";
 import shippedJson from "@/content/site/recently-shipped.json";
+import listeningJson from "@/content/site/listening.json";
 
 export interface Facet {
   label: string;
@@ -61,4 +62,13 @@ export interface RecentlyShippedItem {
 
 export function getRecentlyShipped(): RecentlyShippedItem[] {
   return (shippedJson as { list: RecentlyShippedItem[] }).list;
+}
+
+export interface Listening {
+  playlistId: string;
+  note: string;
+}
+
+export function getListening(): Listening {
+  return listeningJson as Listening;
 }

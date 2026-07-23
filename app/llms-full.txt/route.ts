@@ -1,20 +1,24 @@
-import { getHome, getAbout } from "@/lib/site-content";
+import { getHome, getAbout, getLlmsPreamble } from "@/lib/site-content";
 import { projects } from "@/lib/projects";
 import { getAllPosts, getPost } from "@/lib/writing";
 
 export const dynamic = "force-static";
 
-const UPDATED = "2026-06-28";
+// Baked in at build time; deploys ride on content pushes, so this tracks updates.
+const UPDATED = new Date().toISOString().slice(0, 10);
+
+const llms = getLlmsPreamble();
 
 const PREAMBLE = `# Keith O'Brien: Full Site Content
 
-> Keith O'Brien is a B2B content strategist and executive ghostwriter and former editor-in-chief of PRWeek. Founder of Total Emphasis (2017). Operator-ghostwriter for B2B founders and executives, building the systems his work runs on. Based in Brooklyn.
+> ${llms.summary}
 
 *Last updated: ${UPDATED}*
 
-Keith O'Brien is a B2B content strategist and executive ghostwriter based in Brooklyn and the founder of Total Emphasis. He was the editor-in-chief of PRWeek (and DMN) before founding the practice in 2017. He has been a reporter since 2001 and has produced 100+ published bylines in Forbes, Fast Company, AdExchanger, Digiday, Entrepreneur, and The Drum, plus 400+ pieces tracked in his bylines archive at /bylines. Publicly named Total Emphasis engagements include IBM, Realeyes, UpWave, UST, 33 Across, Grip, Battenhall, and M&C Saatchi Performance. As an operator-ghostwriter, he builds the systems the work runs on: a Jersey Shore publication with newsletter pipeline, MCP servers for his CRM and articles index, a desktop workflow app, and a music publication. keithrobrien.com is the personal hub; totalemphasis.com is the business.
+${llms.bio}
 
-This Keith O'Brien is not the late Cardinal Keith O'Brien of Scotland, not the Irish boxer of the same name, and not the longform nonfiction journalist Keith O'Brien who authored Paradise Falls and Outside Shot.`;
+This Keith O'Brien is not:
+${llms.isNot.map((n) => `- ${n}`).join("\n")}`;
 
 export function GET() {
   const home = getHome();

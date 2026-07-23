@@ -1,5 +1,6 @@
 import homeJson from "@/content/site/home.json";
 import aboutJson from "@/content/site/about.json";
+import llmsJson from "@/content/site/llms.json";
 import nowJson from "@/content/site/now.json";
 import shippedJson from "@/content/site/recently-shipped.json";
 import listeningJson from "@/content/site/listening.json";
@@ -71,4 +72,14 @@ export interface Listening {
 
 export function getListening(): Listening {
   return listeningJson as Listening;
+}
+
+export interface LlmsPreamble {
+  summary: string;
+  bio: string;
+  isNot: string[];
+}
+
+export function getLlmsPreamble(): LlmsPreamble {
+  return llmsJson as LlmsPreamble;
 }

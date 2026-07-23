@@ -5,15 +5,13 @@ import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
 import { getHome, getListening, getRecentlyShipped } from "@/lib/site-content";
-import { getPlaylist } from "@/lib/spotify";
 
-export default async function Home() {
+export default function Home() {
   const home = getHome();
   const featured = featuredProjects().slice(0, 3);
   const posts = getAllPosts().slice(0, 2);
   const shipped = getRecentlyShipped();
   const listening = getListening();
-  const playlist = await getPlaylist(listening.playlistId);
 
   return (
     <>
@@ -95,32 +93,22 @@ export default async function Home() {
       )}
 
       {/* Listening */}
-      {playlist && playlist.tracks.length > 0 && (
+      {listening.playlistId && (
         <Section label="Listening">
           <p className="text-[12.5px] leading-[1.8] text-[var(--color-muted)] mb-6 max-w-[580px]">
             {listening.note}
           </p>
-          <IndexTable
-            columns={[
-              { label: "#", className: "w-11", accent: true },
-              { label: "TRACK", className: "flex-1 pr-4" },
-              { label: "ARTIST", className: "w-[180px] text-right" },
-            ]}
-            rows={playlist.tracks.map((track, i) => ({
-              cells: [
-                String(i + 1).padStart(2, "0"),
-                <span key="t" className="text-[var(--color-fg)] font-medium">
-                  {track.title}
-                </span>,
-                track.artists,
-              ],
-              href: track.url,
-              external: true,
-              ariaLabel: `${track.title} by ${track.artists} (opens in Spotify)`,
-            }))}
+          <iframe
+            src={`https://open.spotify.com/embed/playlist/${listening.playlistId}?theme=0`}
+            width="100%"
+            height="352"
+            style={{ border: 0 }}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Spotify playlist: current rotation"
           />
           <a
-            href={playlist.url}
+            href={`https://open.spotify.com/playlist/${listening.playlistId}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"

@@ -4,6 +4,7 @@ import llmsJson from "@/content/site/llms.json";
 import nowJson from "@/content/site/now.json";
 import shippedJson from "@/content/site/recently-shipped.json";
 import listeningJson from "@/content/site/listening.json";
+import listeningLogJson from "@/content/site/listening-log.json";
 
 export interface Facet {
   label: string;
@@ -72,6 +73,17 @@ export interface Listening {
 
 export function getListening(): Listening {
   return listeningJson as Listening;
+}
+
+export interface ListeningChange {
+  date: string;
+  type: "added" | "removed";
+  title: string;
+  artists: string;
+}
+
+export function getListeningChanges(): ListeningChange[] {
+  return (listeningLogJson as { changes: ListeningChange[] }).changes;
 }
 
 export interface LlmsPreamble {

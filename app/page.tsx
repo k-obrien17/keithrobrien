@@ -4,7 +4,12 @@ import { Section } from "@/components/section";
 import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
-import { getHome, getListening, getRecentlyShipped } from "@/lib/site-content";
+import {
+  getHome,
+  getListening,
+  getListeningChanges,
+  getRecentlyShipped,
+} from "@/lib/site-content";
 
 export default function Home() {
   const home = getHome();
@@ -12,6 +17,7 @@ export default function Home() {
   const posts = getAllPosts().slice(0, 2);
   const shipped = getRecentlyShipped();
   const listening = getListening();
+  const listeningChanges = getListeningChanges().slice(0, 6);
 
   return (
     <>
@@ -115,6 +121,37 @@ export default function Home() {
           >
             open in Spotify &rarr;
           </a>
+
+          {listeningChanges.length > 0 && (
+            <ul className="mt-8 flex flex-col gap-[10px]">
+              {listeningChanges.map((change, i) => (
+                <li
+                  key={i}
+                  className="flex items-baseline gap-3 text-[12.5px]"
+                >
+                  <span
+                    className={
+                      change.type === "added"
+                        ? "text-[var(--color-accent)] w-3"
+                        : "text-[var(--color-faint)] w-3"
+                    }
+                  >
+                    {change.type === "added" ? "+" : "−"}
+                  </span>
+                  <span className="flex-1 text-[var(--color-muted)]">
+                    {change.title} · {change.artists}
+                  </span>
+                  <span className="text-[var(--color-faint)] w-[60px] text-right">
+                    {new Date(change.date).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      timeZone: "UTC",
+                    })}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
         </Section>
       )}
 

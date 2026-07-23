@@ -39,13 +39,21 @@ async function getCurrentTracks(token) {
     `https://api.spotify.com/v1/playlists/${PLAYLIST_ID}?fields=${encodeURIComponent(fields)}`,
     { headers: { Authorization: `Bearer ${token}` } },
   );
+  console.log(`Playlist request status: ${res.status}`);
   if (!res.ok) {
     console.error(`Playlist request failed: ${res.status}`);
+    console.error(await res.text());
     return null;
   }
 
   const data = await res.json();
-  return (data.tracks?.items ?? [])
+  const rawItems = data.tracks?.items ?? [];
+  console.log(`Raw items from API: ${rawItems.length}`);
+  if (rawItems.length === 0) {
+    console.log(`Full response: ${JSON.stringify(data).slice(0, 2000)}`);
+  }
+
+  return rawItems
     .filter((item) => item.track)
     .map((item) => ({
       id: item.track.id,

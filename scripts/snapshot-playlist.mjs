@@ -33,10 +33,12 @@ async function getAccessToken() {
 }
 
 async function getCurrentTracks(token) {
-  const fields =
-    "tracks.items(track(id,name,external_urls.spotify,artists(name)))";
+  // No `fields` partial-response filter: Spotify's filter syntax is
+  // fussy and silently returns `{}` rather than erroring when it
+  // rejects it. The playlist is small, so fetching the full object
+  // and extracting what we need client-side is more reliable.
   const res = await fetch(
-    `https://api.spotify.com/v1/playlists/${PLAYLIST_ID}?fields=${encodeURIComponent(fields)}`,
+    `https://api.spotify.com/v1/playlists/${PLAYLIST_ID}`,
     { headers: { Authorization: `Bearer ${token}` } },
   );
   console.log(`Playlist request status: ${res.status}`);
@@ -49,9 +51,6 @@ async function getCurrentTracks(token) {
   const data = await res.json();
   const rawItems = data.tracks?.items ?? [];
   console.log(`Raw items from API: ${rawItems.length}`);
-  if (rawItems.length === 0) {
-    console.log(`Full response: ${JSON.stringify(data).slice(0, 2000)}`);
-  }
 
   return rawItems
     .filter((item) => item.track)

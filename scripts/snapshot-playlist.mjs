@@ -52,6 +52,8 @@ async function getCurrentTracks(token) {
   console.log(
     `Playlist: name=${JSON.stringify(data.name)} public=${data.public} owner=${data.owner?.id} tracks.total=${data.tracks?.total}`,
   );
+  console.log(`Top-level keys: ${Object.keys(data).join(", ")}`);
+  console.log(`tracks field: ${JSON.stringify(data.tracks).slice(0, 1500)}`);
   const rawItems = data.tracks?.items ?? [];
   console.log(`Raw items from API: ${rawItems.length}`);
 

@@ -1,0 +1,136 @@
+{
+  "year": 2009,
+  "note": "Full \"Best of 2009\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/5yOVQKBQeiIgZlqZhwZjhj",
+    "tracks": [
+      {
+        "track": "1901",
+        "artist": "Phoenix",
+        "album": "Wolfgang Amadeus Phoenix"
+      },
+      {
+        "track": "Artificial Intelligence",
+        "artist": "Nite Jewel",
+        "album": "Good Evening"
+      },
+      {
+        "track": "Cannibal Resource",
+        "artist": "Dirty Projectors",
+        "album": "Bitte Orca"
+      },
+      {
+        "track": "Castle",
+        "artist": "UUVVWWZ",
+        "album": "UUVVWWZ"
+      },
+      {
+        "track": "Chase the Tear",
+        "artist": "Portishead",
+        "album": "Chase the Tear"
+      },
+      {
+        "track": "Cradle",
+        "artist": "The Joy Formidable",
+        "album": "A Balloon Called Moaning"
+      },
+      {
+        "track": "Crystalised",
+        "artist": "The xx",
+        "album": "xx"
+      },
+      {
+        "track": "Day 'N' Nite (nightmare)",
+        "artist": "Kid Cudi",
+        "album": "Man On The Moon: The End Of Day (Deluxe)"
+      },
+      {
+        "track": "Feel It All Around",
+        "artist": "Washed Out",
+        "album": "Life of Leisure"
+      },
+      {
+        "track": "From Africa To Malaga",
+        "artist": "JJ",
+        "album": "jj nº 2"
+      },
+      {
+        "track": "Golden Phone",
+        "artist": "Micachu & The Shapes",
+        "album": "Jewellery"
+      },
+      {
+        "track": "Hold The Line",
+        "artist": "Major Lazer, Mr. Lex, Santigold",
+        "album": "Guns Don't Kill People...Lazers Do (Deluxe Edition)"
+      },
+      {
+        "track": "I'm Not Done",
+        "artist": "Fever Ray",
+        "album": "Fever Ray"
+      },
+      {
+        "track": "Kinda Like a Big Deal (feat. Kanye West)",
+        "artist": "Clipse, Kanye West",
+        "album": "Til The Casket Drops"
+      },
+      {
+        "track": "Lust For Life",
+        "artist": "Girls",
+        "album": "Album"
+      },
+      {
+        "track": "Nightingale / December Song",
+        "artist": "Sunset Rubdown, Spencer Krug",
+        "album": "Dragonslayer"
+      },
+      {
+        "track": "Real Live Flesh",
+        "artist": "Tune-Yards",
+        "album": "BiRd-BrAiNs"
+      },
+      {
+        "track": "Sea Within A Sea",
+        "artist": "The Horrors",
+        "album": "Primary Colours"
+      },
+      {
+        "track": "Sleep Alone",
+        "artist": "Bat For Lashes",
+        "album": "Two Suns"
+      },
+      {
+        "track": "Summertime Clothes",
+        "artist": "Animal Collective",
+        "album": "Merriweather Post Pavilion"
+      },
+      {
+        "track": "Swans",
+        "artist": "Camera Obscura",
+        "album": "My Maudlin Career"
+      },
+      {
+        "track": "The Hazards Of Love 2 (Wager All)",
+        "artist": "The Decemberists",
+        "album": "Hazards Of Love"
+      },
+      {
+        "track": "The Tenure Itch",
+        "artist": "The Pains Of Being Pure At Heart",
+        "album": "The Pains of Being Pure at Heart"
+      },
+      {
+        "track": "This Tornado Loves You",
+        "artist": "Neko Case",
+        "album": "Middle Cyclone"
+      },
+      {
+        "track": "Zero",
+        "artist": "Yeah Yeah Yeahs",
+        "album": "It's Blitz! (Deluxe Edition)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

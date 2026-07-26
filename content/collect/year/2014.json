@@ -1,0 +1,136 @@
+{
+  "year": 2014,
+  "note": "Full \"Best of 2014\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6vcLoxeGajJrStCN89jheV",
+    "tracks": [
+      {
+        "track": "A Place Called Space",
+        "artist": "The Juan Maclean",
+        "album": "A Place Called Space"
+      },
+      {
+        "track": "All The Rage Back Home",
+        "artist": "Interpol",
+        "album": "El Pintor"
+      },
+      {
+        "track": "Ashes",
+        "artist": "Weyes Blood",
+        "album": "The Innocents"
+      },
+      {
+        "track": "Avant Gardener",
+        "artist": "Courtney Barnett",
+        "album": "The Double Ep: A Sea of Split Peas"
+      },
+      {
+        "track": "Backstairs",
+        "artist": "The New Pornographers",
+        "album": "Brill Bruisers"
+      },
+      {
+        "track": "CIRCLONT6A [141.98][syrobonkus mix]",
+        "artist": "Aphex Twin",
+        "album": "Syro"
+      },
+      {
+        "track": "Close Your Eyes (And Count to Fuck) [feat. Zack De La Rocha]",
+        "artist": "Run The Jewels, Zack De La Rocha",
+        "album": "Run the Jewels 2"
+      },
+      {
+        "track": "Digital Witness",
+        "artist": "St. Vincent",
+        "album": "St. Vincent"
+      },
+      {
+        "track": "Every Time the Sun Comes Up",
+        "artist": "Sharon Van Etten",
+        "album": "Are We There"
+      },
+      {
+        "track": "Evil Blooms",
+        "artist": "Dum Dum Girls",
+        "album": "Too True"
+      },
+      {
+        "track": "Forgiven/Forgotten",
+        "artist": "Angel Olsen",
+        "album": "Burn Your Fire For No Witness"
+      },
+      {
+        "track": "Hot N*gga",
+        "artist": "Bobby Shmurda",
+        "album": "Hot N*gga"
+      },
+      {
+        "track": "Johnny And Mary (feat. Bryan Ferry)",
+        "artist": "Todd Terje",
+        "album": "It's Album Time"
+      },
+      {
+        "track": "Nutcrackerz",
+        "artist": "Dizzee Rascal, Giggs",
+        "album": "Nutcrackerz"
+      },
+      {
+        "track": "Propuesta Indecente",
+        "artist": "Romeo Santos",
+        "album": "Fórmula, Vol. 2 (Deluxe Edition)"
+      },
+      {
+        "track": "Put Your Number in My Phone",
+        "artist": "Ariel Pink",
+        "album": "pom pom"
+      },
+      {
+        "track": "Ride On, Molina",
+        "artist": "Rivulets",
+        "album": "I Remember Everything"
+      },
+      {
+        "track": "Sick Beat",
+        "artist": "Kero Kero Bonito",
+        "album": "Intro Bonito"
+      },
+      {
+        "track": "Silver",
+        "artist": "Caribou",
+        "album": "Our Love (Expanded Edition)"
+      },
+      {
+        "track": "Two Weeks",
+        "artist": "FKA twigs",
+        "album": "LP1"
+      },
+      {
+        "track": "Vox Tuned D.E.D.",
+        "artist": "Liars",
+        "album": "Mess"
+      },
+      {
+        "track": "West Coast",
+        "artist": "Lana Del Rey",
+        "album": "Ultraviolence (Deluxe)"
+      },
+      {
+        "track": "Would You Fight For My Love?",
+        "artist": "Jack White",
+        "album": "Lazaretto"
+      },
+      {
+        "track": "Wut",
+        "artist": "Kalifa",
+        "album": "Hey"
+      },
+      {
+        "track": "You Fell Apart",
+        "artist": "Ex Hex",
+        "album": "Rips"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

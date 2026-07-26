@@ -1,0 +1,136 @@
+{
+  "year": 1985,
+  "note": "Full \"Best of 1985\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/5T9X4VNWTM7nxBSWRMWwbP",
+    "tracks": [
+      {
+        "track": "And She Was",
+        "artist": "Talking Heads",
+        "album": "Little Creatures"
+      },
+      {
+        "track": "Anything, Anything",
+        "artist": "Dramarama",
+        "album": "Cinema Verite"
+      },
+      {
+        "track": "Can't Get There From Here",
+        "artist": "R.E.M.",
+        "album": "Fables Of The Reconstruction"
+      },
+      {
+        "track": "Crazy for You",
+        "artist": "Madonna",
+        "album": "Celebration (double disc version)"
+      },
+      {
+        "track": "Forget The Swan",
+        "artist": "Dinosaur Jr.",
+        "album": "Dinosaur"
+      },
+      {
+        "track": "Hablando a Tu Corazón",
+        "artist": "Charly García, Pedro Aznar",
+        "album": "García 87/93"
+      },
+      {
+        "track": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+        "artist": "Tears For Fears, Dave Bascombe",
+        "album": "Songs From The Big Chair (Deluxe)"
+      },
+      {
+        "track": "How Soon Is Now? - 2011 Remaster",
+        "artist": "The Smiths",
+        "album": "Hatful of Hollow"
+      },
+      {
+        "track": "Intro",
+        "artist": "Sonic Youth",
+        "album": "Bad Moon Rising"
+      },
+      {
+        "track": "Jungle Love",
+        "artist": "The Time",
+        "album": "Ice Cream Castle"
+      },
+      {
+        "track": "Just Like Honey",
+        "artist": "The Jesus and Mary Chain",
+        "album": "Psychocandy"
+      },
+      {
+        "track": "Life's What You Make It - 1997 Remaster",
+        "artist": "Talk Talk",
+        "album": "The Colour of Spring"
+      },
+      {
+        "track": "Money for Nothing",
+        "artist": "Dire Straits",
+        "album": "Brothers in Arms"
+      },
+      {
+        "track": "Primitive Painters",
+        "artist": "Felt",
+        "album": "Absolute Classic Masterpieces"
+      },
+      {
+        "track": "Raspberry Beret",
+        "artist": "Prince",
+        "album": "Around the World in a Day"
+      },
+      {
+        "track": "Running Up That Hill (A Deal With God) - 2018 Remaster",
+        "artist": "Kate Bush",
+        "album": "Hounds of Love (2018 Remaster)"
+      },
+      {
+        "track": "She Sells Sanctuary",
+        "artist": "The Cult",
+        "album": "Love"
+      },
+      {
+        "track": "St Elmo's Fire (Anniversary Edition)",
+        "artist": "John Parr",
+        "album": "St Elmo's Fire (Anniversary Edition)"
+      },
+      {
+        "track": "Swingin Party - 2008 Remaster",
+        "artist": "The Replacements",
+        "album": "Tim (Expanded)"
+      },
+      {
+        "track": "Take Me Home - 2016 Remaster",
+        "artist": "Phil Collins",
+        "album": "No Jacket Required (2016 Remaster)"
+      },
+      {
+        "track": "Take the Skinheads Bowling",
+        "artist": "Camper Van Beethoven",
+        "album": "Telephone Free Landslide Victory"
+      },
+      {
+        "track": "The Perfect Kiss - 2015 Remaster",
+        "artist": "New Order",
+        "album": "Low-Life"
+      },
+      {
+        "track": "Up on the Sun",
+        "artist": "Meat Puppets",
+        "album": "Up on the Sun"
+      },
+      {
+        "track": "Voices Carry",
+        "artist": "'Til Tuesday",
+        "album": "Voices Carry (Expanded Edition)"
+      },
+      {
+        "track": "Walking On Sunshine",
+        "artist": "Katrina & The Waves",
+        "album": "Katrina & The Waves"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

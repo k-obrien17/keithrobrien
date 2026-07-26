@@ -1,0 +1,136 @@
+{
+  "year": 1994,
+  "note": "Full \"Best of 1994\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/32TzfPWBLA1zesnFINgnHU",
+    "tracks": [
+      {
+        "track": "A Girl Like You",
+        "artist": "Edwyn Collins",
+        "album": "Gorgeous George"
+      },
+      {
+        "track": "Babies",
+        "artist": "Pulp",
+        "album": "His N Hers"
+      },
+      {
+        "track": "Bull In The Heather",
+        "artist": "Sonic Youth",
+        "album": "Experimental Jet Set, Trash And No Star"
+      },
+      {
+        "track": "Eternal Life",
+        "artist": "Jeff Buckley",
+        "album": "Grace (Legacy Edition)"
+      },
+      {
+        "track": "Feel the Pain",
+        "artist": "Dinosaur Jr.",
+        "album": "Without a Sound"
+      },
+      {
+        "track": "Gimme the Loot - 2005 Remaster",
+        "artist": "The Notorious B.I.G.",
+        "album": "Ready to Die (The Remaster)"
+      },
+      {
+        "track": "Grace, Too",
+        "artist": "The Tragically Hip",
+        "album": "Day For Night"
+      },
+      {
+        "track": "I Let Love In - 2011 Remastered Version",
+        "artist": "Nick Cave & The Bad Seeds",
+        "album": "Let Love In (2011 Remastered Version)"
+      },
+      {
+        "track": "It's A Fire",
+        "artist": "Portishead",
+        "album": "Dummy"
+      },
+      {
+        "track": "March Of The Pigs",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral"
+      },
+      {
+        "track": "N.Y. State of Mind",
+        "artist": "Nas",
+        "album": "Illmatic"
+      },
+      {
+        "track": "Parklife - 2012 Remaster",
+        "artist": "Blur",
+        "album": "Parklife"
+      },
+      {
+        "track": "Possum Kingdom",
+        "artist": "Toadies",
+        "album": "Rubberneck"
+      },
+      {
+        "track": "Protection",
+        "artist": "Massive Attack, Tracey Thorn",
+        "album": "Protection"
+      },
+      {
+        "track": "Range Life",
+        "artist": "Pavement",
+        "album": "Crooked Rain Crooked Rain"
+      },
+      {
+        "track": "Ridiculous Thoughts - 2025 Remastered",
+        "artist": "The Cranberries",
+        "album": "No Need To Argue (2025 Remastered)"
+      },
+      {
+        "track": "Say It Ain't So - Original Mix",
+        "artist": "Weezer",
+        "album": "Weezer"
+      },
+      {
+        "track": "Stage",
+        "artist": "Live",
+        "album": "Throwing Copper"
+      },
+      {
+        "track": "Strange Currencies - Remastered 2013",
+        "artist": "R.E.M.",
+        "album": "Monster (25th Anniversary Edition)"
+      },
+      {
+        "track": "Supernova",
+        "artist": "Liz Phair",
+        "album": "Whip-Smart"
+      },
+      {
+        "track": "Supersonic (Remastered)",
+        "artist": "Oasis",
+        "album": "Definitely Maybe (Remastered) [Deluxe Edition]"
+      },
+      {
+        "track": "Sure Shot - Remastered 2009",
+        "artist": "Beastie Boys",
+        "album": "Ill Communication (Deluxe Edition/Remastered)"
+      },
+      {
+        "track": "Violet",
+        "artist": "Hole",
+        "album": "Live Through This"
+      },
+      {
+        "track": "Words",
+        "artist": "Low",
+        "album": "I Could Live In Hope"
+      },
+      {
+        "track": "Yes, Anastasia",
+        "artist": "Tori Amos",
+        "album": "Under the Pink"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 2023,
+  "note": "Full \"Best of 2023\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6cG0rk5DwY0m1zIC8D6hmV",
+    "tracks": [
+      {
+        "track": "A Barely Lit Path",
+        "artist": "Oneohtrix Point Never",
+        "album": "A Barely Lit Path"
+      },
+      {
+        "track": "All I Do",
+        "artist": "Bully",
+        "album": "Lucky For You"
+      },
+      {
+        "track": "A&W",
+        "artist": "Lana Del Rey",
+        "album": "Did you know that there's a tunnel under Ocean Blvd"
+      },
+      {
+        "track": "Barley",
+        "artist": "Water From Your Eyes",
+        "album": "Everyone's Crushed"
+      },
+      {
+        "track": "Blood And Butter",
+        "artist": "Caroline Polachek",
+        "album": "Desire, I Want To Turn Into You"
+      },
+      {
+        "track": "Carbon Dioxide",
+        "artist": "Fever Ray",
+        "album": "Carbon Dioxide"
+      },
+      {
+        "track": "Chosen to Deserve",
+        "artist": "Wednesday",
+        "album": "Rat Saw God"
+      },
+      {
+        "track": "Crossing Guard",
+        "artist": "Model/Actriz",
+        "album": "Dogsbody"
+      },
+      {
+        "track": "Dumbest Girl Alive",
+        "artist": "100 gecs",
+        "album": "10,000 gecs"
+      },
+      {
+        "track": "Flames shards goo",
+        "artist": "ML Buch",
+        "album": "Suntub"
+      },
+      {
+        "track": "Greenville",
+        "artist": "Angel Olsen",
+        "album": "Greenville"
+      },
+      {
+        "track": "Johnny Dang (with Paul Wall & DRODi)",
+        "artist": "That Mexican OT, Paul Wall, DRODi",
+        "album": "Johnny Dang (with Paul Wall & DRODi)"
+      },
+      {
+        "track": "Kill Bill",
+        "artist": "SZA",
+        "album": "SOS"
+      },
+      {
+        "track": "Leaving The Light",
+        "artist": "Genesis Owusu",
+        "album": "Leaving The Light"
+      },
+      {
+        "track": "love is embarrassing",
+        "artist": "Olivia Rodrigo",
+        "album": "GUTS"
+      },
+      {
+        "track": "Madres",
+        "artist": "Sofia Kourtesis",
+        "album": "Madres"
+      },
+      {
+        "track": "Oral",
+        "artist": "Björk, ROSALÍA",
+        "album": "Oral"
+      },
+      {
+        "track": "Pinking Shears",
+        "artist": "Mandy, Indiana",
+        "album": "i've seen a way"
+      },
+      {
+        "track": "Really Really Light",
+        "artist": "The New Pornographers",
+        "album": "Really Really Light"
+      },
+      {
+        "track": "SCARING THE HOES",
+        "artist": "JPEGMAFIA, Danny Brown",
+        "album": "SCARING THE HOES"
+      },
+      {
+        "track": "Three Drums",
+        "artist": "Four Tet",
+        "album": "Three Drums"
+      },
+      {
+        "track": "TQG",
+        "artist": "KAROL G, Shakira",
+        "album": "MAÑANA SERÁ BONITO"
+      },
+      {
+        "track": "Vampire Empire",
+        "artist": "Big Thief",
+        "album": "Vampire Empire"
+      },
+      {
+        "track": "Will Anybody Ever Love Me?",
+        "artist": "Sufjan Stevens",
+        "album": "Javelin"
+      },
+      {
+        "track": "yes! yes! a thousand times yes!",
+        "artist": "Home Is Where",
+        "album": "the whaler"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

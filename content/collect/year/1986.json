@@ -1,0 +1,136 @@
+{
+  "year": 1986,
+  "note": "Full \"Best of 1986\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/67dTdhR60jT4Sn5ffj8PSY",
+    "tracks": [
+      {
+        "track": "At the Bottom",
+        "artist": "The Clean",
+        "album": "Odditties (Cassette Compilation)"
+      },
+      {
+        "track": "Bizarre Love Triangle - 2024 Digital Master",
+        "artist": "New Order",
+        "album": "Brotherhood"
+      },
+      {
+        "track": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+        "artist": "Kenny Loggins",
+        "album": "Top Gun - Motion Picture Soundtrack (Special Expanded Edition)"
+      },
+      {
+        "track": "Don't Want to Know If You Are Lonely",
+        "artist": "Hüsker Dü",
+        "album": "Candy Apple Grey"
+      },
+      {
+        "track": "Fall On Me - 2011 Remaster",
+        "artist": "R.E.M.",
+        "album": "Lifes Rich Pageant (Deluxe Edition)"
+      },
+      {
+        "track": "Glory of Love",
+        "artist": "Peter Cetera",
+        "album": "Solitude / Solitaire"
+      },
+      {
+        "track": "Green Light",
+        "artist": "Sonic Youth",
+        "album": "Evol"
+      },
+      {
+        "track": "Higher Love",
+        "artist": "Steve Winwood",
+        "album": "Back In The High Life"
+      },
+      {
+        "track": "In Your Eyes - 2012 Remaster",
+        "artist": "Peter Gabriel",
+        "album": "So (2012 Remastered)"
+      },
+      {
+        "track": "Invisible Touch",
+        "artist": "Genesis",
+        "album": "Invisible Touch"
+      },
+      {
+        "track": "Kiss",
+        "artist": "Prince",
+        "album": "Parade - Music from the Motion Picture Under the Cherry Moon"
+      },
+      {
+        "track": "Land Of Danger",
+        "artist": "Guided By Voices",
+        "album": "Forever Since Breakfast"
+      },
+      {
+        "track": "My Adidas",
+        "artist": "Run–D.M.C.",
+        "album": "Raising Hell"
+      },
+      {
+        "track": "Open Your Heart",
+        "artist": "Madonna",
+        "album": "True Blue"
+      },
+      {
+        "track": "Paul Revere",
+        "artist": "Beastie Boys",
+        "album": "Licensed To Ill"
+      },
+      {
+        "track": "Rise",
+        "artist": "Public Image Ltd.",
+        "album": "80s Chart Toppers"
+      },
+      {
+        "track": "The Boy In the Bubble",
+        "artist": "Paul Simon",
+        "album": "Graceland (25th Anniversary Deluxe Edition)"
+      },
+      {
+        "track": "The Boy with the Thorn in His Side - 2011 Remaster",
+        "artist": "The Smiths",
+        "album": "The Queen Is Dead"
+      },
+      {
+        "track": "The Show",
+        "artist": "Doug E. Fresh",
+        "album": "Oh My God!"
+      },
+      {
+        "track": "Thorn in My Side - Remastered",
+        "artist": "Eurythmics, Annie Lennox, Dave Stewart",
+        "album": "Revenge"
+      },
+      {
+        "track": "Walk Like an Egyptian",
+        "artist": "The Bangles",
+        "album": "Different Light (Expanded Edition)"
+      },
+      {
+        "track": "What Have You Done For Me Lately",
+        "artist": "Janet Jackson",
+        "album": "Control"
+      },
+      {
+        "track": "Why Can't This Be Love",
+        "artist": "Van Halen",
+        "album": "5150"
+      },
+      {
+        "track": "Wild Wild Life",
+        "artist": "Talking Heads",
+        "album": "True Stories"
+      },
+      {
+        "track": "With You",
+        "artist": "The Flaming Lips",
+        "album": "Hear It Is"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

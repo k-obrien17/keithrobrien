@@ -1,0 +1,136 @@
+{
+  "year": 2005,
+  "note": "Full \"Best of 2005\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/498q4ir0TofGI5JqbxMr3x",
+    "tracks": [
+      {
+        "track": "1 Thing",
+        "artist": "Amerie",
+        "album": "Touch"
+      },
+      {
+        "track": "Banquet",
+        "artist": "Bloc Party",
+        "album": "Silent Alarm"
+      },
+      {
+        "track": "Bees",
+        "artist": "Caribou",
+        "album": "The Milk of Human Kindness"
+      },
+      {
+        "track": "Casimir Pulaski Day",
+        "artist": "Sufjan Stevens",
+        "album": "Illinois"
+      },
+      {
+        "track": "Do You Want To",
+        "artist": "Franz Ferdinand",
+        "album": "You Could Have It So Much Better"
+      },
+      {
+        "track": "E-Pro",
+        "artist": "Beck",
+        "album": "Guero"
+      },
+      {
+        "track": "Galvanize",
+        "artist": "The Chemical Brothers, Q-Tip",
+        "album": "Push The Button"
+      },
+      {
+        "track": "Gone",
+        "artist": "Kanye West, Consequence, Cam'ron",
+        "album": "Late Registration"
+      },
+      {
+        "track": "Hoppípolla - 2025 Remaster",
+        "artist": "Sigur Rós",
+        "album": "Takk... (20th Anniversary Remaster)"
+      },
+      {
+        "track": "In This Home on Ice",
+        "artist": "Clap Your Hands Say Yeah",
+        "album": "Clap Your Hands Say Yeah (10th Anniversary Edition)"
+      },
+      {
+        "track": "Lose Control (feat. Ciara & Fat Man Scoop)",
+        "artist": "Missy Elliott, Ciara, Fatman Scoop",
+        "album": "The Cookbook"
+      },
+      {
+        "track": "Losing My Edge",
+        "artist": "LCD Soundsystem",
+        "album": "LCD Soundsystem"
+      },
+      {
+        "track": "My Friend Dario",
+        "artist": "Vitalic",
+        "album": "OK Cowboy"
+      },
+      {
+        "track": "My Mathematical Mind",
+        "artist": "Spoon",
+        "album": "Gimme Fiction (Deluxe Edition)"
+      },
+      {
+        "track": "Ride a White Horse",
+        "artist": "Goldfrapp",
+        "album": "Supernature"
+      },
+      {
+        "track": "Rollercoaster",
+        "artist": "Sleater-Kinney",
+        "album": "The Woods"
+      },
+      {
+        "track": "Silver Rider",
+        "artist": "Low",
+        "album": "The Great Destroyer"
+      },
+      {
+        "track": "Sittin' Sidewayz (feat. Big Pokey)",
+        "artist": "Paul Wall, Big Pokey",
+        "album": "The People's Champ"
+      },
+      {
+        "track": "The Corner",
+        "artist": "Common, The Last Poets",
+        "album": "Be"
+      },
+      {
+        "track": "The Hand That Feeds",
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth"
+      },
+      {
+        "track": "The Infanta",
+        "artist": "The Decemberists",
+        "album": "Picaresque"
+      },
+      {
+        "track": "Tropical Ice-land",
+        "artist": "The Fiery Furnaces",
+        "album": "EP"
+      },
+      {
+        "track": "What I Say And What I Mean",
+        "artist": "The Like",
+        "album": "Are You Thinking What I'm Thinking?"
+      },
+      {
+        "track": "Wraith Pinned to the Mist and Other Games",
+        "artist": "of Montreal",
+        "album": "The Sunlandic Twins"
+      },
+      {
+        "track": "You Are A Runner And I Am My Father's Son",
+        "artist": "Wolf Parade",
+        "album": "Apologies To The Queen Mary"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

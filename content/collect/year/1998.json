@@ -1,0 +1,136 @@
+{
+  "year": 1998,
+  "note": "Full \"Best of 1998\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/029OPj0209SMlxxmjzMYRy",
+    "tracks": [
+      {
+        "track": "Ava Adore",
+        "artist": "The Smashing Pumpkins",
+        "album": "Adore (Super Deluxe)"
+      },
+      {
+        "track": "Child Psychology",
+        "artist": "Black Box Recorder",
+        "album": "England Made Me"
+      },
+      {
+        "track": "Cross Bones Style",
+        "artist": "Cat Power",
+        "album": "Moon Pix"
+      },
+      {
+        "track": "Daysleeper - Remastered 2023",
+        "artist": "R.E.M.",
+        "album": "Up (25th Anniversary Edition)"
+      },
+      {
+        "track": "Doo Wop (That Thing)",
+        "artist": "Ms. Lauryn Hill",
+        "album": "The Miseducation of Lauryn Hill"
+      },
+      {
+        "track": "Dry the Rain",
+        "artist": "The Beta Band",
+        "album": "The Three E.P.'s"
+      },
+      {
+        "track": "Frozen",
+        "artist": "Madonna",
+        "album": "Ray of Light"
+      },
+      {
+        "track": "Ghost",
+        "artist": "Neutral Milk Hotel",
+        "album": "In the Aeroplane Over the Sea"
+      },
+      {
+        "track": "Given to Fly",
+        "artist": "Pearl Jam",
+        "album": "Yield"
+      },
+      {
+        "track": "He Got Game",
+        "artist": "Public Enemy, Stephen Stills",
+        "album": "He Got Game (Original Motion Picture Soundtrack)"
+      },
+      {
+        "track": "Intergalactic - Remastered 2009",
+        "artist": "Beastie Boys",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)"
+      },
+      {
+        "track": "Jackie's Strength",
+        "artist": "Tori Amos",
+        "album": "From the Choir Girl Hotel"
+      },
+      {
+        "track": "Johnny Feelgood",
+        "artist": "Liz Phair",
+        "album": "Whitechocolatespaceegg"
+      },
+      {
+        "track": "Kelly Watch the Stars",
+        "artist": "Air",
+        "album": "Moon Safari"
+      },
+      {
+        "track": "Malibu",
+        "artist": "Hole",
+        "album": "Celebrity Skin"
+      },
+      {
+        "track": "Music Sounds Better With You",
+        "artist": "Stardust, Benjamin Diamond, Alan Braxe, Thomas Bangalter",
+        "album": "Music Sounds Better With You"
+      },
+      {
+        "track": "My Favourite Game",
+        "artist": "The Cardigans",
+        "album": "Gran Turismo (Remastered)"
+      },
+      {
+        "track": "Olson",
+        "artist": "Boards of Canada",
+        "album": "Music Has The Right To Children"
+      },
+      {
+        "track": "Out Of My Head",
+        "artist": "Fastball",
+        "album": "All The Pain Money Can Buy"
+      },
+      {
+        "track": "Random Rules",
+        "artist": "Silver Jews",
+        "album": "American Water"
+      },
+      {
+        "track": "Respiration",
+        "artist": "Black Star, Common",
+        "album": "Mos Def & Talib Kweli Are Black Star"
+      },
+      {
+        "track": "Rockafeller Skank",
+        "artist": "Fatboy Slim",
+        "album": "You've Come A Long Way Baby"
+      },
+      {
+        "track": "Rosa Parks",
+        "artist": "Outkast",
+        "album": "Aquemini"
+      },
+      {
+        "track": "Teardrop",
+        "artist": "Massive Attack, Elizabeth Fraser",
+        "album": "Mezzanine"
+      },
+      {
+        "track": "Waltz #2 (XO)",
+        "artist": "Elliott Smith",
+        "album": "XO"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

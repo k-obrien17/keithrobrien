@@ -1,0 +1,136 @@
+{
+  "year": 2020,
+  "note": "Full \"Best of 2020\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3jeYGxO345eB4SWmDKGe6z",
+    "tracks": [
+      {
+        "track": "4 American Dollars",
+        "artist": "U.S. Girls",
+        "album": "Heavy Light"
+      },
+      {
+        "track": "4ÆM",
+        "artist": "Grimes",
+        "album": "Miss Anthropocene (Deluxe Edition)"
+      },
+      {
+        "track": "Bad Decisions",
+        "artist": "The Strokes",
+        "album": "The New Abnormal"
+      },
+      {
+        "track": "Can’t Do Much",
+        "artist": "Waxahatchee",
+        "album": "Can’t Do Much"
+      },
+      {
+        "track": "Can't Get Over You With You",
+        "artist": "ML Buch",
+        "album": "Skinned"
+      },
+      {
+        "track": "circle the drain",
+        "artist": "Soccer Mommy",
+        "album": "color theory"
+      },
+      {
+        "track": "Crush",
+        "artist": "Club Intl, John Eatherly, Madeline Follin",
+        "album": "Crush"
+      },
+      {
+        "track": "Do You Think We’ll Last Forever?",
+        "artist": "Caroline Rose",
+        "album": "Superstar"
+      },
+      {
+        "track": "Forced Convalescence",
+        "artist": "Bright Eyes",
+        "album": "Forced Convalescence"
+      },
+      {
+        "track": "FRANCHISE (feat. Young Thug & M.I.A.)",
+        "artist": "Travis Scott, Young Thug, M.I.A.",
+        "album": "FRANCHISE (feat. Young Thug & M.I.A.)"
+      },
+      {
+        "track": "Good News",
+        "artist": "Mac Miller",
+        "album": "Circles"
+      },
+      {
+        "track": "Here in the Twilight",
+        "artist": "The Juan Maclean",
+        "album": "Here in the Twilight"
+      },
+      {
+        "track": "I Know The End",
+        "artist": "Phoebe Bridgers",
+        "album": "Punisher"
+      },
+      {
+        "track": "I'm Not Getting Excited",
+        "artist": "The Beths",
+        "album": "Jump Rope Gazers"
+      },
+      {
+        "track": "It's Bugsnax!",
+        "artist": "Kero Kero Bonito",
+        "album": "It's Bugsnax!"
+      },
+      {
+        "track": "JU$T (feat. Pharrell Williams & Zack de la Rocha)",
+        "artist": "Run The Jewels, El-P, Killer Mike, Zack De La Rocha, Pharrell Williams",
+        "album": "RTJ4"
+      },
+      {
+        "track": "Kerosene!",
+        "artist": "Yves Tumor",
+        "album": "Heaven To A Tortured Mind"
+      },
+      {
+        "track": "KLK",
+        "artist": "Arca, ROSALÍA",
+        "album": "KLK"
+      },
+      {
+        "track": "Love in Mine",
+        "artist": "Big Thief",
+        "album": "Love in Mine"
+      },
+      {
+        "track": "Oh How We Drift Away",
+        "artist": "Tim Heidecker, Weyes Blood",
+        "album": "Fear of Death"
+      },
+      {
+        "track": "Overlord",
+        "artist": "Dirty Projectors",
+        "album": "Search For Life"
+      },
+      {
+        "track": "Street Fighter",
+        "artist": "SAULT",
+        "album": "Untitled (Rise)"
+      },
+      {
+        "track": "Unknown Song",
+        "artist": "Joe Goddard, Hayden Thorpe",
+        "album": "Unknown Song"
+      },
+      {
+        "track": "Wake UP!",
+        "artist": "Hazel English",
+        "album": "Wake UP!"
+      },
+      {
+        "track": "Yo Perreo Sola",
+        "artist": "Bad Bunny",
+        "album": "YHLQMDLG"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

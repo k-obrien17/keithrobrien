@@ -1,0 +1,136 @@
+{
+  "year": 1991,
+  "note": "Full \"Best of 1991\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3VDibnKLL1rIcuAFRIykBj",
+    "tracks": [
+      {
+        "track": "Black",
+        "artist": "Pearl Jam",
+        "album": "Ten"
+      },
+      {
+        "track": "Brenda's Got A Baby",
+        "artist": "2Pac",
+        "album": "2Pacalypse Now"
+      },
+      {
+        "track": "Can't Truss It",
+        "artist": "Public Enemy",
+        "album": "Apocalypse 91… The Enemy Strikes Black"
+      },
+      {
+        "track": "Case of the P.T.A.",
+        "artist": "Leaders of the New School",
+        "album": "A Future Without A Past"
+      },
+      {
+        "track": "Even Better Than The Real Thing",
+        "artist": "U2",
+        "album": "Achtung Baby (Deluxe Edition)"
+      },
+      {
+        "track": "Future Love Paradise",
+        "artist": "Seal",
+        "album": "Seal"
+      },
+      {
+        "track": "Gett Off",
+        "artist": "Prince, Eric Leeds",
+        "album": "Diamonds and Pearls"
+      },
+      {
+        "track": "Girlfriend",
+        "artist": "Matthew Sweet",
+        "album": "Girlfriend (Legacy Edition)"
+      },
+      {
+        "track": "How I Could Just Kill a Man",
+        "artist": "Cypress Hill",
+        "album": "Cypress Hill"
+      },
+      {
+        "track": "Kiss Them For Me",
+        "artist": "Siouxsie and the Banshees",
+        "album": "Superstition (Expanded Edition)"
+      },
+      {
+        "track": "Loaded",
+        "artist": "Primal Scream",
+        "album": "Screamadelica"
+      },
+      {
+        "track": "Lounge Act",
+        "artist": "Nirvana",
+        "album": "Nevermind (Remastered)"
+      },
+      {
+        "track": "Love...Thy Will Be Done - Single Version",
+        "artist": "Martika",
+        "album": "Martika's Kitchen (Expanded Edition)"
+      },
+      {
+        "track": "New Jack Hustler (Nino's Theme)",
+        "artist": "ICE-T",
+        "album": "O.G. Original Gangster"
+      },
+      {
+        "track": "November Rain",
+        "artist": "Guns N' Roses",
+        "album": "Use Your Illusion I"
+      },
+      {
+        "track": "Only Shallow",
+        "artist": "my bloody valentine",
+        "album": "Loveless"
+      },
+      {
+        "track": "O.P.P",
+        "artist": "Naughty By Nature",
+        "album": "Naughty By Nature"
+      },
+      {
+        "track": "Rhinoceros - Remastered 2011",
+        "artist": "The Smashing Pumpkins",
+        "album": "Gish (Remastered)"
+      },
+      {
+        "track": "Round and Round - Soul Mix Edit",
+        "artist": "Tevin Campbell",
+        "album": "T.E.V.I.N."
+      },
+      {
+        "track": "Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix",
+        "artist": "A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown",
+        "album": "The Low End Theory"
+      },
+      {
+        "track": "September's Not So Far Away",
+        "artist": "The Field Mice",
+        "album": "Coastal"
+      },
+      {
+        "track": "Shiny Happy People",
+        "artist": "R.E.M.",
+        "album": "Out Of Time (25th Anniversary Edition)"
+      },
+      {
+        "track": "Steady Mobbin'",
+        "artist": "Ice Cube",
+        "album": "Death Certificate"
+      },
+      {
+        "track": "The Choice Is Yours (Revisited)",
+        "artist": "Black Sheep",
+        "album": "A Wolf In Sheep's Clothing"
+      },
+      {
+        "track": "Unfinished Sympathy - 2012 Mix/Master",
+        "artist": "Massive Attack, Shara Nelson",
+        "album": "Blue Lines (2012 Mix/Master)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 2018,
+  "note": "Full \"Best of 2018\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6PuzYYOMs6ypHJ3f8WFrgD",
+    "tracks": [
+      {
+        "track": "Always Trying to Work It Out",
+        "artist": "Low",
+        "album": "Double Negative"
+      },
+      {
+        "track": "Anna Wintour",
+        "artist": "Azealia Banks",
+        "album": "Anna Wintour"
+      },
+      {
+        "track": "City Looks Pretty",
+        "artist": "Courtney Barnett",
+        "album": "Tell Me How You Really Feel"
+      },
+      {
+        "track": "Crazy, Classic, Life",
+        "artist": "Janelle Monáe",
+        "album": "Dirty Computer"
+      },
+      {
+        "track": "Deep Sea",
+        "artist": "Snail Mail",
+        "album": "Lush"
+      },
+      {
+        "track": "Falling Into Me",
+        "artist": "Let's Eat Grandma",
+        "album": "I'm All Ears"
+      },
+      {
+        "track": "Flea Market",
+        "artist": "Tierra Whack",
+        "album": "Whack World"
+      },
+      {
+        "track": "Freebird II",
+        "artist": "Parquet Courts",
+        "album": "Wide Awake!"
+      },
+      {
+        "track": "How Did This Happen !?",
+        "artist": "BODEGA",
+        "album": "How Did This Happen !?"
+      },
+      {
+        "track": "If You Know You Know",
+        "artist": "Pusha T",
+        "album": "DAYTONA"
+      },
+      {
+        "track": "Immaterial",
+        "artist": "SOPHIE",
+        "album": "OIL OF EVERY PEARL'S UN-INSIDES"
+      },
+      {
+        "track": "Les Jeux to You",
+        "artist": "Julia Holter",
+        "album": "Aviary"
+      },
+      {
+        "track": "Lose Your Smile",
+        "artist": "Beach House",
+        "album": "7"
+      },
+      {
+        "track": "Me and My Husband",
+        "artist": "Mitski",
+        "album": "Be the Cowboy"
+      },
+      {
+        "track": "Night Shift",
+        "artist": "Lucy Dacus",
+        "album": "Historian"
+      },
+      {
+        "track": "No Wave (feat. Denzel Curry)",
+        "artist": "IDK, Denzel Curry",
+        "album": "No Wave (feat. Denzel Curry)"
+      },
+      {
+        "track": "PIENSO EN TU MIRÁ - Cap.3: Celos",
+        "artist": "ROSALÍA",
+        "album": "El Mal Querer"
+      },
+      {
+        "track": "PINK",
+        "artist": "Mothers",
+        "album": "PINK"
+      },
+      {
+        "track": "QYURRYUS",
+        "artist": "The Voidz",
+        "album": "QYURRYUS"
+      },
+      {
+        "track": "Salt In The Wound",
+        "artist": "Julien Baker, Phoebe Bridgers, Lucy Dacus",
+        "album": "boygenius"
+      },
+      {
+        "track": "Salt In The Wound",
+        "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
+        "album": "boygenius"
+      },
+      {
+        "track": "SICKO MODE",
+        "artist": "Travis Scott",
+        "album": "ASTROWORLD"
+      },
+      {
+        "track": "Sports",
+        "artist": "Viagra Boys",
+        "album": "Sports"
+      },
+      {
+        "track": "The Animals",
+        "artist": "Ladytron",
+        "album": "The Animals"
+      },
+      {
+        "track": "Your Dog",
+        "artist": "Soccer Mommy",
+        "album": "Clean"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

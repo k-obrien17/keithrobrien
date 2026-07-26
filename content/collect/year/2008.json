@@ -1,0 +1,136 @@
+{
+  "year": 2008,
+  "note": "Full \"Best of 2008\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4J0iG8RQL5zld5cEE6leN5",
+    "tracks": [
+      {
+        "track": "A Milli",
+        "artist": "Lil Wayne",
+        "album": "Tha Carter III"
+      },
+      {
+        "track": "Agoraphobia",
+        "artist": "Deerhunter",
+        "album": "Microcastle"
+      },
+      {
+        "track": "American Boy",
+        "artist": "Estelle, Kanye West",
+        "album": "Shine"
+      },
+      {
+        "track": "Blind",
+        "artist": "Hercules & Love Affair",
+        "album": "Hercules & Love Affair"
+      },
+      {
+        "track": "Breaker",
+        "artist": "Retribution Gospel Choir",
+        "album": "Retribution Gospel Choir"
+      },
+      {
+        "track": "Call It A Ritual",
+        "artist": "Wolf Parade",
+        "album": "At Mount Zoomer"
+      },
+      {
+        "track": "Century",
+        "artist": "The Long Blondes",
+        "album": "Couples"
+      },
+      {
+        "track": "Crimewave",
+        "artist": "Crystal Castles",
+        "album": "Crystal Castles"
+      },
+      {
+        "track": "For Our Elegant Caste",
+        "artist": "of Montreal",
+        "album": "Skeletal Lamping"
+      },
+      {
+        "track": "Fuego",
+        "artist": "Bomba Estéreo",
+        "album": "Estalla"
+      },
+      {
+        "track": "Ghosts",
+        "artist": "Ladytron",
+        "album": "Velocifero"
+      },
+      {
+        "track": "Halfway Home",
+        "artist": "TV On The Radio",
+        "album": "Dear Science"
+      },
+      {
+        "track": "Hearts On Fire",
+        "artist": "Cut Copy",
+        "album": "In Ghost Colours"
+      },
+      {
+        "track": "L.E.S. Artistes",
+        "artist": "Santigold",
+        "album": "Santigold"
+      },
+      {
+        "track": "Love Lockdown",
+        "artist": "Kanye West",
+        "album": "808s & Heartbreak"
+      },
+      {
+        "track": "One Pure Thought",
+        "artist": "Hot Chip",
+        "album": "Made In The Dark"
+      },
+      {
+        "track": "Strange Overtones",
+        "artist": "David Byrne, Brian Eno",
+        "album": "Everything That Happens Will Happen Today"
+      },
+      {
+        "track": "Super-Sonic",
+        "artist": "The Brian Jonestown Massacre",
+        "album": "Give It Back!"
+      },
+      {
+        "track": "Sweet Tides",
+        "artist": "Thievery Corporation",
+        "album": "Radio Retaliation"
+      },
+      {
+        "track": "Tell The World",
+        "artist": "Vivian Girls",
+        "album": "Vivian Girls"
+      },
+      {
+        "track": "The Kids Don't Stand A Chance",
+        "artist": "Vampire Weekend",
+        "album": "Vampire Weekend"
+      },
+      {
+        "track": "We Carry On",
+        "artist": "Portishead",
+        "album": "Third"
+      },
+      {
+        "track": "We Own The Sky",
+        "artist": "M83",
+        "album": "Saturdays = Youth"
+      },
+      {
+        "track": "With Every Heartbeat",
+        "artist": "Robyn, Kleerup",
+        "album": "Robyn"
+      },
+      {
+        "track": "You! Me! Dancing! - Remastered",
+        "artist": "Los Campesinos!",
+        "album": "Hold On Now, Youngster... (Remastered Deluxe Edition)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

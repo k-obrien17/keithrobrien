@@ -1,0 +1,136 @@
+{
+  "year": 2016,
+  "note": "Full \"Best of 2016\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/57UUNSoaVRFEAnmnLWJa2W",
+    "tracks": [
+      {
+        "track": "Action",
+        "artist": "Cassius, Cat Power, Mike D",
+        "album": "Ibifornia (Deluxe)"
+      },
+      {
+        "track": "Augustine",
+        "artist": "Blood Orange",
+        "album": "Freetown Sound"
+      },
+      {
+        "track": "Blackstar",
+        "artist": "David Bowie",
+        "album": "Blackstar"
+      },
+      {
+        "track": "Call Ticketron",
+        "artist": "Run The Jewels",
+        "album": "Run the Jewels 3"
+      },
+      {
+        "track": "Dang! (feat. Anderson .Paak)",
+        "artist": "Mac Miller, Anderson .Paak",
+        "album": "The Divine Feminine"
+      },
+      {
+        "track": "Do You Need My Love",
+        "artist": "Weyes Blood",
+        "album": "Front Row Seat To Earth"
+      },
+      {
+        "track": "Drunk Drivers/Killer Whales",
+        "artist": "Car Seat Headrest",
+        "album": "Teens of Denial"
+      },
+      {
+        "track": "Gardenia",
+        "artist": "Iggy Pop",
+        "album": "Gardenia"
+      },
+      {
+        "track": "Loco",
+        "artist": "Vince Staples, Kilo Kish",
+        "album": "Prima Donna"
+      },
+      {
+        "track": "Masterpiece",
+        "artist": "Big Thief",
+        "album": "Masterpiece"
+      },
+      {
+        "track": "Nikes",
+        "artist": "Frank Ocean",
+        "album": "Blonde"
+      },
+      {
+        "track": "Nobody Speak (feat. Run the Jewels)",
+        "artist": "DJ Shadow, Run The Jewels",
+        "album": "The Mountain Will Fall"
+      },
+      {
+        "track": "Really Doe",
+        "artist": "Danny Brown, Kendrick Lamar, Ab-Soul, Earl Sweatshirt",
+        "album": "Atrocity Exhibition"
+      },
+      {
+        "track": "Santeria",
+        "artist": "KOOL A.D.",
+        "album": "O.K. 1"
+      },
+      {
+        "track": "Sister",
+        "artist": "Angel Olsen",
+        "album": "MY WOMAN"
+      },
+      {
+        "track": "Sorry",
+        "artist": "Beyoncé",
+        "album": "Lemonade"
+      },
+      {
+        "track": "Starboy",
+        "artist": "The Weeknd, Daft Punk",
+        "album": "Starboy"
+      },
+      {
+        "track": "Stop Your Tears",
+        "artist": "Aldous Harding",
+        "album": "Aldous Harding"
+      },
+      {
+        "track": "THat Part",
+        "artist": "ScHoolboy Q, Kanye West",
+        "album": "Blank Face LP"
+      },
+      {
+        "track": "The Numbers",
+        "artist": "Radiohead",
+        "album": "A Moon Shaped Pool"
+      },
+      {
+        "track": "The Space Program",
+        "artist": "A Tribe Called Quest",
+        "album": "We got it from Here... Thank You 4 Your service"
+      },
+      {
+        "track": "The Spoils",
+        "artist": "Massive Attack, Hope Sandoval",
+        "album": "Spoils Come Near Me"
+      },
+      {
+        "track": "True Killer",
+        "artist": "Sneaks",
+        "album": "Gymnastics"
+      },
+      {
+        "track": "Vroom Vroom",
+        "artist": "Charli xcx",
+        "album": "Vroom Vroom EP"
+      },
+      {
+        "track": "Yamborghini High (feat. Juicy J)",
+        "artist": "A$AP Mob, Juicy J",
+        "album": "Yamborghini High (feat. Juicy J)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

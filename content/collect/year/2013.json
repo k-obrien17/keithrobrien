@@ -1,0 +1,136 @@
+{
+  "year": 2013,
+  "note": "Full \"Best of 2013\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3lKGHViTzWvI1RC2dFJ0J7",
+    "tracks": [
+      {
+        "track": "1Train (feat. Kendrick Lamar, Joey Bada$$, Yelawolf, Danny Brown, Action Bronson & Big K.R.I.T.)",
+        "artist": "A$AP Rocky, Kendrick Lamar, Joey Bada$$, Yelawolf, Danny Brown, Action Bronson, Big K.R.I.T.",
+        "album": "LONG.LIVE.A$AP (Deluxe Version)"
+      },
+      {
+        "track": "Bad Girls",
+        "artist": "M.I.A.",
+        "album": "Matangi"
+      },
+      {
+        "track": "City's Full",
+        "artist": "Savages",
+        "album": "Silence Yourself"
+      },
+      {
+        "track": "Dead in Your Head",
+        "artist": "Bleached",
+        "album": "Ride Your Heart"
+      },
+      {
+        "track": "Despair",
+        "artist": "Yeah Yeah Yeahs",
+        "album": "Mosquito (Deluxe)"
+      },
+      {
+        "track": "Full of Fire",
+        "artist": "The Knife",
+        "album": "Shaking The Habitual"
+      },
+      {
+        "track": "Gimme a Knife",
+        "artist": "Wavves",
+        "album": "Afraid Of Heights"
+      },
+      {
+        "track": "I Blame Myself",
+        "artist": "Sky Ferreira",
+        "album": "Night Time, My Time"
+      },
+      {
+        "track": "Instant Crush (feat. Julian Casablancas)",
+        "artist": "Daft Punk, Julian Casablancas",
+        "album": "Random Access Memories"
+      },
+      {
+        "track": "IV. Sweatpants",
+        "artist": "Childish Gambino",
+        "album": "Because the Internet"
+      },
+      {
+        "track": "New Slaves",
+        "artist": "Kanye West",
+        "album": "Yeezus"
+      },
+      {
+        "track": "On My Own",
+        "artist": "Low",
+        "album": "The Invisible Way"
+      },
+      {
+        "track": "Run The Jewels",
+        "artist": "Run The Jewels, El-P, Killer Mike",
+        "album": "Run The Jewels"
+      },
+      {
+        "track": "So Good At Being in Trouble",
+        "artist": "Unknown Mortal Orchestra",
+        "album": "II"
+      },
+      {
+        "track": "Song for Zula",
+        "artist": "Phosphorescent",
+        "album": "Muchacho"
+      },
+      {
+        "track": "Sound-Magic's Death Ray Destroys the Vortex and Has Union With Infinity",
+        "artist": "Cavern of Anti-Matter",
+        "album": "Sound-Magic's Death Ray Destroys the Vortex and Has Union With Infinity"
+      },
+      {
+        "track": "Started From the Bottom",
+        "artist": "Drake",
+        "album": "Nothing Was The Same"
+      },
+      {
+        "track": "Stoned and Starving",
+        "artist": "Parquet Courts",
+        "album": "Light Up Gold"
+      },
+      {
+        "track": "Team",
+        "artist": "Lorde",
+        "album": "Pure Heroine"
+      },
+      {
+        "track": "The Missing",
+        "artist": "Deerhunter",
+        "album": "Monomania"
+      },
+      {
+        "track": "The Mother We Share",
+        "artist": "CHVRCHES",
+        "album": "The Bones of What You Believe"
+      },
+      {
+        "track": "The Wire",
+        "artist": "HAIM",
+        "album": "Days Are Gone"
+      },
+      {
+        "track": "Unbelievers",
+        "artist": "Vampire Weekend",
+        "album": "Modern Vampires of the City"
+      },
+      {
+        "track": "We Exist",
+        "artist": "Arcade Fire",
+        "album": "Reflektor"
+      },
+      {
+        "track": "You're Not Good Enough",
+        "artist": "Blood Orange",
+        "album": "Cupid Deluxe"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

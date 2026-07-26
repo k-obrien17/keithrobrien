@@ -1,0 +1,136 @@
+{
+  "year": 1982,
+  "note": "Full \"Best of 1982\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4opZjcbbC7KYfUTAZUq8Jm",
+    "tracks": [
+      {
+        "track": "1999 - 2019 Remaster",
+        "artist": "Prince",
+        "album": "1999"
+      },
+      {
+        "track": "Annie (I'm Not Your Daddy)",
+        "artist": "Kid Creole And The Coconuts",
+        "album": "Zetrospective #2: Hope Springs Eternal"
+      },
+      {
+        "track": "Beatnik",
+        "artist": "The Clean",
+        "album": "Great Sounds Great, Good Sounds Good, So-So Sounds So-So, Bad Sounds Bad, Rotten Sounds Rotten!! (EP)"
+      },
+      {
+        "track": "Beyond Belief",
+        "artist": "Elvis Costello & The Attractions",
+        "album": "Imperial Bedroom"
+      },
+      {
+        "track": "Computer Age",
+        "artist": "Neil Young",
+        "album": "Trans"
+      },
+      {
+        "track": "Do You Wanna Funk? - Remix",
+        "artist": "Patrick Cowley, Sylvester",
+        "album": "Do Ya Wanna Funk (12\" Single)"
+      },
+      {
+        "track": "Flesh of My Flesh",
+        "artist": "Orange Juice",
+        "album": "Rip It Up"
+      },
+      {
+        "track": "Goodbye to You (feat. Patty Smyth)",
+        "artist": "Scandal, Patty Smyth",
+        "album": "Scandal (EP)"
+      },
+      {
+        "track": "Hold Me",
+        "artist": "Fleetwood Mac",
+        "album": "Mirage"
+      },
+      {
+        "track": "Hungry Like the Wolf - 2009 Remaster",
+        "artist": "Duran Duran",
+        "album": "Rio (Collector's Edition)"
+      },
+      {
+        "track": "Masquerade",
+        "artist": "Berlin, The Maomen",
+        "album": "Pleasure Victim"
+      },
+      {
+        "track": "More Than This",
+        "artist": "Roxy Music",
+        "album": "Avalon"
+      },
+      {
+        "track": "Planet Rock",
+        "artist": "Afrika Bambaataa, Afrika Bambaataa & The Soulsonic Force",
+        "album": "Planet Rock / Planet Rock [Instrumental] [Digital 45]"
+      },
+      {
+        "track": "Senses Working Overtime - Remastered 2001",
+        "artist": "XTC",
+        "album": "English Settlement"
+      },
+      {
+        "track": "Situation",
+        "artist": "Yaz",
+        "album": "Upstairs At Eric's"
+      },
+      {
+        "track": "State Trooper",
+        "artist": "Bruce Springsteen",
+        "album": "Nebraska"
+      },
+      {
+        "track": "That's Good",
+        "artist": "DEVO",
+        "album": "Oh No! It's Devo"
+      },
+      {
+        "track": "That's How I Escaped My Certain Fate",
+        "artist": "Mission Of Burma",
+        "album": "vs."
+      },
+      {
+        "track": "The Hanging Garden - 2005 Remaster",
+        "artist": "The Cure",
+        "album": "Pornography"
+      },
+      {
+        "track": "The Safety Dance",
+        "artist": "Men Without Hats",
+        "album": "The Safety Dance"
+      },
+      {
+        "track": "Town Called Malice",
+        "artist": "The Jam",
+        "album": "The Gift"
+      },
+      {
+        "track": "Vacation",
+        "artist": "The Go-Go's",
+        "album": "Vacation"
+      },
+      {
+        "track": "Valerie",
+        "artist": "Steve Winwood",
+        "album": "Talking Back To The Night"
+      },
+      {
+        "track": "Wanna Be Startin' Somethin'",
+        "artist": "Michael Jackson",
+        "album": "Thriller 25 Super Deluxe Edition"
+      },
+      {
+        "track": "Wolves, Lower",
+        "artist": "R.E.M.",
+        "album": "Chronic Town"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

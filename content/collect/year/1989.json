@@ -1,0 +1,136 @@
+{
+  "year": 1989,
+  "note": "Full \"Best of 1989\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6tqNfbr8Q33U1YBMKeuq5V",
+    "tracks": [
+      {
+        "track": "About A Girl",
+        "artist": "Nirvana",
+        "album": "Bleach"
+      },
+      {
+        "track": "Buffalo Stance",
+        "artist": "Neneh Cherry",
+        "album": "Raw Like Sushi"
+      },
+      {
+        "track": "Dirty Blvd.",
+        "artist": "Lou Reed",
+        "album": "New York"
+      },
+      {
+        "track": "Do It to the Crowd",
+        "artist": "Twin Hype",
+        "album": "Twin Hype"
+      },
+      {
+        "track": "D.O.C. AND THE DOCTOR",
+        "artist": "The D.O.C.",
+        "album": "No One Can Do It Better"
+      },
+      {
+        "track": "Epic",
+        "artist": "Faith No More",
+        "album": "The Real Thing"
+      },
+      {
+        "track": "Express Yourself",
+        "artist": "Madonna",
+        "album": "Like a Prayer"
+      },
+      {
+        "track": "Head On",
+        "artist": "The Jesus and Mary Chain",
+        "album": "Automatic"
+      },
+      {
+        "track": "Here Comes Your Man",
+        "artist": "Pixies",
+        "album": "Doolittle"
+      },
+      {
+        "track": "Hey Ladies",
+        "artist": "Beastie Boys",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)"
+      },
+      {
+        "track": "Just a Friend",
+        "artist": "Biz Markie",
+        "album": "Just a Friend - EP"
+      },
+      {
+        "track": "Ladies First",
+        "artist": "Queen Latifah, Monie Love",
+        "album": "All Hail the Queen"
+      },
+      {
+        "track": "Lovesong - 2010 Remaster",
+        "artist": "The Cure",
+        "album": "Disintegration (Deluxe Edition)"
+      },
+      {
+        "track": "Rhythm Nation",
+        "artist": "Janet Jackson",
+        "album": "Rhythm Nation 1814"
+      },
+      {
+        "track": "Road To The Riches",
+        "artist": "DJ Polo, Kool G Rap & DJ Polo",
+        "album": "Road To The Riches"
+      },
+      {
+        "track": "Roam",
+        "artist": "The B-52's",
+        "album": "Cosmic Thing"
+      },
+      {
+        "track": "Rockin' in the Free World",
+        "artist": "Neil Young",
+        "album": "Freedom"
+      },
+      {
+        "track": "Round & Round - 2015 Remaster",
+        "artist": "New Order",
+        "album": "Technique"
+      },
+      {
+        "track": "Runnin' Down A Dream",
+        "artist": "Tom Petty",
+        "album": "Full Moon Fever"
+      },
+      {
+        "track": "Say No Go",
+        "artist": "De La Soul",
+        "album": "3 Feet High and Rising"
+      },
+      {
+        "track": "Sowing The Seeds Of Love",
+        "artist": "Tears For Fears",
+        "album": "The Seeds Of Love"
+      },
+      {
+        "track": "Trouble Me",
+        "artist": "10,000 Maniacs",
+        "album": "Blind Man's Zoo"
+      },
+      {
+        "track": "Veronica",
+        "artist": "Elvis Costello",
+        "album": "Spike"
+      },
+      {
+        "track": "Waiting Room",
+        "artist": "Fugazi",
+        "album": "13 Songs"
+      },
+      {
+        "track": "Waterfall - Remastered 2009",
+        "artist": "The Stone Roses",
+        "album": "The Stone Roses"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

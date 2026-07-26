@@ -1,0 +1,136 @@
+{
+  "year": 1995,
+  "note": "Full \"Best of 1995\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3XoCIFP0ZBG8yfQHMPs3Yt",
+    "tracks": [
+      {
+        "track": "1979 - Remastered 2012",
+        "artist": "The Smashing Pumpkins",
+        "album": "Mellon Collie And The Infinite Sadness (Remastered)"
+      },
+      {
+        "track": "Becuz",
+        "artist": "Sonic Youth",
+        "album": "Washing Machine"
+      },
+      {
+        "track": "Born Slippy (Nuxx) - Radio Edit",
+        "artist": "Underworld",
+        "album": "Born Slippy (Nuxx) [Radio Edit]"
+      },
+      {
+        "track": "Brooklyn Zoo",
+        "artist": "Ol' Dirty Bastard",
+        "album": "Return to the 36 Chambers: The Dirty Version"
+      },
+      {
+        "track": "Common People - Full Length Version",
+        "artist": "Pulp",
+        "album": "Different Class"
+      },
+      {
+        "track": "Do You Know (What It Takes)",
+        "artist": "Robyn",
+        "album": "Robyn Is Here"
+      },
+      {
+        "track": "Down By The Water",
+        "artist": "PJ Harvey",
+        "album": "To Bring You My Love"
+      },
+      {
+        "track": "Eye",
+        "artist": "Eve's Plum",
+        "album": "Higher Learning: Music From The Motion Picture"
+      },
+      {
+        "track": "Feeling so Real",
+        "artist": "Moby",
+        "album": "Everything Is Wrong"
+      },
+      {
+        "track": "French Disko",
+        "artist": "Stereolab",
+        "album": "Refried Ectoplasm [Switched On Volume 2]"
+      },
+      {
+        "track": "Friends of P.",
+        "artist": "The Rentals",
+        "album": "Return Of The Rentals"
+      },
+      {
+        "track": "Hyperballad",
+        "artist": "Björk",
+        "album": "Post"
+      },
+      {
+        "track": "I Got 5 On It",
+        "artist": "Luniz, Michael Marshall",
+        "album": "Operation Stackola"
+      },
+      {
+        "track": "Ice Cream (feat. Ghostface Killah, Method Man & Cappadonna)",
+        "artist": "Raekwon, Ghostface Killah, Method Man, Cappadonna",
+        "album": "Only Built 4 Cuban Linx..."
+      },
+      {
+        "track": "In the Blood",
+        "artist": "Better Than Ezra",
+        "album": "Deluxe"
+      },
+      {
+        "track": "In the Meantime",
+        "artist": "Spacehog",
+        "album": "Resident Alien"
+      },
+      {
+        "track": "Judy Staring At The Sun",
+        "artist": "Catherine Wheel, Tanya Donelly",
+        "album": "Happy Days"
+      },
+      {
+        "track": "Planet Telex",
+        "artist": "Radiohead",
+        "album": "The Bends"
+      },
+      {
+        "track": "Radiation Ruling The Nation (Protection)",
+        "artist": "Massive Attack, Mad Professor, Tracey Thorn",
+        "album": "No Protection"
+      },
+      {
+        "track": "Runnin'",
+        "artist": "The Pharcyde",
+        "album": "Labcabincalifornia (Deluxe Edition)"
+      },
+      {
+        "track": "Shadowboxin'",
+        "artist": "GZA, Method Man",
+        "album": "Liquid Swords"
+      },
+      {
+        "track": "Sick of Myself",
+        "artist": "Matthew Sweet",
+        "album": "100 % Fun"
+      },
+      {
+        "track": "Southern Belle",
+        "artist": "Elliott Smith",
+        "album": "Elliott Smith"
+      },
+      {
+        "track": "Suffocated Love",
+        "artist": "Tricky, Martina Topley-Bird",
+        "album": "Maxinquaye"
+      },
+      {
+        "track": "This Is How We Do It",
+        "artist": "Montell Jordan, Wino",
+        "album": "This Is How We Do It"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 2012,
+  "note": "Full \"Best of 2012\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/5FUGnKvJ3R9lISEaUJj4UG",
+    "tracks": [
+      {
+        "track": "212",
+        "artist": "Azealia Banks, Lazy Jay",
+        "album": "Broke with Expensive Taste"
+      },
+      {
+        "track": "Angels",
+        "artist": "The xx",
+        "album": "Coexist"
+      },
+      {
+        "track": "Blue Jeans",
+        "artist": "Lana Del Rey",
+        "album": "Born To Die"
+      },
+      {
+        "track": "Call Me Maybe",
+        "artist": "Carly Rae Jepsen",
+        "album": "Call Me Maybe"
+      },
+      {
+        "track": "Dreamers",
+        "artist": "Savoir Adore",
+        "album": "Our Nature"
+      },
+      {
+        "track": "Every Single Night",
+        "artist": "Fiona Apple",
+        "album": "The Idler Wheel Is Wiser Than the Driver of the Screw and Whipping Cords Will Serve You More Than Ropes Will Ever Do (Expanded Edition)"
+      },
+      {
+        "track": "Flutes",
+        "artist": "Hot Chip",
+        "album": "In Our Heads"
+      },
+      {
+        "track": "Golden Light",
+        "artist": "Twin Shadow",
+        "album": "Confess"
+      },
+      {
+        "track": "Hey Jane",
+        "artist": "Spiritualized",
+        "album": "Sweet Heart Sweet Light"
+      },
+      {
+        "track": "House Of Balloons / Glass Table Girls",
+        "artist": "The Weeknd",
+        "album": "Trilogy"
+      },
+      {
+        "track": "I Belong in Your Arms",
+        "artist": "Chairlift",
+        "album": "Something"
+      },
+      {
+        "track": "Infinite Love Without Fulfilment",
+        "artist": "Grimes",
+        "album": "Visions"
+      },
+      {
+        "track": "Kill For Love",
+        "artist": "Chromatics",
+        "album": "Kill for Love"
+      },
+      {
+        "track": "Losing You",
+        "artist": "Solange",
+        "album": "Losing You"
+      },
+      {
+        "track": "Love Interruption",
+        "artist": "Jack White",
+        "album": "Blunderbuss"
+      },
+      {
+        "track": "Money Trees",
+        "artist": "Kendrick Lamar, Jay Rock",
+        "album": "good kid, m.A.A.d city"
+      },
+      {
+        "track": "Myth",
+        "artist": "Beach House",
+        "album": "Bloom"
+      },
+      {
+        "track": "No.1 Against the Rush",
+        "artist": "Liars",
+        "album": "No.1 Against the Rush"
+      },
+      {
+        "track": "Okay Cupid",
+        "artist": "kitty ray",
+        "album": "Haha, I'm Sorry"
+      },
+      {
+        "track": "Oldie",
+        "artist": "Odd Future",
+        "album": "The OF Tape Vol. 2"
+      },
+      {
+        "track": "Only In My Dreams",
+        "artist": "Ariel Pink",
+        "album": "Mature Themes"
+      },
+      {
+        "track": "Robotic",
+        "artist": "Hannah Georgas",
+        "album": "Hannah Georgas"
+      },
+      {
+        "track": "Simple Song",
+        "artist": "The Shins, James Mercer",
+        "album": "Port Of Morrow"
+      },
+      {
+        "track": "The Haunted Man",
+        "artist": "Bat For Lashes",
+        "album": "The Haunted Man"
+      },
+      {
+        "track": "Thinkin Bout You",
+        "artist": "Frank Ocean",
+        "album": "channel ORANGE"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

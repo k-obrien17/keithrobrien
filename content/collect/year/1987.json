@@ -1,0 +1,136 @@
+{
+  "year": 1987,
+  "note": "Full \"Best of 1987\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4zTP1rjMLWenlvhRqE2Nnk",
+    "tracks": [
+      {
+        "track": "Blue Monday",
+        "artist": "New Order",
+        "album": "Substance"
+      },
+      {
+        "track": "California Uber Alles",
+        "artist": "Dead Kennedys",
+        "album": "Give Me Convenience or Give Me Death"
+      },
+      {
+        "track": "Criminal Minded",
+        "artist": "Boogie Down Productions",
+        "album": "Criminal Minded (Deluxe)"
+      },
+      {
+        "track": "Don't Tell Yourself",
+        "artist": "The Lemonheads",
+        "album": "Hate Your Friends"
+      },
+      {
+        "track": "Girlfriend in a Coma - 2011 Remaster",
+        "artist": "The Smiths",
+        "album": "Strangeways, Here We Come"
+      },
+      {
+        "track": "Heart And Soul",
+        "artist": "T'Pau",
+        "album": "Bridge Of Spies"
+      },
+      {
+        "track": "I Want Your Sex - Pts. 1 & 2 Remastered",
+        "artist": "George Michael",
+        "album": "Faith"
+      },
+      {
+        "track": "It's The End Of The World As We Know It (And I Feel Fine)",
+        "artist": "R.E.M.",
+        "album": "Document (R.E.M. No. 5)"
+      },
+      {
+        "track": "Just like Heaven",
+        "artist": "The Cure",
+        "album": "Galore"
+      },
+      {
+        "track": "Learning to Fly",
+        "artist": "Pink Floyd",
+        "album": "A Momentary Lapse of Reason"
+      },
+      {
+        "track": "Leave Me Alone - 2012 Remaster",
+        "artist": "Michael Jackson",
+        "album": "Bad 25th Anniversary"
+      },
+      {
+        "track": "Levitate Me",
+        "artist": "Pixies",
+        "album": "Come On Pilgrim"
+      },
+      {
+        "track": "Lips Like Sugar",
+        "artist": "Echo & the Bunnymen",
+        "album": "Echo & The Bunnymen"
+      },
+      {
+        "track": "Luka",
+        "artist": "Suzanne Vega",
+        "album": "Solitude Standing"
+      },
+      {
+        "track": "Mandinka",
+        "artist": "Sinéad O'Connor",
+        "album": "The Lion and the Cobra"
+      },
+      {
+        "track": "North By North",
+        "artist": "The Bats",
+        "album": "Daddy's Highway"
+      },
+      {
+        "track": "Paid In Full",
+        "artist": "Eric B. & Rakim, Marley Marl",
+        "album": "Paid In Full"
+      },
+      {
+        "track": "Pump Up The Volume - USA 12\" Mix",
+        "artist": "M/A/R/R/S",
+        "album": "Pump Up the Volume (12\" Single)"
+      },
+      {
+        "track": "Raw (Edit) - 45 Version",
+        "artist": "Big Daddy Kane",
+        "album": "Raw (Edit) / Word to the Mother (Land) [45 Version]"
+      },
+      {
+        "track": "Schizophrenia",
+        "artist": "Sonic Youth",
+        "album": "Sister"
+      },
+      {
+        "track": "Sweet Child O' Mine",
+        "artist": "Guns N' Roses",
+        "album": "Appetite For Destruction"
+      },
+      {
+        "track": "The Bridge Is Over",
+        "artist": "Boogie Down Productions",
+        "album": "Criminal Minded (Deluxe)"
+      },
+      {
+        "track": "Touch of Grey - 2013 Remaster",
+        "artist": "Grateful Dead",
+        "album": "In the Dark"
+      },
+      {
+        "track": "U Got The Look - 2020 Remaster",
+        "artist": "Prince",
+        "album": "Sign O' The Times"
+      },
+      {
+        "track": "Where The Streets Have No Name - Remastered",
+        "artist": "U2",
+        "album": "The Joshua Tree"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

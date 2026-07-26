@@ -1,0 +1,136 @@
+{
+  "year": 1980,
+  "note": "Full \"Best of 1980\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6PRPyH10LWpdBSGXHNBtrn",
+    "tracks": [
+      {
+        "track": "A Forest - 2006 Remaster",
+        "artist": "The Cure",
+        "album": "Seventeen Seconds (Deluxe Edition)"
+      },
+      {
+        "track": "Ashes to Ashes - 2017 Remaster",
+        "artist": "David Bowie",
+        "album": "Scary Monsters (And Super Creeps) [2017 Remaster]"
+      },
+      {
+        "track": "Can You Feel It",
+        "artist": "The Jacksons",
+        "album": "Triumph"
+      },
+      {
+        "track": "Coming Up - 2011 Remaster",
+        "artist": "Paul McCartney",
+        "album": "McCartney II"
+      },
+      {
+        "track": "Could You Be Loved",
+        "artist": "Bob Marley & The Wailers",
+        "album": "Uprising"
+      },
+      {
+        "track": "Credit In The Straight World",
+        "artist": "Young Marble Giants",
+        "album": "Colossal Youth"
+      },
+      {
+        "track": "Crosseyed and Painless - 2005 Remaster",
+        "artist": "Talking Heads",
+        "album": "Remain in Light (Deluxe Version)"
+      },
+      {
+        "track": "Funkytown - Single Version",
+        "artist": "Lipps Inc.",
+        "album": "'80s Pop #1's"
+      },
+      {
+        "track": "Girl U Want - 2009 Remaster",
+        "artist": "DEVO",
+        "album": "Freedom of Choice (2009 Remaster; Deluxe Edition)"
+      },
+      {
+        "track": "Going Up",
+        "artist": "Echo & the Bunnymen",
+        "album": "Crocodiles (Expanded; 2007 Remaster)"
+      },
+      {
+        "track": "Happy House",
+        "artist": "Siouxsie and the Banshees",
+        "album": "Kaleidoscope (Remastered & Expanded)"
+      },
+      {
+        "track": "Hells Bells",
+        "artist": "AC/DC",
+        "album": "Back In Black"
+      },
+      {
+        "track": "I Will Follow - Remastered 2008",
+        "artist": "U2",
+        "album": "Boy (Deluxe Edition Remastered)"
+      },
+      {
+        "track": "Kiss on My List",
+        "artist": "Daryl Hall & John Oates",
+        "album": "Voices"
+      },
+      {
+        "track": "Let My Love Open The Door",
+        "artist": "Pete Townshend",
+        "album": "Empty Glass"
+      },
+      {
+        "track": "Love Will Tear Us Apart - 2020 Remaster",
+        "artist": "Joy Division",
+        "album": "Love Will Tear Us Apart"
+      },
+      {
+        "track": "Over You",
+        "artist": "Roxy Music",
+        "album": "Flesh And Blood"
+      },
+      {
+        "track": "Private Idaho",
+        "artist": "The B-52's",
+        "album": "Wild Planet"
+      },
+      {
+        "track": "Rapture - Remastered 2001",
+        "artist": "Blondie",
+        "album": "Autoamerican (Remastered 2001)"
+      },
+      {
+        "track": "The Breaks",
+        "artist": "Kurtis Blow",
+        "album": "Kurtis Blow"
+      },
+      {
+        "track": "The Monochrome Set (I Presume)",
+        "artist": "The Monochrome Set",
+        "album": "Strange Boutique"
+      },
+      {
+        "track": "The New Rap Language",
+        "artist": "Spoonie Gee, Treacherous Three, Pooche Costello",
+        "album": "Love Rap / The New Rap Language"
+      },
+      {
+        "track": "The River",
+        "artist": "Bruce Springsteen",
+        "album": "The River"
+      },
+      {
+        "track": "The Spirit Of Radio",
+        "artist": "Rush",
+        "album": "Permanent Waves"
+      },
+      {
+        "track": "Too Many Creeps",
+        "artist": "Bush Tetras",
+        "album": "Too Many Creeps (Single)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 1997,
+  "note": "Full \"Best of 1997\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3G9T4n1G1AQWgMIWzkdiUA",
+    "tracks": [
+      {
+        "track": "All Mine",
+        "artist": "Portishead",
+        "album": "Portishead"
+      },
+      {
+        "track": "Bitter Sweet Symphony - Remastered 2016",
+        "artist": "The Verve",
+        "album": "Urban Hymns (Deluxe / Remastered 2016)"
+      },
+      {
+        "track": "Block Rockin' Beats",
+        "artist": "The Chemical Brothers",
+        "album": "Dig Your Own Hole"
+      },
+      {
+        "track": "Brown Paper Bag",
+        "artist": "Roni Size, Reprazent",
+        "album": "New Forms (20th Anniversary Edition)"
+      },
+      {
+        "track": "Da Funk",
+        "artist": "Daft Punk",
+        "album": "Homework"
+      },
+      {
+        "track": "Diesel Power",
+        "artist": "The Prodigy",
+        "album": "The Fat of the Land"
+      },
+      {
+        "track": "Everlong",
+        "artist": "Foo Fighters",
+        "album": "The Colour And The Shape"
+      },
+      {
+        "track": "Flagpole Sitta",
+        "artist": "Harvey Danger",
+        "album": "Where Have All The Merrymakers Gone?"
+      },
+      {
+        "track": "Hypnotize - 2014 Remaster",
+        "artist": "The Notorious B.I.G.",
+        "album": "Life After Death (2014 Remastered Edition)"
+      },
+      {
+        "track": "Into My Arms",
+        "artist": "Nick Cave & The Bad Seeds",
+        "album": "The Boatman's Call (2011 - Remaster)"
+      },
+      {
+        "track": "Ladies and gentlemen we are floating in space",
+        "artist": "Spiritualized",
+        "album": "Ladies and gentlemen we are floating in space"
+      },
+      {
+        "track": "Latyrx",
+        "artist": "Latyrx",
+        "album": "Latyrx (Deluxe Edition)"
+      },
+      {
+        "track": "Let Down",
+        "artist": "Radiohead",
+        "album": "OK Computer"
+      },
+      {
+        "track": "Love Sick",
+        "artist": "Bob Dylan",
+        "album": "Time Out Of Mind"
+      },
+      {
+        "track": "Luchini AKA This Is It",
+        "artist": "Camp Lo",
+        "album": "Uptown Saturday Night"
+      },
+      {
+        "track": "My Little Corner of the World",
+        "artist": "Yo La Tengo",
+        "album": "I Can Hear The Heart Beating As One"
+      },
+      {
+        "track": "One More Hour",
+        "artist": "Sleater-Kinney",
+        "album": "Dig Me Out (Remastered)"
+      },
+      {
+        "track": "Red",
+        "artist": "12 RODS",
+        "album": "Gay (Ep)"
+      },
+      {
+        "track": "Say Yes",
+        "artist": "Elliott Smith",
+        "album": "Either/Or"
+      },
+      {
+        "track": "Song 2 - 2012 Remaster",
+        "artist": "Blur",
+        "album": "Blur"
+      },
+      {
+        "track": "Stereo",
+        "artist": "Pavement",
+        "album": "Brighten the Corners"
+      },
+      {
+        "track": "Summertime",
+        "artist": "The Sundays",
+        "album": "Static & Silence"
+      },
+      {
+        "track": "The Rain (Supa Dupa Fly)",
+        "artist": "Missy Elliott",
+        "album": "Supa Dupa Fly"
+      },
+      {
+        "track": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
+        "artist": "Wu-Tang Clan, Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah, Raekwon",
+        "album": "Wu-Tang Forever"
+      },
+      {
+        "track": "Your Woman",
+        "artist": "White Town",
+        "album": "Women In Technology"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

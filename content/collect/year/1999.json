@@ -1,0 +1,136 @@
+{
+  "year": 1999,
+  "note": "Full \"Best of 1999\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/5AeSuc1QmTht2zZ3RlNrKZ",
+    "tracks": [
+      {
+        "track": "A Spoonful Weighs a Ton - 2017 Remaster",
+        "artist": "The Flaming Lips",
+        "album": "The Soft Bulletin"
+      },
+      {
+        "track": "All You Want",
+        "artist": "Dido",
+        "album": "No Angel"
+      },
+      {
+        "track": "Breathe And Stop",
+        "artist": "Q-Tip",
+        "album": "Amplified"
+      },
+      {
+        "track": "Da Rockwilder",
+        "artist": "Method Man, Redman",
+        "album": "Blackout!"
+      },
+      {
+        "track": "Fast As You Can",
+        "artist": "Fiona Apple",
+        "album": "When The Pawn..."
+      },
+      {
+        "track": "Got Your Money (feat. Kelis)",
+        "artist": "Ol' Dirty Bastard, Kelis",
+        "album": "Nigga Please"
+      },
+      {
+        "track": "Gyroscope",
+        "artist": "Dismemberment Plan",
+        "album": "Emergency & I"
+      },
+      {
+        "track": "Hold On",
+        "artist": "Tom Waits",
+        "album": "Mule Variations (Remastered)"
+      },
+      {
+        "track": "Hot Topic",
+        "artist": "Le Tigre",
+        "album": "Le Tigre"
+      },
+      {
+        "track": "Labour of Love - 2014 Remaster",
+        "artist": "Frente!",
+        "album": "Marvin The Album - 21st Anniversary Edition (Deluxe Edition)"
+      },
+      {
+        "track": "Learn to Fly",
+        "artist": "Foo Fighters",
+        "album": "There Is Nothing Left To Lose"
+      },
+      {
+        "track": "Let Forever Be",
+        "artist": "The Chemical Brothers, Noel Gallagher",
+        "album": "Surrender"
+      },
+      {
+        "track": "Sexx Laws",
+        "artist": "Beck",
+        "album": "Midnite Vultures"
+      },
+      {
+        "track": "Sleep Now In the Fire",
+        "artist": "Rage Against The Machine",
+        "album": "The Battle Of Los Angeles"
+      },
+      {
+        "track": "Soon",
+        "artist": "Low",
+        "album": "Secret Name"
+      },
+      {
+        "track": "Sour Girl",
+        "artist": "Stone Temple Pilots",
+        "album": "No. 4"
+      },
+      {
+        "track": "Starálfur",
+        "artist": "Sigur Rós",
+        "album": "Ágætis byrjun"
+      },
+      {
+        "track": "Steal My Sunshine",
+        "artist": "LEN",
+        "album": "You Can't Stop The Bum Rush"
+      },
+      {
+        "track": "Stolen Car",
+        "artist": "Beth Orton",
+        "album": "Central Reservation"
+      },
+      {
+        "track": "The Next Episode",
+        "artist": "Dr. Dre, Snoop Dogg",
+        "album": "2001"
+      },
+      {
+        "track": "The Things We Did and Didn't Do",
+        "artist": "The Magnetic Fields",
+        "album": "69 Love Songs"
+      },
+      {
+        "track": "The Truth",
+        "artist": "Handsome Boy Modeling School, Dan The Automator, Prince Paul, Róisín Murphy, J-Live",
+        "album": "So...How's Your Girl?"
+      },
+      {
+        "track": "We're In This Together",
+        "artist": "Nine Inch Nails",
+        "album": "The Fragile"
+      },
+      {
+        "track": "Why Does My Heart Feel So Bad?",
+        "artist": "Moby",
+        "album": "Play"
+      },
+      {
+        "track": "You Got Me",
+        "artist": "The Roots, Tariq Trotter, Erykah Badu, Eve",
+        "album": "Things Fall Apart"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

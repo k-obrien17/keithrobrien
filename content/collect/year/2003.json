@@ -1,0 +1,136 @@
+{
+  "year": 2003,
+  "note": "Full \"Best of 2003\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/1ClVgqajMSvJN5naaiShnL",
+    "tracks": [
+      {
+        "track": "Anthems For A Seventeen Year-Old Girl",
+        "artist": "Broken Social Scene",
+        "album": "You Forgot It In People"
+      },
+      {
+        "track": "Backdrifts",
+        "artist": "Radiohead",
+        "album": "Hail To the Thief"
+      },
+      {
+        "track": "Ca. Viewing",
+        "artist": "Erase Errata",
+        "album": "At Crystal Palace"
+      },
+      {
+        "track": "Crazy Love",
+        "artist": "Colder",
+        "album": "Again"
+      },
+      {
+        "track": "Emerge",
+        "artist": "Fischerspooner",
+        "album": "#1"
+      },
+      {
+        "track": "Farewell Transmission",
+        "artist": "Songs: Ohia, Jason Molina",
+        "album": "Magnolia Electric Co. (Deluxe Edition)"
+      },
+      {
+        "track": "Fix Up, Look Sharp",
+        "artist": "Dizzee Rascal",
+        "album": "Boy In Da Corner"
+      },
+      {
+        "track": "From Blown Speakers",
+        "artist": "The New Pornographers",
+        "album": "Electric Version"
+      },
+      {
+        "track": "Good Woman",
+        "artist": "Cat Power",
+        "album": "You Are Free"
+      },
+      {
+        "track": "House Of Jealous Lovers",
+        "artist": "The Rapture",
+        "album": "Echoes"
+      },
+      {
+        "track": "If You Find Yourself Caught In Love",
+        "artist": "Belle and Sebastian",
+        "album": "Dear Catastrophe Waitress"
+      },
+      {
+        "track": "I've Lived on a Dirt Road All My Life",
+        "artist": "Caribou",
+        "album": "Up in Flames (Special Edition)"
+      },
+      {
+        "track": "Manila - Headman Mix",
+        "artist": "Seelenluft",
+        "album": "L.A. Woman / Manila (Remixes)"
+      },
+      {
+        "track": "Maps",
+        "artist": "Yeah Yeah Yeahs",
+        "album": "Fever To Tell (Deluxe Remastered)"
+      },
+      {
+        "track": "Milkshake",
+        "artist": "Kelis",
+        "album": "Tasty"
+      },
+      {
+        "track": "Mine's Not a High Horse",
+        "artist": "The Shins",
+        "album": "Chutes Too Narrow"
+      },
+      {
+        "track": "Powered Wig Machine",
+        "artist": "Desert Sessions",
+        "album": "The Desert Sessions Volume 9 & 10"
+      },
+      {
+        "track": "Reptilia",
+        "artist": "The Strokes",
+        "album": "Room On Fire"
+      },
+      {
+        "track": "Strict Machine",
+        "artist": "Goldfrapp",
+        "album": "Black Cherry"
+      },
+      {
+        "track": "The Clap",
+        "artist": "The Unicorns",
+        "album": "Who Will Cut Our Hair When We're Gone? (Remastered)"
+      },
+      {
+        "track": "Vito's Ordination Song",
+        "artist": "Sufjan Stevens",
+        "album": "Michigan"
+      },
+      {
+        "track": "What Your Soul Sings",
+        "artist": "Massive Attack, Sinéad O'Connor",
+        "album": "100th Window"
+      },
+      {
+        "track": "Where Have All the Rude Boys Gone",
+        "artist": "Ted Leo and the Pharmacists",
+        "album": "Hearts of Oak"
+      },
+      {
+        "track": "Young Liars",
+        "artist": "TV On The Radio",
+        "album": "Young Liars"
+      },
+      {
+        "track": "You've Got Her In Your Pocket",
+        "artist": "The White Stripes",
+        "album": "Elephant"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

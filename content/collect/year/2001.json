@@ -1,0 +1,136 @@
+{
+  "year": 2001,
+  "note": "Full \"Best of 2001\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/74S2LRqiVB7dTLc3qDrzAL",
+    "tracks": [
+      {
+        "track": "19-2000 - Soulchild Remix",
+        "artist": "Gorillaz",
+        "album": "Gorillaz"
+      },
+      {
+        "track": "Can't Get You out of My Head",
+        "artist": "Kylie Minogue",
+        "album": "Fever (Deluxe Edition)"
+      },
+      {
+        "track": "Dead Leaves and the Dirty Ground",
+        "artist": "The White Stripes",
+        "album": "White Blood Cells"
+      },
+      {
+        "track": "Get Ur Freak On",
+        "artist": "Missy Elliott",
+        "album": "Miss E... So Addictive"
+      },
+      {
+        "track": "Hash Pipe",
+        "artist": "Weezer",
+        "album": "Weezer"
+      },
+      {
+        "track": "Headless Horseman",
+        "artist": "The Microphones",
+        "album": "The Glow, Pt. 2"
+      },
+      {
+        "track": "Hidden Place",
+        "artist": "Björk",
+        "album": "Vespertine"
+      },
+      {
+        "track": "Imitation Of Life",
+        "artist": "R.E.M.",
+        "album": "Reveal"
+      },
+      {
+        "track": "Iron Galaxy",
+        "artist": "Cannibal Ox",
+        "album": "The Cold Vein (Deluxe Edition)"
+      },
+      {
+        "track": "Jenny & The Ess-Dog",
+        "artist": "Stephen Malkmus",
+        "album": "Stephen Malkmus"
+      },
+      {
+        "track": "July",
+        "artist": "Low",
+        "album": "Things We Lost in the Fire"
+      },
+      {
+        "track": "My Friend Dario",
+        "artist": "Vitalic",
+        "album": "Ok Cowboy"
+      },
+      {
+        "track": "Schism",
+        "artist": "TOOL",
+        "album": "Lateralus"
+      },
+      {
+        "track": "So Easy",
+        "artist": "Röyksopp",
+        "album": "Melody A.M."
+      },
+      {
+        "track": "Soma",
+        "artist": "The Strokes",
+        "album": "Is This It"
+      },
+      {
+        "track": "Superheroes",
+        "artist": "Daft Punk",
+        "album": "Discovery"
+      },
+      {
+        "track": "Takeover",
+        "artist": "JAŸ-Z",
+        "album": "The Blueprint (Explicit Version)"
+      },
+      {
+        "track": "The Celibate Life",
+        "artist": "The Shins",
+        "album": "Oh, Inverted World"
+      },
+      {
+        "track": "The Dark Is Rising",
+        "artist": "Mercury Rev",
+        "album": "All is Dream"
+      },
+      {
+        "track": "The Middle",
+        "artist": "Jimmy Eat World",
+        "album": "Bleed American"
+      },
+      {
+        "track": "Uzi (Pinky Ring) (feat. U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa & GZA)",
+        "artist": "Wu-Tang Clan, U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa, GZA",
+        "album": "Iron Flag"
+      },
+      {
+        "track": "We Live NE Of Compton",
+        "artist": "Liars",
+        "album": "They Threw Us All In A Trench and Stuck a Monument on Top"
+      },
+      {
+        "track": "Weeds",
+        "artist": "Pulp",
+        "album": "We Love Life"
+      },
+      {
+        "track": "Whatever Happened To My Rock 'N' Roll (Punk Song)",
+        "artist": "Black Rebel Motorcycle Club",
+        "album": "B.R.M.C."
+      },
+      {
+        "track": "Where's Your Head At",
+        "artist": "Basement Jaxx",
+        "album": "Rooty"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

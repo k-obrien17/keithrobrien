@@ -1,0 +1,136 @@
+{
+  "year": 2011,
+  "note": "Full \"Best of 2011\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4qG4sKGyi8nedcm36msvNZ",
+    "tracks": [
+      {
+        "track": "Amor Fati",
+        "artist": "Washed Out",
+        "album": "Within and Without"
+      },
+      {
+        "track": "Born This Way",
+        "artist": "Lady Gaga",
+        "album": "Born This Way"
+      },
+      {
+        "track": "Claudia Lewis",
+        "artist": "M83",
+        "album": "Hurry Up, We're Dreaming"
+      },
+      {
+        "track": "Codex",
+        "artist": "Radiohead",
+        "album": "The King Of Limbs"
+      },
+      {
+        "track": "Countdown",
+        "artist": "Beyoncé",
+        "album": "4"
+      },
+      {
+        "track": "Cruel",
+        "artist": "St. Vincent",
+        "album": "Strange Mercy"
+      },
+      {
+        "track": "Do It Again",
+        "artist": "Holy Ghost!",
+        "album": "Holy Ghost!"
+      },
+      {
+        "track": "He Gets Me High",
+        "artist": "Dum Dum Girls",
+        "album": "He Gets Me High"
+      },
+      {
+        "track": "Hey Moon",
+        "artist": "John Maus",
+        "album": "We Must Become the Pitiless Censors of Ourselves"
+      },
+      {
+        "track": "How Deep Is Your Love?",
+        "artist": "The Rapture",
+        "album": "In The Grace Of Your Love"
+      },
+      {
+        "track": "Kaputt",
+        "artist": "Destroyer",
+        "album": "Kaputt"
+      },
+      {
+        "track": "Monopoly",
+        "artist": "Danny Brown",
+        "album": "XXX (Deluxe Version)"
+      },
+      {
+        "track": "No Church In The Wild",
+        "artist": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM",
+        "album": "Watch The Throne"
+      },
+      {
+        "track": "Powa",
+        "artist": "Tune-Yards",
+        "album": "W H O K I L L"
+      },
+      {
+        "track": "Rigamortus",
+        "artist": "Kendrick Lamar",
+        "album": "Section.80"
+      },
+      {
+        "track": "Rolling In The Deep",
+        "artist": "Adele",
+        "album": "Rolling In The Deep"
+      },
+      {
+        "track": "Romance",
+        "artist": "WILD FLAG",
+        "album": "Wild Flag"
+      },
+      {
+        "track": "Santa Fe",
+        "artist": "Beirut",
+        "album": "The Rip Tide"
+      },
+      {
+        "track": "The Words That Maketh Murder",
+        "artist": "PJ Harvey",
+        "album": "Let England Shake"
+      },
+      {
+        "track": "Try to Sleep",
+        "artist": "Low",
+        "album": "C'mon"
+      },
+      {
+        "track": "Under Cover of Darkness",
+        "artist": "The Strokes",
+        "album": "Angles"
+      },
+      {
+        "track": "Vomit",
+        "artist": "Girls",
+        "album": "Father, Son, Holy Ghost"
+      },
+      {
+        "track": "Whirring",
+        "artist": "The Joy Formidable",
+        "album": "The Big Roar"
+      },
+      {
+        "track": "Winter Beats",
+        "artist": "I Break Horses",
+        "album": "Hearts"
+      },
+      {
+        "track": "Yonkers",
+        "artist": "Tyler, The Creator",
+        "album": "Goblin"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

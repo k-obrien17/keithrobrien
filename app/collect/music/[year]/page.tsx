@@ -22,8 +22,11 @@ export async function generateMetadata({
   const { year } = await params;
   const y = parseYear(year);
   if (y === null || !getMusicYears().includes(y)) return {};
+  const ranked = getYearData(y).music?.ranked ?? true;
   const title = `Songs of ${y}`;
-  const description = `Keith O'Brien's songs of the year for ${y}: a hand-picked, ranked tracklist with a Spotify playlist link. One list per year, kept by hand.`;
+  const description = ranked
+    ? `Keith O'Brien's songs of the year for ${y}: a hand-picked, ranked tracklist with a Spotify playlist link. One list per year, kept by hand.`
+    : `Keith O'Brien's full "Best of ${y}" Spotify playlist for ${y}, alphabetical by track title, with a link to the playlist.`;
   return {
     title,
     description,
@@ -59,8 +62,18 @@ export default async function MusicYearPage({
     <>
       <CollectHeader crumb={`// collect · music · ${y}`} title={`Songs of ${y}`}>
         <p>
-          My songs of {y}, ranked. Not a critic&apos;s list and not
-          comprehensive, just the tracks that stuck. Also part of{" "}
+          {music.ranked ? (
+            <>
+              My songs of {y}, ranked. Not a critic&apos;s list and not
+              comprehensive, just the tracks that stuck.
+            </>
+          ) : (
+            <>
+              My full &quot;Best of {y}&quot; playlist, alphabetical by track
+              title, not ranked.
+            </>
+          )}{" "}
+          Also part of{" "}
           <Link href={`/collect/${y}`} className="text-[var(--color-accent)] hover:underline underline-offset-4">
             Best of {y}
           </Link>
@@ -74,7 +87,7 @@ export default async function MusicYearPage({
             <SpotifyLink url={music.spotify_url} />
           </p>
         ) : null}
-        <MusicList tracks={music.tracks} />
+        <MusicList tracks={music.tracks} ranked={music.ranked} />
       </Section>
     </>
   );

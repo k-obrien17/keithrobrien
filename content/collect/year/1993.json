@@ -1,0 +1,136 @@
+{
+  "year": 1993,
+  "note": "Full \"Best of 1993\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6G8ROs6aYiuxWNJ9j4Mk43",
+    "tracks": [
+      {
+        "track": "50ft Queenie",
+        "artist": "PJ Harvey",
+        "album": "Rid Of Me"
+      },
+      {
+        "track": "Anna Begins",
+        "artist": "Counting Crows",
+        "album": "August And Everything After"
+      },
+      {
+        "track": "Award Tour (feat. Trugoy The Dove)",
+        "artist": "A Tribe Called Quest, Trugoy The Dove",
+        "album": "Midnight Marauders"
+      },
+      {
+        "track": "Bop Gun (One Nation) - Radio Edit",
+        "artist": "Ice Cube, George Clinton",
+        "album": "Lethal Injection"
+      },
+      {
+        "track": "Breakadawn",
+        "artist": "De La Soul",
+        "album": "Buhloone Mindstate"
+      },
+      {
+        "track": "Cannonball",
+        "artist": "The Breeders",
+        "album": "Last Splash"
+      },
+      {
+        "track": "Cherub Rock - 2011 Remaster",
+        "artist": "The Smashing Pumpkins",
+        "album": "Siamese Dream (Deluxe Edition)"
+      },
+      {
+        "track": "Creep",
+        "artist": "Radiohead",
+        "album": "Pablo Honey"
+      },
+      {
+        "track": "Da Mystery of Chessboxin'",
+        "artist": "Wu-Tang Clan",
+        "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]"
+      },
+      {
+        "track": "Dreams",
+        "artist": "The Cranberries",
+        "album": "Everybody Else Is Doing It, So Why Can't We? (Super Deluxe)"
+      },
+      {
+        "track": "Fade Into You",
+        "artist": "Mazzy Star",
+        "album": "So Tonight That I Might See"
+      },
+      {
+        "track": "Feed the Tree",
+        "artist": "Belly",
+        "album": "Star"
+      },
+      {
+        "track": "For Tomorrow - 2012 Remaster",
+        "artist": "Blur",
+        "album": "Modern Life Is Rubbish (Special Edition)"
+      },
+      {
+        "track": "I Get Around",
+        "artist": "2Pac, Digital Underground",
+        "album": "Strictly 4 My N.I.G.G.A.Z..."
+      },
+      {
+        "track": "Loser",
+        "artist": "Beck",
+        "album": "Mellow Gold"
+      },
+      {
+        "track": "Make Out Club",
+        "artist": "Unrest",
+        "album": "Perfect Teeth"
+      },
+      {
+        "track": "Missing Link",
+        "artist": "Dinosaur Jr., Del The Funky Homosapien",
+        "album": "Judgment Night"
+      },
+      {
+        "track": "Rearviewmirror - Remastered",
+        "artist": "Pearl Jam",
+        "album": "Vs."
+      },
+      {
+        "track": "She Don't Use Jelly",
+        "artist": "The Flaming Lips",
+        "album": "Transmissions From the Satellite Heart"
+      },
+      {
+        "track": "Sober",
+        "artist": "TOOL",
+        "album": "Undertow"
+      },
+      {
+        "track": "Spin The Bottle",
+        "artist": "The Juliana Hatfield Three",
+        "album": "Become What You Are"
+      },
+      {
+        "track": "Stratford-On-Guy - 2018 Remaster",
+        "artist": "Liz Phair",
+        "album": "Exile In Guyville (2018 Remaster)"
+      },
+      {
+        "track": "Very Ape",
+        "artist": "Nirvana",
+        "album": "In Utero"
+      },
+      {
+        "track": "When the Sun Hits",
+        "artist": "Slowdive",
+        "album": "Souvlaki"
+      },
+      {
+        "track": "Where I'm From",
+        "artist": "Digable Planets",
+        "album": "Reachin' (A New Refutation Of Time And Space)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

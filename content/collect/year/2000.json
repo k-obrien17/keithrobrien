@@ -1,0 +1,131 @@
+{
+  "year": 2000,
+  "note": "Full \"Best of 2000\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/53NgGmQ7ThkhU0Nv3KUewI",
+    "tracks": [
+      {
+        "track": "3030",
+        "artist": "Deltron 3030, Del The Funky Homosapien, Dan The Automator, Kid Koala",
+        "album": "Deltron 3030"
+      },
+      {
+        "track": "All Hands on the Bad One",
+        "artist": "Sleater-Kinney",
+        "album": "All Hands on the Bad One (Remastered)"
+      },
+      {
+        "track": "B.O.B. - Bombs Over Baghdad",
+        "artist": "Outkast",
+        "album": "Stankonia"
+      },
+      {
+        "track": "Cherchez LaGhost",
+        "artist": "Ghostface Killah, U-God",
+        "album": "Supreme Clientele"
+      },
+      {
+        "track": "Colorbars",
+        "artist": "Elliott Smith",
+        "album": "Figure 8"
+      },
+      {
+        "track": "Come On Let's Go",
+        "artist": "Broadcast",
+        "album": "The Noise Made By People"
+      },
+      {
+        "track": "Country Grammar (Hot Shit)",
+        "artist": "Nelly",
+        "album": "Country Grammar"
+      },
+      {
+        "track": "Frontier Psychiatrist",
+        "artist": "The Avalanches",
+        "album": "Since I Left You (20th Anniversary Deluxe Edition)"
+      },
+      {
+        "track": "Gravel Pit (feat. RZA, Method Man, Ghostface Killah, Raekwon & U-God)",
+        "artist": "Wu-Tang Clan, RZA, Method Man, Ghostface Killah, Raekwon, U-God",
+        "album": "The W"
+      },
+      {
+        "track": "Gravity Rides Everything",
+        "artist": "Modest Mouse",
+        "album": "The Moon & Antarctica"
+      },
+      {
+        "track": "Hate To Say I Told You So",
+        "artist": "The Hives",
+        "album": "Veni Vidi Vicious"
+      },
+      {
+        "track": "Judith",
+        "artist": "A Perfect Circle",
+        "album": "Mer De Noms"
+      },
+      {
+        "track": "One Armed Scissor",
+        "artist": "At the Drive-In",
+        "album": "Relationship Of Command"
+      },
+      {
+        "track": "Optimistic",
+        "artist": "Radiohead",
+        "album": "Kid A"
+      },
+      {
+        "track": "Pure Shores",
+        "artist": "All Saints",
+        "album": "The Beach (Original Motion Picture Soundtrack)"
+      },
+      {
+        "track": "Quality Control",
+        "artist": "Jurassic 5",
+        "album": "Quality Control"
+      },
+      {
+        "track": "So You'll Aim Toward the Sky",
+        "artist": "Grandaddy",
+        "album": "The Sophtware Slump"
+      },
+      {
+        "track": "The Glow",
+        "artist": "The Microphones",
+        "album": "It Was Hot, We Stayed in the Water"
+      },
+      {
+        "track": "The Lost Art Of Keeping A Secret",
+        "artist": "Queens of the Stone Age",
+        "album": "Rated R"
+      },
+      {
+        "track": "The Real Slim Shady",
+        "artist": "Eminem",
+        "album": "The Marshall Mathers LP"
+      },
+      {
+        "track": "There's Too Much Love",
+        "artist": "Belle and Sebastian",
+        "album": "Fold Your Hands Child, You Walk Like a Peasant"
+      },
+      {
+        "track": "This Mess We're In",
+        "artist": "PJ Harvey, Thom Yorke",
+        "album": "Stories From The City, Stories From The Sea"
+      },
+      {
+        "track": "Woah! - Radio Mix",
+        "artist": "Black Rob",
+        "album": "Whoa!"
+      },
+      {
+        "track": "Yellow",
+        "artist": "Coldplay",
+        "album": "Parachutes"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

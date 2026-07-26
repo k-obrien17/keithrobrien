@@ -1,0 +1,136 @@
+{
+  "year": 1983,
+  "note": "Full \"Best of 1983\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4rbRI5j3U5P3QFgWrKArIA",
+    "tracks": [
+      {
+        "track": "99 Luftballons",
+        "artist": "Nena",
+        "album": "Nena"
+      },
+      {
+        "track": "Age of Consent - 2015 Remaster",
+        "artist": "New Order",
+        "album": "Power Corruption and Lies"
+      },
+      {
+        "track": "Borderline",
+        "artist": "Madonna",
+        "album": "Madonna"
+      },
+      {
+        "track": "Crazy - Remastered",
+        "artist": "Pylon",
+        "album": "Chomp (Remastered)"
+      },
+      {
+        "track": "Dance",
+        "artist": "ESG",
+        "album": "Come Away with ESG"
+      },
+      {
+        "track": "Everyday I Write The Book",
+        "artist": "Elvis Costello & The Attractions",
+        "album": "Punch The Clock"
+      },
+      {
+        "track": "Gimme All Your Lovin'",
+        "artist": "ZZ Top",
+        "album": "Eliminator"
+      },
+      {
+        "track": "Girlfriend Is Better",
+        "artist": "Talking Heads",
+        "album": "Speaking in Tongues"
+      },
+      {
+        "track": "In A Big Country",
+        "artist": "Big Country",
+        "album": "The Crossing"
+      },
+      {
+        "track": "(Keep Feeling) Fascination - Remastered",
+        "artist": "The Human League",
+        "album": "Fascination! (EP)"
+      },
+      {
+        "track": "King Of Pain",
+        "artist": "The Police",
+        "album": "Synchronicity (Remastered 2003)"
+      },
+      {
+        "track": "Love Is A Battlefield",
+        "artist": "Pat Benatar",
+        "album": "Live From Earth"
+      },
+      {
+        "track": "Love Is a Stranger - 2018 Remastered",
+        "artist": "Eurythmics, Annie Lennox, Dave Stewart",
+        "album": "Sweet Dreams [(Are Made of This) [2018 Remastered]]"
+      },
+      {
+        "track": "Mad World",
+        "artist": "Tears For Fears",
+        "album": "The Hurting"
+      },
+      {
+        "track": "Modern Love - 2018 Remaster",
+        "artist": "David Bowie",
+        "album": "Let's Dance (2018 Remaster)"
+      },
+      {
+        "track": "Optimo",
+        "artist": "Liquid Liquid",
+        "album": "Slip In And Out Of Phenomenon"
+      },
+      {
+        "track": "Poor Girl",
+        "artist": "X",
+        "album": "More Fun in the New World"
+      },
+      {
+        "track": "Radio Free Europe",
+        "artist": "R.E.M.",
+        "album": "Murmur"
+      },
+      {
+        "track": "Rockit",
+        "artist": "Herbie Hancock",
+        "album": "Future Shock"
+      },
+      {
+        "track": "State Farm",
+        "artist": "Yaz",
+        "album": "You And Me Both"
+      },
+      {
+        "track": "Sunday Bloody Sunday - Remastered 2008",
+        "artist": "U2",
+        "album": "War (Remastered)"
+      },
+      {
+        "track": "This Is the Day",
+        "artist": "The The",
+        "album": "Soul Mining"
+      },
+      {
+        "track": "Time After Time",
+        "artist": "Cyndi Lauper",
+        "album": "She's So Unusual"
+      },
+      {
+        "track": "Total Eclipse of the Heart",
+        "artist": "Bonnie Tyler",
+        "album": "Faster Than the Speed of Night"
+      },
+      {
+        "track": "Union Sundown",
+        "artist": "Bob Dylan",
+        "album": "Infidels"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

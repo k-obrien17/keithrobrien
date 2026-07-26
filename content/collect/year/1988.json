@@ -1,0 +1,136 @@
+{
+  "year": 1988,
+  "note": "Full \"Best of 1988\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/1nt73BdjFxMeIjvqgFTVwJ",
+    "tracks": [
+      {
+        "track": "Birthday",
+        "artist": "The Sugarcubes",
+        "album": "Life's Too Good"
+      },
+      {
+        "track": "Black Steel In The Hour Of Chaos",
+        "artist": "Public Enemy",
+        "album": "It Takes A Nation Of Millions To Hold Us Back (Deluxe Edition)"
+      },
+      {
+        "track": "Chains of Love",
+        "artist": "Erasure",
+        "album": "The Innocents"
+      },
+      {
+        "track": "Children's Story",
+        "artist": "Slick Rick",
+        "album": "The Great Adventures Of Slick Rick (Deluxe Edition)"
+      },
+      {
+        "track": "Cult of Personality (2023 Remaster)",
+        "artist": "Living Colour",
+        "album": "Vivid (2023 Remaster)"
+      },
+      {
+        "track": "Dangerous",
+        "artist": "Roxette",
+        "album": "Look Sharp!"
+      },
+      {
+        "track": "End Of The Line",
+        "artist": "Traveling Wilburys",
+        "album": "The Traveling Wilburys, Vol. 1"
+      },
+      {
+        "track": "Fast Car",
+        "artist": "Tracy Chapman",
+        "album": "Tracy Chapman"
+      },
+      {
+        "track": "Freak Scene",
+        "artist": "Dinosaur Jr.",
+        "album": "Bug"
+      },
+      {
+        "track": "Good Thing",
+        "artist": "Fine Young Cannibals",
+        "album": "The Raw & The Cooked"
+      },
+      {
+        "track": "Jane Says",
+        "artist": "Jane's Addiction",
+        "album": "Nothing's Shocking"
+      },
+      {
+        "track": "Microphone Fiend",
+        "artist": "Eric B. & Rakim",
+        "album": "Follow The Leader (Expanded Edition)"
+      },
+      {
+        "track": "One (Remastered)",
+        "artist": "Metallica",
+        "album": "...And Justice for All (Remastered Deluxe Box Set)"
+      },
+      {
+        "track": "Orange Crush - Remastered 2013",
+        "artist": "R.E.M.",
+        "album": "Green (Remastered)"
+      },
+      {
+        "track": "Peek-A-Boo",
+        "artist": "Siouxsie and the Banshees",
+        "album": "Peepshow (Remastered And Expanded)"
+      },
+      {
+        "track": "Set It Off",
+        "artist": "Big Daddy Kane",
+        "album": "Long Live The Kane"
+      },
+      {
+        "track": "Straight Out The Jungle",
+        "artist": "Jungle Brothers",
+        "album": "Straight Out The Jungle"
+      },
+      {
+        "track": "Straight Outta Compton",
+        "artist": "N.W.A.",
+        "album": "Straight Outta Compton"
+      },
+      {
+        "track": "Strictly Business",
+        "artist": "EPMD",
+        "album": "Strictly Business"
+      },
+      {
+        "track": "Suedehead - 2011 Remaster",
+        "artist": "Morrissey",
+        "album": "Viva Hate (2014 Remaster)"
+      },
+      {
+        "track": "The Promise",
+        "artist": "When In Rome",
+        "album": "When In Rome"
+      },
+      {
+        "track": "The Sprawl (Album Version)",
+        "artist": "Sonic Youth",
+        "album": "Daydream Nation (Deluxe Edition)"
+      },
+      {
+        "track": "The Symphony",
+        "artist": "Marley Marl, Big Daddy Kane, Craig G, Kool G Rap, Masta Ace",
+        "album": "In Control Volume 1"
+      },
+      {
+        "track": "Vamos - 2007 Remaster",
+        "artist": "Pixies",
+        "album": "Surfer Rosa (2007 Remaster)"
+      },
+      {
+        "track": "you made me realise",
+        "artist": "my bloody valentine",
+        "album": "you made me realise"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

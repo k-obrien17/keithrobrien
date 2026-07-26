@@ -1,0 +1,136 @@
+{
+  "year": 1979,
+  "note": "Full \"Best of 1979\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/23JuMZqOAyl07hvZVRSheM",
+    "tracks": [
+      {
+        "track": "All My Love - Remaster",
+        "artist": "Led Zeppelin",
+        "album": "In Through the out Door (Remaster)"
+      },
+      {
+        "track": "Angel Eyes",
+        "artist": "Roxy Music",
+        "album": "Manifesto"
+      },
+      {
+        "track": "Atomic",
+        "artist": "Blondie",
+        "album": "Eat To The Beat"
+      },
+      {
+        "track": "Bela Lugosi's Dead (Official Version)",
+        "artist": "Bauhaus",
+        "album": "The Bela Session"
+      },
+      {
+        "track": "Careering",
+        "artist": "Public Image Ltd.",
+        "album": "Second Edition"
+      },
+      {
+        "track": "Cool - Extra",
+        "artist": "Pylon",
+        "album": "Pylon Box"
+      },
+      {
+        "track": "Cruel to Be Kind",
+        "artist": "Nick Lowe",
+        "album": "Labour of Lust"
+      },
+      {
+        "track": "Dance This Mess Around",
+        "artist": "The B-52's",
+        "album": "The B-52's"
+      },
+      {
+        "track": "Dancing Barefoot",
+        "artist": "Patti Smith",
+        "album": "Wave"
+      },
+      {
+        "track": "Don't Stop 'Til You Get Enough",
+        "artist": "Michael Jackson",
+        "album": "Off the Wall"
+      },
+      {
+        "track": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "artist": "ABBA",
+        "album": "Voulez-Vous"
+      },
+      {
+        "track": "I Feel Love - 12\" Version",
+        "artist": "Donna Summer",
+        "album": "Bad Girls (Deluxe Edition)"
+      },
+      {
+        "track": "I Found That Essence Rare",
+        "artist": "Gang Of Four",
+        "album": "Entertainment!"
+      },
+      {
+        "track": "I Wanna Be Your Lover",
+        "artist": "Prince",
+        "album": "Prince"
+      },
+      {
+        "track": "Life During Wartime - 2005 Remaster",
+        "artist": "Talking Heads",
+        "album": "Fear of Music (Deluxe Version)"
+      },
+      {
+        "track": "London Calling - Remastered",
+        "artist": "The Clash",
+        "album": "London Calling (Remastered)"
+      },
+      {
+        "track": "Look Back in Anger - 2017 Remaster",
+        "artist": "David Bowie",
+        "album": "Lodger (2017 Remaster)"
+      },
+      {
+        "track": "Making Plans For Nigel",
+        "artist": "XTC",
+        "album": "Drums And Wires"
+      },
+      {
+        "track": "Map Ref 41 Degrees N 93 Degrees W - 2006 Remastered Version",
+        "artist": "Wire",
+        "album": "154 (2006 Remastered Version)"
+      },
+      {
+        "track": "Oliver's Army",
+        "artist": "Elvis Costello & The Attractions",
+        "album": "Armed Forces"
+      },
+      {
+        "track": "Run Like Hell",
+        "artist": "Pink Floyd",
+        "album": "The Wall"
+      },
+      {
+        "track": "She's Lost Control - 2007 Remaster",
+        "artist": "Joy Division",
+        "album": "Unknown Pleasures (Collector's Edition)"
+      },
+      {
+        "track": "Teenage Kicks",
+        "artist": "The Undertones",
+        "album": "The Undertones"
+      },
+      {
+        "track": "The Number One Song In Heaven",
+        "artist": "Sparks",
+        "album": "No.1 In Heaven"
+      },
+      {
+        "track": "We Have a Technical",
+        "artist": "Tubeway Army",
+        "album": "Replicas (Remastered)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

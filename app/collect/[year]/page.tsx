@@ -100,7 +100,7 @@ export default async function YearPage({
                 <SpotifyLink url={data.music.spotify_url} />
               </p>
             ) : null}
-            <MusicList tracks={data.music.tracks} />
+            <MusicList tracks={data.music.tracks} ranked={data.music.ranked} />
             <p className="mt-5 text-[13px]">
               <Link
                 href={`/collect/music/${y}`}

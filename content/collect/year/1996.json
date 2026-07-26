@@ -1,0 +1,136 @@
+{
+  "year": 1996,
+  "note": "Full \"Best of 1996\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6JkFxXvXHPzkEfmZI0vcFb",
+    "tracks": [
+      {
+        "track": "1nce Again (feat. Tammy Lucas) - Radio Version",
+        "artist": "A Tribe Called Quest, Tammy Lucas",
+        "album": "Beats, Rhymes & Life"
+      },
+      {
+        "track": "6 Underground",
+        "artist": "Sneaker Pimps",
+        "album": "Becoming X"
+      },
+      {
+        "track": "ATLiens",
+        "artist": "Outkast",
+        "album": "ATLiens"
+      },
+      {
+        "track": "Call the Doctor",
+        "artist": "Sleater-Kinney",
+        "album": "Call the Doctor (Remastered)"
+      },
+      {
+        "track": "Catapult",
+        "artist": "Counting Crows",
+        "album": "Recovering The Satellites"
+      },
+      {
+        "track": "Cold Rock a Party",
+        "artist": "MC Lyte",
+        "album": "Bad As I Wanna B"
+      },
+      {
+        "track": "Danger - Original Mix",
+        "artist": "Blahzay Blahzay",
+        "album": "Blah Blah Blah"
+      },
+      {
+        "track": "Daytona 500 (feat. Raekwon & Cappadonna)",
+        "artist": "Ghostface Killah, Raekwon, Cappadonna",
+        "album": "Ironman"
+      },
+      {
+        "track": "Desperately Wanting",
+        "artist": "Better Than Ezra",
+        "album": "Friction Baby"
+      },
+      {
+        "track": "Dramamine",
+        "artist": "Modest Mouse",
+        "album": "This Is a Long Drive for Someone with Nothing to Think About"
+      },
+      {
+        "track": "Fu-Gee-La",
+        "artist": "Fugees, Ms. Lauryn Hill, Wyclef Jean, Pras",
+        "album": "The Score (Expanded Edition)"
+      },
+      {
+        "track": "Ladykillers",
+        "artist": "Lush",
+        "album": "Lovelife"
+      },
+      {
+        "track": "Leave",
+        "artist": "R.E.M.",
+        "album": "New Adventures In Hi-Fi"
+      },
+      {
+        "track": "Lovefool",
+        "artist": "The Cardigans",
+        "album": "First Band On The Moon (Remastered)"
+      },
+      {
+        "track": "Metronomic Underground",
+        "artist": "Stereolab",
+        "album": "Emperor Tomato Ketchup"
+      },
+      {
+        "track": "No Diggity",
+        "artist": "Blackstreet, Dr. Dre, Queen Pen",
+        "album": "Another Level"
+      },
+      {
+        "track": "Novocaine For The Soul",
+        "artist": "Eels",
+        "album": "Beautiful Freak"
+      },
+      {
+        "track": "Nude As the News",
+        "artist": "Cat Power",
+        "album": "What Would the Community Think"
+      },
+      {
+        "track": "NYC - 25",
+        "artist": "The Olivia Tremor Control",
+        "album": "Dusk at Cubist Castle"
+      },
+      {
+        "track": "People of the Sun",
+        "artist": "Rage Against The Machine",
+        "album": "Evil Empire"
+      },
+      {
+        "track": "Renee",
+        "artist": "Lost Boyz",
+        "album": "Legal Drug Money"
+      },
+      {
+        "track": "Stinkfist",
+        "artist": "TOOL",
+        "album": "Ænima"
+      },
+      {
+        "track": "Sucked Out",
+        "artist": "Superdrag",
+        "album": "Regretfully Yours"
+      },
+      {
+        "track": "The New Pollution",
+        "artist": "Beck",
+        "album": "Odelay"
+      },
+      {
+        "track": "The Stars Of Track And Field",
+        "artist": "Belle and Sebastian",
+        "album": "If You're Feeling Sinister"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 1981,
+  "note": "Full \"Best of 1981\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/3vitVhLWZpqT9bdHigxg7O",
+    "tracks": [
+      {
+        "track": "Abacab - 2007 Remaster",
+        "artist": "Genesis",
+        "album": "Abacab (2007 Remaster)"
+      },
+      {
+        "track": "Angel Of The Morning",
+        "artist": "Juice Newton",
+        "album": "Juice"
+      },
+      {
+        "track": "Anything Could Happen",
+        "artist": "The Clean",
+        "album": "Boodle Boodle Boodle (EP)"
+      },
+      {
+        "track": "Ceremony",
+        "artist": "New Order",
+        "album": "Movement [Collector's Edition]"
+      },
+      {
+        "track": "Clubland",
+        "artist": "Elvis Costello & The Attractions",
+        "album": "Trust"
+      },
+      {
+        "track": "Controversy",
+        "artist": "Prince",
+        "album": "Controversy"
+      },
+      {
+        "track": "Crimson and Clover",
+        "artist": "Joan Jett & the Blackhearts",
+        "album": "I Love Rock 'N' Roll (Expanded Edition)"
+      },
+      {
+        "track": "Don't You Want Me",
+        "artist": "The Human League",
+        "album": "Dare!"
+      },
+      {
+        "track": "For Those About to Rock (We Salute You)",
+        "artist": "AC/DC",
+        "album": "For Those About to Rock (We Salute You)"
+      },
+      {
+        "track": "I Can't Go for That (No Can Do)",
+        "artist": "Daryl Hall & John Oates",
+        "album": "Private Eyes (Expanded Edition)"
+      },
+      {
+        "track": "Kids In America",
+        "artist": "Kim Wilde",
+        "album": "Kim Wilde"
+      },
+      {
+        "track": "Megatron Man",
+        "artist": "Patrick Cowley",
+        "album": "Megatron Man"
+      },
+      {
+        "track": "Our Lips Are Sealed - Single Version",
+        "artist": "The Go-Go's",
+        "album": "Beauty And The Beat"
+      },
+      {
+        "track": "Pocket Calculator - 2009 Remaster",
+        "artist": "Kraftwerk",
+        "album": "Computer World (2009 Remaster)"
+      },
+      {
+        "track": "Poor Old Soul, Pt. 1",
+        "artist": "Orange Juice",
+        "album": "Coals to Newcastle"
+      },
+      {
+        "track": "Primary - 2005 Remaster",
+        "artist": "The Cure",
+        "album": "Faith"
+      },
+      {
+        "track": "Sorry for Laughing",
+        "artist": "Josef K",
+        "album": "The Only Fun in Town"
+      },
+      {
+        "track": "Spellbound",
+        "artist": "Siouxsie and the Banshees",
+        "album": "Juju"
+      },
+      {
+        "track": "Tainted Love",
+        "artist": "Soft Cell",
+        "album": "Non-Stop Erotic Cabaret"
+      },
+      {
+        "track": "That's When I Reach For My Revolver",
+        "artist": "Mission Of Burma",
+        "album": "Signals, Calls and Marches"
+      },
+      {
+        "track": "The Stroke - Remastered 2010",
+        "artist": "Billy Squier",
+        "album": "Don't Say No (Remastered 2010)"
+      },
+      {
+        "track": "The Visitors",
+        "artist": "ABBA",
+        "album": "The Visitors (Deluxe Edition)"
+      },
+      {
+        "track": "Tom Sawyer",
+        "artist": "Rush",
+        "album": "Moving Pictures (2011 Remaster)"
+      },
+      {
+        "track": "You Better You Bet",
+        "artist": "The Who",
+        "album": "Face Dances"
+      },
+      {
+        "track": "You're No Good",
+        "artist": "ESG",
+        "album": "You're No Good"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

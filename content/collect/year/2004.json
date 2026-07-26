@@ -1,0 +1,136 @@
+{
+  "year": 2004,
+  "note": "Full \"Best of 2004\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/60u1BT1mJQhys0fZtnLRcK",
+    "tracks": [
+      {
+        "track": "Cherry Blossom Girl",
+        "artist": "Air",
+        "album": "Talkie Walkie"
+      },
+      {
+        "track": "Chewing Gum - Vocal Mix",
+        "artist": "Annie",
+        "album": "Anniemal"
+      },
+      {
+        "track": "Chris Michaels",
+        "artist": "The Fiery Furnaces",
+        "album": "Blueberry Boat"
+      },
+      {
+        "track": "C'mon C'mon",
+        "artist": "The Von Bondies",
+        "album": "Pawn Shoppe Heart"
+      },
+      {
+        "track": "Darts Of Pleasure",
+        "artist": "Franz Ferdinand",
+        "album": "Franz Ferdinand"
+      },
+      {
+        "track": "Endless Factories",
+        "artist": "Division Of Laura Lee",
+        "album": "Das Not Compute"
+      },
+      {
+        "track": "Ever Somber",
+        "artist": "dälek",
+        "album": "Absence"
+      },
+      {
+        "track": "Grin & Bear",
+        "artist": "Lali Puna",
+        "album": "Faking The Books"
+      },
+      {
+        "track": "I Luv the Valley OH!",
+        "artist": "Xiu Xiu",
+        "album": "Fabulous Muscles"
+      },
+      {
+        "track": "I Thought You Were My Boyfriend",
+        "artist": "The Magnetic Fields",
+        "album": "i"
+      },
+      {
+        "track": "Ladyflash",
+        "artist": "The Go! Team",
+        "album": "Thunder, Lightning, Strike"
+      },
+      {
+        "track": "Length of Love",
+        "artist": "Interpol",
+        "album": "Antics"
+      },
+      {
+        "track": "Me and Guiliani Down by the School Yard - A True Story",
+        "artist": "!!!",
+        "album": "Louden Up Now"
+      },
+      {
+        "track": "Misery Is a Butterfly",
+        "artist": "Blonde Redhead",
+        "album": "Misery Is a Butterfly"
+      },
+      {
+        "track": "Mr. Brightside",
+        "artist": "The Killers",
+        "album": "Hot Fuss"
+      },
+      {
+        "track": "Oh (feat. Ludacris)",
+        "artist": "Ciara, Ludacris",
+        "album": "Goodies"
+      },
+      {
+        "track": "On Parade",
+        "artist": "Electrelane",
+        "album": "The Power Out"
+      },
+      {
+        "track": "Paper Cup Exit",
+        "artist": "Sonic Youth",
+        "album": "Sonic Nurse"
+      },
+      {
+        "track": "Rebellion (Lies)",
+        "artist": "Arcade Fire",
+        "album": "Funeral"
+      },
+      {
+        "track": "School Spirit",
+        "artist": "Kanye West",
+        "album": "The College Dropout"
+      },
+      {
+        "track": "Since U Been Gone",
+        "artist": "Kelly Clarkson",
+        "album": "Breakaway"
+      },
+      {
+        "track": "Staring at the Sun",
+        "artist": "TV On The Radio",
+        "album": "Desperate Youth, Blood Thirsty Babes"
+      },
+      {
+        "track": "The Rat",
+        "artist": "The Walkmen",
+        "album": "Bows + Arrows"
+      },
+      {
+        "track": "The Road Leads Where It's Led",
+        "artist": "Secret Machines",
+        "album": "Now Here Is Nowhere"
+      },
+      {
+        "track": "Without Msg I Am Nothing",
+        "artist": "Mclusky",
+        "album": "The Difference Between Me And You Is That I'm Not On Fire"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

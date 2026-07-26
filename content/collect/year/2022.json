@@ -1,0 +1,136 @@
+{
+  "year": 2022,
+  "note": "Full \"Best of 2022\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/2L7rN6Ogm0rCn9EcX2MLT4",
+    "tracks": [
+      {
+        "track": "After The Earthquake",
+        "artist": "Alvvays",
+        "album": "Blue Rev"
+      },
+      {
+        "track": "American Teenager",
+        "artist": "Ethel Cain",
+        "album": "Preacher’s Daughter"
+      },
+      {
+        "track": "Baby again..",
+        "artist": "Fred again.., Skrillex, Four Tet",
+        "album": "USB"
+      },
+      {
+        "track": "Beg for You (feat. Rina Sawayama)",
+        "artist": "Charli xcx, Rina Sawayama",
+        "album": "CRASH (Deluxe)"
+      },
+      {
+        "track": "Billie Toppy",
+        "artist": "Men I Trust",
+        "album": "Billie Toppy"
+      },
+      {
+        "track": "Certainty",
+        "artist": "Big Thief",
+        "album": "Dragon New Warm Mountain I Believe In You"
+      },
+      {
+        "track": "Everything Is Simple",
+        "artist": "Widowspeak",
+        "album": "Everything Is Simple"
+      },
+      {
+        "track": "Happy New Year",
+        "artist": "Let's Eat Grandma",
+        "album": "Happy New Year"
+      },
+      {
+        "track": "It's Not Just Me, It's Everybody",
+        "artist": "Weyes Blood",
+        "album": "And In The Darkness, Hearts Aglow"
+      },
+      {
+        "track": "Machina (feat. Mariana Saldaña)",
+        "artist": "Boy Harsher, BOAN",
+        "album": "The Runner (Original Soundtrack)"
+      },
+      {
+        "track": "Masquerade",
+        "artist": "Beach House",
+        "album": "Once Twice Melody"
+      },
+      {
+        "track": "midnight sun",
+        "artist": "Nilüfer Yanya",
+        "album": "midnight sun"
+      },
+      {
+        "track": "Monotonía",
+        "artist": "Shakira, Ozuna",
+        "album": "Monotonía"
+      },
+      {
+        "track": "No One Dies From Love",
+        "artist": "Tove Lo",
+        "album": "No One Dies From Love"
+      },
+      {
+        "track": "Quicksand",
+        "artist": "Hatchie",
+        "album": "Quicksand"
+      },
+      {
+        "track": "Remembering Me",
+        "artist": "Cate Le Bon",
+        "album": "Remembering Me"
+      },
+      {
+        "track": "SAOKO",
+        "artist": "ROSALÍA",
+        "album": "MOTOMAMI"
+      },
+      {
+        "track": "Shadow Paradise",
+        "artist": "Burial",
+        "album": "Antidawn EP"
+      },
+      {
+        "track": "Step By Step",
+        "artist": "Braxe + Falcon, Alan Braxe, DJ Falcon, Panda Bear",
+        "album": "Step By Step EP"
+      },
+      {
+        "track": "The Male Man",
+        "artist": "Sworn Virgins",
+        "album": "Strangers Hands"
+      },
+      {
+        "track": "Tick Tock",
+        "artist": "Aldous Harding",
+        "album": "Warm Chris"
+      },
+      {
+        "track": "Tití Me Preguntó",
+        "artist": "Bad Bunny",
+        "album": "Un Verano Sin Ti"
+      },
+      {
+        "track": "Undulate",
+        "artist": "For Tracy Hyde",
+        "album": "Hotel Insomnia"
+      },
+      {
+        "track": "Wild",
+        "artist": "Spoon",
+        "album": "Wild"
+      },
+      {
+        "track": "You Will Never Work In Television Again",
+        "artist": "The Smile",
+        "album": "A Light for Attracting Attention"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

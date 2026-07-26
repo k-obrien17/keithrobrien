@@ -23,7 +23,7 @@ export type Book = {
   link?: string;
 };
 
-export type YearMusic = { spotify_url: string; tracks: Track[] };
+export type YearMusic = { spotify_url: string; tracks: Track[]; ranked: boolean };
 
 export type YearData = {
   year: number;

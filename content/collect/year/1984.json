@@ -1,0 +1,136 @@
+{
+  "year": 1984,
+  "note": "Full \"Best of 1984\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/79nHgyfuhNvE8IwP42LZw1",
+    "tracks": [
+      {
+        "track": "Back on the Chain Gang - 2007 Remaster",
+        "artist": "Pretenders",
+        "album": "Learning to Crawl (Expanded & Remastered)"
+      },
+      {
+        "track": "Circles",
+        "artist": "Dag Nasty",
+        "album": "Can I Say"
+      },
+      {
+        "track": "Dance Hall Days",
+        "artist": "Wang Chung",
+        "album": "Points On The Curve"
+      },
+      {
+        "track": "Dancing with Tears in My Eyes",
+        "artist": "Ultravox",
+        "album": "Lament"
+      },
+      {
+        "track": "Dear Prudence",
+        "artist": "Siouxsie and the Banshees",
+        "album": "Hyaena (Remastered And Expanded)"
+      },
+      {
+        "track": "For Whom The Bell Tolls (Remastered)",
+        "artist": "Metallica",
+        "album": "Ride The Lightning (Deluxe Remaster)"
+      },
+      {
+        "track": "Freedom",
+        "artist": "Wham!",
+        "album": "Make It Big"
+      },
+      {
+        "track": "Hand in Glove - 2011 Remaster",
+        "artist": "The Smiths",
+        "album": "The Smiths"
+      },
+      {
+        "track": "Hold Me Now",
+        "artist": "Thompson Twins",
+        "album": "Into The Gap"
+      },
+      {
+        "track": "Human Fly",
+        "artist": "The Cramps",
+        "album": "Bad Music For Bad People"
+      },
+      {
+        "track": "I Feel for You",
+        "artist": "Chaka Khan",
+        "album": "I Feel for You"
+      },
+      {
+        "track": "I Will Dare",
+        "artist": "The Replacements",
+        "album": "Let It Be"
+      },
+      {
+        "track": "I Would Die 4 U",
+        "artist": "Prince",
+        "album": "Purple Rain"
+      },
+      {
+        "track": "I'm On Fire",
+        "artist": "Bruce Springsteen",
+        "album": "Born In The U.S.A."
+      },
+      {
+        "track": "It's Like That",
+        "artist": "Run–D.M.C.",
+        "album": "RUN-DMC (Expanded Edition)"
+      },
+      {
+        "track": "It's My Life - 1997 Remaster",
+        "artist": "Talk Talk",
+        "album": "It's My Life"
+      },
+      {
+        "track": "Lorelei",
+        "artist": "Cocteau Twins",
+        "album": "Treasure"
+      },
+      {
+        "track": "My War",
+        "artist": "Black Flag",
+        "album": "My War"
+      },
+      {
+        "track": "Obsession",
+        "artist": "Animotion",
+        "album": "Animotion"
+      },
+      {
+        "track": "Oh, Me",
+        "artist": "Meat Puppets",
+        "album": "II"
+      },
+      {
+        "track": "Pride (In The Name Of Love) - Remastered 2009",
+        "artist": "U2",
+        "album": "The Unforgettable Fire (Remastered)"
+      },
+      {
+        "track": "Smalltown Boy",
+        "artist": "Bronski Beat",
+        "album": "The Age of Consent"
+      },
+      {
+        "track": "So. Central Rain",
+        "artist": "R.E.M.",
+        "album": "Reckoning"
+      },
+      {
+        "track": "The Killing Moon",
+        "artist": "Echo & the Bunnymen",
+        "album": "Ocean Rain"
+      },
+      {
+        "track": "We Belong",
+        "artist": "Pat Benatar",
+        "album": "Tropico"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

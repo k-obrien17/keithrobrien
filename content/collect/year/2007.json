@@ -1,0 +1,136 @@
+{
+  "year": 2007,
+  "note": "Full \"Best of 2007\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6L7gwRF3RyFr9GXMOAd70Z",
+    "tracks": [
+      {
+        "track": "23",
+        "artist": "Blonde Redhead",
+        "album": "23"
+      },
+      {
+        "track": "(Antichrist Television Blues)",
+        "artist": "Arcade Fire",
+        "album": "Neon Bible"
+      },
+      {
+        "track": "Bodysnatchers",
+        "artist": "Radiohead",
+        "album": "In Rainbows"
+      },
+      {
+        "track": "Bros",
+        "artist": "Panda Bear",
+        "album": "Person Pitch"
+      },
+      {
+        "track": "Gronlandic Edit",
+        "artist": "of Montreal",
+        "album": "Hissing Fauna, Are You The Destroyer?"
+      },
+      {
+        "track": "I Feel It All",
+        "artist": "Feist",
+        "album": "The Reminder"
+      },
+      {
+        "track": "Life After Sundown",
+        "artist": "Glass Candy",
+        "album": "B/E/A/T/B/O/X"
+      },
+      {
+        "track": "Myriad Harbour",
+        "artist": "The New Pornographers",
+        "album": "Challengers"
+      },
+      {
+        "track": "No One's Gonna Love You",
+        "artist": "Band of Horses",
+        "album": "Cease To Begin"
+      },
+      {
+        "track": "North American Scum",
+        "artist": "LCD Soundsystem",
+        "album": "Sound of Silver"
+      },
+      {
+        "track": "Paper Planes",
+        "artist": "M.I.A.",
+        "album": "Kala"
+      },
+      {
+        "track": "Peacebone",
+        "artist": "Animal Collective",
+        "album": "Strawberry Jam"
+      },
+      {
+        "track": "Phantom Limb",
+        "artist": "The Shins",
+        "album": "Wincing The Night Away"
+      },
+      {
+        "track": "Phantom Pt. II",
+        "artist": "Justice",
+        "album": "Justice"
+      },
+      {
+        "track": "Sheena Is A Parasite",
+        "artist": "The Horrors",
+        "album": "Strange House"
+      },
+      {
+        "track": "Sycamore",
+        "artist": "Bill Callahan",
+        "album": "Woke On A Whaleheart"
+      },
+      {
+        "track": "Tahiti",
+        "artist": "Bat For Lashes",
+        "album": "Fur and Gold"
+      },
+      {
+        "track": "Teenage Lust!",
+        "artist": "Times New Viking",
+        "album": "Present the Paisley Reich"
+      },
+      {
+        "track": "The Apocalypse Song",
+        "artist": "St. Vincent",
+        "album": "Marry Me"
+      },
+      {
+        "track": "The Songs That We Sing",
+        "artist": "Charlotte Gainsbourg",
+        "album": "5:55 (Nouvelle Edition)"
+      },
+      {
+        "track": "Time to Pretend",
+        "artist": "MGMT",
+        "album": "Oracular Spectacular"
+      },
+      {
+        "track": "Tram 21",
+        "artist": "Electrelane",
+        "album": "No Shouts, No Calls (Standard)"
+      },
+      {
+        "track": "Umbrella",
+        "artist": "Rihanna, JAŸ-Z",
+        "album": "Good Girl Gone Bad"
+      },
+      {
+        "track": "Wash Off",
+        "artist": "Deerhunter",
+        "album": "Fluorescent Grey EP"
+      },
+      {
+        "track": "You Could Have Both",
+        "artist": "The Long Blondes",
+        "album": "Someone To Drive You Home (Standard Version)"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 2015,
+  "note": "Full \"Best of 2015\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/4pu62mQgn292OEJDzdjeeV",
+    "tracks": [
+      {
+        "track": "A New Wave",
+        "artist": "Sleater-Kinney",
+        "album": "No Cities to Love"
+      },
+      {
+        "track": "Air",
+        "artist": "Waxahatchee",
+        "album": "Ivy Tripp"
+      },
+      {
+        "track": "Back To Back",
+        "artist": "Drake",
+        "album": "Back To Back"
+      },
+      {
+        "track": "Can't Feel My Face",
+        "artist": "The Weeknd",
+        "album": "Beauty Behind The Madness"
+      },
+      {
+        "track": "Eugene",
+        "artist": "Sufjan Stevens",
+        "album": "Carrie & Lowell"
+      },
+      {
+        "track": "Flesh without Blood",
+        "artist": "Grimes",
+        "album": "Art Angels"
+      },
+      {
+        "track": "Hey QT",
+        "artist": "QT",
+        "album": "Hey QT"
+      },
+      {
+        "track": "Huarache Lights",
+        "artist": "Hot Chip",
+        "album": "Huarache Lights"
+      },
+      {
+        "track": "Just Like Blood",
+        "artist": "Sharon Van Etten",
+        "album": "I Don't Want to Let You Down"
+      },
+      {
+        "track": "King Kunta",
+        "artist": "Kendrick Lamar",
+        "album": "To Pimp A Butterfly"
+      },
+      {
+        "track": "La Tierra del Olvido (feat. Fanny Lu, Fonseca, Maluma, Andrea Echeverri, Cholo Valderrama, Coral Group & Herencia de Timbiquí) - 2015",
+        "artist": "Carlos Vives, Fanny Lu, Fonseca, Maluma, Andrea Echeverri, Cholo Valderrama, Coral Group, Herencia de Timbiqui",
+        "album": "Más + Corazón Profundo Tour: En Vivo Desde la Bahía de Santa Marta"
+      },
+      {
+        "track": "LEMONADE",
+        "artist": "SOPHIE",
+        "album": "LEMONADE"
+      },
+      {
+        "track": "Let It Grow",
+        "artist": "Maximum Balloon, Karen O, Tunde Adebimpe",
+        "album": "Let It Grow"
+      },
+      {
+        "track": "Lord Pretty Flacko Jodye 2 (LPFJ2)",
+        "artist": "A$AP Rocky",
+        "album": "AT.LONG.LAST.A$AP"
+      },
+      {
+        "track": "Loud Places",
+        "artist": "Jamie xx, Romy",
+        "album": "In Colour"
+      },
+      {
+        "track": "Oh My",
+        "artist": "WESTSIDE BOOGIE",
+        "album": "Oh My"
+      },
+      {
+        "track": "On The Regular",
+        "artist": "Shamir",
+        "album": "Ratchet"
+      },
+      {
+        "track": "Pedestrian at Best",
+        "artist": "Courtney Barnett",
+        "album": "Sometimes I Sit and Think, and Sometimes I Just Sit"
+      },
+      {
+        "track": "Radio - Soundtrack Version",
+        "artist": "Santigold",
+        "album": "Radio"
+      },
+      {
+        "track": "Sea Calls Me Home",
+        "artist": "Julia Holter",
+        "album": "Have You In My Wilderness"
+      },
+      {
+        "track": "Señorita",
+        "artist": "Vince Staples",
+        "album": "Summertime '06"
+      },
+      {
+        "track": "Sorry",
+        "artist": "Justin Bieber",
+        "album": "Purpose (Deluxe)"
+      },
+      {
+        "track": "Stonemilker",
+        "artist": "Björk",
+        "album": "Vulnicura"
+      },
+      {
+        "track": "Un Beso",
+        "artist": "Carla Morrison",
+        "album": "Amor Supremo"
+      },
+      {
+        "track": "What Part of Me",
+        "artist": "Low",
+        "album": "Ones and Sixes"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

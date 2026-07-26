@@ -1,0 +1,136 @@
+{
+  "year": 2019,
+  "note": "Full \"Best of 2019\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/0gMgVepUaGPk463Uh180fI",
+    "tracks": [
+      {
+        "track": "Being Water",
+        "artist": "Lali Puna",
+        "album": "Being Water"
+      },
+      {
+        "track": "Black Moses (feat. JPEGMAFIA)",
+        "artist": "Channel Tres, JPEGMAFIA",
+        "album": "Black Moses (feat. JPEGMAFIA)"
+      },
+      {
+        "track": "bury a friend",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
+      },
+      {
+        "track": "Con Altura",
+        "artist": "ROSALÍA, J Balvin, El Guincho",
+        "album": "Con Altura"
+      },
+      {
+        "track": "Cosmic Cave",
+        "artist": "Ex Hex",
+        "album": "Cosmic Cave"
+      },
+      {
+        "track": "Everlastingly Yours",
+        "artist": "Piroshka",
+        "album": "Everlastingly Yours"
+      },
+      {
+        "track": "fallen alien",
+        "artist": "FKA twigs",
+        "album": "MAGDALENE"
+      },
+      {
+        "track": "FUN!",
+        "artist": "Vince Staples",
+        "album": "FM!"
+      },
+      {
+        "track": "Harmony Hall",
+        "artist": "Vampire Weekend",
+        "album": "Father of the Bride"
+      },
+      {
+        "track": "Ill Wind",
+        "artist": "Radiohead",
+        "album": "Ill Wind"
+      },
+      {
+        "track": "It Don't Hinder Me",
+        "artist": "Angélica Garcia",
+        "album": "It Don't Hinder Me"
+      },
+      {
+        "track": "It's All About You",
+        "artist": "MUNYA",
+        "album": "Blue Pine"
+      },
+      {
+        "track": "Kids In The Dark",
+        "artist": "Bat For Lashes",
+        "album": "Feel For You"
+      },
+      {
+        "track": "Morning Comes",
+        "artist": "SASAMI",
+        "album": "SASAMI"
+      },
+      {
+        "track": "No One's Easy to Love",
+        "artist": "Sharon Van Etten",
+        "album": "Remind Me Tomorrow"
+      },
+      {
+        "track": "Remember to Breathe",
+        "artist": "Sturgill Simpson",
+        "album": "SOUND & FURY"
+      },
+      {
+        "track": "Secret",
+        "artist": "Hatchie",
+        "album": "Keepsake"
+      },
+      {
+        "track": "Sofia",
+        "artist": "Clairo",
+        "album": "Sofia"
+      },
+      {
+        "track": "Something to Believe",
+        "artist": "Weyes Blood",
+        "album": "Titanic Rising"
+      },
+      {
+        "track": "STRANGE DAYS (1999)",
+        "artist": "HEALTH",
+        "album": "STRANGE DAYS (1999)"
+      },
+      {
+        "track": "Twist The Knife",
+        "artist": "Chromatics",
+        "album": "Closer To Grey"
+      },
+      {
+        "track": "UFOF",
+        "artist": "Big Thief",
+        "album": "U.F.O.F."
+      },
+      {
+        "track": "Venom",
+        "artist": "Little Simz",
+        "album": "GREY Area"
+      },
+      {
+        "track": "Woman",
+        "artist": "Karen O, Danger Mouse",
+        "album": "Woman"
+      },
+      {
+        "track": "Zoo Eyes",
+        "artist": "Aldous Harding",
+        "album": "Designer"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

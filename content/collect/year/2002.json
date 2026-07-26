@@ -1,0 +1,136 @@
+{
+  "year": 2002,
+  "note": "Full \"Best of 2002\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/40p8uLDNAmo4D2UgggHRwB",
+    "tracks": [
+      {
+        "track": "Bang",
+        "artist": "Yeah Yeah Yeahs",
+        "album": "Yeah Yeah Yeahs"
+      },
+      {
+        "track": "Baudelaire",
+        "artist": "...And You Will Know Us by the Trail of Dead",
+        "album": "Source Tags & Codes"
+      },
+      {
+        "track": "Canada",
+        "artist": "Low",
+        "album": "Trust"
+      },
+      {
+        "track": "Clocks",
+        "artist": "Coldplay",
+        "album": "A Rush of Blood to the Head"
+      },
+      {
+        "track": "Come With Us",
+        "artist": "The Chemical Brothers",
+        "album": "Come With Us"
+      },
+      {
+        "track": "Disposable Parts",
+        "artist": "Enon",
+        "album": "High Society"
+      },
+      {
+        "track": "Do You Realize??",
+        "artist": "The Flaming Lips",
+        "album": "Yoshimi Battles the Pink Robots"
+      },
+      {
+        "track": "Grindin'",
+        "artist": "Clipse",
+        "album": "Lord Willin'"
+      },
+      {
+        "track": "I Am Mine",
+        "artist": "Pearl Jam",
+        "album": "Riot Act"
+      },
+      {
+        "track": "Keine Melodien",
+        "artist": "Peaches",
+        "album": "The Teaches of Peaches"
+      },
+      {
+        "track": "Lapdance",
+        "artist": "N.E.R.D, Vita, Lee Harvey",
+        "album": "In Search Of..."
+      },
+      {
+        "track": "No One Knows",
+        "artist": "Queens of the Stone Age",
+        "album": "Songs For The Deaf"
+      },
+      {
+        "track": "One Beat",
+        "artist": "Sleater-Kinney",
+        "album": "One Beat (Remastered)"
+      },
+      {
+        "track": "Pretty Girls",
+        "artist": "Neko Case",
+        "album": "Blacklisted"
+      },
+      {
+        "track": "Radio Cure",
+        "artist": "Wilco",
+        "album": "Yankee Hotel Foxtrot"
+      },
+      {
+        "track": "The Empty Page",
+        "artist": "Sonic Youth",
+        "album": "Murray St."
+      },
+      {
+        "track": "The She",
+        "artist": "The Breeders",
+        "album": "Title Tk"
+      },
+      {
+        "track": "The Way We Get By",
+        "artist": "Spoon",
+        "album": "Kill the Moonlight"
+      },
+      {
+        "track": "Time For Heroes",
+        "artist": "The Libertines",
+        "album": "Up The Bracket"
+      },
+      {
+        "track": "Times Like These",
+        "artist": "Foo Fighters",
+        "album": "One By One (Expanded Edition)"
+      },
+      {
+        "track": "Unsleeping",
+        "artist": "Ms. John Soda",
+        "album": "No P. Or D."
+      },
+      {
+        "track": "Untitled",
+        "artist": "Interpol",
+        "album": "Turn On The Bright Lights: The Tenth Anniversary Edition (Remastered)"
+      },
+      {
+        "track": "Untitled #1 - Vaka",
+        "artist": "Sigur Rós",
+        "album": "( )"
+      },
+      {
+        "track": "Walking With Thee",
+        "artist": "Clinic",
+        "album": "Walking With Thee"
+      },
+      {
+        "track": "What Used To Be French",
+        "artist": "Secret Machines",
+        "album": "September 000"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

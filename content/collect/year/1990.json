@@ -1,0 +1,136 @@
+{
+  "year": 1990,
+  "note": "Full \"Best of 1990\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/6B4EIZZO207t3SUvtgw5Bm",
+    "tracks": [
+      {
+        "track": "Can I Kick It?",
+        "artist": "A Tribe Called Quest",
+        "album": "People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)"
+      },
+      {
+        "track": "Freedom! '90 - Remastered",
+        "artist": "George Michael",
+        "album": "Listen Without Prejudice / MTV Unplugged (Deluxe)"
+      },
+      {
+        "track": "Groove Is in the Heart",
+        "artist": "Deee-Lite",
+        "album": "World Clique"
+      },
+      {
+        "track": "Heaven or Las Vegas",
+        "artist": "Cocteau Twins",
+        "album": "Heaven or Las Vegas"
+      },
+      {
+        "track": "Here's Where The Story Ends",
+        "artist": "The Sundays",
+        "album": "Reading, Writing & Arithmetic"
+      },
+      {
+        "track": "Hold On",
+        "artist": "En Vogue",
+        "album": "Born to Sing"
+      },
+      {
+        "track": "Hunger Strike",
+        "artist": "Temple Of The Dog",
+        "album": "Temple Of The Dog"
+      },
+      {
+        "track": "It Must Have Been Love - From the Film \"Pretty Woman\"",
+        "artist": "Roxette",
+        "album": "It Must Have Been Love"
+      },
+      {
+        "track": "Kool Thing",
+        "artist": "Sonic Youth",
+        "album": "Goo"
+      },
+      {
+        "track": "Mama Said Knock You Out",
+        "artist": "LL COOL J",
+        "album": "作業がはかどるHIPHOP BGM"
+      },
+      {
+        "track": "Monie in the Middle",
+        "artist": "Monie Love",
+        "album": "Down to Earth"
+      },
+      {
+        "track": "Nothing Compares 2 U",
+        "artist": "Sinéad O'Connor",
+        "album": "I Do Not Want What I Haven't Got"
+      },
+      {
+        "track": "Over and Over",
+        "artist": "Neil Young, Crazy Horse",
+        "album": "Ragged Glory"
+      },
+      {
+        "track": "Poison",
+        "artist": "Bell Biv DeVoe",
+        "album": "Poison"
+      },
+      {
+        "track": "Rampage",
+        "artist": "EPMD, LL COOL J",
+        "album": "Business As Usual"
+      },
+      {
+        "track": "Round and Round",
+        "artist": "Prince, Tevin Campbell",
+        "album": "Music from Graffiti Bridge"
+      },
+      {
+        "track": "Stop!",
+        "artist": "Jane's Addiction",
+        "album": "Ritual De Lo Habitual"
+      },
+      {
+        "track": "The Humpty Dance",
+        "artist": "Digital Underground",
+        "album": "Sex Packets"
+      },
+      {
+        "track": "The Nigga Ya Love To Hate",
+        "artist": "Ice Cube",
+        "album": "AmeriKKKa's Most Wanted"
+      },
+      {
+        "track": "The Only One I Know",
+        "artist": "The Charlatans",
+        "album": "Some Friendly"
+      },
+      {
+        "track": "The Power",
+        "artist": "SNAP!",
+        "album": "World Power"
+      },
+      {
+        "track": "Velouria",
+        "artist": "Pixies",
+        "album": "Bossanova"
+      },
+      {
+        "track": "Vision of Love",
+        "artist": "Mariah Carey",
+        "album": "Mariah Carey"
+      },
+      {
+        "track": "Welcome To The Terrordome",
+        "artist": "Public Enemy",
+        "album": "Fear Of A Black Planet"
+      },
+      {
+        "track": "We're All In The Same Gang",
+        "artist": "King Tee, Digital Underground, Young MC, MC Ren, Dr. Dre, ICE-T, Above The Law, Tone-Loc, Michel'le, Def Jef, Body And Soul, MC Hammer, Eazy-E",
+        "album": "West Coast Livin', Volume Three"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

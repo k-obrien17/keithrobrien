@@ -1,0 +1,136 @@
+{
+  "year": 2017,
+  "note": "Full \"Best of 2017\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/45qBZwKGAeKCC01f2hP9d7",
+    "tracks": [
+      {
+        "track": "Anoche",
+        "artist": "Arca",
+        "album": "Anoche"
+      },
+      {
+        "track": "Anthem",
+        "artist": "Swet Shop Boys, Riz Ahmed, Heems",
+        "album": "Sufi La"
+      },
+      {
+        "track": "Any Kind of Crowd",
+        "artist": "Filthy Friends",
+        "album": "Invitation"
+      },
+      {
+        "track": "Baby I'm Bleeding",
+        "artist": "JPEGMAFIA",
+        "album": "Baby I'm Bleeding"
+      },
+      {
+        "track": "BagBak",
+        "artist": "Vince Staples",
+        "album": "BagBak"
+      },
+      {
+        "track": "Creature Comfort",
+        "artist": "Arcade Fire",
+        "album": "Everything Now"
+      },
+      {
+        "track": "Cred Woes",
+        "artist": "Liars",
+        "album": "Cred Woes"
+      },
+      {
+        "track": "Diving Woman",
+        "artist": "Japanese Breakfast",
+        "album": "Soft Sounds from Another Planet"
+      },
+      {
+        "track": "Don't You Evah",
+        "artist": "Spoon",
+        "album": "Ga Ga Ga Ga Ga (2017 Remaster)"
+      },
+      {
+        "track": "Drew Barrymore",
+        "artist": "SZA",
+        "album": "Ctrl"
+      },
+      {
+        "track": "Friend Zone",
+        "artist": "Thundercat",
+        "album": "Friend Zone - Single"
+      },
+      {
+        "track": "High Ticket Attractions",
+        "artist": "The New Pornographers",
+        "album": "Whiteout Conditions"
+      },
+      {
+        "track": "Hunger",
+        "artist": "Tia Gostelow",
+        "album": "Hunger"
+      },
+      {
+        "track": "Lemon",
+        "artist": "N.E.R.D, Rihanna",
+        "album": "Lemon"
+      },
+      {
+        "track": "Miss Me",
+        "artist": "Leikeli47",
+        "album": "Miss Me"
+      },
+      {
+        "track": "Plimsoll Punks",
+        "artist": "Alvvays",
+        "album": "Antisocialites"
+      },
+      {
+        "track": "Shark Smile",
+        "artist": "Big Thief",
+        "album": "Capacity"
+      },
+      {
+        "track": "Slip Away",
+        "artist": "Perfume Genius",
+        "album": "No Shape"
+      },
+      {
+        "track": "Star Roving",
+        "artist": "Slowdive",
+        "album": "Star Roving"
+      },
+      {
+        "track": "Sugarboy",
+        "artist": "St. Vincent",
+        "album": "MASSEDUCTION"
+      },
+      {
+        "track": "The Louvre",
+        "artist": "Lorde",
+        "album": "Melodrama"
+      },
+      {
+        "track": "Tinseltown Swimming in Blood",
+        "artist": "Destroyer",
+        "album": "ken"
+      },
+      {
+        "track": "To The Moon And Back - Edit",
+        "artist": "Fever Ray",
+        "album": "To The Moon And Back"
+      },
+      {
+        "track": "tonite",
+        "artist": "LCD Soundsystem",
+        "album": "american dream"
+      },
+      {
+        "track": "Touchdown",
+        "artist": "John Maus",
+        "album": "Screen Memories"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

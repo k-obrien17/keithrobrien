@@ -23,14 +23,14 @@ function Row({
   rank,
   children,
 }: {
-  rank: number;
+  rank: number | null;
   children: React.ReactNode;
 }) {
   return (
     <li className="border-b border-[var(--color-border)] pb-3 last:border-b-0">
       <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-4">
         <span className="text-[12px] text-[var(--color-muted)] tabular-nums w-6 shrink-0">
-          {rank}
+          {rank === null ? "·" : rank}
         </span>
         {children}
       </div>
@@ -38,11 +38,11 @@ function Row({
   );
 }
 
-export function MusicList({ tracks }: { tracks: Track[] }) {
+export function MusicList({ tracks, ranked = true }: { tracks: Track[]; ranked?: boolean }) {
   return (
     <ol className="space-y-3">
       {tracks.map((t, i) => (
-        <Row key={i} rank={i + 1}>
+        <Row key={i} rank={ranked ? i + 1 : null}>
           <span className="flex-1">
             <span className="text-[14px] text-[var(--color-fg)]">{t.track}</span>
             <span className="text-[14px] text-[var(--color-muted)]"> · {t.artist}</span>

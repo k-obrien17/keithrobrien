@@ -1,0 +1,136 @@
+{
+  "year": 2006,
+  "note": "Full \"Best of 2006\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/19x5Oaw46763roZwayghhO",
+    "tracks": [
+      {
+        "track": "A Venue Called Rubella",
+        "artist": "Swan Lake",
+        "album": "Beast Moans"
+      },
+      {
+        "track": "Act of the Apostle II",
+        "artist": "Belle and Sebastian",
+        "album": "The Life Pursuit"
+      },
+      {
+        "track": "Anorak Christmas",
+        "artist": "Sally Shapiro",
+        "album": "Disco Romance"
+      },
+      {
+        "track": "Cheated Hearts",
+        "artist": "Yeah Yeah Yeahs",
+        "album": "Show Your Bones"
+      },
+      {
+        "track": "Chinese New Year",
+        "artist": "Clipse",
+        "album": "Hell Hath No Fury"
+      },
+      {
+        "track": "Elephant Gun",
+        "artist": "Beirut",
+        "album": "The Gulag Orkestar"
+      },
+      {
+        "track": "Female Trance",
+        "artist": "First Nation",
+        "album": "First Nation"
+      },
+      {
+        "track": "Let's Make Love and Listen to Death From Above",
+        "artist": "CSS",
+        "album": "Cansei De Ser Sexy"
+      },
+      {
+        "track": "Living Proof",
+        "artist": "Cat Power",
+        "album": "The Greatest"
+      },
+      {
+        "track": "Lloyd, I'm Ready To Be Heartbroken",
+        "artist": "Camera Obscura",
+        "album": "Let's Get Out Of This Country"
+      },
+      {
+        "track": "Money Matters",
+        "artist": "The Rogers Sisters",
+        "album": "The Invisible Deck"
+      },
+      {
+        "track": "Over And Over",
+        "artist": "Hot Chip",
+        "album": "The Warning"
+      },
+      {
+        "track": "Reason To Believe",
+        "artist": "Dashboard Confessional",
+        "album": "Dusk And Summer"
+      },
+      {
+        "track": "Reena",
+        "artist": "Sonic Youth",
+        "album": "Rather Ripped"
+      },
+      {
+        "track": "Rick Rubin",
+        "artist": "Spank Rock",
+        "album": "YoYoYoYoYo"
+      },
+      {
+        "track": "Steady, As She Goes",
+        "artist": "The Raconteurs",
+        "album": "Broken Boy Soldiers"
+      },
+      {
+        "track": "Tell Me When to Go (feat. Keak da Sneak)",
+        "artist": "E-40, Keak Da Sneak",
+        "album": "Tell Me When to Go"
+      },
+      {
+        "track": "The Crane Wife 3",
+        "artist": "The Decemberists",
+        "album": "The Crane Wife (10th Anniversary Edition)"
+      },
+      {
+        "track": "The Other Side of Mt. Heart Attack",
+        "artist": "Liars",
+        "album": "Drum's Not Dead"
+      },
+      {
+        "track": "They Took A Vote And Said No",
+        "artist": "Sunset Rubdown, Spencer Krug of Wolf Parade",
+        "album": "Shut Up I Am Dreaming"
+      },
+      {
+        "track": "Thursday",
+        "artist": "Asobi Seksu",
+        "album": "Citrus"
+      },
+      {
+        "track": "What Goes Around.../...Comes Around (Interlude)",
+        "artist": "Justin Timberlake",
+        "album": "FutureSex/LoveSounds"
+      },
+      {
+        "track": "Wolf Like Me",
+        "artist": "TV On The Radio",
+        "album": "Return To Cookie Mountain"
+      },
+      {
+        "track": "You Are the Generation That Bought More Shoes and You Get What You Deserve",
+        "artist": "Johnny Boy",
+        "album": "Johnny Boy"
+      },
+      {
+        "track": "Your Eyes Are Liars",
+        "artist": "Sound Team",
+        "album": "\"Movie Monster\""
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

@@ -1,0 +1,136 @@
+{
+  "year": 2021,
+  "note": "Full \"Best of 2021\" Spotify playlist, alphabetical by track title (not ranked). Film/TV for this year come from the media-library export (watching-annual.json), not here.",
+  "music": {
+    "spotify_url": "https://open.spotify.com/playlist/041bYmDEDf8sYSYnc4PdF0",
+    "tracks": [
+      {
+        "track": "El Delirio",
+        "artist": "Petite Amie",
+        "album": "El Delirio"
+      },
+      {
+        "track": "Guided By Angels",
+        "artist": "Amyl and The Sniffers",
+        "album": "Comfort To Me"
+      },
+      {
+        "track": "Hard Drive",
+        "artist": "Cassandra Jenkins",
+        "album": "An Overview on Phenomenal Nature"
+      },
+      {
+        "track": "Hardline",
+        "artist": "Julien Baker",
+        "album": "Little Oblivions"
+      },
+      {
+        "track": "I am not a woman, I'm a god",
+        "artist": "Halsey",
+        "album": "If I Can’t Have Love, I Want Power (Deluxe)"
+      },
+      {
+        "track": "I Can Wait",
+        "artist": "Low",
+        "album": "HEY WHAT"
+      },
+      {
+        "track": "Kiss Me More (feat. SZA)",
+        "artist": "Doja Cat, SZA",
+        "album": "Kiss Me More (feat. SZA)"
+      },
+      {
+        "track": "Like I Used To",
+        "artist": "Sharon Van Etten, Angel Olsen",
+        "album": "Like I Used To"
+      },
+      {
+        "track": "Love More",
+        "artist": "Fiona Apple",
+        "album": "Love More"
+      },
+      {
+        "track": "LUMBERJACK",
+        "artist": "Tyler, The Creator",
+        "album": "CALL ME IF YOU GET LOST"
+      },
+      {
+        "track": "My Pulse to Ponder",
+        "artist": "Liars",
+        "album": "The Apple Drop"
+      },
+      {
+        "track": "Our Time",
+        "artist": "Lia Ices",
+        "album": "Family Album"
+      },
+      {
+        "track": "Please",
+        "artist": "Jessie Ware",
+        "album": "Please"
+      },
+      {
+        "track": "Rakata",
+        "artist": "Arca",
+        "album": "Prada / Rakata"
+      },
+      {
+        "track": "Robber",
+        "artist": "The Weather Station",
+        "album": "Ignorance"
+      },
+      {
+        "track": "Sink In",
+        "artist": "Tirzah",
+        "album": "Colourgrade"
+      },
+      {
+        "track": "Stoned at the Nail Salon",
+        "artist": "Lorde",
+        "album": "Stoned at the Nail Salon"
+      },
+      {
+        "track": "The Greatest",
+        "artist": "SASAMI",
+        "album": "The Greatest / Skin A Rat"
+      },
+      {
+        "track": "to Perth, before the border closes",
+        "artist": "Julia Jacklin",
+        "album": "to Perth, before the border closes"
+      },
+      {
+        "track": "UNISIL",
+        "artist": "SOPHIE",
+        "album": "UNISIL"
+      },
+      {
+        "track": "Valentine",
+        "artist": "Snail Mail",
+        "album": "Valentine"
+      },
+      {
+        "track": "Vanishing",
+        "artist": "Circuit des Yeux",
+        "album": "-io"
+      },
+      {
+        "track": "VBS",
+        "artist": "Lucy Dacus",
+        "album": "Home Video"
+      },
+      {
+        "track": "Wet Dream",
+        "artist": "Wet Leg",
+        "album": "Wet Dream"
+      },
+      {
+        "track": "White Sands",
+        "artist": "Still Corners",
+        "album": "White Sands"
+      }
+    ],
+    "ranked": false
+  },
+  "reading": []
+}

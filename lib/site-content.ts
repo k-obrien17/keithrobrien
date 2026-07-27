@@ -5,6 +5,8 @@ import nowJson from "@/content/site/now.json";
 import shippedJson from "@/content/site/recently-shipped.json";
 import listeningJson from "@/content/site/listening.json";
 import listeningLogJson from "@/content/site/listening-log.json";
+import bestOfLogJson from "@/content/collect/best-of-changelog.json";
+import watchingLogJson from "@/content/collect/watching-changelog.json";
 
 export interface Facet {
   label: string;
@@ -84,6 +86,46 @@ export interface ListeningChange {
 
 export function getListeningChanges(): ListeningChange[] {
   return (listeningLogJson as { changes: ListeningChange[] }).changes;
+}
+
+export interface ChangelogEntry {
+  date: string;
+  domain: "playlist" | "best-of" | "movies" | "tv";
+  type: "added" | "removed" | "entered" | "exited" | "rank-change" | "watched";
+  title: string;
+  artists?: string;
+  year?: number;
+  rank?: number;
+  previousRank?: number;
+}
+
+export function getMusicChangelog(): ChangelogEntry[] {
+  const playlist: ChangelogEntry[] = getListeningChanges().map((c) => ({
+    date: c.date,
+    domain: "playlist",
+    type: c.type,
+    title: c.title,
+    artists: c.artists,
+  }));
+
+  const bestOf: ChangelogEntry[] = (
+    bestOfLogJson as {
+      changes: { date: string; type: "added" | "removed"; title: string; artists: string; year?: number }[];
+    }
+  ).changes.map((c) => ({
+    date: c.date,
+    domain: "best-of",
+    type: c.type,
+    title: c.title,
+    artists: c.artists,
+    year: c.year,
+  }));
+
+  const watching = (watchingLogJson as { changes: ChangelogEntry[] }).changes;
+
+  return [...playlist, ...bestOf, ...watching].sort((a, b) =>
+    a.date < b.date ? 1 : a.date > b.date ? -1 : 0,
+  );
 }
 
 export interface LlmsPreamble {

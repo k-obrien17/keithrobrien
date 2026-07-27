@@ -1,0 +1,38 @@
+name: Watching changelog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/collect/watching.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Diff ranked lists
+        run: node scripts/diff-ranked-list.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- content/collect/watching-changelog.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/collect/watching-changelog.json
+          git commit -m "chore(collect): update watching changelog"
+          git push

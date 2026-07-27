@@ -1,3 +1,74 @@
 {
-  "changes": []
+  "changes": [
+    {
+      "date": "2026-07-26",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Pressure",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Travelers",
+      "year": 2016
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Justified",
+      "year": 2010
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Slow Horses",
+      "year": 2022
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "movies",
+      "type": "watched",
+      "title": "The Shield",
+      "year": 2002
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Travelers",
+      "year": 2016
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Justified",
+      "year": 2010
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Slow Horses",
+      "year": 2022
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "tv",
+      "type": "watched",
+      "title": "The Shield",
+      "year": 2002
+    },
+    {
+      "date": "2026-07-24",
+      "domain": "tv",
+      "type": "watched",
+      "title": "For All Mankind",
+      "year": 2019
+    }
+  ]
 }

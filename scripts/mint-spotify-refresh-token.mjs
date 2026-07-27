@@ -34,6 +34,7 @@ const server = createServer(async (req, res) => {
     return;
   }
 
+  let data;
   try {
     const tokenRes = await fetch("https://accounts.spotify.com/api/token", {
       method: "POST",
@@ -47,7 +48,7 @@ const server = createServer(async (req, res) => {
         redirect_uri: REDIRECT_URI,
       }),
     });
-    const data = await tokenRes.json();
+    data = await tokenRes.json();
 
     if (!tokenRes.ok || !data.refresh_token) {
       res.writeHead(500).end("Token exchange failed, see terminal.");

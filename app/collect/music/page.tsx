@@ -65,6 +65,15 @@ export default function MusicPage() {
       <Section label="All time">
         <ComingSoon />
       </Section>
+
+      <Section label="Changelog">
+        <Link
+          href="/collect/changelog"
+          className="text-[13px] text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors"
+        >
+          Full changelog &rarr;
+        </Link>
+      </Section>
     </>
   );
 }

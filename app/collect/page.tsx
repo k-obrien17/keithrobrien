@@ -115,6 +115,12 @@ export default function CollectPage() {
             <LaneRow key={lane.label} lane={lane} />
           ))}
         </div>
+        <Link
+          href="/collect/changelog"
+          className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors"
+        >
+          Changelog &rarr;
+        </Link>
       </Section>
 
       <Section label="By year">

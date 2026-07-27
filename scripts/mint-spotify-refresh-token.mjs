@@ -29,26 +29,36 @@ const server = createServer(async (req, res) => {
   const code = url.searchParams.get("code");
   if (!code) {
     res.writeHead(400).end("Missing ?code");
+    server.close();
+    process.exitCode = 1;
     return;
   }
 
-  const tokenRes = await fetch("https://accounts.spotify.com/api/token", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Authorization: `Basic ${Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64")}`,
-    },
-    body: new URLSearchParams({
-      grant_type: "authorization_code",
-      code,
-      redirect_uri: REDIRECT_URI,
-    }),
-  });
-  const data = await tokenRes.json();
+  try {
+    const tokenRes = await fetch("https://accounts.spotify.com/api/token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        Authorization: `Basic ${Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64")}`,
+      },
+      body: new URLSearchParams({
+        grant_type: "authorization_code",
+        code,
+        redirect_uri: REDIRECT_URI,
+      }),
+    });
+    const data = await tokenRes.json();
 
-  if (!tokenRes.ok || !data.refresh_token) {
+    if (!tokenRes.ok || !data.refresh_token) {
+      res.writeHead(500).end("Token exchange failed, see terminal.");
+      console.error("Token exchange failed:", data);
+      server.close();
+      process.exitCode = 1;
+      return;
+    }
+  } catch (err) {
     res.writeHead(500).end("Token exchange failed, see terminal.");
-    console.error("Token exchange failed:", data);
+    console.error("Token exchange error:", err);
     server.close();
     process.exitCode = 1;
     return;
@@ -59,6 +69,15 @@ const server = createServer(async (req, res) => {
   console.log(data.refresh_token);
   console.log("\nAdd this as a GitHub Actions secret (SPOTIFY_REFRESH_TOKEN), then clear it from your shell history.");
   server.close();
+});
+
+server.on("error", (err) => {
+  if (err.code === "EADDRINUSE") {
+    console.error("Port 8888 is already in use. Is another instance running? Kill it and try again.");
+  } else {
+    console.error("Server error:", err);
+  }
+  process.exit(1);
 });
 
 server.listen(8888, () => {

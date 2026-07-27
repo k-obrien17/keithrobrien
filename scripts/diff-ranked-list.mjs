@@ -83,7 +83,13 @@ function getPreviousWatching() {
   try {
     const raw = execSync("git show HEAD^:content/collect/watching.json", { encoding: "utf-8" });
     return JSON.parse(raw);
-  } catch {
+  } catch (err) {
+    // "unknown revision" / "bad revision" errors are expected on first run (no HEAD^)
+    if (err.message && (err.message.includes("unknown revision") || err.message.includes("bad revision"))) {
+      return null;
+    }
+    // Anything else is a real failure worth logging
+    console.warn(`Failed to retrieve previous watching.json: ${err.message}`);
     return null;
   }
 }

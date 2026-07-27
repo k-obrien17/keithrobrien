@@ -98,9 +98,9 @@ export default function Home() {
         </Section>
       )}
 
-      {/* Listening */}
+      {/* Theseus' Playlist */}
       {listening.playlistId && (
-        <Section label="Listening">
+        <Section label="Theseus' Playlist">
           <p className="text-[12.5px] leading-[1.8] text-[var(--color-muted)] mb-6 max-w-[580px]">
             {listening.note}
           </p>
@@ -152,6 +152,12 @@ export default function Home() {
               ))}
             </ul>
           )}
+          <Link
+            href="/collect/changelog"
+            className="inline-block mt-8 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            full changelog &rarr;
+          </Link>
         </Section>
       )}
 

@@ -64,14 +64,13 @@ export function diffWatchedFeeds(newData, existingChanges) {
       .map((c) => `${c.domain}::${c.title}::${c.year}::${c.date}`),
   );
 
-  for (const [field, domain] of [
-    ["recently_watched", "movies"],
-    ["recent_tv", "tv"],
-  ]) {
+  for (const field of ["recently_watched", "recent_tv"]) {
     for (const entry of newData[field] ?? []) {
+      const domain = entry.type === "tv" ? "tv" : "movies";
       const k = `${domain}::${entry.title}::${entry.year}::${entry.logged}`;
       if (!seen.has(k)) {
         entries.push({ date: entry.logged, domain, type: "watched", title: entry.title, year: entry.year });
+        seen.add(k);
       }
     }
   }

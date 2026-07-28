@@ -7,6 +7,7 @@ const SITE_URL = "https://www.keithrobrien.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const collectRoutes = [
     "/collect",
+    "/collect/changelog",
     "/collect/watching",
     "/collect/albums",
     "/collect/music",

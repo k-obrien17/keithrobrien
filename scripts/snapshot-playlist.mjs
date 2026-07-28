@@ -85,7 +85,7 @@ async function snapshotPlaylist(token, playlistId, logPath, year) {
 
   const log = JSON.parse(readFileSync(logPath, "utf-8"));
   const previous = log.snapshot ?? [];
-  const isFirstRun = previous.length === 0;
+  const isFirstRun = previous.length === 0 || log.snapshotPlaylistId !== playlistId;
 
   const previousIds = new Set(previous.map((t) => t.id));
   const currentIds = new Set(current.map((t) => t.id));
@@ -109,6 +109,7 @@ async function snapshotPlaylist(token, playlistId, logPath, year) {
   }
 
   log.snapshot = current;
+  log.snapshotPlaylistId = playlistId;
   writeFileSync(logPath, `${JSON.stringify(log, null, 2)}\n`);
 }
 

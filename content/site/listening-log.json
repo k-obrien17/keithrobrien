@@ -1,4 +1,17 @@
 {
   "snapshot": [],
-  "changes": []
+  "changes": [
+    {
+      "date": "2026-07-28",
+      "type": "added",
+      "title": "SS26",
+      "artists": "Charli xcx"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "removed",
+      "title": "Dis Generation",
+      "artists": "A Tribe Called Quest, Busta Rhymes"
+    }
+  ]
 }

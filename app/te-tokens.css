@@ -27,8 +27,8 @@
   --color-bg-alt: #faf9f4;       /* faint panel / row hover */
   --color-fg: #15140f;           /* primary text / headings */
   --color-body: #5a584e;         /* muted body copy */
-  --color-muted: #7a786e;        /* meta text */
-  --color-faint: #82806e;        /* section labels */
+  --color-muted: #72706a;        /* meta text (>=4.5:1 on white) */
+  --color-faint: #6f6d61;        /* section labels (>=4.5:1 on white) */
   --color-faint-2: #918f83;      /* table header text */
   --color-byline: #3a3a34;       /* prominent inline runs */
 
@@ -48,7 +48,7 @@
   --color-dark-fg: #f4f2ea;
   --color-dark-accent: #c97a52;
   --color-dark-muted: #a39e90;
-  --color-dark-faint: #6f6b5f;
+  --color-dark-faint: #8d897a;   /* >=4.5:1 on dark footer */
   --color-dark-rule: #2b291f;
 
   /* State */

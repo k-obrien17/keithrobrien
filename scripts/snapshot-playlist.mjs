@@ -36,22 +36,30 @@ async function getAccessToken() {
 }
 
 async function getCurrentTracks(token, playlistId) {
-  const res = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
-  if (!res.ok) {
-    console.error(`Playlist ${playlistId} request failed: ${res.status}`);
-    return null;
+  // The playlist object's embedded `tracks.items` no longer comes back
+  // populated (Spotify's post-2024 API restrictions), so this hits the
+  // dedicated tracks sub-resource instead, paginating past its 100-item cap.
+  const tracks = [];
+  let url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks?limit=100`;
+  while (url) {
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+    if (!res.ok) {
+      console.error(`Playlist ${playlistId} tracks request failed: ${res.status}`);
+      console.error(await res.text());
+      return null;
+    }
+    const data = await res.json();
+    for (const item of data.items ?? []) {
+      if (!item.track) continue;
+      tracks.push({
+        id: item.track.id,
+        title: item.track.name,
+        artists: item.track.artists.map((a) => a.name).join(", "),
+      });
+    }
+    url = data.next;
   }
-  const data = await res.json();
-  const rawItems = data.tracks?.items ?? [];
-  return rawItems
-    .filter((item) => item.track)
-    .map((item) => ({
-      id: item.track.id,
-      title: item.track.name,
-      artists: item.track.artists.map((a) => a.name).join(", "),
-    }));
+  return tracks;
 }
 
 function todayISO() {

@@ -148,6 +148,14 @@
   ],
   "recently_watched": [
     {
+      "title": "ZZZ Pipeline Test Entry",
+      "year": 2026,
+      "score": 5,
+      "type": "film",
+      "tmdb_url": null,
+      "logged": "2026-08-02"
+    },
+    {
       "title": "Pressure",
       "year": 2026,
       "score": 7.2,

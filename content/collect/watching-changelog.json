@@ -1,6 +1,13 @@
 {
   "changes": [
     {
+      "date": "2026-08-02",
+      "domain": "movies",
+      "type": "watched",
+      "title": "ZZZ Pipeline Test Entry",
+      "year": 2026
+    },
+    {
       "date": "2026-07-26",
       "domain": "movies",
       "type": "watched",

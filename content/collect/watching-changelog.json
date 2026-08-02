@@ -1,6 +1,22 @@
 {
   "changes": [
     {
+      "date": "2026-08-02",
+      "domain": "annual",
+      "type": "entered",
+      "title": "ZZZ Annual Pipeline Test",
+      "year": 2023,
+      "rank": 5
+    },
+    {
+      "date": "2026-08-02",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Anatomy of a Fall",
+      "year": 2023,
+      "previousRank": 5
+    },
+    {
       "date": "2026-07-26",
       "domain": "movies",
       "type": "watched",

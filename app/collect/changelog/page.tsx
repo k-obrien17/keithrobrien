@@ -34,20 +34,23 @@ function domainLabel(entry: ChangelogEntry): string {
       return "Movies";
     case "tv":
       return "TV";
+    case "annual":
+      return entry.year ? `${entry.year} Films` : "Annual";
   }
 }
 
 function describeEntry(entry: ChangelogEntry): string {
   const withYear = entry.year ? `${entry.title} (${entry.year})` : entry.title;
+  const listSize = entry.domain === "annual" ? "top 5" : "top 10";
   switch (entry.type) {
     case "added":
       return `+ ${entry.title}${entry.artists ? ` · ${entry.artists}` : ""}`;
     case "removed":
       return `− ${entry.title}${entry.artists ? ` · ${entry.artists}` : ""}`;
     case "entered":
-      return `entered the top 10: ${withYear}, at #${entry.rank}`;
+      return `entered the ${listSize}: ${withYear}, at #${entry.rank}`;
     case "exited":
-      return `left the top 10: ${withYear}, was #${entry.previousRank}`;
+      return `left the ${listSize}: ${withYear}, was #${entry.previousRank}`;
     case "rank-change":
       return `${withYear} moved #${entry.previousRank} → #${entry.rank}`;
     case "watched":

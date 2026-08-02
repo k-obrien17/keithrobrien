@@ -90,7 +90,7 @@ export function getListeningChanges(): ListeningChange[] {
 
 export interface ChangelogEntry {
   date: string;
-  domain: "playlist" | "best-of" | "movies" | "tv";
+  domain: "playlist" | "best-of" | "movies" | "tv" | "annual";
   type: "added" | "removed" | "entered" | "exited" | "rank-change" | "watched";
   title: string;
   artists?: string;

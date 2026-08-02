@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "content/collect/watching.json"
+      - "content/collect/watching-annual.json"
   workflow_dispatch:
 
 permissions:

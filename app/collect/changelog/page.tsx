@@ -85,7 +85,8 @@ export default function ChangelogPage() {
         <p>
           Every change to the living lists above: tracks moving in and out of
           Theseus&apos; Playlist and the Best-of-YYYY playlists, and titles
-          entering, leaving, or reshuffling the movies and TV top 10s.
+          entering, leaving, or reshuffling the movies and TV top 10s and the
+          per-year top 5 film lists.
         </p>
       </CollectHeader>
 

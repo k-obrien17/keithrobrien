@@ -3,7 +3,7 @@
 // diffs against the last snapshot to derive added/removed changelog
 // entries. Snapshots both Theseus' Playlist and the active year's
 // Best-of-YYYY playlist.
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const THESEUS_PLAYLIST_ID = "7BKBw7iShlGZmp5KZl2FFF";
 const LISTENING_LOG_PATH = new URL("../content/site/listening-log.json", import.meta.url);
@@ -75,22 +75,27 @@ export function getActiveYearPlaylistId() {
   const year = currentYear();
   const p = new URL(`../content/collect/year/${year}.json`, import.meta.url);
   if (!existsSync(p)) {
-    console.log(`No content/collect/year/${year}.json yet, skipping Best-of snapshot.`);
-    return null;
+    return { id: null, reason: `no content/collect/year/${year}.json yet` };
   }
   const data = JSON.parse(readFileSync(p, "utf-8"));
   const url = data.music?.spotify_url;
   if (!url) {
-    console.log(`content/collect/year/${year}.json has no music.spotify_url, skipping.`);
-    return null;
+    return { id: null, reason: `content/collect/year/${year}.json has no music.spotify_url` };
   }
   const match = url.match(/playlist\/([a-zA-Z0-9]+)/);
-  return match ? match[1] : null;
+  if (!match) {
+    return { id: null, reason: "music.spotify_url doesn't contain a playlist ID" };
+  }
+  return { id: match[1], reason: null };
 }
 
-async function snapshotPlaylist(token, playlistId, logPath, year) {
+// Returns a status object rather than throwing so one producer's failure
+// doesn't stop the other from running or from being reported.
+async function snapshotPlaylist(token, playlistId, logPath, label, year) {
   const current = await getCurrentTracks(token, playlistId);
-  if (!current) return;
+  if (!current) {
+    return { label, state: "error", detail: "Spotify API request failed, see logs above" };
+  }
 
   const log = JSON.parse(readFileSync(logPath, "utf-8"));
   const previous = log.snapshot ?? [];
@@ -102,6 +107,7 @@ async function snapshotPlaylist(token, playlistId, logPath, year) {
   const added = current.filter((t) => !previousIds.has(t.id));
   const removed = previous.filter((t) => !currentIds.has(t.id));
 
+  let result;
   if (!isFirstRun && (added.length > 0 || removed.length > 0)) {
     const date = todayISO();
     const yearField = year ? { year } : {};
@@ -110,28 +116,57 @@ async function snapshotPlaylist(token, playlistId, logPath, year) {
       ...removed.map((t) => ({ date, type: "removed", title: t.title, artists: t.artists, ...yearField })),
     ];
     log.changes = [...newEntries, ...(log.changes ?? [])];
-    console.log(`${playlistId}: ${added.length} added, ${removed.length} removed.`);
+    result = { label, state: "diff", detail: `${added.length} added, ${removed.length} removed` };
   } else if (isFirstRun) {
-    console.log(`${playlistId}: seeding baseline snapshot with ${current.length} tracks.`);
+    result = { label, state: "seeded", detail: `baseline seeded with ${current.length} tracks` };
   } else {
-    console.log(`${playlistId}: no changes.`);
+    result = { label, state: "no-op", detail: "no changes" };
   }
 
   log.snapshot = current;
   log.snapshotPlaylistId = playlistId;
   writeFileSync(logPath, `${JSON.stringify(log, null, 2)}\n`);
+  return result;
+}
+
+// Prints a summary line per producer and, in CI, writes the same lines to
+// the job's step summary so a skip or a genuine error is visible without
+// opening raw step logs. Only "error" flips the job to a failing exit code,
+// "skipped" covers expected preconditions (missing creds, no year file yet).
+function reportResults(results) {
+  const lines = results.map((r) => `- **${r.label}**: ${r.state} (${r.detail})`);
+  console.log(lines.join("\n"));
+
+  const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+  if (summaryPath) {
+    appendFileSync(summaryPath, `${lines.join("\n")}\n`);
+  }
+
+  if (results.some((r) => r.state === "error")) {
+    process.exitCode = 1;
+  }
 }
 
 async function main() {
+  const results = [];
   const token = await getAccessToken();
-  if (!token) return;
-
-  await snapshotPlaylist(token, THESEUS_PLAYLIST_ID, LISTENING_LOG_PATH);
-
-  const bestOfId = getActiveYearPlaylistId();
-  if (bestOfId) {
-    await snapshotPlaylist(token, bestOfId, BEST_OF_LOG_PATH, currentYear());
+  if (!token) {
+    results.push({ label: "Spotify auth", state: "skipped", detail: "credentials not set" });
+    reportResults(results);
+    return;
   }
+
+  results.push(await snapshotPlaylist(token, THESEUS_PLAYLIST_ID, LISTENING_LOG_PATH, "Theseus' Playlist"));
+
+  const year = currentYear();
+  const { id: bestOfId, reason: bestOfSkipReason } = getActiveYearPlaylistId();
+  if (bestOfId) {
+    results.push(await snapshotPlaylist(token, bestOfId, BEST_OF_LOG_PATH, `Best-of ${year}`, year));
+  } else {
+    results.push({ label: `Best-of ${year}`, state: "skipped", detail: bestOfSkipReason });
+  }
+
+  reportResults(results);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

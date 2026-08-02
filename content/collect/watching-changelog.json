@@ -3,67 +3,6 @@
     {
       "date": "2026-07-26",
       "domain": "movies",
-      "type": "rank-change",
-      "title": "Inglourious Basterds",
-      "year": 2009,
-      "rank": 5,
-      "previousRank": 6
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "rank-change",
-      "title": "I Saw the TV Glow",
-      "year": 2024,
-      "rank": 6,
-      "previousRank": 7
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "rank-change",
-      "title": "Citizen Kane",
-      "year": 1941,
-      "rank": 7,
-      "previousRank": 8
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "rank-change",
-      "title": "The Royal Tenenbaums",
-      "year": 2001,
-      "rank": 8,
-      "previousRank": 9
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "rank-change",
-      "title": "The Talented Mr. Ripley",
-      "year": 1999,
-      "rank": 9,
-      "previousRank": 10
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "entered",
-      "title": "The Nice Guys",
-      "year": 2016,
-      "rank": 10
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
-      "type": "exited",
-      "title": "ZZZ Pipeline Test Movie",
-      "year": 2026,
-      "previousRank": 5
-    },
-    {
-      "date": "2026-07-26",
-      "domain": "movies",
       "type": "watched",
       "title": "Pressure",
       "year": 2026

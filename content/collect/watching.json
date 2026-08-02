@@ -32,6 +32,13 @@
       "tmdb_url": "https://www.themoviedb.org/movie/7345"
     },
     {
+      "title": "ZZZ Pipeline Test Movie",
+      "year": 2026,
+      "score": 9.7,
+      "type": "film",
+      "tmdb_url": null
+    },
+    {
       "title": "Inglourious Basterds",
       "year": 2009,
       "score": 9.6,
@@ -65,13 +72,6 @@
       "score": 9.5,
       "type": "film",
       "tmdb_url": "https://www.themoviedb.org/movie/1213"
-    },
-    {
-      "title": "The Nice Guys",
-      "year": 2016,
-      "score": 9.5,
-      "type": "film",
-      "tmdb_url": "https://www.themoviedb.org/movie/290250"
     }
   ],
   "top_tv": [

@@ -56,6 +56,11 @@
       "artists": "The Strokes"
     },
     {
+      "id": "6UaBLyflmUdrucnmyBFJA2",
+      "title": "The Tenure Itch",
+      "artists": "The Pains Of Being Pure At Heart"
+    },
+    {
       "id": "2P8CNrkpifFsc1LYjGXE3w",
       "title": "BOSS TRIX (BENNY'S SONG)",
       "artists": "Nirosta Steel"
@@ -106,11 +111,6 @@
       "artists": "I Break Horses"
     },
     {
-      "id": "39JZ7vKB53VfcsQ5mQIcdj",
-      "title": "Avant Gardener",
-      "artists": "Courtney Barnett"
-    },
-    {
       "id": "5G3o1jScllBpuCxVRlsDDI",
       "title": "The Songs That We Sing",
       "artists": "Charlotte Gainsbourg"
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-08-02",
+      "type": "added",
+      "title": "The Tenure Itch",
+      "artists": "The Pains Of Being Pure At Heart"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "removed",
+      "title": "Avant Gardener",
+      "artists": "Courtney Barnett"
+    },
     {
       "date": "2026-08-02",
       "type": "added",

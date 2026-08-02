@@ -36,25 +36,26 @@ async function getAccessToken() {
 }
 
 async function getCurrentTracks(token, playlistId) {
-  // The playlist object's embedded `tracks.items` no longer comes back
-  // populated (Spotify's post-2024 API restrictions), so this hits the
-  // dedicated tracks sub-resource instead, paginating past its 100-item cap.
+  // Spotify's February 2026 Dev Mode migration renamed this sub-resource
+  // from /tracks to /items (and the per-item `track` field to `item`),
+  // dropped the page cap from 100 to 50, and restricted it to playlists
+  // the authenticated user owns or collaborates on.
   const tracks = [];
-  let url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks?limit=100`;
+  let url = `https://api.spotify.com/v1/playlists/${playlistId}/items?limit=50`;
   while (url) {
     const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
     if (!res.ok) {
-      console.error(`Playlist ${playlistId} tracks request failed: ${res.status}`);
+      console.error(`Playlist ${playlistId} items request failed: ${res.status}`);
       console.error(await res.text());
       return null;
     }
     const data = await res.json();
-    for (const item of data.items ?? []) {
-      if (!item.track) continue;
+    for (const entry of data.items ?? []) {
+      if (!entry.item || entry.item.type !== "track") continue;
       tracks.push({
-        id: item.track.id,
-        title: item.track.name,
-        artists: item.track.artists.map((a) => a.name).join(", "),
+        id: entry.item.id,
+        title: entry.item.name,
+        artists: entry.item.artists.map((a) => a.name).join(", "),
       });
     }
     url = data.next;

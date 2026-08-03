@@ -5,7 +5,7 @@
 // for the per-release-year top-5s, and new "watched" entries for the
 // recency feeds.
 import { execSync } from "node:child_process";
-import { readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, readFileSync, writeFileSync } from "node:fs";
 
 const WATCHING_PATH = new URL("../content/collect/watching.json", import.meta.url);
 const ANNUAL_PATH = new URL("../content/collect/watching-annual.json", import.meta.url);
@@ -96,41 +96,91 @@ export function diffWatchedFeeds(newData, existingChanges) {
   return entries;
 }
 
-function getPreviousFile(relativePath) {
+// Returns a tagged result so a genuine git/parse failure can be told apart
+// from the expected "no previous commit yet" case. Conflating them (the
+// prior behavior) silently treated any failure as "nothing to diff" and
+// exited clean -- the same silent-failure shape that let Theseus' Playlist
+// run broken for 10 days before anyone noticed.
+function loadPreviousFile(relativePath) {
   try {
     const raw = execSync(`git show HEAD^:${relativePath}`, { encoding: "utf-8" });
-    return JSON.parse(raw);
+    return { data: JSON.parse(raw), state: "ok" };
   } catch (err) {
-    // "unknown revision" / "bad revision" errors are expected on first run (no HEAD^)
     if (err.message && (err.message.includes("unknown revision") || err.message.includes("bad revision"))) {
-      return null;
+      return { data: null, state: "first-run" };
     }
-    // Anything else is a real failure worth logging
-    console.warn(`Failed to retrieve previous ${relativePath}: ${err.message}`);
-    return null;
+    return { data: null, state: "error", detail: err.message };
+  }
+}
+
+// Mirrors scripts/snapshot-playlist.mjs's reportResults: prints one summary
+// line per domain and, in CI, writes the same lines to the job's step
+// summary so a skip or a genuine error is visible without opening raw step
+// logs. Only "error" flips the job to a failing exit code.
+function reportResults(results) {
+  const lines = results.map((r) => `- **${r.label}**: ${r.state} (${r.detail})`);
+  console.log(lines.join("\n"));
+
+  const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+  if (summaryPath) {
+    appendFileSync(summaryPath, `${lines.join("\n")}\n`);
+  }
+
+  if (results.some((r) => r.state === "error")) {
+    process.exitCode = 1;
   }
 }
 
 function main() {
+  const results = [];
   const newData = JSON.parse(readFileSync(WATCHING_PATH, "utf-8"));
-  const oldData = getPreviousFile("content/collect/watching.json");
   const newAnnual = JSON.parse(readFileSync(ANNUAL_PATH, "utf-8"));
-  const oldAnnual = getPreviousFile("content/collect/watching-annual.json");
   const changelog = JSON.parse(readFileSync(CHANGELOG_PATH, "utf-8"));
 
-  const rankChanges = oldData ? diffRankedLists(oldData, newData) : [];
-  const annualChanges = oldAnnual ? diffAnnualLists(oldAnnual, newAnnual) : [];
-  const watched = diffWatchedFeeds(newData, changelog.changes ?? []);
-  const newEntries = [...rankChanges, ...annualChanges, ...watched];
-
-  if (newEntries.length === 0) {
-    console.log("No changes.");
-    return;
+  const prevWatching = loadPreviousFile("content/collect/watching.json");
+  let rankChanges = [];
+  if (prevWatching.state === "ok") {
+    rankChanges = diffRankedLists(prevWatching.data, newData);
+    results.push(
+      rankChanges.length > 0
+        ? { label: "Movies/TV rankings", state: "diff", detail: `${rankChanges.length} changes` }
+        : { label: "Movies/TV rankings", state: "no-op", detail: "no changes" },
+    );
+  } else if (prevWatching.state === "first-run") {
+    results.push({ label: "Movies/TV rankings", state: "skipped", detail: "no previous commit to diff against (first run)" });
+  } else {
+    results.push({ label: "Movies/TV rankings", state: "error", detail: prevWatching.detail });
   }
 
-  changelog.changes = [...newEntries, ...(changelog.changes ?? [])];
-  writeFileSync(CHANGELOG_PATH, `${JSON.stringify(changelog, null, 2)}\n`);
-  console.log(`${newEntries.length} new changelog entries.`);
+  const prevAnnual = loadPreviousFile("content/collect/watching-annual.json");
+  let annualChanges = [];
+  if (prevAnnual.state === "ok") {
+    annualChanges = diffAnnualLists(prevAnnual.data, newAnnual);
+    results.push(
+      annualChanges.length > 0
+        ? { label: "Annual top-5s", state: "diff", detail: `${annualChanges.length} changes` }
+        : { label: "Annual top-5s", state: "no-op", detail: "no changes" },
+    );
+  } else if (prevAnnual.state === "first-run") {
+    results.push({ label: "Annual top-5s", state: "skipped", detail: "no previous commit to diff against (first run)" });
+  } else {
+    results.push({ label: "Annual top-5s", state: "error", detail: prevAnnual.detail });
+  }
+
+  const watched = diffWatchedFeeds(newData, changelog.changes ?? []);
+  results.push(
+    watched.length > 0
+      ? { label: "Watched feed", state: "diff", detail: `${watched.length} new entries` }
+      : { label: "Watched feed", state: "no-op", detail: "no changes" },
+  );
+
+  const newEntries = [...rankChanges, ...annualChanges, ...watched];
+  if (newEntries.length > 0) {
+    changelog.changes = [...newEntries, ...(changelog.changes ?? [])];
+    writeFileSync(CHANGELOG_PATH, `${JSON.stringify(changelog, null, 2)}\n`);
+  }
+
+  reportResults(results);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

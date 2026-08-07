@@ -1,13 +1,16 @@
 // Runs in CI (.github/workflows/playlist-snapshot.yml) on a cron. Spotify
 // has no playlist-history endpoint, so this snapshots current tracks and
 // diffs against the last snapshot to derive added/removed changelog
-// entries. Snapshots both Theseus' Playlist and the active year's
-// Best-of-YYYY playlist.
-import { appendFileSync, existsSync, readFileSync, writeFileSync } from "node:fs";
+// entries. Snapshots Theseus' Playlist plus every Best-of-YYYY playlist
+// with a music.spotify_url, current year included, so a hand-edit to an
+// old year's playlist (e.g. fixing 2003's list) still gets caught.
+import { appendFileSync, existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
 const THESEUS_PLAYLIST_ID = "7BKBw7iShlGZmp5KZl2FFF";
 const LISTENING_LOG_PATH = new URL("../content/site/listening-log.json", import.meta.url);
 const BEST_OF_LOG_PATH = new URL("../content/collect/best-of-changelog.json", import.meta.url);
+const YEAR_DIR = new URL("../content/collect/year/", import.meta.url);
 
 async function getAccessToken() {
   const clientId = process.env.SPOTIFY_CLIENT_ID;
@@ -67,26 +70,26 @@ function todayISO() {
   return new Date().toISOString().slice(0, 10);
 }
 
-export function currentYear() {
-  return new Date().getUTCFullYear();
-}
+// Every content/collect/year/<year>.json with a music.spotify_url, not just
+// the current year, so edits to old Best-of playlists get diffed too.
+export function getAllYearPlaylists() {
+  const dirPath = fileURLToPath(YEAR_DIR);
+  if (!existsSync(dirPath)) return [];
 
-export function getActiveYearPlaylistId() {
-  const year = currentYear();
-  const p = new URL(`../content/collect/year/${year}.json`, import.meta.url);
-  if (!existsSync(p)) {
-    return { id: null, reason: `no content/collect/year/${year}.json yet` };
+  const out = [];
+  for (const file of readdirSync(dirPath)) {
+    if (!file.endsWith(".json")) continue;
+    const year = Number(file.slice(0, -".json".length));
+    if (!Number.isFinite(year)) continue;
+
+    const data = JSON.parse(readFileSync(new URL(file, YEAR_DIR), "utf-8"));
+    const url = data.music?.spotify_url;
+    if (!url) continue;
+    const match = url.match(/playlist\/([a-zA-Z0-9]+)/);
+    if (!match) continue;
+    out.push({ year, id: match[1] });
   }
-  const data = JSON.parse(readFileSync(p, "utf-8"));
-  const url = data.music?.spotify_url;
-  if (!url) {
-    return { id: null, reason: `content/collect/year/${year}.json has no music.spotify_url` };
-  }
-  const match = url.match(/playlist\/([a-zA-Z0-9]+)/);
-  if (!match) {
-    return { id: null, reason: "music.spotify_url doesn't contain a playlist ID" };
-  }
-  return { id: match[1], reason: null };
+  return out.sort((a, b) => b.year - a.year);
 }
 
 // Returns a status object rather than throwing so one producer's failure
@@ -129,6 +132,62 @@ async function snapshotPlaylist(token, playlistId, logPath, label, year) {
   return result;
 }
 
+// Same diff logic as snapshotPlaylist, but for many playlists sharing one
+// log file: content/collect/best-of-changelog.json keeps one snapshot per
+// year under `snapshots`, plus a single combined `changes` feed. Self-heals
+// the old single-playlist shape (top-level `snapshot`/`snapshotPlaylistId`,
+// from when only the current year was tracked) into the new shape on first
+// run after this change.
+async function snapshotYearPlaylists(token, yearPlaylists, logPath) {
+  const log = JSON.parse(readFileSync(logPath, "utf-8"));
+  const snapshots = log.snapshots ?? {};
+  if (!log.snapshots && log.snapshot && log.snapshotPlaylistId) {
+    const legacyYear = yearPlaylists.find((y) => y.id === log.snapshotPlaylistId);
+    if (legacyYear) {
+      snapshots[legacyYear.year] = { playlistId: log.snapshotPlaylistId, tracks: log.snapshot };
+    }
+  }
+
+  const results = [];
+  const allNewEntries = [];
+
+  for (const { year, id: playlistId } of yearPlaylists) {
+    const current = await getCurrentTracks(token, playlistId);
+    if (!current) {
+      results.push({ label: `Best-of ${year}`, state: "error", detail: "Spotify API request failed, see logs above" });
+      continue;
+    }
+
+    const prev = snapshots[year];
+    const isFirstRun = !prev || prev.playlistId !== playlistId;
+    const previousTracks = prev?.tracks ?? [];
+    const previousIds = new Set(previousTracks.map((t) => t.id));
+    const currentIds = new Set(current.map((t) => t.id));
+
+    const added = current.filter((t) => !previousIds.has(t.id));
+    const removed = previousTracks.filter((t) => !currentIds.has(t.id));
+
+    if (!isFirstRun && (added.length > 0 || removed.length > 0)) {
+      const date = todayISO();
+      allNewEntries.push(
+        ...added.map((t) => ({ date, type: "added", title: t.title, artists: t.artists, year })),
+        ...removed.map((t) => ({ date, type: "removed", title: t.title, artists: t.artists, year }))
+      );
+      results.push({ label: `Best-of ${year}`, state: "diff", detail: `${added.length} added, ${removed.length} removed` });
+    } else if (isFirstRun) {
+      results.push({ label: `Best-of ${year}`, state: "seeded", detail: `baseline seeded with ${current.length} tracks` });
+    } else {
+      results.push({ label: `Best-of ${year}`, state: "no-op", detail: "no changes" });
+    }
+
+    snapshots[year] = { playlistId, tracks: current };
+  }
+
+  const changes = [...allNewEntries, ...(log.changes ?? [])];
+  writeFileSync(logPath, `${JSON.stringify({ changes, snapshots }, null, 2)}\n`);
+  return results;
+}
+
 // Prints a summary line per producer and, in CI, writes the same lines to
 // the job's step summary so a skip or a genuine error is visible without
 // opening raw step logs. Only "error" flips the job to a failing exit code,
@@ -158,12 +217,11 @@ async function main() {
 
   results.push(await snapshotPlaylist(token, THESEUS_PLAYLIST_ID, LISTENING_LOG_PATH, "Theseus' Playlist"));
 
-  const year = currentYear();
-  const { id: bestOfId, reason: bestOfSkipReason } = getActiveYearPlaylistId();
-  if (bestOfId) {
-    results.push(await snapshotPlaylist(token, bestOfId, BEST_OF_LOG_PATH, `Best-of ${year}`, year));
+  const yearPlaylists = getAllYearPlaylists();
+  if (yearPlaylists.length === 0) {
+    results.push({ label: "Best-of playlists", state: "skipped", detail: "no year files with music.spotify_url" });
   } else {
-    results.push({ label: `Best-of ${year}`, state: "skipped", detail: bestOfSkipReason });
+    results.push(...(await snapshotYearPlaylists(token, yearPlaylists, BEST_OF_LOG_PATH)));
   }
 
   reportResults(results);

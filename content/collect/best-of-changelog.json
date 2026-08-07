@@ -1,211 +1,6315 @@
 {
-  "snapshot": [
-    {
-      "id": "4sTeXE85vlMftYDfnBApN3",
-      "title": "You're Not Alone - Dance Review",
-      "artists": "Courtesy, Erika de Casier"
-    },
-    {
-      "id": "1md8v8FG46KecYiMap2XTD",
-      "title": "Eyes of the World featuring Sky Ferreira",
-      "artists": "Charli xcx, Sky Ferreira"
-    },
-    {
-      "id": "54ajfggKjqC6CY4nKYMfPB",
-      "title": "Carried It All Around",
-      "artists": "The Besnard Lakes"
-    },
-    {
-      "id": "7EcldKQZHuizgKU4b7UbSk",
-      "title": "Klouds Will Carry Me To Sleep",
-      "artists": "Gelli Haha"
-    },
-    {
-      "id": "4dUOhTTMy4ITIbNQKPKYFP",
-      "title": "Going Shopping",
-      "artists": "The Strokes"
-    },
-    {
-      "id": "7EozbJ2yEDSWs7mYrfZ6eC",
-      "title": "Danger",
-      "artists": "Nia Archives"
-    },
-    {
-      "id": "6JSb9ZQroda8Lgd4rF8o60",
-      "title": "Miss You",
-      "artists": "Ms Ray, Nourished by Time"
-    },
-    {
-      "id": "7g8NvGPy7TfdLnZIXAFYXR",
-      "title": "The Lake",
-      "artists": "Fever Ray"
-    },
-    {
-      "id": "63LbUgoYrvopbT2auOnTys",
-      "title": "Long Way to Fall",
-      "artists": "Bedouine"
-    },
-    {
-      "id": "04LTubtEypnO64P6S6sP7Z",
-      "title": "One Stop",
-      "artists": "Aldous Harding"
-    },
-    {
-      "id": "0iYedju2KpaVf0pLKBtwvv",
-      "title": "Portrait Of A Lady On Fire",
-      "artists": "Kelsey Lu"
-    },
-    {
-      "id": "5pNs6lPWpytU3rp7k5m9YN",
-      "title": "Forever",
-      "artists": "Hekt, Smerz"
-    },
-    {
-      "id": "49j6SvuvWfbEKZKzsHCdLJ",
-      "title": "stupid song",
-      "artists": "Olivia Rodrigo"
-    },
-    {
-      "id": "0snzpWpjUj6dxRFrsNQOZs",
-      "title": "if you wanna party, come over to my house",
-      "artists": "Fcukers"
-    },
-    {
-      "id": "2twFHRISC3PWbHTVHvVYve",
-      "title": "Sometimes I believe in God (Sometimes I believe in Me)",
-      "artists": "Bassvictim"
-    },
-    {
-      "id": "7ga18SwJQ0nsigswfazZ9N",
-      "title": "Year of the Dragon",
-      "artists": "Bassvictim, Worldpeace DMT"
-    },
-    {
-      "id": "1IkSG0zP2JfECRpgPcr9Uq",
-      "title": "mangetout - The Dare remix",
-      "artists": "Wet Leg, The Dare"
-    },
-    {
-      "id": "4P1zfoLVuBfKHGShgXUjQy",
-      "title": "YES GODDD",
-      "artists": "Slayyyter"
-    },
-    {
-      "id": "6PMIn9EswrhH9MhvnA5qIa",
-      "title": "Balam =^..^= Says IPv09082024 Strawberry Head",
-      "artists": "Fire-Toolz"
-    },
-    {
-      "id": "6ZhcNDQXtbE3JCtxsAYh9b",
-      "title": "Somewhere Good",
-      "artists": "Tara Clerkin Trio"
-    },
-    {
-      "id": "7b8Q7CPNLqnsHj8jwJKQ2x",
-      "title": "Meaning Business",
-      "artists": "Wendy Eisenberg"
-    },
-    {
-      "id": "7IM4xK4W4n06UAV48ZXMup",
-      "title": "White Feather Hawk Tail Deer Hunter",
-      "artists": "Lana Del Rey"
-    },
-    {
-      "id": "6DHV44sKNB0hchQaGCq4Hv",
-      "title": "Plenty For All The Masses",
-      "artists": "Dagmar Zuniga"
-    },
-    {
-      "id": "3XOapyiO6vB1v6k9KqHz2O",
-      "title": "Why Do Men Sing",
-      "artists": "Bill Callahan"
-    },
-    {
-      "id": "0CGFMWGcwZIuEPvjYdmgMd",
-      "title": "Is Loser An Emotion You Feel Too?",
-      "artists": "The Femcels"
-    },
-    {
-      "id": "0giFRlECatzUl0T0iBMyhP",
-      "title": "Rachel's Song",
-      "artists": "Julianna Barwick, Mary Lattimore"
-    },
-    {
-      "id": "3wnBqgXscin5xmRqq7trIP",
-      "title": "G.O.D. And The Broken Ribs",
-      "artists": "Jack White"
-    },
-    {
-      "id": "7bUGV0iRkAlZ4qeGix6O9H",
-      "title": "LIFE KEEPS GOING",
-      "artists": "Genesis Owusu"
-    },
-    {
-      "id": "5Ckcc7WY6Q7QI6RcP9XzVA",
-      "title": "Anywhere",
-      "artists": "Ratboys"
-    },
-    {
-      "id": "2kqQoTZ4b5D8lLtMlUrZcC",
-      "title": "Dopamine",
-      "artists": "Robyn"
-    },
-    {
-      "id": "70hWEnSlRAI5ibDlB8LI8Q",
-      "title": "ENGLISH PARTY",
-      "artists": "Nirosta Steel"
-    },
-    {
-      "id": "2P8CNrkpifFsc1LYjGXE3w",
-      "title": "BOSS TRIX (BENNY'S SONG)",
-      "artists": "Nirosta Steel"
-    },
-    {
-      "id": "0g8FizeHVo2cG7qxBfmckf",
-      "title": "SS26",
-      "artists": "Charli xcx"
-    },
-    {
-      "id": "1uOXplf6PuWRgwd7m818t8",
-      "title": "God Damn (Finito)",
-      "artists": "Avalon Emerson"
-    },
-    {
-      "id": "3M955tNqy7VD1vJ1BUXLW4",
-      "title": "Prophetic Life",
-      "artists": "Babe Dylan"
-    },
-    {
-      "id": "4wwOje67xW4mPCf8JvmWYK",
-      "title": "Heart Has To Work So Hard",
-      "artists": "Blondshell"
-    },
-    {
-      "id": "1JoXpOp0Apo6i8oGwBGu6n",
-      "title": "11,000 Volts",
-      "artists": "Sunday Mourners"
-    },
-    {
-      "id": "5rx8P84jKRWQicXgRAn7i0",
-      "title": "PLAY ME",
-      "artists": "Kim Gordon"
-    },
-    {
-      "id": "6aITiIE9yq8AmxM5Pzfw1T",
-      "title": "See Out Loud",
-      "artists": "Interpol"
-    },
-    {
-      "id": "2LZZFoUonV4oO9vKCxVBAP",
-      "title": "Barking at the Sun",
-      "artists": "No Joy"
-    },
-    {
-      "id": "1Puye0dExeFoZvMJIaZGGG",
-      "title": "Familiar Dreams",
-      "artists": "Ravyn Lenae"
-    }
-  ],
   "changes": [],
-  "snapshotPlaylistId": "0CvkKbWxjmoyNwljf1U74Z"
+  "snapshots": {
+    "1979": {
+      "playlistId": "23JuMZqOAyl07hvZVRSheM",
+      "tracks": [
+        {
+          "id": "24CbX8CkkGJKGLMTpu0olW",
+          "title": "I Found That Essence Rare",
+          "artists": "Gang Of Four"
+        },
+        {
+          "id": "5QIbR39hAEDIOkr4ggh4xc",
+          "title": "Atomic",
+          "artists": "Blondie"
+        },
+        {
+          "id": "6q6ONvx8Dc3qC7YjfMLF0o",
+          "title": "Map Ref 41 Degrees N 93 Degrees W - 2006 Remastered Version",
+          "artists": "Wire"
+        },
+        {
+          "id": "7B7lf3sIze5VR2WuYttn18",
+          "title": "I Feel Love - 12\" Version",
+          "artists": "Donna Summer"
+        },
+        {
+          "id": "7BTSWCnqZfPw9tk4V9dr9E",
+          "title": "The Number One Song In Heaven",
+          "artists": "Sparks"
+        },
+        {
+          "id": "5xao35rVVp1LAMwr6Qnelj",
+          "title": "We Have a Technical",
+          "artists": "Tubeway Army"
+        },
+        {
+          "id": "7D5ycpIrqwGNTQFKmzhDIg",
+          "title": "Cruel to Be Kind",
+          "artists": "Nick Lowe"
+        },
+        {
+          "id": "4yrM5BVyJzy5Ed4GPO6e8j",
+          "title": "I Wanna Be Your Lover",
+          "artists": "Prince"
+        },
+        {
+          "id": "2PzCOP5Aj9SABiBgNEZ52G",
+          "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+          "artists": "ABBA"
+        },
+        {
+          "id": "1GIV1YzfuFzYAoUjwx3r7W",
+          "title": "Oliver's Army",
+          "artists": "Elvis Costello & The Attractions"
+        },
+        {
+          "id": "6koFebd4UUpsBOeOJp2ASr",
+          "title": "Angel Eyes",
+          "artists": "Roxy Music"
+        },
+        {
+          "id": "46eu3SBuFCXWsPT39Yg3tJ",
+          "title": "Don't Stop 'Til You Get Enough",
+          "artists": "Michael Jackson"
+        },
+        {
+          "id": "4kPSjEg8u1U4pg2dHHMmtf",
+          "title": "Dancing Barefoot",
+          "artists": "Patti Smith"
+        },
+        {
+          "id": "5jzma6gCzYtKB1DbEwFZKH",
+          "title": "London Calling - Remastered",
+          "artists": "The Clash"
+        },
+        {
+          "id": "7ocDLXp5rMYlSVNt0ygugc",
+          "title": "Careering",
+          "artists": "Public Image Ltd."
+        },
+        {
+          "id": "5hhVpGIBlqAU5yJEOmrk5o",
+          "title": "All My Love - Remaster",
+          "artists": "Led Zeppelin"
+        },
+        {
+          "id": "7q8iLIcpUdW2anOuWo4htn",
+          "title": "Look Back in Anger - 2017 Remaster",
+          "artists": "David Bowie"
+        },
+        {
+          "id": "0rcLhYRihks3t4lFPtHhQV",
+          "title": "She's Lost Control - 2007 Remaster",
+          "artists": "Joy Division"
+        },
+        {
+          "id": "207qLd1ovrqfYVBBDrNMUM",
+          "title": "Dance This Mess Around",
+          "artists": "The B-52's"
+        },
+        {
+          "id": "0EaLRxrtnq7Mqhdf8q9txr",
+          "title": "Run Like Hell",
+          "artists": "Pink Floyd"
+        },
+        {
+          "id": "6UP5zTAuR4NFc1uZ3MHjvA",
+          "title": "Teenage Kicks",
+          "artists": "The Undertones"
+        },
+        {
+          "id": "1XT5kxg6Tk0ukCO2vBQN4v",
+          "title": "Making Plans For Nigel",
+          "artists": "XTC"
+        },
+        {
+          "id": "7CqleiaEqHVazV19P532X9",
+          "title": "Life During Wartime - 2005 Remaster",
+          "artists": "Talking Heads"
+        },
+        {
+          "id": "1wyVyr8OhYsC9l0WgPPbh8",
+          "title": "Bela Lugosi's Dead (Official Version)",
+          "artists": "Bauhaus"
+        },
+        {
+          "id": "0bQ87lddGh1yp2bmPq9lM8",
+          "title": "Cool - Extra",
+          "artists": "Pylon"
+        }
+      ]
+    },
+    "1980": {
+      "playlistId": "6PRPyH10LWpdBSGXHNBtrn",
+      "tracks": [
+        {
+          "id": "69QHm3pustz01CJRwdo20z",
+          "title": "Hells Bells",
+          "artists": "AC/DC"
+        },
+        {
+          "id": "1y5V5qja332UyMeUurFhDS",
+          "title": "Private Idaho",
+          "artists": "The B-52's"
+        },
+        {
+          "id": "0D6qZlc6vNR7PDW2RKGPsV",
+          "title": "Rapture - Remastered 2001",
+          "artists": "Blondie"
+        },
+        {
+          "id": "5O4erNlJ74PIF6kGol1ZrC",
+          "title": "Could You Be Loved",
+          "artists": "Bob Marley & The Wailers"
+        },
+        {
+          "id": "3O4TPMOgChXOerSdB5WENH",
+          "title": "A Forest - 2006 Remaster",
+          "artists": "The Cure"
+        },
+        {
+          "id": "7cDzJyC95jtGO9zAeZsWOg",
+          "title": "Kiss on My List",
+          "artists": "Daryl Hall & John Oates"
+        },
+        {
+          "id": "37CRPk0L5ZpfPeePEPwE0t",
+          "title": "Ashes to Ashes - 2017 Remaster",
+          "artists": "David Bowie"
+        },
+        {
+          "id": "0rNXiNb8IN78GL6cx9VsP7",
+          "title": "Girl U Want - 2009 Remaster",
+          "artists": "DEVO"
+        },
+        {
+          "id": "7sO3MetCgc75SWlOyTifgQ",
+          "title": "Going Up",
+          "artists": "Echo & the Bunnymen"
+        },
+        {
+          "id": "0RAiBUgOC5pgFUHsldtix3",
+          "title": "Can You Feel It",
+          "artists": "The Jacksons"
+        },
+        {
+          "id": "34iOH7LY3vme5rQxsVILZ4",
+          "title": "Love Will Tear Us Apart - 2020 Remaster",
+          "artists": "Joy Division"
+        },
+        {
+          "id": "5TvcggVu3s2P1fMAS8BupX",
+          "title": "The Breaks",
+          "artists": "Kurtis Blow"
+        },
+        {
+          "id": "0B5kY9i9bmP7554oU4jRoO",
+          "title": "Funkytown - Single Version",
+          "artists": "Lipps Inc."
+        },
+        {
+          "id": "50iiM6vjgga8C56dY4gbXt",
+          "title": "The Monochrome Set (I Presume)",
+          "artists": "The Monochrome Set"
+        },
+        {
+          "id": "3HCQPIYsCT6JBf79KdYtA4",
+          "title": "Coming Up - 2011 Remaster",
+          "artists": "Paul McCartney"
+        },
+        {
+          "id": "0otlwsD3mSogk7VJCTp6Kg",
+          "title": "Let My Love Open The Door",
+          "artists": "Pete Townshend"
+        },
+        {
+          "id": "3FUgeEAXmITQys2lwVhU2Y",
+          "title": "Over You",
+          "artists": "Roxy Music"
+        },
+        {
+          "id": "4e9hUiLsN4mx61ARosFi7p",
+          "title": "The Spirit Of Radio",
+          "artists": "Rush"
+        },
+        {
+          "id": "09LikVa6VgPYcsChqn1N0U",
+          "title": "Happy House",
+          "artists": "Siouxsie and the Banshees"
+        },
+        {
+          "id": "6nx0DVYQW42NzwV0zNU7EJ",
+          "title": "The New Rap Language",
+          "artists": "Spoonie Gee, Treacherous Three, Pooche Costello"
+        },
+        {
+          "id": "0yhwdmbgkKdE1plV8xWdrd",
+          "title": "Crosseyed and Painless - 2005 Remaster",
+          "artists": "Talking Heads"
+        },
+        {
+          "id": "0T702y9ndzZTnPq1bqiAM2",
+          "title": "I Will Follow - Remastered 2008",
+          "artists": "U2"
+        },
+        {
+          "id": "3VqtRYRyPFubJlt46axPhr",
+          "title": "Credit In The Straight World",
+          "artists": "Young Marble Giants"
+        },
+        {
+          "id": "17yxzUcZSu3S9KyoGF0ckI",
+          "title": "Too Many Creeps",
+          "artists": "Bush Tetras"
+        },
+        {
+          "id": "7HrzErXq3TsKOY1gmdIShB",
+          "title": "The River",
+          "artists": "Bruce Springsteen"
+        }
+      ]
+    },
+    "1981": {
+      "playlistId": "3vitVhLWZpqT9bdHigxg7O",
+      "tracks": [
+        {
+          "id": "1GVnAD8Iz45rux6EC657Yv",
+          "title": "Our Lips Are Sealed - Single Version",
+          "artists": "The Go-Go's"
+        },
+        {
+          "id": "0rv3Arvtn8JS9kyGFjfLtT",
+          "title": "Ceremony",
+          "artists": "New Order"
+        },
+        {
+          "id": "10ThhPNj7E31iHGR0jTfeP",
+          "title": "Abacab - 2007 Remaster",
+          "artists": "Genesis"
+        },
+        {
+          "id": "2FVGDdsmiLUfU3dYdy27MF",
+          "title": "Poor Old Soul, Pt. 1",
+          "artists": "Orange Juice"
+        },
+        {
+          "id": "4lC9s3vwDa16w2G33KfF9C",
+          "title": "The Visitors",
+          "artists": "ABBA"
+        },
+        {
+          "id": "5shPZ6RnC6sCm0iSZiv7wU",
+          "title": "Controversy",
+          "artists": "Prince"
+        },
+        {
+          "id": "5QAQxxN163HxD1uU0BrMYM",
+          "title": "That's When I Reach For My Revolver",
+          "artists": "Mission Of Burma"
+        },
+        {
+          "id": "4M8oWlykAhngUVSwNIoMC7",
+          "title": "Sorry for Laughing",
+          "artists": "Josef K"
+        },
+        {
+          "id": "58RWYT5MGo8e4Y3WAZHh9g",
+          "title": "You Better You Bet",
+          "artists": "The Who"
+        },
+        {
+          "id": "52KvuGmgcgRdrLMXOtda0E",
+          "title": "The Stroke - Remastered 2010",
+          "artists": "Billy Squier"
+        },
+        {
+          "id": "7p6nk4JQDZjJHxizpz94MX",
+          "title": "Anything Could Happen",
+          "artists": "The Clean"
+        },
+        {
+          "id": "6nm0hSPGUOJGSBcLeDlgFT",
+          "title": "Primary - 2005 Remaster",
+          "artists": "The Cure"
+        },
+        {
+          "id": "41dDygR3r7e926oGUXfrLt",
+          "title": "I Can't Go for That (No Can Do)",
+          "artists": "Daryl Hall & John Oates"
+        },
+        {
+          "id": "65k2SDI7UCQg6bjHdPIGdp",
+          "title": "Clubland",
+          "artists": "Elvis Costello & The Attractions"
+        },
+        {
+          "id": "47e4emObWLHPZJaQjj7IOL",
+          "title": "You're No Good",
+          "artists": "ESG"
+        },
+        {
+          "id": "3QZ7uX97s82HFYSmQUAN1D",
+          "title": "Tom Sawyer",
+          "artists": "Rush"
+        },
+        {
+          "id": "0cGG2EouYCEEC3xfa0tDFV",
+          "title": "Tainted Love",
+          "artists": "Soft Cell"
+        },
+        {
+          "id": "3L7RtEcu1Hw3OXrpnthngx",
+          "title": "Don't You Want Me",
+          "artists": "The Human League"
+        },
+        {
+          "id": "5Ng6UbryNd3eds2zQk9MUf",
+          "title": "Spellbound",
+          "artists": "Siouxsie and the Banshees"
+        },
+        {
+          "id": "0QEolv0OkDDZlQWAFdrfrI",
+          "title": "Crimson and Clover",
+          "artists": "Joan Jett & the Blackhearts"
+        },
+        {
+          "id": "11y8GSP2ASv8S9n0FiiDva",
+          "title": "Angel Of The Morning",
+          "artists": "Juice Newton"
+        },
+        {
+          "id": "3LaHsdzzmvhx6TJedpomVy",
+          "title": "Kids In America",
+          "artists": "Kim Wilde"
+        },
+        {
+          "id": "6bDRVbdZEyBnmOX0Yjh5rf",
+          "title": "Pocket Calculator - 2009 Remaster",
+          "artists": "Kraftwerk"
+        },
+        {
+          "id": "17lu4tymfnhmcIDlzBbtAb",
+          "title": "For Those About to Rock (We Salute You)",
+          "artists": "AC/DC"
+        },
+        {
+          "id": "4ViqRfZoOGFryXi8BDh6Gj",
+          "title": "Megatron Man",
+          "artists": "Patrick Cowley"
+        }
+      ]
+    },
+    "1982": {
+      "playlistId": "4opZjcbbC7KYfUTAZUq8Jm",
+      "tracks": [
+        {
+          "id": "5qIWEtVAzylkR5zzMEk5uA",
+          "title": "Beyond Belief",
+          "artists": "Elvis Costello & The Attractions"
+        },
+        {
+          "id": "5ZSDLOVEhZlvqcI6ELAT44",
+          "title": "Planet Rock",
+          "artists": "Afrika Bambaataa, Afrika Bambaataa & The Soulsonic Force"
+        },
+        {
+          "id": "4FnBvgK4CJhzdY9YhG7AY5",
+          "title": "Annie (I'm Not Your Daddy)",
+          "artists": "Kid Creole And The Coconuts"
+        },
+        {
+          "id": "4kRMsLX7bJqjIfK44qJ9h6",
+          "title": "Hold Me",
+          "artists": "Fleetwood Mac"
+        },
+        {
+          "id": "2kulOHR2XY6YDZCWXb38hn",
+          "title": "Wanna Be Startin' Somethin'",
+          "artists": "Michael Jackson"
+        },
+        {
+          "id": "5a1fGiptLjHn2L3qDFqzzy",
+          "title": "Masquerade",
+          "artists": "Berlin, The Maomen"
+        },
+        {
+          "id": "0rVbLdk2mZf0w90Xh69mjC",
+          "title": "That's Good",
+          "artists": "DEVO"
+        },
+        {
+          "id": "0oc7YoWV783fGr2GbdcIrz",
+          "title": "Vacation",
+          "artists": "The Go-Go's"
+        },
+        {
+          "id": "4UB3TaEGEY9WoOpxYNMgy4",
+          "title": "The Safety Dance",
+          "artists": "Men Without Hats"
+        },
+        {
+          "id": "3aAuIvgJGdp4wWd60riWfB",
+          "title": "Valerie",
+          "artists": "Steve Winwood"
+        },
+        {
+          "id": "6N7gPTru90HYLRUIVDQ185",
+          "title": "More Than This",
+          "artists": "Roxy Music"
+        },
+        {
+          "id": "2QSUyofqpGDCo026OPiTBQ",
+          "title": "1999 - 2019 Remaster",
+          "artists": "Prince"
+        },
+        {
+          "id": "6mbZmbZ8wr5DA2CAB3q1GW",
+          "title": "The Hanging Garden - 2005 Remaster",
+          "artists": "The Cure"
+        },
+        {
+          "id": "0gdmDP6xy3ZV7JNoHWAN9k",
+          "title": "Town Called Malice",
+          "artists": "The Jam"
+        },
+        {
+          "id": "3pv1zg1cEaSkfI6KrztXcV",
+          "title": "Goodbye to You (feat. Patty Smyth)",
+          "artists": "Scandal, Patty Smyth"
+        },
+        {
+          "id": "7EoK0FmkAsEdVejoPSOFRk",
+          "title": "That's How I Escaped My Certain Fate",
+          "artists": "Mission Of Burma"
+        },
+        {
+          "id": "0XDv7SLyMkGcAnb12fMHa1",
+          "title": "Senses Working Overtime - Remastered 2001",
+          "artists": "XTC"
+        },
+        {
+          "id": "39lSeqnyjZJejRuaREfyLL",
+          "title": "Hungry Like the Wolf - 2009 Remaster",
+          "artists": "Duran Duran"
+        },
+        {
+          "id": "60sFWx5iElbfma36qpQdBl",
+          "title": "Computer Age",
+          "artists": "Neil Young"
+        },
+        {
+          "id": "1ZFh6AzZETVrTfpRursnmY",
+          "title": "Do You Wanna Funk? - Remix",
+          "artists": "Patrick Cowley, Sylvester"
+        },
+        {
+          "id": "5HZzcCLbX2LY4IP5qPRcqj",
+          "title": "Wolves, Lower",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "3vQ9nKDZDbThP5Zy0JMdQq",
+          "title": "Beatnik",
+          "artists": "The Clean"
+        },
+        {
+          "id": "1QlogZxaAT35c3HqjJt1JH",
+          "title": "Situation",
+          "artists": "Yaz"
+        },
+        {
+          "id": "274111AbitFzAPZ10tbj6e",
+          "title": "Flesh of My Flesh",
+          "artists": "Orange Juice"
+        },
+        {
+          "id": "1Ulh5rWbhhV3PltDadTBZC",
+          "title": "State Trooper",
+          "artists": "Bruce Springsteen"
+        }
+      ]
+    },
+    "1983": {
+      "playlistId": "4rbRI5j3U5P3QFgWrKArIA",
+      "tracks": [
+        {
+          "id": "4SuabhTNPBTBFjfOjhvRNQ",
+          "title": "Borderline",
+          "artists": "Madonna"
+        },
+        {
+          "id": "0iD94fatV4gLMmOQhNTQx6",
+          "title": "Dance",
+          "artists": "ESG"
+        },
+        {
+          "id": "2nWHzbBWBOePUvAImQv2So",
+          "title": "Rockit",
+          "artists": "Herbie Hancock"
+        },
+        {
+          "id": "3Zwb56Ke7F5OZtowNnfPDs",
+          "title": "Poor Girl",
+          "artists": "X"
+        },
+        {
+          "id": "4LGQTdp6uOkrlgO8mmlLA1",
+          "title": "State Farm",
+          "artists": "Yaz"
+        },
+        {
+          "id": "3v4h4wyAZe2pBQv6uK5KhP",
+          "title": "Union Sundown",
+          "artists": "Bob Dylan"
+        },
+        {
+          "id": "2EEinN4Zk8MUv4OQuLsTBj",
+          "title": "Age of Consent - 2015 Remaster",
+          "artists": "New Order"
+        },
+        {
+          "id": "29uKzagduhFDTWPCjqaGOg",
+          "title": "Gimme All Your Lovin'",
+          "artists": "ZZ Top"
+        },
+        {
+          "id": "37kkHqpkzTEGOJYHRb6JZG",
+          "title": "Girlfriend Is Better",
+          "artists": "Talking Heads"
+        },
+        {
+          "id": "6C4LXC9UFH1IKiHYOp0BiJ",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "artists": "U2"
+        },
+        {
+          "id": "7o9uu2GDtVDr9nsR7ZRN73",
+          "title": "Time After Time",
+          "artists": "Cyndi Lauper"
+        },
+        {
+          "id": "46dGFTD918NMz1IP1rPJXO",
+          "title": "Radio Free Europe",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "5ISPoYHI87FmHKV5mVS514",
+          "title": "Optimo",
+          "artists": "Liquid Liquid"
+        },
+        {
+          "id": "06dAFXkgM2OGAkGS3CxpEm",
+          "title": "Love Is A Battlefield",
+          "artists": "Pat Benatar"
+        },
+        {
+          "id": "2IJftBfq7pJ43tfnOR0RB3",
+          "title": "99 Luftballons",
+          "artists": "Nena"
+        },
+        {
+          "id": "5p34sF7EskpzTuW3RGy9fs",
+          "title": "Total Eclipse of the Heart",
+          "artists": "Bonnie Tyler"
+        },
+        {
+          "id": "3wLgE99zPBTN4ahL4GNP7a",
+          "title": "(Keep Feeling) Fascination - Remastered",
+          "artists": "The Human League"
+        },
+        {
+          "id": "3gxEZXUjrNbl3TlSrTGbR5",
+          "title": "Modern Love - 2018 Remaster",
+          "artists": "David Bowie"
+        },
+        {
+          "id": "1BbNPyaEztUnqz2Gh1L7Sq",
+          "title": "Love Is a Stranger - 2018 Remastered",
+          "artists": "Eurythmics, Annie Lennox, Dave Stewart"
+        },
+        {
+          "id": "5I04cVKq1hQwgMn1qmDMru",
+          "title": "Crazy - Remastered",
+          "artists": "Pylon"
+        },
+        {
+          "id": "0Qv7xi6uPSqH2k82tOkGSt",
+          "title": "Mad World",
+          "artists": "Tears For Fears"
+        },
+        {
+          "id": "3zf2eLN9Yf8ayZO5cn4Xh5",
+          "title": "This Is the Day",
+          "artists": "The The"
+        },
+        {
+          "id": "1tAFvq63jO3n9WaDCZPJNh",
+          "title": "In A Big Country",
+          "artists": "Big Country"
+        },
+        {
+          "id": "1P9523tBg56NRc78lX2i4l",
+          "title": "Everyday I Write The Book",
+          "artists": "Elvis Costello & The Attractions"
+        },
+        {
+          "id": "1V15l05snHYHYVxerjMFGo",
+          "title": "King Of Pain",
+          "artists": "The Police"
+        }
+      ]
+    },
+    "1984": {
+      "playlistId": "79nHgyfuhNvE8IwP42LZw1",
+      "tracks": [
+        {
+          "id": "0cOf4csnt4DeXSkFmBjULw",
+          "title": "The Killing Moon",
+          "artists": "Echo & the Bunnymen"
+        },
+        {
+          "id": "1zwCCOoWdeS3d4ITQe8kWT",
+          "title": "So. Central Rain",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "6fBwVe6udYdnRqwqo06if8",
+          "title": "I Would Die 4 U",
+          "artists": "Prince"
+        },
+        {
+          "id": "2JZu2ny6Et9wFic99sMF7x",
+          "title": "Hand in Glove - 2011 Remaster",
+          "artists": "The Smiths"
+        },
+        {
+          "id": "3PzsbWSQdLCKDLxn7YZfkM",
+          "title": "I'm On Fire",
+          "artists": "Bruce Springsteen"
+        },
+        {
+          "id": "77EwrXeCpbMMlWHqhdeFxJ",
+          "title": "I Will Dare",
+          "artists": "The Replacements"
+        },
+        {
+          "id": "6JLYifKMF5DbeyxsVvGubh",
+          "title": "Circles",
+          "artists": "Dag Nasty"
+        },
+        {
+          "id": "0PhU6i6Kei6x0CH3jocvA3",
+          "title": "Freedom",
+          "artists": "Wham!"
+        },
+        {
+          "id": "3Utqk7miIHD0sxaeYmLbeL",
+          "title": "Oh, Me",
+          "artists": "Meat Puppets"
+        },
+        {
+          "id": "4jhsuQCUCJKA5f0bXb6XdJ",
+          "title": "It's My Life - 1997 Remaster",
+          "artists": "Talk Talk"
+        },
+        {
+          "id": "1MwGbyzRmPXWABLIdW8tzG",
+          "title": "Lorelei",
+          "artists": "Cocteau Twins"
+        },
+        {
+          "id": "665Jxlgi1HamPKbW1vwzx4",
+          "title": "We Belong",
+          "artists": "Pat Benatar"
+        },
+        {
+          "id": "3N7GqZMpZJW69Te1bfUTc3",
+          "title": "Obsession",
+          "artists": "Animotion"
+        },
+        {
+          "id": "2JvPJ8ydPuN2NhpH4oti6I",
+          "title": "Dance Hall Days",
+          "artists": "Wang Chung"
+        },
+        {
+          "id": "4cMHCRLPNoEbpnl2rz6GS9",
+          "title": "Back on the Chain Gang - 2007 Remaster",
+          "artists": "Pretenders"
+        },
+        {
+          "id": "5yR9u8QiOt8hJaddv32oo7",
+          "title": "I Feel for You",
+          "artists": "Chaka Khan"
+        },
+        {
+          "id": "1B1Y52ftMyCmgjPsEMQDqq",
+          "title": "Hold Me Now",
+          "artists": "Thompson Twins"
+        },
+        {
+          "id": "3dh2LlmeMqKJbzn2WUgt3d",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "artists": "U2"
+        },
+        {
+          "id": "34tFidHrETMAjsiK87WVVW",
+          "title": "Dear Prudence",
+          "artists": "Siouxsie and the Banshees"
+        },
+        {
+          "id": "42l1eOB0qSkTxHdEZEhqem",
+          "title": "Dancing with Tears in My Eyes",
+          "artists": "Ultravox"
+        },
+        {
+          "id": "7m8tMtlOOn57HN1m8XwzeC",
+          "title": "Human Fly",
+          "artists": "The Cramps"
+        },
+        {
+          "id": "4rrbptVnZifk4wC5mvNDPm",
+          "title": "My War",
+          "artists": "Black Flag"
+        },
+        {
+          "id": "2J6QnTjHIWwXErNWyF0RUC",
+          "title": "It's Like That",
+          "artists": "Run–D.M.C."
+        },
+        {
+          "id": "51YZAJhOwIC5Gg3jMbAmhZ",
+          "title": "For Whom The Bell Tolls (Remastered)",
+          "artists": "Metallica"
+        },
+        {
+          "id": "5vmRQ3zELMLUQPo2FLQ76x",
+          "title": "Smalltown Boy",
+          "artists": "Bronski Beat"
+        }
+      ]
+    },
+    "1985": {
+      "playlistId": "5T9X4VNWTM7nxBSWRMWwbP",
+      "tracks": [
+        {
+          "id": "4E6YM4V7Kz6zpbiNsliwEl",
+          "title": "Just Like Honey",
+          "artists": "The Jesus and Mary Chain"
+        },
+        {
+          "id": "5jSz894ljfWE0IcHBSM39i",
+          "title": "Raspberry Beret",
+          "artists": "Prince"
+        },
+        {
+          "id": "4uLnk7e2JHxDP9eG7vXyPq",
+          "title": "Take the Skinheads Bowling",
+          "artists": "Camper Van Beethoven"
+        },
+        {
+          "id": "3uftyv2SS2I6umRFchzG3t",
+          "title": "Can't Get There From Here",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "05wIrZSwuaVWhcv5FfqeH0",
+          "title": "Walking On Sunshine",
+          "artists": "Katrina & The Waves"
+        },
+        {
+          "id": "29d0nY7TzCoi22XBqDQkiP",
+          "title": "Running Up That Hill (A Deal With God) - 2018 Remaster",
+          "artists": "Kate Bush"
+        },
+        {
+          "id": "3qLZ866ZfaK0B0R5FIqXLG",
+          "title": "She Sells Sanctuary",
+          "artists": "The Cult"
+        },
+        {
+          "id": "2s6wCS3vDZFPY9NOTlPXJZ",
+          "title": "Take Me Home - 2016 Remaster",
+          "artists": "Phil Collins"
+        },
+        {
+          "id": "0ZYf6N5eBeXStMri0mf3DZ",
+          "title": "Voices Carry",
+          "artists": "'Til Tuesday"
+        },
+        {
+          "id": "6B4oVElDIKRNcNUary0WG7",
+          "title": "Crazy for You",
+          "artists": "Madonna"
+        },
+        {
+          "id": "1E8qiEnaCzyiOicYsabbtX",
+          "title": "Money for Nothing",
+          "artists": "Dire Straits"
+        },
+        {
+          "id": "1lZeAoeRbCSKRyqx1PBvT6",
+          "title": "St Elmo's Fire (Anniversary Edition)",
+          "artists": "John Parr"
+        },
+        {
+          "id": "3k9dGCm2R2Y70e87aMHYC3",
+          "title": "Hablando a Tu Corazón",
+          "artists": "Charly García, Pedro Aznar"
+        },
+        {
+          "id": "1YrnDTqvcnUKxAIeXyaEmU",
+          "title": "How Soon Is Now? - 2011 Remaster",
+          "artists": "The Smiths"
+        },
+        {
+          "id": "0lWSwb3y9pqMQ4AcaMbs7x",
+          "title": "Forget The Swan",
+          "artists": "Dinosaur Jr."
+        },
+        {
+          "id": "5JwK7v6XhG0YgqDuCgzOy8",
+          "title": "And She Was",
+          "artists": "Talking Heads"
+        },
+        {
+          "id": "5lwQGZYF4BXOzFtXc5zk8q",
+          "title": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+          "artists": "Tears For Fears, Dave Bascombe"
+        },
+        {
+          "id": "7cGwqXXVav9Tg0XNoONPlo",
+          "title": "Up on the Sun",
+          "artists": "Meat Puppets"
+        },
+        {
+          "id": "14g6foD6sxO1qgkDKuPgWv",
+          "title": "Swingin Party - 2008 Remaster",
+          "artists": "The Replacements"
+        },
+        {
+          "id": "2bXR3wHjJ7zBZ7RRuTVCvQ",
+          "title": "The Perfect Kiss - 2015 Remaster",
+          "artists": "New Order"
+        },
+        {
+          "id": "0unvHfYWvfXFmso09WJCwb",
+          "title": "Intro",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "7qAfN3OAhDcwAhGe9Nq7Mi",
+          "title": "Anything, Anything",
+          "artists": "Dramarama"
+        },
+        {
+          "id": "4SuvmiLDt9YIMQHFzd9fTl",
+          "title": "Primitive Painters",
+          "artists": "Felt"
+        },
+        {
+          "id": "0QUpBXTOdB4JJyTGFN6dH1",
+          "title": "Jungle Love",
+          "artists": "The Time"
+        },
+        {
+          "id": "2iWTHXaFtRSMhd5OLpYD7f",
+          "title": "Life's What You Make It - 1997 Remaster",
+          "artists": "Talk Talk"
+        }
+      ]
+    },
+    "1986": {
+      "playlistId": "67dTdhR60jT4Sn5ffj8PSY",
+      "tracks": [
+        {
+          "id": "1eyq8cjUQ2daFthW2PC2GM",
+          "title": "Glory of Love",
+          "artists": "Peter Cetera"
+        },
+        {
+          "id": "62LJFaYihsdVrrkgUOJC05",
+          "title": "Kiss",
+          "artists": "Prince"
+        },
+        {
+          "id": "4tPFEWRuNQhibDQSGB2PVE",
+          "title": "Don't Want to Know If You Are Lonely",
+          "artists": "Hüsker Dü"
+        },
+        {
+          "id": "3gKwVWwKmeuFtPubICbOGc",
+          "title": "Paul Revere",
+          "artists": "Beastie Boys"
+        },
+        {
+          "id": "3xPKSMgZl4N3rfTyIgSPfa",
+          "title": "Fall On Me - 2011 Remaster",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "28qfj544k6pDavkWkyzvWz",
+          "title": "Bizarre Love Triangle - 2024 Digital Master",
+          "artists": "New Order"
+        },
+        {
+          "id": "6LdpVTJzigyi2vbKe8mZAr",
+          "title": "My Adidas",
+          "artists": "Run–D.M.C."
+        },
+        {
+          "id": "5VGl1VsTtPO2gbhHrhB5Lx",
+          "title": "Wild Wild Life",
+          "artists": "Talking Heads"
+        },
+        {
+          "id": "0eB9O5XdPzpvQLGKpZTy4R",
+          "title": "Green Light",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "4tvV5DsE34n0NPp6lIkk04",
+          "title": "With You",
+          "artists": "The Flaming Lips"
+        },
+        {
+          "id": "6poribUG9PSY1eudyCjJTS",
+          "title": "Open Your Heart",
+          "artists": "Madonna"
+        },
+        {
+          "id": "6qe04TNp2i8rK1Nk2PpSBy",
+          "title": "Land Of Danger",
+          "artists": "Guided By Voices"
+        },
+        {
+          "id": "4CLE1VHF4SmzpZW9iqyZDo",
+          "title": "Rise",
+          "artists": "Public Image Ltd."
+        },
+        {
+          "id": "3hMHG6lx9QHVcfYSUr5PoM",
+          "title": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+          "artists": "Kenny Loggins"
+        },
+        {
+          "id": "5U2Rh2FbVEHN3YSizwQwJM",
+          "title": "Invisible Touch",
+          "artists": "Genesis"
+        },
+        {
+          "id": "4Kkr8UhSik6GDWRfY56fsS",
+          "title": "What Have You Done For Me Lately",
+          "artists": "Janet Jackson"
+        },
+        {
+          "id": "5YJENOffrPCGmJmdt9WzaS",
+          "title": "At the Bottom",
+          "artists": "The Clean"
+        },
+        {
+          "id": "0TaT50ZZxT4ytZxuqkE3A9",
+          "title": "Why Can't This Be Love",
+          "artists": "Van Halen"
+        },
+        {
+          "id": "6s1lXoCa6EmIGnr0GrwcJp",
+          "title": "The Boy with the Thorn in His Side - 2011 Remaster",
+          "artists": "The Smiths"
+        },
+        {
+          "id": "3v9ELl9T121dhadZyIiQVn",
+          "title": "Thorn in My Side - Remastered",
+          "artists": "Eurythmics, Annie Lennox, Dave Stewart"
+        },
+        {
+          "id": "00IrSynHsun7DpDrLkRIjM",
+          "title": "The Boy In the Bubble",
+          "artists": "Paul Simon"
+        },
+        {
+          "id": "4qN7nSAVTjPfOOz0wkRQpM",
+          "title": "In Your Eyes - 2012 Remaster",
+          "artists": "Peter Gabriel"
+        },
+        {
+          "id": "6OLz2O9z6XuquoHtujWCOy",
+          "title": "The Show",
+          "artists": "Doug E. Fresh"
+        },
+        {
+          "id": "5L6HNuXN71bfeuKXYtRasF",
+          "title": "Walk Like an Egyptian",
+          "artists": "The Bangles"
+        },
+        {
+          "id": "4ZExvJvQXPEeYzGU0N3THi",
+          "title": "Higher Love",
+          "artists": "Steve Winwood"
+        }
+      ]
+    },
+    "1987": {
+      "playlistId": "4zTP1rjMLWenlvhRqE2Nnk",
+      "tracks": [
+        {
+          "id": "54r0OvSGxzwzLHqlUv2TOP",
+          "title": "North By North",
+          "artists": "The Bats"
+        },
+        {
+          "id": "5TDEIDElkU2hrMnusjPLNu",
+          "title": "Raw (Edit) - 45 Version",
+          "artists": "Big Daddy Kane"
+        },
+        {
+          "id": "5jkjpSsMOfsxgdGScPZVq2",
+          "title": "The Bridge Is Over",
+          "artists": "Boogie Down Productions"
+        },
+        {
+          "id": "5p4pTSor9Y8Pm18sUTl3mi",
+          "title": "Just like Heaven",
+          "artists": "The Cure"
+        },
+        {
+          "id": "5szJ8SMwQVEvvdk65w6M6g",
+          "title": "California Uber Alles",
+          "artists": "Dead Kennedys"
+        },
+        {
+          "id": "3Oa8vnNXStoOHLbJwwMEDP",
+          "title": "Lips Like Sugar",
+          "artists": "Echo & the Bunnymen"
+        },
+        {
+          "id": "20s3FayrStM8GY0m4dRFsw",
+          "title": "Paid In Full",
+          "artists": "Eric B. & Rakim, Marley Marl"
+        },
+        {
+          "id": "6QnFHieoch6U9J8zfv6hml",
+          "title": "I Want Your Sex - Pts. 1 & 2 Remastered",
+          "artists": "George Michael"
+        },
+        {
+          "id": "0mJQlCl9YgxW7kyeltNiVk",
+          "title": "Touch of Grey - 2013 Remaster",
+          "artists": "Grateful Dead"
+        },
+        {
+          "id": "7snQQk1zcKl8gZ92AnueZW",
+          "title": "Sweet Child O' Mine",
+          "artists": "Guns N' Roses"
+        },
+        {
+          "id": "3exGItuwc283VeIfVcVa6D",
+          "title": "Don't Tell Yourself",
+          "artists": "The Lemonheads"
+        },
+        {
+          "id": "6TvPlohAdl9JLdpHiFHmON",
+          "title": "Pump Up The Volume - USA 12\" Mix",
+          "artists": "M/A/R/R/S"
+        },
+        {
+          "id": "2jQfozDpitT8lVEYoOjmeR",
+          "title": "Leave Me Alone - 2012 Remaster",
+          "artists": "Michael Jackson"
+        },
+        {
+          "id": "6hHc7Pks7wtBIW8Z6A0iFq",
+          "title": "Blue Monday",
+          "artists": "New Order"
+        },
+        {
+          "id": "3ieDOGcOqVxScs2VZBzidt",
+          "title": "Learning to Fly",
+          "artists": "Pink Floyd"
+        },
+        {
+          "id": "6JSUd8Xqzfiopc31BL6bqL",
+          "title": "Levitate Me",
+          "artists": "Pixies"
+        },
+        {
+          "id": "1NAf61L4b3jFgLJhThTQ8B",
+          "title": "U Got The Look - 2020 Remaster",
+          "artists": "Prince"
+        },
+        {
+          "id": "2oSpQ7QtIKTNFfA08Cy0ku",
+          "title": "It's The End Of The World As We Know It (And I Feel Fine)",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "4x4e63yL8r7tOFcZ0n6KHe",
+          "title": "Mandinka",
+          "artists": "Sinéad O'Connor"
+        },
+        {
+          "id": "01q4ccXbvPlCwZ1fPiFaeM",
+          "title": "Girlfriend in a Coma - 2011 Remaster",
+          "artists": "The Smiths"
+        },
+        {
+          "id": "22t3vCXfjQhIiXzGVSZNOz",
+          "title": "Schizophrenia",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "5yMXAaSvxo12QkYU75Ixv0",
+          "title": "Luka",
+          "artists": "Suzanne Vega"
+        },
+        {
+          "id": "5kv4uJENk4nWUIzgYoz7SI",
+          "title": "Heart And Soul",
+          "artists": "T'Pau"
+        },
+        {
+          "id": "7h1YqA5MZrRxmkUFpukRcp",
+          "title": "Where The Streets Have No Name - Remastered",
+          "artists": "U2"
+        },
+        {
+          "id": "2eXKIiuLZdn1H0yNAW7Fvm",
+          "title": "Criminal Minded",
+          "artists": "Boogie Down Productions"
+        }
+      ]
+    },
+    "1988": {
+      "playlistId": "1nt73BdjFxMeIjvqgFTVwJ",
+      "tracks": [
+        {
+          "id": "4ImbE4F46Lhu7lG1Unurvp",
+          "title": "The Sprawl (Album Version)",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "3XwsGAtbEoBUzJfFmHSHSo",
+          "title": "Black Steel In The Hour Of Chaos",
+          "artists": "Public Enemy"
+        },
+        {
+          "id": "6L0reMMEHvJsEX7kBo8Dm5",
+          "title": "Set It Off",
+          "artists": "Big Daddy Kane"
+        },
+        {
+          "id": "6jdEMl5p7KD9yBfqNm0ACH",
+          "title": "The Symphony",
+          "artists": "Marley Marl, Big Daddy Kane, Craig G, Kool G Rap, Masta Ace"
+        },
+        {
+          "id": "48p5E25cFPanxuwCTmTpuL",
+          "title": "The Promise",
+          "artists": "When In Rome"
+        },
+        {
+          "id": "7FIhuHZUdUxWX2hDMGdIbF",
+          "title": "Freak Scene",
+          "artists": "Dinosaur Jr."
+        },
+        {
+          "id": "7sNhXWrg9eW3qRqeuePaIC",
+          "title": "Orange Crush - Remastered 2013",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "75liGvzheM6Qkfds1oaSFk",
+          "title": "Vamos - 2007 Remaster",
+          "artists": "Pixies"
+        },
+        {
+          "id": "76HJoPhDFxD7rizsbCmZND",
+          "title": "Suedehead - 2011 Remaster",
+          "artists": "Morrissey"
+        },
+        {
+          "id": "3VkyKA0iCT1ABwaSjb0kpf",
+          "title": "Peek-A-Boo",
+          "artists": "Siouxsie and the Banshees"
+        },
+        {
+          "id": "7c1Dar0pIAW7w5TzaGjt9t",
+          "title": "Jane Says",
+          "artists": "Jane's Addiction"
+        },
+        {
+          "id": "2M9ro2krNb7nr7HSprkEgo",
+          "title": "Fast Car",
+          "artists": "Tracy Chapman"
+        },
+        {
+          "id": "15HgR9Ht4obJOcMG4wregp",
+          "title": "Children's Story",
+          "artists": "Slick Rick"
+        },
+        {
+          "id": "0cSJGFChou7M6u2ju9SWN1",
+          "title": "Microphone Fiend",
+          "artists": "Eric B. & Rakim"
+        },
+        {
+          "id": "1xZdjsAGrY4BUIbIlYy3EX",
+          "title": "Strictly Business",
+          "artists": "EPMD"
+        },
+        {
+          "id": "6KIKRz9eSTXdNsGUnomdtW",
+          "title": "Straight Outta Compton",
+          "artists": "N.W.A."
+        },
+        {
+          "id": "0LAcM6I7ijW4VVW0aytl1t",
+          "title": "One (Remastered)",
+          "artists": "Metallica"
+        },
+        {
+          "id": "6XXcWVWc4Y8Msqypisg105",
+          "title": "you made me realise",
+          "artists": "my bloody valentine"
+        },
+        {
+          "id": "0vyzaguBNqoFgJvSHYa5Fi",
+          "title": "Dangerous",
+          "artists": "Roxette"
+        },
+        {
+          "id": "4WG7Z3bNM3iE4vCYcXsxNx",
+          "title": "Cult of Personality (2023 Remaster)",
+          "artists": "Living Colour"
+        },
+        {
+          "id": "6lRkdG1HurVS72F9GoBeWJ",
+          "title": "Good Thing",
+          "artists": "Fine Young Cannibals"
+        },
+        {
+          "id": "1I0qu4PsBjAHfJHy9wy5AA",
+          "title": "Chains of Love",
+          "artists": "Erasure"
+        },
+        {
+          "id": "6bVUwujYeG4u9IBm4Vugfs",
+          "title": "Straight Out The Jungle",
+          "artists": "Jungle Brothers"
+        },
+        {
+          "id": "55MEbqyxZphjB0beZ7YT0f",
+          "title": "Birthday",
+          "artists": "The Sugarcubes"
+        },
+        {
+          "id": "2cReSKmcyhe6lw8QSj5AYD",
+          "title": "End Of The Line",
+          "artists": "Traveling Wilburys"
+        }
+      ]
+    },
+    "1989": {
+      "playlistId": "6tqNfbr8Q33U1YBMKeuq5V",
+      "tracks": [
+        {
+          "id": "4CWgqHRJjDLd2PCedMz8eY",
+          "title": "Waterfall - Remastered 2009",
+          "artists": "The Stone Roses"
+        },
+        {
+          "id": "4ReyTz0y3TGkX48wO3Llot",
+          "title": "Epic",
+          "artists": "Faith No More"
+        },
+        {
+          "id": "5zHgT1ibsBrSOEnQwZapto",
+          "title": "Veronica",
+          "artists": "Elvis Costello"
+        },
+        {
+          "id": "4nTYxxF8iWBq54LO3dBUie",
+          "title": "Rhythm Nation",
+          "artists": "Janet Jackson"
+        },
+        {
+          "id": "2V7BGxa9Bso5xoL1l7hitV",
+          "title": "Road To The Riches",
+          "artists": "DJ Polo, Kool G Rap & DJ Polo"
+        },
+        {
+          "id": "4Y7fEQ4PAzhlLnLviRw2P4",
+          "title": "Rockin' in the Free World",
+          "artists": "Neil Young"
+        },
+        {
+          "id": "0X5C4WjQNubRysTkHOubz3",
+          "title": "Lovesong - 2010 Remaster",
+          "artists": "The Cure"
+        },
+        {
+          "id": "62vx6uOYO7PrqKqKTKg9RY",
+          "title": "Sowing The Seeds Of Love",
+          "artists": "Tears For Fears"
+        },
+        {
+          "id": "4IvZLDtwBHmBmwgDIUbuwa",
+          "title": "Here Comes Your Man",
+          "artists": "Pixies"
+        },
+        {
+          "id": "0I5u1WIjk42jTGXyRh8MEN",
+          "title": "Head On",
+          "artists": "The Jesus and Mary Chain"
+        },
+        {
+          "id": "76eqlAukVuAvxovEbCK3uh",
+          "title": "Ladies First",
+          "artists": "Queen Latifah, Monie Love"
+        },
+        {
+          "id": "1VlIjGDl74uwzy1nzeQ3Qr",
+          "title": "Say No Go",
+          "artists": "De La Soul"
+        },
+        {
+          "id": "5ulZo7nk3MByXLvja3NCAc",
+          "title": "Hey Ladies",
+          "artists": "Beastie Boys"
+        },
+        {
+          "id": "2DBlfjL5chsdeULzhTp5K8",
+          "title": "Waiting Room",
+          "artists": "Fugazi"
+        },
+        {
+          "id": "2SHTKB8YYlawTGIuJ2b2ok",
+          "title": "About A Girl",
+          "artists": "Nirvana"
+        },
+        {
+          "id": "5fqcIHU6DhQtFKVO5XSdQs",
+          "title": "Roam",
+          "artists": "The B-52's"
+        },
+        {
+          "id": "3szW87j0gVLQmpulz4P8Rf",
+          "title": "Express Yourself",
+          "artists": "Madonna"
+        },
+        {
+          "id": "4AiMaeCXwsldpwvA5wu5gM",
+          "title": "Runnin' Down A Dream",
+          "artists": "Tom Petty"
+        },
+        {
+          "id": "1MQCTOWVfy4PcuBXkBsHVB",
+          "title": "Just a Friend",
+          "artists": "Biz Markie"
+        },
+        {
+          "id": "3XWgwgbWDI56mf1Wl3cLzb",
+          "title": "Buffalo Stance",
+          "artists": "Neneh Cherry"
+        },
+        {
+          "id": "4TDLfAmx45EpSiQYG6hCzT",
+          "title": "Dirty Blvd.",
+          "artists": "Lou Reed"
+        },
+        {
+          "id": "6MhvA51DJ1gG5AZztMD9bP",
+          "title": "Round & Round - 2015 Remaster",
+          "artists": "New Order"
+        },
+        {
+          "id": "5nLhswlXx18vI65KkKKFgx",
+          "title": "Trouble Me",
+          "artists": "10,000 Maniacs"
+        },
+        {
+          "id": "3rUVrxExy58koSwc7mn5JW",
+          "title": "D.O.C. AND THE DOCTOR",
+          "artists": "The D.O.C."
+        },
+        {
+          "id": "0kdzk2ZafSqYqSfh5k8QYR",
+          "title": "Do It to the Crowd",
+          "artists": "Twin Hype"
+        }
+      ]
+    },
+    "1990": {
+      "playlistId": "6B4EIZZO207t3SUvtgw5Bm",
+      "tracks": [
+        {
+          "id": "0AxZUYeQ9bZwSdt1LmZuok",
+          "title": "Heaven or Las Vegas",
+          "artists": "Cocteau Twins"
+        },
+        {
+          "id": "3tyTt5pEWblt96j1HsXiV5",
+          "title": "Freedom! '90 - Remastered",
+          "artists": "George Michael"
+        },
+        {
+          "id": "0lBO2VOhlNNx879Fjd9XY3",
+          "title": "Velouria",
+          "artists": "Pixies"
+        },
+        {
+          "id": "2He3NOyqtLNE3RQPpeDdSb",
+          "title": "Groove Is in the Heart",
+          "artists": "Deee-Lite"
+        },
+        {
+          "id": "2yv7DB4kSq77eYGEUNrYZt",
+          "title": "Mama Said Knock You Out",
+          "artists": "LL COOL J"
+        },
+        {
+          "id": "0W7AbEauB7cP4pidLclApe",
+          "title": "Hunger Strike",
+          "artists": "Temple Of The Dog"
+        },
+        {
+          "id": "62fQHIiTsimptHHliO8nOn",
+          "title": "We're All In The Same Gang",
+          "artists": "King Tee, Digital Underground, Young MC, MC Ren, Dr. Dre, ICE-T, Above The Law, Tone-Loc, Michel'le, Def Jef, Body And Soul, MC Hammer, Eazy-E"
+        },
+        {
+          "id": "17hdos7cv1vAvcfoTU4Pym",
+          "title": "The Only One I Know",
+          "artists": "The Charlatans"
+        },
+        {
+          "id": "6rKQoV8NBoW6gXrWGpoCv7",
+          "title": "Round and Round",
+          "artists": "Prince, Tevin Campbell"
+        },
+        {
+          "id": "7F0dwqgKzlaIRrngChBRAc",
+          "title": "Stop!",
+          "artists": "Jane's Addiction"
+        },
+        {
+          "id": "3Mzqw2mz9YMKjjCEmypYfZ",
+          "title": "The Nigga Ya Love To Hate",
+          "artists": "Ice Cube"
+        },
+        {
+          "id": "3ZqjDpr3qCZnZBPcd0Hpj2",
+          "title": "Hold On",
+          "artists": "En Vogue"
+        },
+        {
+          "id": "4SPi5Pl7aAtauFsH9Lk5LB",
+          "title": "Here's Where The Story Ends",
+          "artists": "The Sundays"
+        },
+        {
+          "id": "6m59VvDUi0UQsB2eZ9wVbH",
+          "title": "Poison",
+          "artists": "Bell Biv DeVoe"
+        },
+        {
+          "id": "33nsiPYVrV8S1Kxc8wJboP",
+          "title": "Over and Over",
+          "artists": "Neil Young, Crazy Horse"
+        },
+        {
+          "id": "65tbfVCptTZ0NmHZ2eBEh9",
+          "title": "Rampage",
+          "artists": "EPMD, LL COOL J"
+        },
+        {
+          "id": "6kvoHl80mfCVTv7XnZkjQn",
+          "title": "It Must Have Been Love - From the Film \"Pretty Woman\"",
+          "artists": "Roxette"
+        },
+        {
+          "id": "2HlKSufhcnPDZAS1S7jLg6",
+          "title": "Welcome To The Terrordome",
+          "artists": "Public Enemy"
+        },
+        {
+          "id": "1ZozGivTAYsOwhy6LVHsPX",
+          "title": "Kool Thing",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "1gSDTZHemEViEBiXysrlo0",
+          "title": "Can I Kick It?",
+          "artists": "A Tribe Called Quest"
+        },
+        {
+          "id": "0YEC3pNS0uIKvZb5u4lgsu",
+          "title": "The Humpty Dance",
+          "artists": "Digital Underground"
+        },
+        {
+          "id": "0gLQ6jhJsyYfl7PrD1RZ7X",
+          "title": "Vision of Love",
+          "artists": "Mariah Carey"
+        },
+        {
+          "id": "6RiQpptxeHspavyW50JiEw",
+          "title": "Monie in the Middle",
+          "artists": "Monie Love"
+        },
+        {
+          "id": "5GHY1DFWKz3Prg2V0Iodqo",
+          "title": "Nothing Compares 2 U",
+          "artists": "Sinéad O'Connor"
+        },
+        {
+          "id": "3P5dVXm98CgVuEpcW2HsUk",
+          "title": "The Power",
+          "artists": "SNAP!"
+        }
+      ]
+    },
+    "1991": {
+      "playlistId": "3VDibnKLL1rIcuAFRIykBj",
+      "tracks": [
+        {
+          "id": "0j5FJJOmmnXPd0XajFWkMF",
+          "title": "Unfinished Sympathy - 2012 Mix/Master",
+          "artists": "Massive Attack, Shara Nelson"
+        },
+        {
+          "id": "4bK2vKMdkS0rNhbzRqAZe0",
+          "title": "Even Better Than The Real Thing",
+          "artists": "U2"
+        },
+        {
+          "id": "3rW0ATGLT6kOUtfsIKygyI",
+          "title": "Kiss Them For Me",
+          "artists": "Siouxsie and the Banshees"
+        },
+        {
+          "id": "5Xak5fmy089t0FYmh3VJiY",
+          "title": "Black",
+          "artists": "Pearl Jam"
+        },
+        {
+          "id": "4cwW3SiZlQ54s6G9fWA8om",
+          "title": "Rhinoceros - Remastered 2011",
+          "artists": "The Smashing Pumpkins"
+        },
+        {
+          "id": "52UcjsM15hjCQAUbTW2hy1",
+          "title": "Only Shallow",
+          "artists": "my bloody valentine"
+        },
+        {
+          "id": "2YuEoMW3fTvIqYdTqYE9dd",
+          "title": "Steady Mobbin'",
+          "artists": "Ice Cube"
+        },
+        {
+          "id": "1k28sDTLOz942qa3wEtMQE",
+          "title": "O.P.P",
+          "artists": "Naughty By Nature"
+        },
+        {
+          "id": "7glld4kxYHp61zIPtSVHNk",
+          "title": "Lounge Act",
+          "artists": "Nirvana"
+        },
+        {
+          "id": "7dSBZzVmyBaLDxT2v3EJHB",
+          "title": "Loaded",
+          "artists": "Primal Scream"
+        },
+        {
+          "id": "0301nLjG0ti26rx5ZmfqtP",
+          "title": "Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix",
+          "artists": "A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown"
+        },
+        {
+          "id": "3YRCqOhFifThpSRFJ1VWFM",
+          "title": "November Rain",
+          "artists": "Guns N' Roses"
+        },
+        {
+          "id": "6l4wMAXzI8RxIysQMYZY0w",
+          "title": "How I Could Just Kill a Man",
+          "artists": "Cypress Hill"
+        },
+        {
+          "id": "1v2zyAJrChw5JnfafSkwkJ",
+          "title": "Shiny Happy People",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "6POLaU4vAkv44LVp3Roz4L",
+          "title": "Future Love Paradise",
+          "artists": "Seal"
+        },
+        {
+          "id": "6J4Cuxz8tiANkwWvTadDRt",
+          "title": "September's Not So Far Away",
+          "artists": "The Field Mice"
+        },
+        {
+          "id": "338gPBomyqx33wfeF1AGOd",
+          "title": "Girlfriend",
+          "artists": "Matthew Sweet"
+        },
+        {
+          "id": "5nHQ2YPVcddwJz71aupuvz",
+          "title": "Love...Thy Will Be Done - Single Version",
+          "artists": "Martika"
+        },
+        {
+          "id": "0wFkjAM4VVoepQdYB6kl4U",
+          "title": "Gett Off",
+          "artists": "Prince, Eric Leeds"
+        },
+        {
+          "id": "3aRiplMITqwiQdqxm4gXl0",
+          "title": "New Jack Hustler (Nino's Theme)",
+          "artists": "ICE-T"
+        },
+        {
+          "id": "5r5uZvXHbE4X6CdhnSATtX",
+          "title": "Can't Truss It",
+          "artists": "Public Enemy"
+        },
+        {
+          "id": "7mjTuZkE1XkJnco5bVsZCf",
+          "title": "Round and Round - Soul Mix Edit",
+          "artists": "Tevin Campbell"
+        },
+        {
+          "id": "0bskKGZvp1HsNn6oD8Q8Jl",
+          "title": "Case of the P.T.A.",
+          "artists": "Leaders of the New School"
+        },
+        {
+          "id": "4k9EkhkFZY8Bk41Qi0Ob7P",
+          "title": "The Choice Is Yours (Revisited)",
+          "artists": "Black Sheep"
+        },
+        {
+          "id": "1zLP0BzKDOeQ26AtQ6UBjm",
+          "title": "Drive That Fast",
+          "artists": "Kitchens Of Distinction"
+        }
+      ]
+    },
+    "1992": {
+      "playlistId": "5jJ3HjqXx1TsMOnuXetfgO",
+      "tracks": [
+        {
+          "id": "7xw6FZ73Rsiz7Idh4npi1p",
+          "title": "Daughters Of The Kaos",
+          "artists": "Luscious Jackson"
+        },
+        {
+          "id": "3R97rNX7JnmshCWBwOSFet",
+          "title": "My Lovin' (You're Never Gonna Get It)",
+          "artists": "En Vogue"
+        },
+        {
+          "id": "05sOCR8SfGjcf7D6bsQfUp",
+          "title": "Silent All These Years - 2015 Remaster",
+          "artists": "Tori Amos"
+        },
+        {
+          "id": "6q03mlzKsM1m3TLpi6T6Cw",
+          "title": "Sugar Kane",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "4nBZIQ14fOYMxJvgbvHQpJ",
+          "title": "Know The Ledge",
+          "artists": "Eric B. & Rakim"
+        },
+        {
+          "id": "7qzFXUvBk7lELXuxVREypV",
+          "title": "Nearly Lost You",
+          "artists": "Screaming Trees"
+        },
+        {
+          "id": "4wbDALtjwuwBxtMgjuumoi",
+          "title": "Goodbye",
+          "artists": "The Sundays"
+        },
+        {
+          "id": "25CbtOzU8Pn17SAaXFjIR3",
+          "title": "Take The Power Back",
+          "artists": "Rage Against The Machine"
+        },
+        {
+          "id": "54sZxcHbQubdbmjEdAFp7w",
+          "title": "When Will They Shoot?",
+          "artists": "Ice Cube"
+        },
+        {
+          "id": "5sFDReWLrZHLFZFjHsjUTS",
+          "title": "Would? (2022 Remaster)",
+          "artists": "Alice In Chains"
+        },
+        {
+          "id": "263aNAQCeFSWipk896byo6",
+          "title": "Friday I'm in Love",
+          "artists": "The Cure"
+        },
+        {
+          "id": "2Uuovgoam4TstNDPfvBnMF",
+          "title": "Conduit For Sale!",
+          "artists": "Pavement"
+        },
+        {
+          "id": "0wv6wbfxSwfAiH120nBI5u",
+          "title": "Sheela-Na-Gig",
+          "artists": "PJ Harvey"
+        },
+        {
+          "id": "6I1ESyGhZAEzZvxkxGyUZS",
+          "title": "Dyslexic Heart",
+          "artists": "Paul Westerberg"
+        },
+        {
+          "id": "5JKSty49E9iv1Tj6lfx68n",
+          "title": "Crossover",
+          "artists": "EPMD"
+        },
+        {
+          "id": "3nBOTBNCyICHIuWuZXaFSp",
+          "title": "Monty Got A Raw Deal",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "2Mb3zpobD0CvJGWv6NpsPy",
+          "title": "They Reminisce Over You (T.R.O.Y.)",
+          "artists": "Pete Rock & C.L. Smooth"
+        },
+        {
+          "id": "786h4kDeZiX5nYvOwA3wtE",
+          "title": "These Are Days",
+          "artists": "10,000 Maniacs"
+        },
+        {
+          "id": "4G3dZN9o3o2X4VKwt4CLts",
+          "title": "Passin' Me By",
+          "artists": "The Pharcyde"
+        },
+        {
+          "id": "7tUEDtHchueeUJTfEFEhii",
+          "title": "Right Here - Human Nature Radio Mix",
+          "artists": "SWV"
+        },
+        {
+          "id": "4eIfmbGZy21bvnBLHSf7DE",
+          "title": "Pass The Mic - Remastered 2009",
+          "artists": "Beastie Boys"
+        },
+        {
+          "id": "2k9AGbzQIGqPz2PDBVuobA",
+          "title": "Tú por mí",
+          "artists": "Christina y Los Subterraneos"
+        },
+        {
+          "id": "0g2758Rj9D0iUUZxf7oLnY",
+          "title": "If I Can't Change Your Mind",
+          "artists": "Sugar"
+        },
+        {
+          "id": "5IOYJMFleVeJzBateO7XB8",
+          "title": "Push th' Little Daisies",
+          "artists": "Ween"
+        }
+      ]
+    },
+    "1993": {
+      "playlistId": "6G8ROs6aYiuxWNJ9j4Mk43",
+      "tracks": [
+        {
+          "id": "3ow0TQVttXQF8rLckmXgRx",
+          "title": "Cherub Rock - 2011 Remaster",
+          "artists": "The Smashing Pumpkins"
+        },
+        {
+          "id": "3L19vBWH4jTHNXbuBaHbUN",
+          "title": "Feed the Tree",
+          "artists": "Belly"
+        },
+        {
+          "id": "62dLahVLycJwmMXPyVHgvm",
+          "title": "Missing Link",
+          "artists": "Dinosaur Jr., Del The Funky Homosapien"
+        },
+        {
+          "id": "6DyywdbmTzlmXBzG9ym7Rt",
+          "title": "Sober",
+          "artists": "TOOL"
+        },
+        {
+          "id": "4V5Uyt51YzGM0Z3P3ubHsb",
+          "title": "Spin The Bottle",
+          "artists": "The Juliana Hatfield Three"
+        },
+        {
+          "id": "2WyLyygONxNBVtXCRLMjFY",
+          "title": "Breakadawn",
+          "artists": "De La Soul"
+        },
+        {
+          "id": "0oxYB9GoOIDrdzniNdKC44",
+          "title": "When the Sun Hits",
+          "artists": "Slowdive"
+        },
+        {
+          "id": "1LzNfuep1bnAUR9skqdHCK",
+          "title": "Fade Into You",
+          "artists": "Mazzy Star"
+        },
+        {
+          "id": "5XtyytAig4m3HkO2XXaL9l",
+          "title": "Rearviewmirror - Remastered",
+          "artists": "Pearl Jam"
+        },
+        {
+          "id": "5YTM7OgQDt9EJAYcfHLniJ",
+          "title": "Award Tour (feat. Trugoy The Dove)",
+          "artists": "A Tribe Called Quest, Trugoy The Dove"
+        },
+        {
+          "id": "1KdwPeY1WRWQGHCmRJTveb",
+          "title": "Cannonball",
+          "artists": "The Breeders"
+        },
+        {
+          "id": "5PntSbMHC1ud6Vvl8x56qd",
+          "title": "Loser",
+          "artists": "Beck"
+        },
+        {
+          "id": "3fJprjhRxTVtOp18EHdNfu",
+          "title": "50ft Queenie",
+          "artists": "PJ Harvey"
+        },
+        {
+          "id": "1dJuteDIOkGfDSN7zPkzNv",
+          "title": "She Don't Use Jelly",
+          "artists": "The Flaming Lips"
+        },
+        {
+          "id": "3rWlZxRCrBMcEL3QsSidr4",
+          "title": "For Tomorrow - 2012 Remaster",
+          "artists": "Blur"
+        },
+        {
+          "id": "25CTHkVyWqMtvbWPcZrd7M",
+          "title": "Bop Gun (One Nation) - Radio Edit",
+          "artists": "Ice Cube, George Clinton"
+        },
+        {
+          "id": "3GwIz1pLK6M2M0qp032McP",
+          "title": "Anna Begins",
+          "artists": "Counting Crows"
+        },
+        {
+          "id": "4xOTVtbCPcfxMs2hSt9D6i",
+          "title": "Da Mystery of Chessboxin'",
+          "artists": "Wu-Tang Clan"
+        },
+        {
+          "id": "4voEoczU7Ijborps9XF1n3",
+          "title": "I Get Around",
+          "artists": "2Pac, Digital Underground"
+        },
+        {
+          "id": "75MpTJE7mgpNqwQdJbxvNA",
+          "title": "Dreams",
+          "artists": "The Cranberries"
+        },
+        {
+          "id": "24tgzfc1dM8yswHXMGfY1n",
+          "title": "Stratford-On-Guy - 2018 Remaster",
+          "artists": "Liz Phair"
+        },
+        {
+          "id": "0hUit24g1EIoATdKYWUiRj",
+          "title": "Very Ape",
+          "artists": "Nirvana"
+        },
+        {
+          "id": "1962ZwEY7WNQLcmYFn3eR9",
+          "title": "Where I'm From",
+          "artists": "Digable Planets"
+        },
+        {
+          "id": "70LcF31zb1H0PyJoS1Sx1r",
+          "title": "Creep",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "1x0MZkbbq6RuQotxusVIdj",
+          "title": "Make Out Club",
+          "artists": "Unrest"
+        }
+      ]
+    },
+    "1994": {
+      "playlistId": "32TzfPWBLA1zesnFINgnHU",
+      "tracks": [
+        {
+          "id": "6JHGaBhtCbfEtOh5ea7fLI",
+          "title": "It's A Fire",
+          "artists": "Portishead"
+        },
+        {
+          "id": "0trHOzAhNpGCsGBEu7dOJo",
+          "title": "N.Y. State of Mind",
+          "artists": "Nas"
+        },
+        {
+          "id": "0Yf1I12YMJThIjJG1EQnPL",
+          "title": "Eternal Life",
+          "artists": "Jeff Buckley"
+        },
+        {
+          "id": "60CmkZIDd6Cjncd4TUoooO",
+          "title": "Yes, Anastasia",
+          "artists": "Tori Amos"
+        },
+        {
+          "id": "3kKVqFF4pv4EXeQe428zl2",
+          "title": "Protection",
+          "artists": "Massive Attack, Tracey Thorn"
+        },
+        {
+          "id": "0qC02cAOQmm4eJR4Kn9pcY",
+          "title": "Grace, Too",
+          "artists": "The Tragically Hip"
+        },
+        {
+          "id": "0s5hFVQIEpNGAChxCbypmb",
+          "title": "Ridiculous Thoughts - 2025 Remastered",
+          "artists": "The Cranberries"
+        },
+        {
+          "id": "2hSKvY62ov866JemepG5Jl",
+          "title": "Strange Currencies - Remastered 2013",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "4P3gDYOHTPQtfBAF80iwt8",
+          "title": "Sure Shot - Remastered 2009",
+          "artists": "Beastie Boys"
+        },
+        {
+          "id": "6px1KhTqAfxdcF6A1JGSpx",
+          "title": "Bull In The Heather",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "59FwEQpuagQZQVP71h9OIq",
+          "title": "March Of The Pigs",
+          "artists": "Nine Inch Nails"
+        },
+        {
+          "id": "6VoIBz0VhCyz7OdEoRYDiA",
+          "title": "Say It Ain't So - Original Mix",
+          "artists": "Weezer"
+        },
+        {
+          "id": "348bhxVSN8fGmzsSnpSlQy",
+          "title": "Gimme the Loot - 2005 Remaster",
+          "artists": "The Notorious B.I.G."
+        },
+        {
+          "id": "7BOw93TggSWAsHjZOiJojz",
+          "title": "Range Life",
+          "artists": "Pavement"
+        },
+        {
+          "id": "6XOINCZBv8Q7RXgNNiTwIN",
+          "title": "A Girl Like You",
+          "artists": "Edwyn Collins"
+        },
+        {
+          "id": "32XQ4QT6Pz0ld6Ev0KDI3V",
+          "title": "I Let Love In - 2011 Remastered Version",
+          "artists": "Nick Cave & The Bad Seeds"
+        },
+        {
+          "id": "6CHENx8iqzMwavTIz8s0gm",
+          "title": "Violet",
+          "artists": "Hole"
+        },
+        {
+          "id": "0xQ8FPMnv2mG9VhTgpxn2R",
+          "title": "Supernova",
+          "artists": "Liz Phair"
+        },
+        {
+          "id": "3R9bx0Y0yBLZqEvbhF7aV2",
+          "title": "Parklife - 2012 Remaster",
+          "artists": "Blur"
+        },
+        {
+          "id": "01OXa5tVuCssU6j8TY7kxr",
+          "title": "Words",
+          "artists": "Low"
+        },
+        {
+          "id": "4j3obTRIyR7QzvdeQz9vaO",
+          "title": "Babies",
+          "artists": "Pulp"
+        },
+        {
+          "id": "2audnG64ggVIYMaKsqA1ot",
+          "title": "Supersonic (Remastered)",
+          "artists": "Oasis"
+        },
+        {
+          "id": "56SkdBKyR2zOkjk6wVFI9s",
+          "title": "Possum Kingdom",
+          "artists": "Toadies"
+        },
+        {
+          "id": "7jzYeq5zKzb5Lt0VyBcxC2",
+          "title": "Stage",
+          "artists": "Live"
+        },
+        {
+          "id": "6xUMt58RCX98m7g0KcMwAS",
+          "title": "Feel the Pain",
+          "artists": "Dinosaur Jr."
+        }
+      ]
+    },
+    "1995": {
+      "playlistId": "3XoCIFP0ZBG8yfQHMPs3Yt",
+      "tracks": [
+        {
+          "id": "5NDEmY6IUl9fKEsZNcPKgo",
+          "title": "In the Blood",
+          "artists": "Better Than Ezra"
+        },
+        {
+          "id": "4z1fNs2B7KndCsvyPgrhq5",
+          "title": "Hyperballad",
+          "artists": "Björk"
+        },
+        {
+          "id": "6fRLrrBdeLToeH30d2aCfA",
+          "title": "Judy Staring At The Sun",
+          "artists": "Catherine Wheel, Tanya Donelly"
+        },
+        {
+          "id": "2UE0bH8BiYQshqxrSpmHtn",
+          "title": "Southern Belle",
+          "artists": "Elliott Smith"
+        },
+        {
+          "id": "2ML8aCt0ZOWoeyt2BZW4pt",
+          "title": "Eye",
+          "artists": "Eve's Plum"
+        },
+        {
+          "id": "7bp5DfkdK1OAvNJ1U4HfDA",
+          "title": "Shadowboxin'",
+          "artists": "GZA, Method Man"
+        },
+        {
+          "id": "4IYKjN1DrYzxKXt0umJqsG",
+          "title": "I Got 5 On It",
+          "artists": "Luniz, Michael Marshall"
+        },
+        {
+          "id": "1iMiDCOk9e2yxwaM38Z346",
+          "title": "Radiation Ruling The Nation (Protection)",
+          "artists": "Massive Attack, Mad Professor, Tracey Thorn"
+        },
+        {
+          "id": "3Y8Ff1nH44jFywAtpgmleZ",
+          "title": "1979 - Remastered 2012",
+          "artists": "The Smashing Pumpkins"
+        },
+        {
+          "id": "4inXYz8i3xRpNbxZJ99Clo",
+          "title": "Sick of Myself",
+          "artists": "Matthew Sweet"
+        },
+        {
+          "id": "2FWmKZ3kNbVsKGhuNHsltW",
+          "title": "Brooklyn Zoo",
+          "artists": "Ol' Dirty Bastard"
+        },
+        {
+          "id": "0XgpiStoxq1IJncYlPrvZ5",
+          "title": "Runnin'",
+          "artists": "The Pharcyde"
+        },
+        {
+          "id": "48mJX8glOrQkrSdVBjc0Wb",
+          "title": "Down By The Water",
+          "artists": "PJ Harvey"
+        },
+        {
+          "id": "2fXKyAyPrEa24c6PJyqznF",
+          "title": "Common People - Full Length Version",
+          "artists": "Pulp"
+        },
+        {
+          "id": "37JISltgxizbDAyNEEqkTY",
+          "title": "Planet Telex",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "5NjIog0vXS0VBWa5a94vzJ",
+          "title": "Friends of P.",
+          "artists": "The Rentals"
+        },
+        {
+          "id": "0idCpkJ2pspfAILbanmERu",
+          "title": "Do You Know (What It Takes)",
+          "artists": "Robyn"
+        },
+        {
+          "id": "2G2WTsOil5zwdP9GnUOVws",
+          "title": "Becuz",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "02lTDOxHeXTHsdwXoz6lpC",
+          "title": "In the Meantime",
+          "artists": "Spacehog"
+        },
+        {
+          "id": "5BlmlqySQMeRvRm6YjhwyO",
+          "title": "French Disko",
+          "artists": "Stereolab"
+        },
+        {
+          "id": "3Ibp8EzUHLDgmj8nHC26Sm",
+          "title": "Suffocated Love",
+          "artists": "Tricky, Martina Topley-Bird"
+        },
+        {
+          "id": "3bUNyRrTFJDd4mqvUcb1Aa",
+          "title": "Born Slippy (Nuxx) - Radio Edit",
+          "artists": "Underworld"
+        },
+        {
+          "id": "0keRTgdGsbdzppVxqn30ex",
+          "title": "Feeling so Real",
+          "artists": "Moby"
+        },
+        {
+          "id": "6uQKuonTU8VKBz5SHZuQXD",
+          "title": "This Is How We Do It",
+          "artists": "Montell Jordan, Wino"
+        },
+        {
+          "id": "6SI4JD7iyQ0rrudhCNtMv0",
+          "title": "Ice Cream (feat. Ghostface Killah, Method Man & Cappadonna)",
+          "artists": "Raekwon, Ghostface Killah, Method Man, Cappadonna"
+        }
+      ]
+    },
+    "1996": {
+      "playlistId": "6JkFxXvXHPzkEfmZI0vcFb",
+      "tracks": [
+        {
+          "id": "6eoOaVsNyQUDYajnylh2y9",
+          "title": "The Stars Of Track And Field",
+          "artists": "Belle and Sebastian"
+        },
+        {
+          "id": "3aei1LDjspbt82vLTY93aW",
+          "title": "Nude As the News",
+          "artists": "Cat Power"
+        },
+        {
+          "id": "3QjQp2bfAvLTCSi8Zhzqis",
+          "title": "People of the Sun",
+          "artists": "Rage Against The Machine"
+        },
+        {
+          "id": "4uPi47C1WcnhIbvCx4zCu6",
+          "title": "Novocaine For The Soul",
+          "artists": "Eels"
+        },
+        {
+          "id": "5lpaTYULgbKAwtvpkPjyrZ",
+          "title": "Leave",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "772fNdMLi55Wd1aiSgGxPK",
+          "title": "Catapult",
+          "artists": "Counting Crows"
+        },
+        {
+          "id": "4p82pfEa4cayPqXLN6Rhzm",
+          "title": "Dramamine",
+          "artists": "Modest Mouse"
+        },
+        {
+          "id": "0qTGo5pcMfh47KJUALadW5",
+          "title": "Daytona 500 (feat. Raekwon & Cappadonna)",
+          "artists": "Ghostface Killah, Raekwon, Cappadonna"
+        },
+        {
+          "id": "0pwObEOHolQZSldJ2q1wpy",
+          "title": "Stinkfist",
+          "artists": "TOOL"
+        },
+        {
+          "id": "7GuLQiPvQbfzP0kqcvgIQQ",
+          "title": "Desperately Wanting",
+          "artists": "Better Than Ezra"
+        },
+        {
+          "id": "0uTZHMfFWsCDZgUbE1GE8Y",
+          "title": "Ladykillers",
+          "artists": "Lush"
+        },
+        {
+          "id": "7KvSuH86lIT2aTl9PBCAfd",
+          "title": "6 Underground",
+          "artists": "Sneaker Pimps"
+        },
+        {
+          "id": "71mNLAZsr1frFhpCa3JI8G",
+          "title": "Renee",
+          "artists": "Lost Boyz"
+        },
+        {
+          "id": "42y2MNoO4Tn1sF65vKV2U5",
+          "title": "The New Pollution",
+          "artists": "Beck"
+        },
+        {
+          "id": "2vfvGlqCB7oertO5VLE0sz",
+          "title": "ATLiens",
+          "artists": "Outkast"
+        },
+        {
+          "id": "2uWMj52ImAeeGQFJmVlU5H",
+          "title": "1nce Again (feat. Tammy Lucas) - Radio Version",
+          "artists": "A Tribe Called Quest, Tammy Lucas"
+        },
+        {
+          "id": "5hHdrN23SMuJkAsoyUcN24",
+          "title": "Danger - Original Mix",
+          "artists": "Blahzay Blahzay"
+        },
+        {
+          "id": "2rhHotHUkQTBUfpMVne5rZ",
+          "title": "Call the Doctor",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "1rJM37Dd4OcSJvzI84yCcP",
+          "title": "Fu-Gee-La",
+          "artists": "Fugees, Ms. Lauryn Hill, Wyclef Jean, Pras"
+        },
+        {
+          "id": "4YN94yxYWFfhk9YbmOIqR4",
+          "title": "Sucked Out",
+          "artists": "Superdrag"
+        },
+        {
+          "id": "6MdqqkQ8sSC0WB4i8PyRuQ",
+          "title": "No Diggity",
+          "artists": "Blackstreet, Dr. Dre, Queen Pen"
+        },
+        {
+          "id": "1iVdwLsbPsKnqUoZOWlEqv",
+          "title": "Cold Rock a Party",
+          "artists": "MC Lyte"
+        },
+        {
+          "id": "0n9D5BLKdwCbSOLWZISiZN",
+          "title": "Metronomic Underground",
+          "artists": "Stereolab"
+        },
+        {
+          "id": "4kaOmQm3EicdwWCbTydYIv",
+          "title": "NYC - 25",
+          "artists": "The Olivia Tremor Control"
+        },
+        {
+          "id": "7aQjPecQdIuNd1sz3KCDhD",
+          "title": "Lovefool",
+          "artists": "The Cardigans"
+        }
+      ]
+    },
+    "1997": {
+      "playlistId": "3G9T4n1G1AQWgMIWzkdiUA",
+      "tracks": [
+        {
+          "id": "0QUNsfM5lsFWRo46A39Rc2",
+          "title": "Red",
+          "artists": "12 RODS"
+        },
+        {
+          "id": "1id6H6vcwSB9GGv9NXh5cl",
+          "title": "Song 2 - 2012 Remaster",
+          "artists": "Blur"
+        },
+        {
+          "id": "3O1hpSOaJDW4SelgUG2XT3",
+          "title": "Love Sick",
+          "artists": "Bob Dylan"
+        },
+        {
+          "id": "20DcrlNK0NcRknbX4wcEO4",
+          "title": "Luchini AKA This Is It",
+          "artists": "Camp Lo"
+        },
+        {
+          "id": "1FNvrp5K02oThumS6gllzp",
+          "title": "Block Rockin' Beats",
+          "artists": "The Chemical Brothers"
+        },
+        {
+          "id": "0MyY4WcN7DIfbSmp5yej5z",
+          "title": "Da Funk",
+          "artists": "Daft Punk"
+        },
+        {
+          "id": "3XtkcPHbYX0BImTQLlbSVN",
+          "title": "Say Yes",
+          "artists": "Elliott Smith"
+        },
+        {
+          "id": "5UWwZ5lm5PKu6eKsHAGxOk",
+          "title": "Everlong",
+          "artists": "Foo Fighters"
+        },
+        {
+          "id": "7rirnJpDaADuZJsS8Y6Qmq",
+          "title": "Latyrx",
+          "artists": "Latyrx"
+        },
+        {
+          "id": "2WRzpLD8qDRrxMXc63E5WJ",
+          "title": "The Rain (Supa Dupa Fly)",
+          "artists": "Missy Elliott"
+        },
+        {
+          "id": "39CFOvYse9fcMhIwyS73Fl",
+          "title": "Into My Arms",
+          "artists": "Nick Cave & The Bad Seeds"
+        },
+        {
+          "id": "7KwZNVEaqikRSBSpyhXK2j",
+          "title": "Hypnotize - 2014 Remaster",
+          "artists": "The Notorious B.I.G."
+        },
+        {
+          "id": "47PSYUK5a0uR87DUc9NR2g",
+          "title": "Stereo",
+          "artists": "Pavement"
+        },
+        {
+          "id": "785Qya5mtMUwBQtuypVqrx",
+          "title": "All Mine",
+          "artists": "Portishead"
+        },
+        {
+          "id": "2fuYa3Lx06QQJAm0MjztKr",
+          "title": "Let Down",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "3ZQs8RHO3lPZoUwpavPENL",
+          "title": "Brown Paper Bag",
+          "artists": "Roni Size, Reprazent"
+        },
+        {
+          "id": "1WtpkJyC5UNqE4dC3iHplB",
+          "title": "One More Hour",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "0fOjUafaAhJV16oRBgCtz7",
+          "title": "Ladies and gentlemen we are floating in space",
+          "artists": "Spiritualized"
+        },
+        {
+          "id": "4TwaeQT1YTeBUBRB8NeSCo",
+          "title": "Summertime",
+          "artists": "The Sundays"
+        },
+        {
+          "id": "0iqkwcmrOSMoRDO2NZ5Hjx",
+          "title": "Bitter Sweet Symphony - Remastered 2016",
+          "artists": "The Verve"
+        },
+        {
+          "id": "4ACxa9buEUnOdYEoPcnMpi",
+          "title": "Your Woman",
+          "artists": "White Town"
+        },
+        {
+          "id": "3glqlA5qY3bbo8UaUDGPnw",
+          "title": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
+          "artists": "Wu-Tang Clan, Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah, Raekwon"
+        },
+        {
+          "id": "0Rr1IrRiPyCurxicOXwBhz",
+          "title": "My Little Corner of the World",
+          "artists": "Yo La Tengo"
+        },
+        {
+          "id": "1TfNHfBWSRibIvGBuuIA6S",
+          "title": "Diesel Power",
+          "artists": "The Prodigy"
+        },
+        {
+          "id": "7cz70nyRXlCJOE85whEkgU",
+          "title": "Flagpole Sitta",
+          "artists": "Harvey Danger"
+        }
+      ]
+    },
+    "1998": {
+      "playlistId": "029OPj0209SMlxxmjzMYRy",
+      "tracks": [
+        {
+          "id": "3bPSPTXcc8gB7NMOa0LDAo",
+          "title": "Jackie's Strength",
+          "artists": "Tori Amos"
+        },
+        {
+          "id": "5AMrnF761nziCWUfjBgRUI",
+          "title": "Waltz #2 (XO)",
+          "artists": "Elliott Smith"
+        },
+        {
+          "id": "67Hna13dNDkZvBpTXRIaOJ",
+          "title": "Teardrop",
+          "artists": "Massive Attack, Elizabeth Fraser"
+        },
+        {
+          "id": "2II03llydk4YnkBBvoYB3B",
+          "title": "Frozen",
+          "artists": "Madonna"
+        },
+        {
+          "id": "5bVOX6eyHsML2sB4aMlZEi",
+          "title": "Malibu",
+          "artists": "Hole"
+        },
+        {
+          "id": "6bVB2MGR7LcotAIB1vfpw6",
+          "title": "Ava Adore",
+          "artists": "The Smashing Pumpkins"
+        },
+        {
+          "id": "3vL9lPWBuv0ZR3c5YmdhDl",
+          "title": "Given to Fly",
+          "artists": "Pearl Jam"
+        },
+        {
+          "id": "1KNCpsUEi6VdDIBzZ1cMVd",
+          "title": "Kelly Watch the Stars",
+          "artists": "Air"
+        },
+        {
+          "id": "68lYnrHMQlCNmVpvyeVfrq",
+          "title": "Child Psychology",
+          "artists": "Black Box Recorder"
+        },
+        {
+          "id": "5tOjRq5shlEdm15nmJBq7Z",
+          "title": "Out Of My Head",
+          "artists": "Fastball"
+        },
+        {
+          "id": "48zajk3g8P3BMT7F9BbDoD",
+          "title": "He Got Game",
+          "artists": "Public Enemy, Stephen Stills"
+        },
+        {
+          "id": "7ItpUlCUwTRyiXZ0YclPQ7",
+          "title": "Dry the Rain",
+          "artists": "The Beta Band"
+        },
+        {
+          "id": "5DZ4M3yMat79ok25rZHuA9",
+          "title": "Olson",
+          "artists": "Boards of Canada"
+        },
+        {
+          "id": "0uEp9E98JB5awlA084uaIg",
+          "title": "Doo Wop (That Thing)",
+          "artists": "Ms. Lauryn Hill"
+        },
+        {
+          "id": "0shK5iZQppbHPQYiy60xs9",
+          "title": "Rosa Parks",
+          "artists": "Outkast"
+        },
+        {
+          "id": "5mxVKAuunOKqcBfR5ivbRf",
+          "title": "Respiration",
+          "artists": "Black Star, Common"
+        },
+        {
+          "id": "5Qhy5MYSkAMRVgTrABOlp7",
+          "title": "Cross Bones Style",
+          "artists": "Cat Power"
+        },
+        {
+          "id": "3IWUCuJ19dmUhddJAEZddx",
+          "title": "Ghost",
+          "artists": "Neutral Milk Hotel"
+        },
+        {
+          "id": "6lquLzGE5CRoq2htyr2QGS",
+          "title": "Random Rules",
+          "artists": "Silver Jews"
+        },
+        {
+          "id": "5KgBcFl3sjhGTa5PStoHMp",
+          "title": "Rockafeller Skank",
+          "artists": "Fatboy Slim"
+        },
+        {
+          "id": "303ccTay2FiDTZ9fZ2AdBt",
+          "title": "Music Sounds Better With You",
+          "artists": "Stardust, Benjamin Diamond, Alan Braxe, Thomas Bangalter"
+        },
+        {
+          "id": "0jU2M7YTqWH5xKr7qO7vY5",
+          "title": "Daysleeper - Remastered 2023",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "1DVjYdo2qRk9R5FiBaayNi",
+          "title": "Johnny Feelgood",
+          "artists": "Liz Phair"
+        },
+        {
+          "id": "0Ui05Ov0s4PnRc4JI3Pilg",
+          "title": "My Favourite Game",
+          "artists": "The Cardigans"
+        },
+        {
+          "id": "5fpizYGbi5IQoEraj6FP0R",
+          "title": "Intergalactic - Remastered 2009",
+          "artists": "Beastie Boys"
+        }
+      ]
+    },
+    "1999": {
+      "playlistId": "5AeSuc1QmTht2zZ3RlNrKZ",
+      "tracks": [
+        {
+          "id": "12V09y1B0z31OH9rvH3pMH",
+          "title": "A Spoonful Weighs a Ton - 2017 Remaster",
+          "artists": "The Flaming Lips"
+        },
+        {
+          "id": "1ELY3KTgI83N1k0xXqabMe",
+          "title": "Sexx Laws",
+          "artists": "Beck"
+        },
+        {
+          "id": "3aN2V18W3EiW7eg5tHALpF",
+          "title": "We're In This Together",
+          "artists": "Nine Inch Nails"
+        },
+        {
+          "id": "1MQTmpYOZ6fcMQc56Hdo7T",
+          "title": "Sleep Now In the Fire",
+          "artists": "Rage Against The Machine"
+        },
+        {
+          "id": "6wNwHBUjsessjRioNVFbaO",
+          "title": "Sour Girl",
+          "artists": "Stone Temple Pilots"
+        },
+        {
+          "id": "3m1JFLpKLYgMi1jf6Bu16P",
+          "title": "Let Forever Be",
+          "artists": "The Chemical Brothers, Noel Gallagher"
+        },
+        {
+          "id": "6YYd5MLpu45J0uLrMdivF7",
+          "title": "Got Your Money (feat. Kelis)",
+          "artists": "Ol' Dirty Bastard, Kelis"
+        },
+        {
+          "id": "4anqYZt4APNlFwQixpbdZR",
+          "title": "Da Rockwilder",
+          "artists": "Method Man, Redman"
+        },
+        {
+          "id": "3Yb4Cvo8kbJi3aBBhiAFdU",
+          "title": "The Things We Did and Didn't Do",
+          "artists": "The Magnetic Fields"
+        },
+        {
+          "id": "3GlYv2EDC7EBoslv2dOE0G",
+          "title": "Hold On",
+          "artists": "Tom Waits"
+        },
+        {
+          "id": "2Kg3VEKPov0pKM5vuVcqcX",
+          "title": "Labour of Love - 2014 Remaster",
+          "artists": "Frente!"
+        },
+        {
+          "id": "4otN5ZboeohAAAXaGnLCIH",
+          "title": "Hot Topic",
+          "artists": "Le Tigre"
+        },
+        {
+          "id": "25P6D08VANHBapCM9pvgEO",
+          "title": "Why Does My Heart Feel So Bad?",
+          "artists": "Moby"
+        },
+        {
+          "id": "5Qwh0gN4af7LG5xhmabTC8",
+          "title": "All You Want",
+          "artists": "Dido"
+        },
+        {
+          "id": "7nDtDxsKJ3fho8xEmU65JJ",
+          "title": "Breathe And Stop",
+          "artists": "Q-Tip"
+        },
+        {
+          "id": "4LwU4Vp6od3Sb08CsP99GC",
+          "title": "The Next Episode",
+          "artists": "Dr. Dre, Snoop Dogg"
+        },
+        {
+          "id": "5OQsiBsky2k2kDKy2bX2eT",
+          "title": "Learn to Fly",
+          "artists": "Foo Fighters"
+        },
+        {
+          "id": "55gISxV37mffOW2DbSskT3",
+          "title": "Starálfur",
+          "artists": "Sigur Rós"
+        },
+        {
+          "id": "1UmmSKPdCtBuJsmbZG9G3u",
+          "title": "Fast As You Can",
+          "artists": "Fiona Apple"
+        },
+        {
+          "id": "2UbP7JjlBgmiPmkUkR7eSF",
+          "title": "Stolen Car",
+          "artists": "Beth Orton"
+        },
+        {
+          "id": "4pdLZsxq0y5oJDb6Cxlokw",
+          "title": "You Got Me",
+          "artists": "The Roots, Tariq Trotter, Erykah Badu, Eve"
+        },
+        {
+          "id": "5l7icgnicl7JToRxPkSXyy",
+          "title": "The Truth",
+          "artists": "Handsome Boy Modeling School, Dan The Automator, Prince Paul, Róisín Murphy, J-Live"
+        },
+        {
+          "id": "4agp6oHofabdUedr0B1krj",
+          "title": "Steal My Sunshine",
+          "artists": "LEN"
+        },
+        {
+          "id": "44FoVkKuRKC5Vqkao4g0tZ",
+          "title": "Gyroscope",
+          "artists": "Dismemberment Plan"
+        },
+        {
+          "id": "0uNAoB7FnG3Riz4BmZfB6D",
+          "title": "Soon",
+          "artists": "Low"
+        }
+      ]
+    },
+    "2000": {
+      "playlistId": "53NgGmQ7ThkhU0Nv3KUewI",
+      "tracks": [
+        {
+          "id": "0Vl7qwKGWX5WLhznpC4hRu",
+          "title": "Optimistic",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "1pPqVrG2RCHXx81Aw4xp99",
+          "title": "Gravity Rides Everything",
+          "artists": "Modest Mouse"
+        },
+        {
+          "id": "3vNFsxBbA4dPkymPF5Jm1b",
+          "title": "This Mess We're In",
+          "artists": "PJ Harvey, Thom Yorke"
+        },
+        {
+          "id": "5KDNFlHAdDJ84fhK27c35X",
+          "title": "Judith",
+          "artists": "A Perfect Circle"
+        },
+        {
+          "id": "3wMUvT6eIw2L5cZFG1yH9j",
+          "title": "Country Grammar (Hot Shit)",
+          "artists": "Nelly"
+        },
+        {
+          "id": "7K1HpRlFM1G203S5XvpmpA",
+          "title": "The Glow",
+          "artists": "The Microphones"
+        },
+        {
+          "id": "6MTxnBocmhJRRJx4xQIYJE",
+          "title": "Cherchez LaGhost",
+          "artists": "Ghostface Killah, U-God"
+        },
+        {
+          "id": "7kcNhA0sxxLXBJOIYm6NFu",
+          "title": "Gravel Pit (feat. RZA, Method Man, Ghostface Killah, Raekwon & U-God)",
+          "artists": "Wu-Tang Clan, RZA, Method Man, Ghostface Killah, Raekwon, U-God"
+        },
+        {
+          "id": "5fZjSIReYPJIPwpvrsyW3o",
+          "title": "Woah! - Radio Mix",
+          "artists": "Black Rob"
+        },
+        {
+          "id": "5uHnDHx5J48FdT6FjwA7Z8",
+          "title": "Pure Shores",
+          "artists": "All Saints"
+        },
+        {
+          "id": "3AJwUDP919kvQ9QcozQPxg",
+          "title": "Yellow",
+          "artists": "Coldplay"
+        },
+        {
+          "id": "3yfqSUWxFvZELEM4PmlwIR",
+          "title": "The Real Slim Shady",
+          "artists": "Eminem"
+        },
+        {
+          "id": "1RwDsaft1szD0FO3DVEtaT",
+          "title": "The Lost Art Of Keeping A Secret",
+          "artists": "Queens of the Stone Age"
+        },
+        {
+          "id": "3mPJHVpCvzykoxmWnYdnFq",
+          "title": "Frontier Psychiatrist",
+          "artists": "The Avalanches"
+        },
+        {
+          "id": "3WibbMr6canxRJXhNtAvLU",
+          "title": "B.O.B. - Bombs Over Baghdad",
+          "artists": "Outkast"
+        },
+        {
+          "id": "39GBFwBe4GGk7i3yr3F46P",
+          "title": "3030",
+          "artists": "Deltron 3030, Del The Funky Homosapien, Dan The Automator, Kid Koala"
+        },
+        {
+          "id": "4QYg0pee8jcGTHC3Uh2Vii",
+          "title": "One Armed Scissor",
+          "artists": "At the Drive-In"
+        },
+        {
+          "id": "5HaOloWn9b5PJtxvE6Vtke",
+          "title": "Colorbars",
+          "artists": "Elliott Smith"
+        },
+        {
+          "id": "0ja5aZwGxpdDT1sKNL67t7",
+          "title": "All Hands on the Bad One",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "2omiaJwimfJMlcM6yw2YmA",
+          "title": "Come On Let's Go",
+          "artists": "Broadcast"
+        },
+        {
+          "id": "7kkDvoGvoVPtLD3Ef61E62",
+          "title": "There's Too Much Love",
+          "artists": "Belle and Sebastian"
+        },
+        {
+          "id": "6njOpyqzofdLnjDrM6xfSv",
+          "title": "So You'll Aim Toward the Sky",
+          "artists": "Grandaddy"
+        },
+        {
+          "id": "6xxXrNJnnsQNLdgNk8S4y8",
+          "title": "Hate To Say I Told You So",
+          "artists": "The Hives"
+        },
+        {
+          "id": "3C41w4YPDCfGuxzQNjvk8O",
+          "title": "Quality Control",
+          "artists": "Jurassic 5"
+        }
+      ]
+    },
+    "2001": {
+      "playlistId": "74S2LRqiVB7dTLc3qDrzAL",
+      "tracks": [
+        {
+          "id": "0JCIxmfGQLtGSsmNaNJIXt",
+          "title": "The Celibate Life",
+          "artists": "The Shins"
+        },
+        {
+          "id": "6gU7ohksNd6LsEJMWfDRhp",
+          "title": "Soma",
+          "artists": "The Strokes"
+        },
+        {
+          "id": "1fCs3LuvVDSnLss2Dy7vt8",
+          "title": "Uzi (Pinky Ring) (feat. U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa & GZA)",
+          "artists": "Wu-Tang Clan, U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa, GZA"
+        },
+        {
+          "id": "55mJleti2WfWEFNFcBduhc",
+          "title": "Schism",
+          "artists": "TOOL"
+        },
+        {
+          "id": "3nev0RUKFYSUJNy15MOj5d",
+          "title": "Weeds",
+          "artists": "Pulp"
+        },
+        {
+          "id": "6zsk6uF3MxfIeHPlubKBvR",
+          "title": "Get Ur Freak On",
+          "artists": "Missy Elliott"
+        },
+        {
+          "id": "6GG73Jik4jUlQCkKg9JuGO",
+          "title": "The Middle",
+          "artists": "Jimmy Eat World"
+        },
+        {
+          "id": "2ewjgFhHDTE8BkV8kzpiX2",
+          "title": "Dead Leaves and the Dirty Ground",
+          "artists": "The White Stripes"
+        },
+        {
+          "id": "4MY8NLRDPXKn6CCsGLweLL",
+          "title": "So Easy",
+          "artists": "Röyksopp"
+        },
+        {
+          "id": "135lkyQRwFlWfmHjJTxtld",
+          "title": "Takeover",
+          "artists": "JAŸ-Z"
+        },
+        {
+          "id": "4KXnXMoNxZjcvpT7wZWCmy",
+          "title": "July",
+          "artists": "Low"
+        },
+        {
+          "id": "4rNf8qc1K6xSlj81kBN5Fx",
+          "title": "19-2000 - Soulchild Remix",
+          "artists": "Gorillaz"
+        },
+        {
+          "id": "5bnX0zhTVV1H5gNVjVhgaL",
+          "title": "Hidden Place",
+          "artists": "Björk"
+        },
+        {
+          "id": "1OKZqBMP3JK8LkpXVKNEr5",
+          "title": "Iron Galaxy",
+          "artists": "Cannibal Ox"
+        },
+        {
+          "id": "0wZurfElW3yOHscb38vBL8",
+          "title": "Whatever Happened To My Rock 'N' Roll (Punk Song)",
+          "artists": "Black Rebel Motorcycle Club"
+        },
+        {
+          "id": "186hvCTyrni4KT9nwIQ7zS",
+          "title": "Superheroes",
+          "artists": "Daft Punk"
+        },
+        {
+          "id": "3cJh89D0za2SW705fNBo3b",
+          "title": "Where's Your Head At",
+          "artists": "Basement Jaxx"
+        },
+        {
+          "id": "32kmXl5F8I3XDVKNfwwM4J",
+          "title": "Imitation Of Life",
+          "artists": "R.E.M."
+        },
+        {
+          "id": "2mPMFJvQ0v27gVqe5b6nDn",
+          "title": "Hash Pipe",
+          "artists": "Weezer"
+        },
+        {
+          "id": "2Qhkk4hPdkt3NIVtiT8QEe",
+          "title": "Headless Horseman",
+          "artists": "The Microphones"
+        },
+        {
+          "id": "5uUVIk6cfBySguzFJVav95",
+          "title": "Jenny & The Ess-Dog",
+          "artists": "Stephen Malkmus"
+        },
+        {
+          "id": "10jl9GxEKfVn0nk8vc1r7V",
+          "title": "The Dark Is Rising",
+          "artists": "Mercury Rev"
+        },
+        {
+          "id": "0d38qJacxkHSfe8ar7pZPd",
+          "title": "We Live NE Of Compton",
+          "artists": "Liars"
+        },
+        {
+          "id": "7MoKXLQeI0Bh2QodCjDO4K",
+          "title": "Can't Get You out of My Head",
+          "artists": "Kylie Minogue"
+        },
+        {
+          "id": "1xycbNUxPYyi3qX34wNTD0",
+          "title": "My Friend Dario",
+          "artists": "Vitalic"
+        }
+      ]
+    },
+    "2002": {
+      "playlistId": "40p8uLDNAmo4D2UgggHRwB",
+      "tracks": [
+        {
+          "id": "5y4MDqm1PYa2T1vT6vboJI",
+          "title": "Radio Cure",
+          "artists": "Wilco"
+        },
+        {
+          "id": "4SRk9ehxeCp0uPDaMrwVqK",
+          "title": "Baudelaire",
+          "artists": "...And You Will Know Us by the Trail of Dead"
+        },
+        {
+          "id": "081MBpHg0quLggkWgBQUcS",
+          "title": "The Empty Page",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "5GRUh9bB6hpblgWc0hP8A3",
+          "title": "Pretty Girls",
+          "artists": "Neko Case"
+        },
+        {
+          "id": "0XMcKp68YBAkZd3BqiXS2T",
+          "title": "Disposable Parts",
+          "artists": "Enon"
+        },
+        {
+          "id": "7iLaibZsF5O0hA0UO6OiVy",
+          "title": "Canada",
+          "artists": "Low"
+        },
+        {
+          "id": "79hW2iblmoT71PtfEj40Rn",
+          "title": "Time For Heroes",
+          "artists": "The Libertines"
+        },
+        {
+          "id": "1aDAaV3x32lHhnxQLlkwNt",
+          "title": "The She",
+          "artists": "The Breeders"
+        },
+        {
+          "id": "0JQJT3oBJcxjUNLReyDAcp",
+          "title": "Walking With Thee",
+          "artists": "Clinic"
+        },
+        {
+          "id": "754cLTbgHNJDIKDxjDsMkI",
+          "title": "Untitled",
+          "artists": "Interpol"
+        },
+        {
+          "id": "10fItzbnj7iBE2nQaShNnu",
+          "title": "Grindin'",
+          "artists": "Clipse"
+        },
+        {
+          "id": "5kTBiVnjq9xKmZL9dNs8zL",
+          "title": "Come With Us",
+          "artists": "The Chemical Brothers"
+        },
+        {
+          "id": "2JGIQozZVeQNqWpPFfVaI4",
+          "title": "Unsleeping",
+          "artists": "Ms. John Soda"
+        },
+        {
+          "id": "0BCPKOYdS2jbQ8iyB56Zns",
+          "title": "Clocks",
+          "artists": "Coldplay"
+        },
+        {
+          "id": "1mRIDMnEjpjsbvVlVLiblu",
+          "title": "Keine Melodien",
+          "artists": "Peaches"
+        },
+        {
+          "id": "6NvRxjfYkkT2SpirAlmsjH",
+          "title": "No One Knows",
+          "artists": "Queens of the Stone Age"
+        },
+        {
+          "id": "2DFRFqWNahKtFD112H2iEZ",
+          "title": "Do You Realize??",
+          "artists": "The Flaming Lips"
+        },
+        {
+          "id": "2k6TManBkFAweRUCH6jYny",
+          "title": "The Way We Get By",
+          "artists": "Spoon"
+        },
+        {
+          "id": "79pY2Z5eFvXMt9bSdHLrnA",
+          "title": "I Am Mine",
+          "artists": "Pearl Jam"
+        },
+        {
+          "id": "5AsqwkDeT5lnbVDioY6Ool",
+          "title": "One Beat",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "0KFsVUp01T2sCFnoP53Yuy",
+          "title": "Bang",
+          "artists": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": "331TLlSwGbVcNKJMkylNbK",
+          "title": "Untitled #1 - Vaka",
+          "artists": "Sigur Rós"
+        },
+        {
+          "id": "67vYdAAM3oGsEImCRfbtsF",
+          "title": "Times Like These",
+          "artists": "Foo Fighters"
+        },
+        {
+          "id": "6FuAe03bP2SQT4TCDKhuGx",
+          "title": "Lapdance",
+          "artists": "N.E.R.D, Vita, Lee Harvey"
+        },
+        {
+          "id": "2bWn5JYKoUaus3u7z6DFea",
+          "title": "What Used To Be French",
+          "artists": "Secret Machines"
+        }
+      ]
+    },
+    "2003": {
+      "playlistId": "1ClVgqajMSvJN5naaiShnL",
+      "tracks": [
+        {
+          "id": "2x24uEfWPzORC6r7FdjBFz",
+          "title": "Young Liars",
+          "artists": "TV On The Radio"
+        },
+        {
+          "id": "5RfHPp6rqTv0uNffw10xG4",
+          "title": "Mine's Not a High Horse",
+          "artists": "The Shins"
+        },
+        {
+          "id": "2vvEXLkiSPEWHhyWLQHk2Y",
+          "title": "Vito's Ordination Song",
+          "artists": "Sufjan Stevens"
+        },
+        {
+          "id": "3Y79ZkD0H0AkHukqfSMkbg",
+          "title": "Good Woman",
+          "artists": "Cat Power"
+        },
+        {
+          "id": "6EuGf9ZfK9CcSoq2M0SYto",
+          "title": "What Your Soul Sings",
+          "artists": "Massive Attack, Sinéad O'Connor"
+        },
+        {
+          "id": "0McxNzcP8DB1VKDLqZ0T3h",
+          "title": "Crazy Love",
+          "artists": "Colder"
+        },
+        {
+          "id": "3vyKSb9sAdXl0kQ1KnS9fY",
+          "title": "Emerge",
+          "artists": "Fischerspooner"
+        },
+        {
+          "id": "41ShuPsyA70IyILCLzanJ9",
+          "title": "I've Lived on a Dirt Road All My Life",
+          "artists": "Caribou"
+        },
+        {
+          "id": "0yxgGfzCSolvyRgtLlQjrH",
+          "title": "Ca. Viewing",
+          "artists": "Erase Errata"
+        },
+        {
+          "id": "1OnvHAiH0cSoaefsPOoQwc",
+          "title": "Manila - Headman Mix",
+          "artists": "Seelenluft"
+        },
+        {
+          "id": "0hDQV9X1Da5JrwhK8gu86p",
+          "title": "Maps",
+          "artists": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": "57Xjny5yNzAcsxnusKmAfA",
+          "title": "Reptilia",
+          "artists": "The Strokes"
+        },
+        {
+          "id": "0Ieu0qvlfjDiMBkykPttfz",
+          "title": "The Clap",
+          "artists": "The Unicorns"
+        },
+        {
+          "id": "5Plx6OhvSukqCRdZ52wUXz",
+          "title": "Farewell Transmission",
+          "artists": "Songs: Ohia, Jason Molina"
+        },
+        {
+          "id": "1SyOjtLqqqk2AVLZnRI3bk",
+          "title": "Strict Machine",
+          "artists": "Goldfrapp"
+        },
+        {
+          "id": "6yQOctVCbOY5ECT5kgAt0R",
+          "title": "If You Find Yourself Caught In Love",
+          "artists": "Belle and Sebastian"
+        },
+        {
+          "id": "5Y8sPOwWupGEGM7ifBDR7F",
+          "title": "Run Into Flowers",
+          "artists": "M83"
+        },
+        {
+          "id": "32dgxT0S7Tv5p83DgT6iCT",
+          "title": "Backdrifts",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "51YTlhnWG8YT8YuPIxu4WB",
+          "title": "You've Got Her In Your Pocket",
+          "artists": "The White Stripes"
+        },
+        {
+          "id": "0AOeHlRaiVoSMjjoB5fB5i",
+          "title": "Fix Up, Look Sharp",
+          "artists": "Dizzee Rascal"
+        },
+        {
+          "id": "7MgTipXW8eSBbTiGIEv8A5",
+          "title": "Where Have All the Rude Boys Gone",
+          "artists": "Ted Leo and the Pharmacists"
+        },
+        {
+          "id": "1gkhXnZAFfaHB78oV8pDXV",
+          "title": "From Blown Speakers",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "1bKffBd9glU944RMrWjjky",
+          "title": "House Of Jealous Lovers",
+          "artists": "The Rapture"
+        },
+        {
+          "id": "0VXp4zDspR993l2hIKW17g",
+          "title": "Anthems For A Seventeen Year-Old Girl",
+          "artists": "Broken Social Scene"
+        },
+        {
+          "id": "4LmzPJDil70LpiApWfOI6O",
+          "title": "Milkshake",
+          "artists": "Kelis"
+        }
+      ]
+    },
+    "2004": {
+      "playlistId": "60u1BT1mJQhys0fZtnLRcK",
+      "tracks": [
+        {
+          "id": "1mS5iPeIAMITH5U1kcB4MO",
+          "title": "Staring at the Sun",
+          "artists": "TV On The Radio"
+        },
+        {
+          "id": "1th3G3okofWlvGWAAR7Y4V",
+          "title": "School Spirit",
+          "artists": "Kanye West"
+        },
+        {
+          "id": "2YIOkqKgg3jZEFoL5qcEPT",
+          "title": "The Rat",
+          "artists": "The Walkmen"
+        },
+        {
+          "id": "0xOeB16JDbBJBJKSdHbElT",
+          "title": "Rebellion (Lies)",
+          "artists": "Arcade Fire"
+        },
+        {
+          "id": "4bAKDSZrZhnyVu3IcjAYLF",
+          "title": "I Luv the Valley OH!",
+          "artists": "Xiu Xiu"
+        },
+        {
+          "id": "4SIGlMRSgCYrMFpvPWKiii",
+          "title": "Paper Cup Exit",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "0fKNI2Xd1v3mjN7GscMZAv",
+          "title": "I Thought You Were My Boyfriend",
+          "artists": "The Magnetic Fields"
+        },
+        {
+          "id": "7i7UIbm5E0DD7aSOYvwp2v",
+          "title": "Oh (feat. Ludacris)",
+          "artists": "Ciara, Ludacris"
+        },
+        {
+          "id": "3xrn9i8zhNZsTtcoWgQEAd",
+          "title": "Since U Been Gone",
+          "artists": "Kelly Clarkson"
+        },
+        {
+          "id": "4O0fZnRg1FiRNPBZiAOLwB",
+          "title": "Me and Guiliani Down by the School Yard - A True Story",
+          "artists": "!!!"
+        },
+        {
+          "id": "4iMRg0QlDbAr6zcPvthSxj",
+          "title": "Ladyflash",
+          "artists": "The Go! Team"
+        },
+        {
+          "id": "0Xqse1TYQkvmLaYlHckL9H",
+          "title": "On Parade",
+          "artists": "Electrelane"
+        },
+        {
+          "id": "6hajWiBakHqHDOYrczyTkr",
+          "title": "Length of Love",
+          "artists": "Interpol"
+        },
+        {
+          "id": "4mk0Djb3vQY1IDjYk15hSR",
+          "title": "The Road Leads Where It's Led",
+          "artists": "Secret Machines"
+        },
+        {
+          "id": "4m8ttWM8IKXyhpv89E867J",
+          "title": "Cherry Blossom Girl",
+          "artists": "Air"
+        },
+        {
+          "id": "1lIhjpG43IG5b6Ks7Ni6iT",
+          "title": "Without Msg I Am Nothing",
+          "artists": "Mclusky"
+        },
+        {
+          "id": "5UBqe2ZSMZYybVMOsS7Alk",
+          "title": "Endless Factories",
+          "artists": "Division Of Laura Lee"
+        },
+        {
+          "id": "0YPDp1KIxVLTdh3vnvk6wd",
+          "title": "C'mon C'mon",
+          "artists": "The Von Bondies"
+        },
+        {
+          "id": "10s7SDz0eBQVFRFu644GeH",
+          "title": "Ever Somber",
+          "artists": "dälek"
+        },
+        {
+          "id": "3ndnCzbPRmAKpDdZyb8jIE",
+          "title": "Grin & Bear",
+          "artists": "Lali Puna"
+        },
+        {
+          "id": "04EFBtzCTtg1SWQPK2HikB",
+          "title": "Chewing Gum - Vocal Mix",
+          "artists": "Annie"
+        },
+        {
+          "id": "0tm9m5pv01Toj3nt3LESdZ",
+          "title": "Misery Is a Butterfly",
+          "artists": "Blonde Redhead"
+        },
+        {
+          "id": "7h0jDykw4RpWFqUhZQuElW",
+          "title": "Darts Of Pleasure",
+          "artists": "Franz Ferdinand"
+        },
+        {
+          "id": "0YlxU7N4EG9zb0COyxPNMg",
+          "title": "Chris Michaels",
+          "artists": "The Fiery Furnaces"
+        },
+        {
+          "id": "003vvx7Niy0yvhvHt4a68B",
+          "title": "Mr. Brightside",
+          "artists": "The Killers"
+        }
+      ]
+    },
+    "2005": {
+      "playlistId": "498q4ir0TofGI5JqbxMr3x",
+      "tracks": [
+        {
+          "id": "57QpgJA1yNN5DyhYaN4x4p",
+          "title": "Losing My Edge",
+          "artists": "LCD Soundsystem"
+        },
+        {
+          "id": "43pZjkhBz717I5X8xepfwm",
+          "title": "My Friend Dario",
+          "artists": "Vitalic"
+        },
+        {
+          "id": "3WBIrVpJjV6fthZLrlRNVL",
+          "title": "My Mathematical Mind",
+          "artists": "Spoon"
+        },
+        {
+          "id": "1u1YU1LE0FWHFOHpR2iXua",
+          "title": "Casimir Pulaski Day",
+          "artists": "Sufjan Stevens"
+        },
+        {
+          "id": "01MBhRpvFkbeRwAp7gcF2W",
+          "title": "E-Pro",
+          "artists": "Beck"
+        },
+        {
+          "id": "0vek0LcCbvcMtj0GkXMMJy",
+          "title": "Do You Want To",
+          "artists": "Franz Ferdinand"
+        },
+        {
+          "id": "5ugzDiilhy6ILKmKfhEzd7",
+          "title": "The Hand That Feeds",
+          "artists": "Nine Inch Nails"
+        },
+        {
+          "id": "31rk2z6XreitvUgfJURMil",
+          "title": "The Corner",
+          "artists": "Common, The Last Poets"
+        },
+        {
+          "id": "4bz7uB4edifWKJXSDxwHcs",
+          "title": "Galvanize",
+          "artists": "The Chemical Brothers, Q-Tip"
+        },
+        {
+          "id": "1FNTCQpztf5PzqbwiyRGjG",
+          "title": "In This Home on Ice",
+          "artists": "Clap Your Hands Say Yeah"
+        },
+        {
+          "id": "0UaMYEvWZi0ZqiDOoHU3YI",
+          "title": "Lose Control (feat. Ciara & Fat Man Scoop)",
+          "artists": "Missy Elliott, Ciara, Fatman Scoop"
+        },
+        {
+          "id": "24PWKmemCvqfyVXODhoKHW",
+          "title": "Sittin' Sidewayz (feat. Big Pokey)",
+          "artists": "Paul Wall, Big Pokey"
+        },
+        {
+          "id": "5JfrAbqlA9nppd2Qzh6Nxx",
+          "title": "The Infanta",
+          "artists": "The Decemberists"
+        },
+        {
+          "id": "24HPkbkXJsIFC4eyg63zgQ",
+          "title": "Wraith Pinned to the Mist and Other Games",
+          "artists": "of Montreal"
+        },
+        {
+          "id": "2ipfJdlc1OqoKRUSsjfpDw",
+          "title": "You Are A Runner And I Am My Father's Son",
+          "artists": "Wolf Parade"
+        },
+        {
+          "id": "5RjbFGeWVsCpw8EcE8OrvZ",
+          "title": "Gone",
+          "artists": "Kanye West, Consequence, Cam'ron"
+        },
+        {
+          "id": "3rN3BHWnlvRkXIhE7KGbSU",
+          "title": "Bees",
+          "artists": "Caribou"
+        },
+        {
+          "id": "6Wce7iw9Mnr8LQFT0OsT5i",
+          "title": "Rollercoaster",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "5Vt0rEdLdrCMajmncRqT4S",
+          "title": "Hoppípolla - 2025 Remaster",
+          "artists": "Sigur Rós"
+        },
+        {
+          "id": "2eTac8uKjsZ5EWO6d0tuVp",
+          "title": "Ride a White Horse",
+          "artists": "Goldfrapp"
+        },
+        {
+          "id": "1mnqraQ8oV8MX92rdOFLWW",
+          "title": "1 Thing",
+          "artists": "Amerie"
+        },
+        {
+          "id": "6mlymjDyNTiDbD4GTxK0Tt",
+          "title": "What I Say And What I Mean",
+          "artists": "The Like"
+        },
+        {
+          "id": "2YxXuCdbUpil3P7tRjhW1t",
+          "title": "Banquet",
+          "artists": "Bloc Party"
+        },
+        {
+          "id": "0Uk9wK9ykfIwlEMfWUj31q",
+          "title": "Tropical Ice-land",
+          "artists": "The Fiery Furnaces"
+        },
+        {
+          "id": "36Ad2OVdv1nLKlrSrgt9OU",
+          "title": "Silver Rider",
+          "artists": "Low"
+        }
+      ]
+    },
+    "2006": {
+      "playlistId": "19x5Oaw46763roZwayghhO",
+      "tracks": [
+        {
+          "id": "1VvyRNSVBKuvENwpyiVlBU",
+          "title": "Elephant Gun",
+          "artists": "Beirut"
+        },
+        {
+          "id": "3RCj5fG55qjtmnEML1gpnA",
+          "title": "Over And Over",
+          "artists": "Hot Chip"
+        },
+        {
+          "id": "52v31z8rynSyCaQ9NiB6v9",
+          "title": "The Other Side of Mt. Heart Attack",
+          "artists": "Liars"
+        },
+        {
+          "id": "03wKMRNYVvw6s9nm4I4jUS",
+          "title": "Wolf Like Me",
+          "artists": "TV On The Radio"
+        },
+        {
+          "id": "24TJeVSCoYITxaqXqDfpWE",
+          "title": "Rick Rubin",
+          "artists": "Spank Rock"
+        },
+        {
+          "id": "6YilaEeX6ZzGRSITSwI7Sq",
+          "title": "Money Matters",
+          "artists": "The Rogers Sisters"
+        },
+        {
+          "id": "4lyV7BUIrW5XAP5rX0v3LQ",
+          "title": "Living Proof",
+          "artists": "Cat Power"
+        },
+        {
+          "id": "3ob9YMKcdE0IKNLCN6AFaO",
+          "title": "Act of the Apostle II",
+          "artists": "Belle and Sebastian"
+        },
+        {
+          "id": "76D83dghHeE2NFedPFD4tf",
+          "title": "What Goes Around.../...Comes Around (Interlude)",
+          "artists": "Justin Timberlake"
+        },
+        {
+          "id": "52PuLmsxTDOI2WAqpzYjoT",
+          "title": "Lloyd, I'm Ready To Be Heartbroken",
+          "artists": "Camera Obscura"
+        },
+        {
+          "id": "1UyKpCfcQZyaDxNfy8og9W",
+          "title": "The Crane Wife 3",
+          "artists": "The Decemberists"
+        },
+        {
+          "id": "0VQ3YgKa8I1AnocgtmQWOE",
+          "title": "They Took A Vote And Said No",
+          "artists": "Sunset Rubdown, Spencer Krug of Wolf Parade"
+        },
+        {
+          "id": "01kNWolJxECC64i6Ddn3aj",
+          "title": "A Venue Called Rubella",
+          "artists": "Swan Lake"
+        },
+        {
+          "id": "0x8AsvZvWejr7RwvMerxoy",
+          "title": "Reason To Believe",
+          "artists": "Dashboard Confessional"
+        },
+        {
+          "id": "3DiCOFDPnyUIU03qdmURN0",
+          "title": "Thursday",
+          "artists": "Asobi Seksu"
+        },
+        {
+          "id": "19iqWNzp5LwEdvntpEK8MP",
+          "title": "Steady, As She Goes",
+          "artists": "The Raconteurs"
+        },
+        {
+          "id": "2SZsqtAcbrluWuFDal9e4p",
+          "title": "You Are the Generation That Bought More Shoes and You Get What You Deserve",
+          "artists": "Johnny Boy"
+        },
+        {
+          "id": "6LhQNP3yh7vj1J4qZXKmwH",
+          "title": "Female Trance",
+          "artists": "First Nation"
+        },
+        {
+          "id": "5yWb2JejRqElK4e1xJoEaZ",
+          "title": "Reena",
+          "artists": "Sonic Youth"
+        },
+        {
+          "id": "5AwS3yu3w9BT2eHBMnFDLc",
+          "title": "Cheated Hearts",
+          "artists": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": "2YtjxB2AchCLWQiBH3Zzfk",
+          "title": "Anorak Christmas",
+          "artists": "Sally Shapiro"
+        },
+        {
+          "id": "2F38A3ce3ORI7tyi8IPdku",
+          "title": "Chinese New Year",
+          "artists": "Clipse"
+        },
+        {
+          "id": "1Jd9W7k8DTnBSovDSxK77n",
+          "title": "Let's Make Love and Listen to Death From Above",
+          "artists": "CSS"
+        },
+        {
+          "id": "2OD2gn76MbZTQnfvVpCUNq",
+          "title": "Tell Me When to Go (feat. Keak da Sneak)",
+          "artists": "E-40, Keak Da Sneak"
+        },
+        {
+          "id": "65dt3QxZB1ygfJbmWkJUg0",
+          "title": "Your Eyes Are Liars",
+          "artists": "Sound Team"
+        }
+      ]
+    },
+    "2007": {
+      "playlistId": "6L7gwRF3RyFr9GXMOAd70Z",
+      "tracks": [
+        {
+          "id": "2aQx1i3XjtB3TSN4J770Iv",
+          "title": "Phantom Limb",
+          "artists": "The Shins"
+        },
+        {
+          "id": "3TcmqdciWnQOXxYohhERbP",
+          "title": "(Antichrist Television Blues)",
+          "artists": "Arcade Fire"
+        },
+        {
+          "id": "1Wxr20soUWINL8tQCpks4f",
+          "title": "You Could Have Both",
+          "artists": "The Long Blondes"
+        },
+        {
+          "id": "2yPoXCs7BSIUrucMdK5PzV",
+          "title": "Umbrella",
+          "artists": "Rihanna, JAŸ-Z"
+        },
+        {
+          "id": "4gQP59lYowoVb9hlYMKboc",
+          "title": "Sheena Is A Parasite",
+          "artists": "The Horrors"
+        },
+        {
+          "id": "4dGeYtPSCYsWAxgra44XTT",
+          "title": "Tram 21",
+          "artists": "Electrelane"
+        },
+        {
+          "id": "3X8gOyVXP93Tslnz9Bxw24",
+          "title": "Gronlandic Edit",
+          "artists": "of Montreal"
+        },
+        {
+          "id": "5G3o1jScllBpuCxVRlsDDI",
+          "title": "The Songs That We Sing",
+          "artists": "Charlotte Gainsbourg"
+        },
+        {
+          "id": "4pWIwnnqx8k01fuF95UMIg",
+          "title": "Bodysnatchers",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "2RaGRh57p4OtzpXtr65Nws",
+          "title": "23",
+          "artists": "Blonde Redhead"
+        },
+        {
+          "id": "5jZngfHjWQjWpkdzLbLZcZ",
+          "title": "Life After Sundown",
+          "artists": "Glass Candy"
+        },
+        {
+          "id": "2N1wX62Scsdba2IscCCk7L",
+          "title": "The Apocalypse Song",
+          "artists": "St. Vincent"
+        },
+        {
+          "id": "2oZrexxhew0SkMwCT7Z7N8",
+          "title": "Tahiti",
+          "artists": "Bat For Lashes"
+        },
+        {
+          "id": "29ufIwomYfLbWBxPMdaUZm",
+          "title": "North American Scum",
+          "artists": "LCD Soundsystem"
+        },
+        {
+          "id": "3bTyUD39OY8Xu4yOTom383",
+          "title": "Peacebone",
+          "artists": "Animal Collective"
+        },
+        {
+          "id": "1ixbwbeBi5ufN4noUKmW5a",
+          "title": "Paper Planes",
+          "artists": "M.I.A."
+        },
+        {
+          "id": "4iG2gAwKXsOcijVaVXzRPW",
+          "title": "Time to Pretend",
+          "artists": "MGMT"
+        },
+        {
+          "id": "7zm1d8Elb1dT2vAOzTuLat",
+          "title": "Bros",
+          "artists": "Panda Bear"
+        },
+        {
+          "id": "3ghgwo0BTPm329zGMQRfn7",
+          "title": "I Feel It All",
+          "artists": "Feist"
+        },
+        {
+          "id": "1j2eOiuH48HCYEmU0hgz4E",
+          "title": "Wash Off",
+          "artists": "Deerhunter"
+        },
+        {
+          "id": "2YfzYMTXcZUqjgCmxgoN1P",
+          "title": "Teenage Lust!",
+          "artists": "Times New Viking"
+        },
+        {
+          "id": "5XRgh8sTHjMQLcYQHXIYBt",
+          "title": "Myriad Harbour",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "2A3emhzbZo7eSvEUtAm3ZS",
+          "title": "Phantom Pt. II",
+          "artists": "Justice"
+        },
+        {
+          "id": "2IvNxLl01CTAfCOA103Tgx",
+          "title": "No One's Gonna Love You",
+          "artists": "Band of Horses"
+        },
+        {
+          "id": "0do3zfmbVl5DiGxUXrbhrT",
+          "title": "Sycamore",
+          "artists": "Bill Callahan"
+        }
+      ]
+    },
+    "2008": {
+      "playlistId": "4J0iG8RQL5zld5cEE6leN5",
+      "tracks": [
+        {
+          "id": "7g0jUllMgzUtE9ceQigzHG",
+          "title": "Halfway Home",
+          "artists": "TV On The Radio"
+        },
+        {
+          "id": "1kxeWHF9PrCVZHvVskv8lg",
+          "title": "Love Lockdown",
+          "artists": "Kanye West"
+        },
+        {
+          "id": "3eSkjPOXgxohZGh1MZg7E5",
+          "title": "Ghosts",
+          "artists": "Ladytron"
+        },
+        {
+          "id": "4dmCLAZbWYT0qtcG7GVMdb",
+          "title": "L.E.S. Artistes",
+          "artists": "Santigold"
+        },
+        {
+          "id": "5ZtxL9gBTmMtStIsvhaADu",
+          "title": "Century",
+          "artists": "The Long Blondes"
+        },
+        {
+          "id": "1wp2yT7sSjfRmHJbLsinOB",
+          "title": "We Carry On",
+          "artists": "Portishead"
+        },
+        {
+          "id": "53SqGkNJAYLss9AgbduTqQ",
+          "title": "With Every Heartbeat",
+          "artists": "Robyn, Kleerup"
+        },
+        {
+          "id": "2uy30viyWSWieMxsDzLUC2",
+          "title": "Breaker",
+          "artists": "Retribution Gospel Choir"
+        },
+        {
+          "id": "4MvZ76WfNDmkVeQKmqzkah",
+          "title": "Fuego",
+          "artists": "Bomba Estéreo"
+        },
+        {
+          "id": "69Sd4fE8pU2R3YyJ5oa7Ny",
+          "title": "Tell The World",
+          "artists": "Vivian Girls"
+        },
+        {
+          "id": "0cmxPtF9iVPO6bwHTBW4E1",
+          "title": "One Pure Thought",
+          "artists": "Hot Chip"
+        },
+        {
+          "id": "22UDw8rSfLbUsaAGTXQ4Z8",
+          "title": "American Boy",
+          "artists": "Estelle, Kanye West"
+        },
+        {
+          "id": "5J2aWRLoOL57CUkkzZjZWy",
+          "title": "Hearts On Fire",
+          "artists": "Cut Copy"
+        },
+        {
+          "id": "6ScJMrlpiLfZUGtWp4QIVt",
+          "title": "A Milli",
+          "artists": "Lil Wayne"
+        },
+        {
+          "id": "6EGfgNUSxVINKcmpbyssUE",
+          "title": "Blind",
+          "artists": "Hercules & Love Affair"
+        },
+        {
+          "id": "0BiYKvf5gJ9bGNJnngyDkU",
+          "title": "You! Me! Dancing! - Remastered",
+          "artists": "Los Campesinos!"
+        },
+        {
+          "id": "1nRKULvpYvnrgWEGhiIuck",
+          "title": "Call It A Ritual",
+          "artists": "Wolf Parade"
+        },
+        {
+          "id": "4UhvA8bL35Pza2idEIXC78",
+          "title": "For Our Elegant Caste",
+          "artists": "of Montreal"
+        },
+        {
+          "id": "5IapIlqooJJ0CmJmrEY8Ir",
+          "title": "Sweet Tides",
+          "artists": "Thievery Corporation"
+        },
+        {
+          "id": "3lWjiU5DO8c4BTe1EVPbpL",
+          "title": "Super-Sonic",
+          "artists": "The Brian Jonestown Massacre"
+        },
+        {
+          "id": "1xzsEmaU4IXjvxxwQlA8Lz",
+          "title": "Crimewave",
+          "artists": "Crystal Castles"
+        },
+        {
+          "id": "6Uk9iD1hTgC5TKwB2HGCPD",
+          "title": "The Kids Don't Stand A Chance",
+          "artists": "Vampire Weekend"
+        },
+        {
+          "id": "2SpHd4lGMrJMIQDf92V6VP",
+          "title": "Agoraphobia",
+          "artists": "Deerhunter"
+        },
+        {
+          "id": "44jJCNW8frQLEWpYuAQz47",
+          "title": "We Own The Sky",
+          "artists": "M83"
+        },
+        {
+          "id": "4TNn3Jnqws7M2tMFK70U9h",
+          "title": "Strange Overtones",
+          "artists": "David Byrne, Brian Eno"
+        }
+      ]
+    },
+    "2009": {
+      "playlistId": "5yOVQKBQeiIgZlqZhwZjhj",
+      "tracks": [
+        {
+          "id": "4eiMosn8NzqGtQMOoR5DgS",
+          "title": "I'm Not Done",
+          "artists": "Fever Ray"
+        },
+        {
+          "id": "5UBBJnFxsfjFxfrtvErQoH",
+          "title": "Crystalised",
+          "artists": "The xx"
+        },
+        {
+          "id": "1pbRrSj6CBZGcG5i2BSv5L",
+          "title": "Cannibal Resource",
+          "artists": "Dirty Projectors"
+        },
+        {
+          "id": "26JkaeeVVIPLquHEsf7YJd",
+          "title": "Summertime Clothes",
+          "artists": "Animal Collective"
+        },
+        {
+          "id": "6NwkAlnyJTL5mPAQuK3i36",
+          "title": "Sea Within A Sea",
+          "artists": "The Horrors"
+        },
+        {
+          "id": "7sZYe6crdk77ElsRhm6ES9",
+          "title": "Sleep Alone",
+          "artists": "Bat For Lashes"
+        },
+        {
+          "id": "72DTGt2tVAL6ATVhzVjvkk",
+          "title": "Lust For Life",
+          "artists": "Girls"
+        },
+        {
+          "id": "3AHQTQJcmBRvoYkCFs7EkA",
+          "title": "Golden Phone",
+          "artists": "Micachu & The Shapes"
+        },
+        {
+          "id": "5mfA2CBzQeGiTk9wFItCsS",
+          "title": "Zero",
+          "artists": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": "5ipOSV0noTu2Rgye7ZRYad",
+          "title": "The Tenure Itch",
+          "artists": "The Pains Of Being Pure At Heart"
+        },
+        {
+          "id": "00CjPU9Nv69kf6YofOIazK",
+          "title": "Chase the Tear",
+          "artists": "Portishead"
+        },
+        {
+          "id": "6pp7nhyMJ6P6Mumu9m2RwS",
+          "title": "From Africa To Malaga",
+          "artists": "JJ"
+        },
+        {
+          "id": "0L9mcdi3lnv1h4D9mPusjY",
+          "title": "Hold The Line",
+          "artists": "Major Lazer, Mr. Lex, Santigold"
+        },
+        {
+          "id": "7kXEraNzzctTNCJ2Ta6FU4",
+          "title": "Kinda Like a Big Deal (feat. Kanye West)",
+          "artists": "Clipse, Kanye West"
+        },
+        {
+          "id": "5wfllwdjglyQislkskYLBv",
+          "title": "Day 'N' Nite (nightmare)",
+          "artists": "Kid Cudi"
+        },
+        {
+          "id": "48BjV0btlPa5xzSQYPUHTy",
+          "title": "Swans",
+          "artists": "Camera Obscura"
+        },
+        {
+          "id": "5Gyy2uC6GYCoaHTKDgBxSq",
+          "title": "Artificial Intelligence",
+          "artists": "Nite Jewel"
+        },
+        {
+          "id": "4UWKEvnW6XlaBmw5RuOXj0",
+          "title": "Cradle",
+          "artists": "The Joy Formidable"
+        },
+        {
+          "id": "68hYdj3GepWm2R202KhJT7",
+          "title": "1901",
+          "artists": "Phoenix"
+        },
+        {
+          "id": "5FRmsiVS8ybJHQCV0fjuI1",
+          "title": "This Tornado Loves You",
+          "artists": "Neko Case"
+        },
+        {
+          "id": "4f5VGrRxsspBtClqLgPMqw",
+          "title": "Castle",
+          "artists": "UUVVWWZ"
+        },
+        {
+          "id": "1x4JN2UjpS8MedciRivkUd",
+          "title": "Nightingale / December Song",
+          "artists": "Sunset Rubdown, Spencer Krug"
+        },
+        {
+          "id": "5ID0RkPntsnrSc53KWQbr8",
+          "title": "The Hazards Of Love 2 (Wager All)",
+          "artists": "The Decemberists"
+        },
+        {
+          "id": "4aBlWQAH1KiAWIV2MgCwHS",
+          "title": "Real Live Flesh",
+          "artists": "Tune-Yards"
+        },
+        {
+          "id": "4V0x90QcMh4ZxwHzEWOdtK",
+          "title": "Feel It All Around",
+          "artists": "Washed Out"
+        }
+      ]
+    },
+    "2010": {
+      "playlistId": "1pXIDzBvxQkpCFJSpqVvYX",
+      "tracks": [
+        {
+          "id": "0ucvny3zCQSqXm2hfBbkIl",
+          "title": "Come With Me",
+          "artists": "CEO"
+        },
+        {
+          "id": "72OyPctsEuzxpe6xmXVp63",
+          "title": "Take It In",
+          "artists": "Hot Chip"
+        },
+        {
+          "id": "57Uq5VUraIFYrZnB25BRql",
+          "title": "Too Much",
+          "artists": "Sufjan Stevens"
+        },
+        {
+          "id": "0vag00JbA03l7TgG7j1AbA",
+          "title": "Hot Mess",
+          "artists": "Chromeo"
+        },
+        {
+          "id": "4kpVNdZgx3fXSdpQENuYjC",
+          "title": "Madder Red",
+          "artists": "Yeasayer"
+        },
+        {
+          "id": "3zkPvQZx6ZflYZtw6PZ82X",
+          "title": "Girl I Love You",
+          "artists": "Massive Attack, Horace Andy"
+        },
+        {
+          "id": "2qKTOaX1ZeMWn3aKhpxkz5",
+          "title": "Round And Round",
+          "artists": "Ariel Pink"
+        },
+        {
+          "id": "5al9is1AQnaI3lTi20DUG6",
+          "title": "Cold War",
+          "artists": "Janelle Monáe"
+        },
+        {
+          "id": "6LUfuyLgvgqrykiTE6sJHY",
+          "title": "Stylo (feat. Mos Def and Bobby Womack)",
+          "artists": "Gorillaz, Bobby Womack, Mos Def"
+        },
+        {
+          "id": "0U0ldCRmgCqhVvD6ksG63j",
+          "title": "Nightcall",
+          "artists": "Kavinsky"
+        },
+        {
+          "id": "2sCoROOlNQyFpRQEe6A5lv",
+          "title": "Call Your Girlfriend",
+          "artists": "Robyn"
+        },
+        {
+          "id": "5K6TfvT7sKAuEatUpHVvPQ",
+          "title": "Odessa",
+          "artists": "Caribou"
+        },
+        {
+          "id": "6RNq61zpZMmvhQLtbOZ9Ez",
+          "title": "Drifter",
+          "artists": "Wild Nothing"
+        },
+        {
+          "id": "0bkjce9l5TJb7GaD6x9tv7",
+          "title": "Solid Gold",
+          "artists": "The Golden Filter"
+        },
+        {
+          "id": "2LZ2CNbcbJrwh53pitRgom",
+          "title": "Silver Soul",
+          "artists": "Beach House"
+        },
+        {
+          "id": "29Jd0io2vmxUOdGWBVUh79",
+          "title": "Baby Don't Go",
+          "artists": "Dum Dum Girls"
+        },
+        {
+          "id": "34OYZJDVLJC0HS401190FN",
+          "title": "Desire Lines",
+          "artists": "Deerhunter"
+        },
+        {
+          "id": "2073QOEC8rBtSyTsRyaWiP",
+          "title": "I Can Change",
+          "artists": "LCD Soundsystem"
+        },
+        {
+          "id": "0epAG0WWRlDMsMFJiE5c6I",
+          "title": "Sprawl II (Mountains Beyond Mountains)",
+          "artists": "Arcade Fire"
+        },
+        {
+          "id": "40cAeDaZAnPY9bUHf4jYXW",
+          "title": "Giving Up the Gun",
+          "artists": "Vampire Weekend"
+        },
+        {
+          "id": "5qRzv8cxHuqUT1JwY87YI3",
+          "title": "Colouring of Pigeons",
+          "artists": "The Knife, Mount Sims, Planningtorock"
+        },
+        {
+          "id": "1126sA2cidUG6pqrKK9CbH",
+          "title": "Boyfriend",
+          "artists": "Best Coast"
+        },
+        {
+          "id": "0Z7b5GlC70FAES1YduhhqQ",
+          "title": "Rill Rill",
+          "artists": "Sleigh Bells"
+        },
+        {
+          "id": "2q7enukacEHGfw6D7zJ9wt",
+          "title": "And This Is What We Call Progress",
+          "artists": "The Besnard Lakes"
+        },
+        {
+          "id": "2eIdWFdGzkpeuYhvSVEeKb",
+          "title": "Baby Can't Stop - Aeroplane Remix",
+          "artists": "Lindstrøm, Christabelle"
+        }
+      ]
+    },
+    "2011": {
+      "playlistId": "4qG4sKGyi8nedcm36msvNZ",
+      "tracks": [
+        {
+          "id": "7r6PigmGzlB3YPB7wvBBbi",
+          "title": "No Church In The Wild",
+          "artists": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM"
+        },
+        {
+          "id": "3gQZdiGlObKaY274Q3lnoH",
+          "title": "Santa Fe",
+          "artists": "Beirut"
+        },
+        {
+          "id": "7h8Ud480Fm4ReUVxgFF9ZX",
+          "title": "Rolling In The Deep",
+          "artists": "Adele"
+        },
+        {
+          "id": "2QaemJ1UzGbeKWCz3QfOBH",
+          "title": "Do It Again",
+          "artists": "Holy Ghost!"
+        },
+        {
+          "id": "4iaeUOZjvCwLLf61vpaaDl",
+          "title": "How Deep Is Your Love?",
+          "artists": "The Rapture"
+        },
+        {
+          "id": "2lD6AoA8qf2t4Dkf2TcmNK",
+          "title": "Rigamortus",
+          "artists": "Kendrick Lamar"
+        },
+        {
+          "id": "1nwkSqzTyXBk6XF796EOav",
+          "title": "Yonkers",
+          "artists": "Tyler, The Creator"
+        },
+        {
+          "id": "6aDi4gOE2Cfc6ecynvP81R",
+          "title": "Born This Way",
+          "artists": "Lady Gaga"
+        },
+        {
+          "id": "6buZfduEqsixKhQT43kGFj",
+          "title": "Amor Fati",
+          "artists": "Washed Out"
+        },
+        {
+          "id": "6o6Dmd2gQW3BXzyzxMHnfz",
+          "title": "Winter Beats",
+          "artists": "I Break Horses"
+        },
+        {
+          "id": "2OYMcth0dXHv5qcoli4HPv",
+          "title": "Claudia Lewis",
+          "artists": "M83"
+        },
+        {
+          "id": "3WlY4eXyNPq81UJkbfOSSg",
+          "title": "He Gets Me High",
+          "artists": "Dum Dum Girls"
+        },
+        {
+          "id": "56dIfld2EW00CPbB3zA6GE",
+          "title": "Kaputt",
+          "artists": "Destroyer"
+        },
+        {
+          "id": "6FPw780c3azvSQXDuV5Z52",
+          "title": "Cruel",
+          "artists": "St. Vincent"
+        },
+        {
+          "id": "2XbqxKjCnE9YWfPRqwgtPq",
+          "title": "Whirring",
+          "artists": "The Joy Formidable"
+        },
+        {
+          "id": "64EePXuDYpMZMvaTT7k8vi",
+          "title": "The Words That Maketh Murder",
+          "artists": "PJ Harvey"
+        },
+        {
+          "id": "3lRlC0srh7lBJ5q2eP4K1i",
+          "title": "Romance",
+          "artists": "WILD FLAG"
+        },
+        {
+          "id": "7nAeBxnvQYT01pzDnsiL3p",
+          "title": "Countdown",
+          "artists": "Beyoncé"
+        },
+        {
+          "id": "6u0x5ad9ewHvs3z6u9Oe3c",
+          "title": "Under Cover of Darkness",
+          "artists": "The Strokes"
+        },
+        {
+          "id": "4g1LEUNAre7Ck4ZEu24EYh",
+          "title": "Powa",
+          "artists": "Tune-Yards"
+        },
+        {
+          "id": "6ttYF5VadzTssGV2i1Q08T",
+          "title": "Codex",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "2NJGAT43AvS7BQvn2017yS",
+          "title": "Hey Moon",
+          "artists": "John Maus"
+        },
+        {
+          "id": "1ofXBUTQchTZvmyOH4VyUP",
+          "title": "Vomit",
+          "artists": "Girls"
+        },
+        {
+          "id": "1kuXu0jC0MEUhfJya4uOtw",
+          "title": "Monopoly",
+          "artists": "Danny Brown"
+        },
+        {
+          "id": "6Hyb6MfkxiG3VVYTfFJEVC",
+          "title": "Try to Sleep",
+          "artists": "Low"
+        }
+      ]
+    },
+    "2012": {
+      "playlistId": "5FUGnKvJ3R9lISEaUJj4UG",
+      "tracks": [
+        {
+          "id": "1F2O56ytmXV6uwxYMoskXl",
+          "title": "Only In My Dreams",
+          "artists": "Ariel Pink"
+        },
+        {
+          "id": "7Avzt2WbW4SghIM5XLZlkK",
+          "title": "The Haunted Man",
+          "artists": "Bat For Lashes"
+        },
+        {
+          "id": "4AJprrE8gjzLRLfW84bbUq",
+          "title": "Losing You",
+          "artists": "Solange"
+        },
+        {
+          "id": "3s3ciLHOXE1xVqGkdxwHPs",
+          "title": "Love Interruption",
+          "artists": "Jack White"
+        },
+        {
+          "id": "1fkZrEgdvyEPwZ9zuFQjfC",
+          "title": "Infinite Love Without Fulfilment",
+          "artists": "Grimes"
+        },
+        {
+          "id": "6no1mklq4BJBg7KJ6Dly7N",
+          "title": "212",
+          "artists": "Azealia Banks, Lazy Jay"
+        },
+        {
+          "id": "2HbKqm4o0w5wEeEFXm2sD4",
+          "title": "Money Trees",
+          "artists": "Kendrick Lamar, Jay Rock"
+        },
+        {
+          "id": "50iiDJGpAPdr2VTrz999XA",
+          "title": "House Of Balloons / Glass Table Girls",
+          "artists": "The Weeknd"
+        },
+        {
+          "id": "7DfFc7a6Rwfi3YQMRbDMau",
+          "title": "Thinkin Bout You",
+          "artists": "Frank Ocean"
+        },
+        {
+          "id": "6yOIdK2nKErlhyo5u7y81B",
+          "title": "Dreamers",
+          "artists": "Savoir Adore"
+        },
+        {
+          "id": "6ol4ZSifr7r3Lb2a9L5ZAB",
+          "title": "Call Me Maybe",
+          "artists": "Carly Rae Jepsen"
+        },
+        {
+          "id": "2MOiyNh0zts6xG4xLCUI5w",
+          "title": "Okay Cupid",
+          "artists": "kitty ray"
+        },
+        {
+          "id": "65NKfdLTAnL8ubOho5jCXA",
+          "title": "Flutes",
+          "artists": "Hot Chip"
+        },
+        {
+          "id": "2NfxtzCIrpCmJX5Z2KMdD5",
+          "title": "Myth",
+          "artists": "Beach House"
+        },
+        {
+          "id": "53dkS3h9uTNsWYZTPacnpx",
+          "title": "Oldie",
+          "artists": "Odd Future"
+        },
+        {
+          "id": "0aqRkWPAL9BGCvvdSiXaE9",
+          "title": "I Belong in Your Arms",
+          "artists": "Chairlift"
+        },
+        {
+          "id": "4jhdcYyWYx6d60j60OQDCa",
+          "title": "Kill For Love",
+          "artists": "Chromatics"
+        },
+        {
+          "id": "6HPZo9krwjbhMGKbqVkkDQ",
+          "title": "Every Single Night",
+          "artists": "Fiona Apple"
+        },
+        {
+          "id": "0YTxbzK3u82RyL8slTkDOY",
+          "title": "No.1 Against the Rush",
+          "artists": "Liars"
+        },
+        {
+          "id": "6sbfuRqNPsTkukSPJZDWiN",
+          "title": "Golden Light",
+          "artists": "Twin Shadow"
+        },
+        {
+          "id": "3zsRP8rH1kaIAo9fmiP4El",
+          "title": "Angels",
+          "artists": "The xx"
+        },
+        {
+          "id": "5deDP4HCmFsA7cNVRoY0ib",
+          "title": "Hey Jane",
+          "artists": "Spiritualized"
+        },
+        {
+          "id": "4jZWeEaLCnwYtLnVEN6BYV",
+          "title": "Blue Jeans",
+          "artists": "Lana Del Rey"
+        },
+        {
+          "id": "7LGG0FzkVqmudgIitiD8fc",
+          "title": "Robotic",
+          "artists": "Hannah Georgas"
+        },
+        {
+          "id": "48bo7uexDvAThcRDvEB2W7",
+          "title": "Simple Song",
+          "artists": "The Shins, James Mercer"
+        }
+      ]
+    },
+    "2013": {
+      "playlistId": "3lKGHViTzWvI1RC2dFJ0J7",
+      "tracks": [
+        {
+          "id": "3hDpkvXDbmcrKya8CUS6lN",
+          "title": "We Exist",
+          "artists": "Arcade Fire"
+        },
+        {
+          "id": "6h4V0fuWElsTFaPg2tQIoL",
+          "title": "Song for Zula",
+          "artists": "Phosphorescent"
+        },
+        {
+          "id": "3G6hD9B2ZHOsgf4WfNu7X1",
+          "title": "Team",
+          "artists": "Lorde"
+        },
+        {
+          "id": "0EzQsfdVbVL6kp9Y2wpz6Q",
+          "title": "Full of Fire",
+          "artists": "The Knife"
+        },
+        {
+          "id": "7psPPGwhFzP3pyOcb3ivcT",
+          "title": "Unbelievers",
+          "artists": "Vampire Weekend"
+        },
+        {
+          "id": "7k6O2Ocyvvc2tdIrnZfsXQ",
+          "title": "Gimme a Knife",
+          "artists": "Wavves"
+        },
+        {
+          "id": "3UNPA9XgUNAStNazmC67yF",
+          "title": "You're Not Good Enough",
+          "artists": "Blood Orange"
+        },
+        {
+          "id": "0i62I5HJlzIVu2FALBmBPx",
+          "title": "I Blame Myself",
+          "artists": "Sky Ferreira"
+        },
+        {
+          "id": "00GOPLxW4PGQuUYdPJh8K1",
+          "title": "IV. Sweatpants",
+          "artists": "Childish Gambino"
+        },
+        {
+          "id": "79zhandwZPrlTWemEpIgxy",
+          "title": "Despair",
+          "artists": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": "39dmKEzIATbrzGTILvUzC7",
+          "title": "Sound-Magic's Death Ray Destroys the Vortex and Has Union With Infinity",
+          "artists": "Cavern of Anti-Matter"
+        },
+        {
+          "id": "5VarZFY00sO54HErJ3TPCI",
+          "title": "So Good At Being in Trouble",
+          "artists": "Unknown Mortal Orchestra"
+        },
+        {
+          "id": "5DI9jxTHrEiFAhStG7VA8E",
+          "title": "Started From the Bottom",
+          "artists": "Drake"
+        },
+        {
+          "id": "4cAgkb0ifwn0FSHGXnr4F6",
+          "title": "New Slaves",
+          "artists": "Kanye West"
+        },
+        {
+          "id": "6golelYKuy85o3u0cxIxFK",
+          "title": "The Wire",
+          "artists": "HAIM"
+        },
+        {
+          "id": "2cGxRwrMyEAp8dEbuZaVv6",
+          "title": "Instant Crush (feat. Julian Casablancas)",
+          "artists": "Daft Punk, Julian Casablancas"
+        },
+        {
+          "id": "1OVypFlcraAhyvPqIMWDor",
+          "title": "The Mother We Share",
+          "artists": "CHVRCHES"
+        },
+        {
+          "id": "2Adc2oSjShGBApY8vOYDeK",
+          "title": "City's Full",
+          "artists": "Savages"
+        },
+        {
+          "id": "2IX1xr68TvJIZLjJZErtIy",
+          "title": "Run The Jewels",
+          "artists": "Run The Jewels, El-P, Killer Mike"
+        },
+        {
+          "id": "1eLU27PPFxBhbp1CBjPh9J",
+          "title": "1Train (feat. Kendrick Lamar, Joey Bada$$, Yelawolf, Danny Brown, Action Bronson & Big K.R.I.T.)",
+          "artists": "A$AP Rocky, Kendrick Lamar, Joey Bada$$, Yelawolf, Danny Brown, Action Bronson, Big K.R.I.T."
+        },
+        {
+          "id": "2YpKV2BEmWBLIGEHBXrv0N",
+          "title": "Stoned and Starving",
+          "artists": "Parquet Courts"
+        },
+        {
+          "id": "0MWJRhFvWcth1juc0IjBq5",
+          "title": "The Missing",
+          "artists": "Deerhunter"
+        },
+        {
+          "id": "3vh4UVXsvtMCfpOzVCIR4F",
+          "title": "Bad Girls",
+          "artists": "M.I.A."
+        },
+        {
+          "id": "2JeZ5LOarjeKxuajdSkdjN",
+          "title": "Dead in Your Head",
+          "artists": "Bleached"
+        },
+        {
+          "id": "4ZcMkb82H73dvCVRENj0DR",
+          "title": "On My Own",
+          "artists": "Low"
+        }
+      ]
+    },
+    "2014": {
+      "playlistId": "6vcLoxeGajJrStCN89jheV",
+      "tracks": [
+        {
+          "id": "2UQvYQJmA7wVi9o98kdGg8",
+          "title": "Sick Beat",
+          "artists": "Kero Kero Bonito"
+        },
+        {
+          "id": "58054gxqDuwvoBXZXHJ8sJ",
+          "title": "Evil Blooms",
+          "artists": "Dum Dum Girls"
+        },
+        {
+          "id": "5hSWVcAtSK8PUoLr8eomMG",
+          "title": "Would You Fight For My Love?",
+          "artists": "Jack White"
+        },
+        {
+          "id": "5fm3E0gQE9fhUx3RoqxVDE",
+          "title": "Vox Tuned D.E.D.",
+          "artists": "Liars"
+        },
+        {
+          "id": "0U49QcRHyGfbmhhbNl92Q4",
+          "title": "Avant Gardener",
+          "artists": "Courtney Barnett"
+        },
+        {
+          "id": "7b8xLMYcj01sSI6tWXsGw1",
+          "title": "Nutcrackerz",
+          "artists": "Dizzee Rascal, Giggs"
+        },
+        {
+          "id": "6VWfHJPkuA0886lWUcQsXk",
+          "title": "Ride On, Molina",
+          "artists": "Rivulets"
+        },
+        {
+          "id": "1LZcxhK4BQsFR3kT8hnWmN",
+          "title": "Wut",
+          "artists": "Kalifa"
+        },
+        {
+          "id": "19gEmPjfqSZT0ulDRfjl0m",
+          "title": "Hot N*gga",
+          "artists": "Bobby Shmurda"
+        },
+        {
+          "id": "5Y6nVaayzitvsD5F7nr3DV",
+          "title": "West Coast",
+          "artists": "Lana Del Rey"
+        },
+        {
+          "id": "1dHInT0iYCZ9XLmiANNLBK",
+          "title": "Ashes",
+          "artists": "Weyes Blood"
+        },
+        {
+          "id": "4aEMbULuIOSLz9b4g92maI",
+          "title": "A Place Called Space",
+          "artists": "The Juan Maclean"
+        },
+        {
+          "id": "76QLGx0NleOYqkDtL7HKIA",
+          "title": "Close Your Eyes (And Count to Fuck) [feat. Zack De La Rocha]",
+          "artists": "Run The Jewels, Zack De La Rocha"
+        },
+        {
+          "id": "0gBrJS89BL4r8rqjDEzbtp",
+          "title": "Put Your Number in My Phone",
+          "artists": "Ariel Pink"
+        },
+        {
+          "id": "5lH543qzf3UkM42s0kskXZ",
+          "title": "You Fell Apart",
+          "artists": "Ex Hex"
+        },
+        {
+          "id": "6hcY4cGGwfuveTreAXfTsT",
+          "title": "Backstairs",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "41g3tCnqP8yTauiPQPndVO",
+          "title": "All The Rage Back Home",
+          "artists": "Interpol"
+        },
+        {
+          "id": "0PHwCbA310LLIMcSDpQbgF",
+          "title": "Two Weeks",
+          "artists": "FKA twigs"
+        },
+        {
+          "id": "5L16tlSHNt93RiiRiCc8ya",
+          "title": "Digital Witness",
+          "artists": "St. Vincent"
+        },
+        {
+          "id": "0h4ppU9pORJwUPhYGnvxch",
+          "title": "Forgiven/Forgotten",
+          "artists": "Angel Olsen"
+        },
+        {
+          "id": "5GFL9p3SP4EVfoQOa97M0W",
+          "title": "Johnny And Mary (feat. Bryan Ferry)",
+          "artists": "Todd Terje"
+        },
+        {
+          "id": "0Zn4jYnGokSATIvpNLJAGd",
+          "title": "CIRCLONT6A [141.98][syrobonkus mix]",
+          "artists": "Aphex Twin"
+        },
+        {
+          "id": "38ydcsbayM4oX21Hhu84DT",
+          "title": "Every Time the Sun Comes Up",
+          "artists": "Sharon Van Etten"
+        },
+        {
+          "id": "7mNfRjYiEpP5FqXIRPPKY1",
+          "title": "Silver",
+          "artists": "Caribou"
+        },
+        {
+          "id": "5PycBIeabfvX3n9ILG7Vrv",
+          "title": "Propuesta Indecente",
+          "artists": "Romeo Santos"
+        }
+      ]
+    },
+    "2015": {
+      "playlistId": "4pu62mQgn292OEJDzdjeeV",
+      "tracks": [
+        {
+          "id": "0N3W5peJUQtI4eyR6GJT5O",
+          "title": "King Kunta",
+          "artists": "Kendrick Lamar"
+        },
+        {
+          "id": "4YPafsGyzXWry3ZWUAhYBn",
+          "title": "Oh My",
+          "artists": "WESTSIDE BOOGIE"
+        },
+        {
+          "id": "5ThQC1HTthOfzxRaqAJWJN",
+          "title": "Air",
+          "artists": "Waxahatchee"
+        },
+        {
+          "id": "22pRMqUFwFAyuwX8qxSvXf",
+          "title": "Radio - Soundtrack Version",
+          "artists": "Santigold"
+        },
+        {
+          "id": "4fqauV2rfnB1qHbTy1dzqw",
+          "title": "What Part of Me",
+          "artists": "Low"
+        },
+        {
+          "id": "2Yfn6s8rSEL0k5DRkLOW3o",
+          "title": "Just Like Blood",
+          "artists": "Sharon Van Etten"
+        },
+        {
+          "id": "20nWVcL69RbD6xF1mafrHO",
+          "title": "Let It Grow",
+          "artists": "Maximum Balloon, Karen O, Tunde Adebimpe"
+        },
+        {
+          "id": "1j6kDJttn6wbVyMaM42Nxm",
+          "title": "Lord Pretty Flacko Jodye 2 (LPFJ2)",
+          "artists": "A$AP Rocky"
+        },
+        {
+          "id": "6n4Ttmrax7ccVmyJG7Fb8T",
+          "title": "Un Beso",
+          "artists": "Carla Morrison"
+        },
+        {
+          "id": "5BIQR6Ibumf2WHKlKOJKJY",
+          "title": "La Tierra del Olvido (feat. Fanny Lu, Fonseca, Maluma, Andrea Echeverri, Cholo Valderrama, Coral Group & Herencia de Timbiquí) - 2015",
+          "artists": "Carlos Vives, Fanny Lu, Fonseca, Maluma, Andrea Echeverri, Cholo Valderrama, Coral Group, Herencia de Timbiqui"
+        },
+        {
+          "id": "5lFDtgWsjRJu8fPOAyJIAK",
+          "title": "Back To Back",
+          "artists": "Drake"
+        },
+        {
+          "id": "6RsWqX8zABZLhZydXxEFOm",
+          "title": "Can't Feel My Face",
+          "artists": "The Weeknd"
+        },
+        {
+          "id": "09CtPGIpYB4BrO8qb1RGsF",
+          "title": "Sorry",
+          "artists": "Justin Bieber"
+        },
+        {
+          "id": "2audHw8H7pcDViQBXAufEZ",
+          "title": "A New Wave",
+          "artists": "Sleater-Kinney"
+        },
+        {
+          "id": "664iXTTFr0b4jas9vPK6Ok",
+          "title": "On The Regular",
+          "artists": "Shamir"
+        },
+        {
+          "id": "734xplxSpoW22U5OeeZcr8",
+          "title": "Señorita",
+          "artists": "Vince Staples"
+        },
+        {
+          "id": "423nz7oRR7kPY8Wpk7qz0u",
+          "title": "Huarache Lights",
+          "artists": "Hot Chip"
+        },
+        {
+          "id": "5e7uwXMt0ztC3CeZNeMBMU",
+          "title": "Hey QT",
+          "artists": "QT"
+        },
+        {
+          "id": "4rcxSQEuGn8ZXvFtbcNDGZ",
+          "title": "LEMONADE",
+          "artists": "SOPHIE"
+        },
+        {
+          "id": "62jc4VA6WPoANaL9Duu8db",
+          "title": "Flesh without Blood",
+          "artists": "Grimes"
+        },
+        {
+          "id": "14flrXVnFLO6thb46JKufB",
+          "title": "Pedestrian at Best",
+          "artists": "Courtney Barnett"
+        },
+        {
+          "id": "161iDrAGFqkzeXSaxworBs",
+          "title": "Eugene",
+          "artists": "Sufjan Stevens"
+        },
+        {
+          "id": "2vUMdAub2h5j5zuSppYQyT",
+          "title": "Sea Calls Me Home",
+          "artists": "Julia Holter"
+        },
+        {
+          "id": "1Q9PT8sgU7q9IH7kb5dSwv",
+          "title": "Stonemilker",
+          "artists": "Björk"
+        },
+        {
+          "id": "7lPgKA5mLFNmGPMdb07OlM",
+          "title": "Loud Places",
+          "artists": "Jamie xx, Romy"
+        }
+      ]
+    },
+    "2016": {
+      "playlistId": "57UUNSoaVRFEAnmnLWJa2W",
+      "tracks": [
+        {
+          "id": "203xmWRHAyqwW6AkGkhhVM",
+          "title": "The Space Program",
+          "artists": "A Tribe Called Quest"
+        },
+        {
+          "id": "4LpGEnvKB8YMwBopulXG8o",
+          "title": "Action",
+          "artists": "Cassius, Cat Power, Mike D"
+        },
+        {
+          "id": "4sln3hvqGxLEUCcAmTO4pR",
+          "title": "Augustine",
+          "artists": "Blood Orange"
+        },
+        {
+          "id": "19YKaevk2bce4odJkP5L22",
+          "title": "Nikes",
+          "artists": "Frank Ocean"
+        },
+        {
+          "id": "2rqUblDWJKlMVwh9uJc0Vv",
+          "title": "Yamborghini High (feat. Juicy J)",
+          "artists": "A$AP Mob, Juicy J"
+        },
+        {
+          "id": "0lnIJmgcUpEpe4AZACjayW",
+          "title": "Sorry",
+          "artists": "Beyoncé"
+        },
+        {
+          "id": "7MXVkk9YMctZqd1Srtv4MB",
+          "title": "Starboy",
+          "artists": "The Weeknd, Daft Punk"
+        },
+        {
+          "id": "5iUQMwxUPdJBFeGkePtM66",
+          "title": "Dang! (feat. Anderson .Paak)",
+          "artists": "Mac Miller, Anderson .Paak"
+        },
+        {
+          "id": "45QpPVL8PQBxGDr5Ix4omP",
+          "title": "Santeria",
+          "artists": "KOOL A.D."
+        },
+        {
+          "id": "0Fao855T3klV3REFRFHRF3",
+          "title": "Blackstar",
+          "artists": "David Bowie"
+        },
+        {
+          "id": "1gYn6OTpw5W6n8QaJjyY5m",
+          "title": "Nobody Speak (feat. Run the Jewels)",
+          "artists": "DJ Shadow, Run The Jewels"
+        },
+        {
+          "id": "4E9RsETCexFzZfSovxFksR",
+          "title": "Call Ticketron",
+          "artists": "Run The Jewels"
+        },
+        {
+          "id": "5H3x0W0ZdqZiZafVDvvdIu",
+          "title": "Do You Need My Love",
+          "artists": "Weyes Blood"
+        },
+        {
+          "id": "2os0aK782bakCPmjow0SU0",
+          "title": "Drunk Drivers/Killer Whales",
+          "artists": "Car Seat Headrest"
+        },
+        {
+          "id": "6dHatCnuOb1TdBIeJTK3Y0",
+          "title": "Really Doe",
+          "artists": "Danny Brown, Kendrick Lamar, Ab-Soul, Earl Sweatshirt"
+        },
+        {
+          "id": "1UledP7E5IenOcwl2oZaSu",
+          "title": "Loco",
+          "artists": "Vince Staples, Kilo Kish"
+        },
+        {
+          "id": "2yJ9GVCLMmzBBfQAnfzlwr",
+          "title": "THat Part",
+          "artists": "ScHoolboy Q, Kanye West"
+        },
+        {
+          "id": "6wFAieUhSxTK0bnMrq52yc",
+          "title": "The Spoils",
+          "artists": "Massive Attack, Hope Sandoval"
+        },
+        {
+          "id": "3kuiGKq4NDsVOH8MVq3m75",
+          "title": "True Killer",
+          "artists": "Sneaks"
+        },
+        {
+          "id": "2WTxIQ0ufU7AxT43ZKpllY",
+          "title": "Masterpiece",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "6uGBawNzZ4rU6cdC1ngZA5",
+          "title": "Gardenia",
+          "artists": "Iggy Pop"
+        },
+        {
+          "id": "2zWAa5XkVa1yg756YauQHF",
+          "title": "Stop Your Tears",
+          "artists": "Aldous Harding"
+        },
+        {
+          "id": "1GnFQL9XnxrXFloKm1yjuW",
+          "title": "The Numbers",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "7lYFdnMsYi2mWmledmB71b",
+          "title": "Sister",
+          "artists": "Angel Olsen"
+        },
+        {
+          "id": "5hyq3LBlCfjRQAFkdQwe8o",
+          "title": "Vroom Vroom",
+          "artists": "Charli xcx"
+        }
+      ]
+    },
+    "2017": {
+      "playlistId": "45qBZwKGAeKCC01f2hP9d7",
+      "tracks": [
+        {
+          "id": "2EWG2vhqHcPA3kDKf5337J",
+          "title": "Tinseltown Swimming in Blood",
+          "artists": "Destroyer"
+        },
+        {
+          "id": "76ywPmQOij6MZYrTJuhim1",
+          "title": "Hunger",
+          "artists": "Tia Gostelow"
+        },
+        {
+          "id": "5WIZ5xnjDL0uv80VGyGr8S",
+          "title": "Cred Woes",
+          "artists": "Liars"
+        },
+        {
+          "id": "2iQov70C2Cs6KCu8Dk8wW1",
+          "title": "tonite",
+          "artists": "LCD Soundsystem"
+        },
+        {
+          "id": "2wc1bnvjRFviHAuFDN5XXv",
+          "title": "Anoche",
+          "artists": "Arca"
+        },
+        {
+          "id": "77z77PUHMoMQdUB6HDfJtx",
+          "title": "To The Moon And Back - Edit",
+          "artists": "Fever Ray"
+        },
+        {
+          "id": "429n3SCqWbzKQw25E66AGo",
+          "title": "Anthem",
+          "artists": "Swet Shop Boys, Riz Ahmed, Heems"
+        },
+        {
+          "id": "0ylljWEG3ggkTlQbnUZb3Q",
+          "title": "BagBak",
+          "artists": "Vince Staples"
+        },
+        {
+          "id": "3DT2lgc7sFqAGwgqlrooAH",
+          "title": "Friend Zone",
+          "artists": "Thundercat"
+        },
+        {
+          "id": "06u5LrUpbosQlQ1QJFhPpG",
+          "title": "Drew Barrymore",
+          "artists": "SZA"
+        },
+        {
+          "id": "35TIanClNm1DxcyREpNC7g",
+          "title": "Sugarboy",
+          "artists": "St. Vincent"
+        },
+        {
+          "id": "0eNeturRjWHoi2SxITY0XC",
+          "title": "Star Roving",
+          "artists": "Slowdive"
+        },
+        {
+          "id": "2QBpDW4JNnXagic6ebCtSX",
+          "title": "Miss Me",
+          "artists": "Leikeli47"
+        },
+        {
+          "id": "3Gda1sTo2ZjbztjjsnAsP3",
+          "title": "Slip Away",
+          "artists": "Perfume Genius"
+        },
+        {
+          "id": "1d196XS0Iwdzswlm6gOo4P",
+          "title": "Touchdown",
+          "artists": "John Maus"
+        },
+        {
+          "id": "2s8ofs8CeRdQyHKk0ORnWD",
+          "title": "Diving Woman",
+          "artists": "Japanese Breakfast"
+        },
+        {
+          "id": "6OZ550Rtz3nCNmYRpjpnjp",
+          "title": "Shark Smile",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "7qsBXdwpIw2helu5VJ4KIX",
+          "title": "High Ticket Attractions",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "1JrYlU2ov7syGYH6wRrfzj",
+          "title": "Any Kind of Crowd",
+          "artists": "Filthy Friends"
+        },
+        {
+          "id": "4YBDSEzVNQbvCvVIWNtruF",
+          "title": "The Louvre",
+          "artists": "Lorde"
+        },
+        {
+          "id": "1MlU2xFOo4k1gFzIRYeQ0U",
+          "title": "Plimsoll Punks",
+          "artists": "Alvvays"
+        },
+        {
+          "id": "63VdDgvlj3rhpxuHoPmY8D",
+          "title": "Don't You Evah",
+          "artists": "Spoon"
+        },
+        {
+          "id": "2voWPWlDfIthC6GUjaIQyV",
+          "title": "Creature Comfort",
+          "artists": "Arcade Fire"
+        },
+        {
+          "id": "6tUgfsOa8PLkoede5nOR7D",
+          "title": "Lemon",
+          "artists": "N.E.R.D, Rihanna"
+        },
+        {
+          "id": "71MT6AXgjh1b7jcZSC9rSY",
+          "title": "Baby I'm Bleeding",
+          "artists": "JPEGMAFIA"
+        }
+      ]
+    },
+    "2018": {
+      "playlistId": "6PuzYYOMs6ypHJ3f8WFrgD",
+      "tracks": [
+        {
+          "id": "5ErtQGRKEibK2WHaA729O8",
+          "title": "Me and My Husband",
+          "artists": "Mitski"
+        },
+        {
+          "id": "7pfkGEKA49INS9fn9jKJaD",
+          "title": "Always Trying to Work It Out",
+          "artists": "Low"
+        },
+        {
+          "id": "6bGwKHXHNLmTy6yt147FPh",
+          "title": "If You Know You Know",
+          "artists": "Pusha T"
+        },
+        {
+          "id": "429JfLMd92ya7rs0azUkQA",
+          "title": "No Wave (feat. Denzel Curry)",
+          "artists": "IDK, Denzel Curry"
+        },
+        {
+          "id": "7jEUVwkPK62K8Pl3bOvUtM",
+          "title": "QYURRYUS",
+          "artists": "The Voidz"
+        },
+        {
+          "id": "4BOZIIz3ArCQBFSuF502Xk",
+          "title": "Les Jeux to You",
+          "artists": "Julia Holter"
+        },
+        {
+          "id": "4163mASWo9Bx3sCCpnyNa4",
+          "title": "Salt In The Wound",
+          "artists": "Julien Baker, Phoebe Bridgers, Lucy Dacus"
+        },
+        {
+          "id": "0SrVNCp7iMfrjZ0SBYBKno",
+          "title": "How Did This Happen !?",
+          "artists": "BODEGA"
+        },
+        {
+          "id": "2AF5Kzxb4pz7j79Ity84pP",
+          "title": "Night Shift",
+          "artists": "Lucy Dacus"
+        },
+        {
+          "id": "2p6XlybsJTLIj6GiYSMDVQ",
+          "title": "Lose Your Smile",
+          "artists": "Beach House"
+        },
+        {
+          "id": "3AcklpKQrNqZHnOexWFmX0",
+          "title": "The Animals",
+          "artists": "Ladytron"
+        },
+        {
+          "id": "3GAKdDYtNBhC6jFx9hzQfA",
+          "title": "Freebird II",
+          "artists": "Parquet Courts"
+        },
+        {
+          "id": "3MqVcAd41C9pC4RoS3IV1j",
+          "title": "Deep Sea",
+          "artists": "Snail Mail"
+        },
+        {
+          "id": "06EAtSDu3KSoi4fbA3ZjoB",
+          "title": "Crazy, Classic, Life",
+          "artists": "Janelle Monáe"
+        },
+        {
+          "id": "7blNhlXimy77PduXyWtmcI",
+          "title": "Salt In The Wound",
+          "artists": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus"
+        },
+        {
+          "id": "2xLMifQCjDGFmkHkpNLD9h",
+          "title": "SICKO MODE",
+          "artists": "Travis Scott"
+        },
+        {
+          "id": "56yeb6zxKn9aNjLyvbs1BM",
+          "title": "Sports",
+          "artists": "Viagra Boys"
+        },
+        {
+          "id": "3BpUZB0tw4zNmG3Iw1mclL",
+          "title": "Your Dog",
+          "artists": "Soccer Mommy"
+        },
+        {
+          "id": "19nUjmaqEhWvOtKk72NXGC",
+          "title": "City Looks Pretty",
+          "artists": "Courtney Barnett"
+        },
+        {
+          "id": "59fZ1smcmciapt7NB00t96",
+          "title": "Anna Wintour",
+          "artists": "Azealia Banks"
+        },
+        {
+          "id": "5Gnx5bNAglWcclJkuJnrys",
+          "title": "Flea Market",
+          "artists": "Tierra Whack"
+        },
+        {
+          "id": "5r8mGKhCDIVWb3AG4hm0l0",
+          "title": "PIENSO EN TU MIRÁ - Cap.3: Celos",
+          "artists": "ROSALÍA"
+        },
+        {
+          "id": "6tBoGL2cAkf4e7737QQUU9",
+          "title": "Falling Into Me",
+          "artists": "Let's Eat Grandma"
+        },
+        {
+          "id": "7ub14NqqyR1MDUTXyFBTzO",
+          "title": "Immaterial",
+          "artists": "SOPHIE"
+        },
+        {
+          "id": "0F24vte4FYxJaB2jDU1OXy",
+          "title": "PINK",
+          "artists": "Mothers"
+        }
+      ]
+    },
+    "2019": {
+      "playlistId": "0gMgVepUaGPk463Uh180fI",
+      "tracks": [
+        {
+          "id": "192FqQ5d6oLUF37TE63Mvj",
+          "title": "It Don't Hinder Me",
+          "artists": "Angélica Garcia"
+        },
+        {
+          "id": "3A0ITFj6kbb9CggwtPe55f",
+          "title": "Venom",
+          "artists": "Little Simz"
+        },
+        {
+          "id": "4jYREYvxXkVKnDv7y1A8yo",
+          "title": "Cosmic Cave",
+          "artists": "Ex Hex"
+        },
+        {
+          "id": "4P9ehjfKh0UIvOArrqaYHR",
+          "title": "Everlastingly Yours",
+          "artists": "Piroshka"
+        },
+        {
+          "id": "4tjT5RJeUEVZ9gC2DXxj5V",
+          "title": "Being Water",
+          "artists": "Lali Puna"
+        },
+        {
+          "id": "0nfgfn2J249Rgd5xp3IZsK",
+          "title": "Woman",
+          "artists": "Karen O, Danger Mouse"
+        },
+        {
+          "id": "4GVmW5Ba7yKexnlSuWmTcB",
+          "title": "STRANGE DAYS (1999)",
+          "artists": "HEALTH"
+        },
+        {
+          "id": "64S9AfnIm4m0SW3aUfIboQ",
+          "title": "Morning Comes",
+          "artists": "SASAMI"
+        },
+        {
+          "id": "6GNlMOzwHdd0meQ3TSIBHs",
+          "title": "No One's Easy to Love",
+          "artists": "Sharon Van Etten"
+        },
+        {
+          "id": "4SSnFejRGlZikf02HLewEF",
+          "title": "bury a friend",
+          "artists": "Billie Eilish"
+        },
+        {
+          "id": "6yZpYg5kCzSEjcD43KMIJQ",
+          "title": "It's All About You",
+          "artists": "MUNYA"
+        },
+        {
+          "id": "2qG5sZ7Si6sdK74qLxedYM",
+          "title": "Con Altura",
+          "artists": "ROSALÍA, J Balvin, El Guincho"
+        },
+        {
+          "id": "39exKIvycQDgs4T6uXdyu0",
+          "title": "Harmony Hall",
+          "artists": "Vampire Weekend"
+        },
+        {
+          "id": "1DXvEWgI1xoxmKv2Zd3pNE",
+          "title": "UFOF",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "2U8xna6lhdG5KYiC2IXahH",
+          "title": "Zoo Eyes",
+          "artists": "Aldous Harding"
+        },
+        {
+          "id": "6gAEUjyUbBby6tD7mdDYcy",
+          "title": "Secret",
+          "artists": "Hatchie"
+        },
+        {
+          "id": "52uTp5TrlfPrtgiUdIhkbU",
+          "title": "Sofia",
+          "artists": "Clairo"
+        },
+        {
+          "id": "3WBGXbsFdYk3LhK6Y19LRo",
+          "title": "Kids In The Dark",
+          "artists": "Bat For Lashes"
+        },
+        {
+          "id": "47HWyJVPEmyGLOVgMwrozC",
+          "title": "Black Moses (feat. JPEGMAFIA)",
+          "artists": "Channel Tres, JPEGMAFIA"
+        },
+        {
+          "id": "2KVStewnFKCp6gjREeHRDy",
+          "title": "Twist The Knife",
+          "artists": "Chromatics"
+        },
+        {
+          "id": "254suDtwoe5QLcMjzCWMjV",
+          "title": "Remember to Breathe",
+          "artists": "Sturgill Simpson"
+        },
+        {
+          "id": "2CWfGoCnzTG5wbXn5kJRSI",
+          "title": "fallen alien",
+          "artists": "FKA twigs"
+        },
+        {
+          "id": "7vuVUQV0dDnjXUyLPzJLPi",
+          "title": "Ill Wind",
+          "artists": "Radiohead"
+        },
+        {
+          "id": "30TCAxiC8zVb5NVdUoUuCS",
+          "title": "Something to Believe",
+          "artists": "Weyes Blood"
+        },
+        {
+          "id": "41uX0L4bro4KfKtDIIEFFe",
+          "title": "FUN!",
+          "artists": "Vince Staples"
+        }
+      ]
+    },
+    "2020": {
+      "playlistId": "3jeYGxO345eB4SWmDKGe6z",
+      "tracks": [
+        {
+          "id": "0HkTJVwN3BnhcdX7Qa1HLM",
+          "title": "I'm Not Getting Excited",
+          "artists": "The Beths"
+        },
+        {
+          "id": "7qY274XbIp0VFAKY1TuVbV",
+          "title": "4 American Dollars",
+          "artists": "U.S. Girls"
+        },
+        {
+          "id": "33IGKqHlv7IpDAXyN4Suwv",
+          "title": "Wake UP!",
+          "artists": "Hazel English"
+        },
+        {
+          "id": "66bYcZdmQX5uUYewYpNuxX",
+          "title": "Can’t Do Much",
+          "artists": "Waxahatchee"
+        },
+        {
+          "id": "02VM3vd7Fj9pf0ojrzDOXB",
+          "title": "Love in Mine",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "1goNp8FZSjak6UHYsawniU",
+          "title": "It's Bugsnax!",
+          "artists": "Kero Kero Bonito"
+        },
+        {
+          "id": "6N1rVxZ2pYKDcDOj5x5XhQ",
+          "title": "KLK",
+          "artists": "Arca, ROSALÍA"
+        },
+        {
+          "id": "21xrZYH6Z851YT8OgYtbxk",
+          "title": "Street Fighter",
+          "artists": "SAULT"
+        },
+        {
+          "id": "4jVBIpuOiMj1crqd8LoCrJ",
+          "title": "FRANCHISE (feat. Young Thug & M.I.A.)",
+          "artists": "Travis Scott, Young Thug, M.I.A."
+        },
+        {
+          "id": "10vS4ZLi4XWlIsNXSQXgqh",
+          "title": "JU$T (feat. Pharrell Williams & Zack de la Rocha)",
+          "artists": "Run The Jewels, El-P, Killer Mike, Zack De La Rocha, Pharrell Williams"
+        },
+        {
+          "id": "02vVD2QdRLfV81246Oaa7g",
+          "title": "Here in the Twilight",
+          "artists": "The Juan Maclean"
+        },
+        {
+          "id": "3QGITH6Fy3enLDTTDiprpc",
+          "title": "Crush",
+          "artists": "Club Intl, John Eatherly, Madeline Follin"
+        },
+        {
+          "id": "7BOUaOK4K71aRcf1gTbV0B",
+          "title": "Can't Get Over You With You",
+          "artists": "ML Buch"
+        },
+        {
+          "id": "5ahOA6Gas5YADp6eRyv7sb",
+          "title": "Forced Convalescence",
+          "artists": "Bright Eyes"
+        },
+        {
+          "id": "3QovtbUvmxov25p6qpHRNC",
+          "title": "Unknown Song",
+          "artists": "Joe Goddard, Hayden Thorpe"
+        },
+        {
+          "id": "2drtd6SptpMJ1KylMQ7mrE",
+          "title": "circle the drain",
+          "artists": "Soccer Mommy"
+        },
+        {
+          "id": "3sqmHaUVKizwwoKsHMVc1U",
+          "title": "4ÆM",
+          "artists": "Grimes"
+        },
+        {
+          "id": "55N8cxpE1QDoeaaNqUnoZ2",
+          "title": "Bad Decisions",
+          "artists": "The Strokes"
+        },
+        {
+          "id": "1DWZUa5Mzf2BwzpHtgbHPY",
+          "title": "Good News",
+          "artists": "Mac Miller"
+        },
+        {
+          "id": "0SqqAgdovOE24BzxIClpjw",
+          "title": "Yo Perreo Sola",
+          "artists": "Bad Bunny"
+        },
+        {
+          "id": "45GLZNw1ykOi5fVR6a0YqX",
+          "title": "Overlord",
+          "artists": "Dirty Projectors"
+        },
+        {
+          "id": "3KmtOQwSCN45QuxGtqtR7g",
+          "title": "Oh How We Drift Away",
+          "artists": "Tim Heidecker, Weyes Blood"
+        },
+        {
+          "id": "3cr3oAP4bQFNjZBV7ElKaB",
+          "title": "I Know The End",
+          "artists": "Phoebe Bridgers"
+        },
+        {
+          "id": "1Kjw0LwdniCWran4PxJqPQ",
+          "title": "Kerosene!",
+          "artists": "Yves Tumor"
+        },
+        {
+          "id": "2AID9aFUUt0M76951vXasG",
+          "title": "Do You Think We’ll Last Forever?",
+          "artists": "Caroline Rose"
+        }
+      ]
+    },
+    "2021": {
+      "playlistId": "041bYmDEDf8sYSYnc4PdF0",
+      "tracks": [
+        {
+          "id": "20MWkJVeqKnWf0rGFJJqRY",
+          "title": "I am not a woman, I'm a god",
+          "artists": "Halsey"
+        },
+        {
+          "id": "7h8tRiEeBvte0H7n0h8Xg4",
+          "title": "Hardline",
+          "artists": "Julien Baker"
+        },
+        {
+          "id": "2GXiBfelYRx18StuUnNTbW",
+          "title": "Vanishing",
+          "artists": "Circuit des Yeux"
+        },
+        {
+          "id": "0oRzcIZcW4oB2K2XfB2Uky",
+          "title": "UNISIL",
+          "artists": "SOPHIE"
+        },
+        {
+          "id": "2DE4tMJSgKaKj31SZtjw9w",
+          "title": "My Pulse to Ponder",
+          "artists": "Liars"
+        },
+        {
+          "id": "1yVbARBysb11nskwIzXLIg",
+          "title": "Rakata",
+          "artists": "Arca"
+        },
+        {
+          "id": "0BVI8MTzOWaXSktQTNHAwg",
+          "title": "Guided By Angels",
+          "artists": "Amyl and The Sniffers"
+        },
+        {
+          "id": "5dZckiro7HS8t2wOPrWpI2",
+          "title": "Please",
+          "artists": "Jessie Ware"
+        },
+        {
+          "id": "748mdHapucXQri7IAO8yFK",
+          "title": "Kiss Me More (feat. SZA)",
+          "artists": "Doja Cat, SZA"
+        },
+        {
+          "id": "6pjJUY0O4XgrYFGf9SwD7u",
+          "title": "Wet Dream",
+          "artists": "Wet Leg"
+        },
+        {
+          "id": "0Yk6Ow0CrjRYwqdj0sHkz0",
+          "title": "White Sands",
+          "artists": "Still Corners"
+        },
+        {
+          "id": "3hYfLNWbKnBut3ATcMwK5C",
+          "title": "The Greatest",
+          "artists": "SASAMI"
+        },
+        {
+          "id": "5ZVX8SPn5OEeNEz68Isc16",
+          "title": "I Can Wait",
+          "artists": "Low"
+        },
+        {
+          "id": "3ArnNhm8z0ScjDKfGHSBRk",
+          "title": "Hard Drive",
+          "artists": "Cassandra Jenkins"
+        },
+        {
+          "id": "2DGwxpbqlduypyIApDy2mA",
+          "title": "El Delirio",
+          "artists": "Petite Amie"
+        },
+        {
+          "id": "57sW7XhinRtf8lL4GwzVGi",
+          "title": "Robber",
+          "artists": "The Weather Station"
+        },
+        {
+          "id": "7G0ZLQ1LWp1EswpwMFlmwn",
+          "title": "Sink In",
+          "artists": "Tirzah"
+        },
+        {
+          "id": "1kZpYFQHUKv4xHELaaUSqP",
+          "title": "Like I Used To",
+          "artists": "Sharon Van Etten, Angel Olsen"
+        },
+        {
+          "id": "5aj8lG8Gh4C0DzGW7lvwEl",
+          "title": "Our Time",
+          "artists": "Lia Ices"
+        },
+        {
+          "id": "6wleKOJoHGaOPtJJWvJes6",
+          "title": "Love More",
+          "artists": "Fiona Apple"
+        },
+        {
+          "id": "6oAa31g091sMNe1TKo5LBS",
+          "title": "Stoned at the Nail Salon",
+          "artists": "Lorde"
+        },
+        {
+          "id": "2ZnEPfXm1CZzhGOn1Ay4mZ",
+          "title": "VBS",
+          "artists": "Lucy Dacus"
+        },
+        {
+          "id": "6AqFR4UHMbdlMPcJGrynXV",
+          "title": "to Perth, before the border closes",
+          "artists": "Julia Jacklin"
+        },
+        {
+          "id": "1RcGoniZzjY3oOatGifYK1",
+          "title": "Valentine",
+          "artists": "Snail Mail"
+        },
+        {
+          "id": "0BiK5BbYNFLb88CCOxBFJe",
+          "title": "LUMBERJACK",
+          "artists": "Tyler, The Creator"
+        }
+      ]
+    },
+    "2022": {
+      "playlistId": "2L7rN6Ogm0rCn9EcX2MLT4",
+      "tracks": [
+        {
+          "id": "2FYGZDfsAnNsrm1gVbyKnG",
+          "title": "SAOKO",
+          "artists": "ROSALÍA"
+        },
+        {
+          "id": "6G12ZafqofSq7YtrMqUm76",
+          "title": "Monotonía",
+          "artists": "Shakira, Ozuna"
+        },
+        {
+          "id": "4cChhY93uAoukOESzLGNWN",
+          "title": "Wild",
+          "artists": "Spoon"
+        },
+        {
+          "id": "0O5q2h0kfQD6PixL7rCHuL",
+          "title": "After The Earthquake",
+          "artists": "Alvvays"
+        },
+        {
+          "id": "6PbirqXeIG94tn0lXcrnYu",
+          "title": "Happy New Year",
+          "artists": "Let's Eat Grandma"
+        },
+        {
+          "id": "5jyj2XKWILHQxDoz59ddCT",
+          "title": "Billie Toppy",
+          "artists": "Men I Trust"
+        },
+        {
+          "id": "62MosvjGMQY3HeGPFEsmM1",
+          "title": "No One Dies From Love",
+          "artists": "Tove Lo"
+        },
+        {
+          "id": "6dVgCHMZrWG0tQ4HPeu4aw",
+          "title": "Baby again..",
+          "artists": "Fred again.., Skrillex, Four Tet"
+        },
+        {
+          "id": "57tOHMzHsLEJzXXEJNXas6",
+          "title": "Machina (feat. Mariana Saldaña)",
+          "artists": "Boy Harsher, BOAN"
+        },
+        {
+          "id": "1IHWl5LamUGEuP4ozKQSXZ",
+          "title": "Tití Me Preguntó",
+          "artists": "Bad Bunny"
+        },
+        {
+          "id": "5cxJPxGfmXeqpMzRKPerOb",
+          "title": "Beg for You (feat. Rina Sawayama)",
+          "artists": "Charli xcx, Rina Sawayama"
+        },
+        {
+          "id": "6rpyrf0FH3N98thnIYj66l",
+          "title": "The Male Man",
+          "artists": "Sworn Virgins"
+        },
+        {
+          "id": "4ltqfN12ohaVZdM6C45gMg",
+          "title": "American Teenager",
+          "artists": "Ethel Cain"
+        },
+        {
+          "id": "5032XU4VXiYGVcfxcfOJ1Y",
+          "title": "Undulate",
+          "artists": "For Tracy Hyde"
+        },
+        {
+          "id": "6fEtxRskOuPleXkm8ETYHE",
+          "title": "Quicksand",
+          "artists": "Hatchie"
+        },
+        {
+          "id": "3IRHPt9MGFCUhunOcqZC7R",
+          "title": "midnight sun",
+          "artists": "Nilüfer Yanya"
+        },
+        {
+          "id": "3W9LUDqaup6AK5uoozN7Wh",
+          "title": "Everything Is Simple",
+          "artists": "Widowspeak"
+        },
+        {
+          "id": "5XpKZJUfOMMDDWnwsu8Suw",
+          "title": "Remembering Me",
+          "artists": "Cate Le Bon"
+        },
+        {
+          "id": "3MuM6zcsqR7GZODwcV0LSE",
+          "title": "Shadow Paradise",
+          "artists": "Burial"
+        },
+        {
+          "id": "2ffoc5Am1YwBsNgAs8hAFO",
+          "title": "Step By Step",
+          "artists": "Braxe + Falcon, Alan Braxe, DJ Falcon, Panda Bear"
+        },
+        {
+          "id": "5hJNuNl5aS0eIs9by4q6UZ",
+          "title": "Masquerade",
+          "artists": "Beach House"
+        },
+        {
+          "id": "7G6NU3cp3ufNMEFCI2l90X",
+          "title": "It's Not Just Me, It's Everybody",
+          "artists": "Weyes Blood"
+        },
+        {
+          "id": "0Q7tKJdvKx6yyJ8qSf6elE",
+          "title": "Tick Tock",
+          "artists": "Aldous Harding"
+        },
+        {
+          "id": "3i7XRi2UyvGTdJawJRkVhd",
+          "title": "Certainty",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "2ownDSIYHvydbtauGZW4ln",
+          "title": "You Will Never Work In Television Again",
+          "artists": "The Smile"
+        }
+      ]
+    },
+    "2023": {
+      "playlistId": "6cG0rk5DwY0m1zIC8D6hmV",
+      "tracks": [
+        {
+          "id": "0qMZXgcLfkl5RI3q50KHMH",
+          "title": "Dumbest Girl Alive",
+          "artists": "100 gecs"
+        },
+        {
+          "id": "5JTDPZDDetda3wazmZA3D0",
+          "title": "Carbon Dioxide",
+          "artists": "Fever Ray"
+        },
+        {
+          "id": "27cBRq5YMm5D1B1nygzetD",
+          "title": "Leaving The Light",
+          "artists": "Genesis Owusu"
+        },
+        {
+          "id": "3mddquq4qcQ7hWhybpBVQn",
+          "title": "Really Really Light",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "4dSataK59s0m0UpNnQX0Ed",
+          "title": "yes! yes! a thousand times yes!",
+          "artists": "Home Is Where"
+        },
+        {
+          "id": "5o0DaHxpDoNyUtrvjmlB5T",
+          "title": "Pinking Shears",
+          "artists": "Mandy, Indiana"
+        },
+        {
+          "id": "0frdgqqz7rjEZ4SQIH169V",
+          "title": "Crossing Guard",
+          "artists": "Model/Actriz"
+        },
+        {
+          "id": "1kccKNibPNlyCVqhdg8NYE",
+          "title": "Barley",
+          "artists": "Water From Your Eyes"
+        },
+        {
+          "id": "1waqS2zPI3Z1zTvJOa2hVC",
+          "title": "SCARING THE HOES",
+          "artists": "JPEGMAFIA, Danny Brown"
+        },
+        {
+          "id": "26QLJMK8G0M06sk7h7Fkse",
+          "title": "love is embarrassing",
+          "artists": "Olivia Rodrigo"
+        },
+        {
+          "id": "6LGvWHB0braCdC7D5riRCt",
+          "title": "A Barely Lit Path",
+          "artists": "Oneohtrix Point Never"
+        },
+        {
+          "id": "0DWdj2oZMBFSzRsi2Cvfzf",
+          "title": "TQG",
+          "artists": "KAROL G, Shakira"
+        },
+        {
+          "id": "1kwPxt35W7cG3rryxR48PO",
+          "title": "Johnny Dang (with Paul Wall & DRODi)",
+          "artists": "That Mexican OT, Paul Wall, DRODi"
+        },
+        {
+          "id": "3OHfY25tqY28d16oZczHc8",
+          "title": "Kill Bill",
+          "artists": "SZA"
+        },
+        {
+          "id": "5KE5Inz4uZKGb2EzETaOEe",
+          "title": "Blood And Butter",
+          "artists": "Caroline Polachek"
+        },
+        {
+          "id": "0LlY50JLFSpeidjJLwEfLN",
+          "title": "Greenville",
+          "artists": "Angel Olsen"
+        },
+        {
+          "id": "67wOIdJG6ErtSqsJ6gSvnN",
+          "title": "All I Do",
+          "artists": "Bully"
+        },
+        {
+          "id": "3oZOhcGFBx5AdxDmpp209k",
+          "title": "Madres",
+          "artists": "Sofia Kourtesis"
+        },
+        {
+          "id": "6VCNxAwxA83j2jE3QZpYPr",
+          "title": "Oral",
+          "artists": "Björk, ROSALÍA"
+        },
+        {
+          "id": "2FRIWWs5xxPoQrk5pMmsQN",
+          "title": "Three Drums",
+          "artists": "Four Tet"
+        },
+        {
+          "id": "03vUSQpYEQryhvhI4VUsqb",
+          "title": "Flames shards goo",
+          "artists": "ML Buch"
+        },
+        {
+          "id": "1c2meJL1RaGILGSw9Lnj0P",
+          "title": "Chosen to Deserve",
+          "artists": "Wednesday"
+        },
+        {
+          "id": "7IAx9OvToHkT8C4ZlX9hwe",
+          "title": "Will Anybody Ever Love Me?",
+          "artists": "Sufjan Stevens"
+        },
+        {
+          "id": "0ToG55iJZCOzZkcpWbXxpW",
+          "title": "Vampire Empire",
+          "artists": "Big Thief"
+        },
+        {
+          "id": "5nW4z3pfZgJAJ2QTCz9AIE",
+          "title": "A&W",
+          "artists": "Lana Del Rey"
+        }
+      ]
+    },
+    "2024": {
+      "playlistId": "1qZZVy0bRMX3otyhtpwPLG",
+      "tracks": [
+        {
+          "id": "4K2hu1I4tuRpgDLiNTTEi2",
+          "title": "BYE BYE",
+          "artists": "Kim Gordon"
+        },
+        {
+          "id": "36j1SeSsw7OZsTO3ogFKEM",
+          "title": "Silver Thread Golden Needle",
+          "artists": "A. G. Cook"
+        },
+        {
+          "id": "1I4fm6R1YbcLE3DIut2yWu",
+          "title": "Reason Why (feat. Kim Petras and BC Kingdom)",
+          "artists": "SOPHIE, Kim Petras, BC Kingdom"
+        },
+        {
+          "id": "3gq0rDxpS9e6sbO72PBWbn",
+          "title": "U Should Not Be Doing That",
+          "artists": "Amyl and The Sniffers"
+        },
+        {
+          "id": "3Y1EvIgEVw51XtgNEgpz5c",
+          "title": "Von dutch",
+          "artists": "Charli xcx"
+        },
+        {
+          "id": "09ttHg3ZNVgDlYBZa1ZBw0",
+          "title": "Starburster",
+          "artists": "Fontaines D.C."
+        },
+        {
+          "id": "0UjX7qhaeOZSfmry34rUpn",
+          "title": "Maybe Blue",
+          "artists": "Gouge Away"
+        },
+        {
+          "id": "16P6DJm6ESmSIC8YRlLdmG",
+          "title": "Volume",
+          "artists": "Caribou"
+        },
+        {
+          "id": "54Y9wy1xU15thURSq12kHl",
+          "title": "Down Bad",
+          "artists": "TATYANA"
+        },
+        {
+          "id": "5ZBjVFfYDwj3TeIfDHLWLN",
+          "title": "Floating On A Moment",
+          "artists": "Beth Gibbons"
+        },
+        {
+          "id": "6bEHsyiVaK9agrtndxqX7U",
+          "title": "Wonderland",
+          "artists": "Daniel Avery"
+        },
+        {
+          "id": "17Zzi8qsn8mdm0t0JTGeQo",
+          "title": "Right Back to It",
+          "artists": "Waxahatchee, MJ Lenderman"
+        },
+        {
+          "id": "6dOtVTDdiauQNBQEDOtlAB",
+          "title": "BIRDS OF A FEATHER",
+          "artists": "Billie Eilish"
+        },
+        {
+          "id": "4xeFxp27NAtRoUrNcgVD9k",
+          "title": "I Guess Time Just Makes Fools of Us All",
+          "artists": "Father John Misty"
+        },
+        {
+          "id": "3OVFDi3mWcwXo7WnqsNFh4",
+          "title": "Sexy to Someone",
+          "artists": "Clairo"
+        },
+        {
+          "id": "056031SGRkM6nt4SVtmzaF",
+          "title": "Can U Hear",
+          "artists": "Alan Sparhawk"
+        },
+        {
+          "id": "7MarkM3buE9DyaEZ59b7vy",
+          "title": "Defense",
+          "artists": "Panda Bear"
+        },
+        {
+          "id": "4Nk10X45JIH1xrIWOCbA3I",
+          "title": "Holy, Holy",
+          "artists": "Geordie Greep"
+        },
+        {
+          "id": "7I20yqgoGEEfXBK8YNICJ8",
+          "title": "Life Is",
+          "artists": "Jessica Pratt"
+        },
+        {
+          "id": "0QW0KPBXXv67haGjbtkRRB",
+          "title": "Image",
+          "artists": "Magdalena Bay"
+        },
+        {
+          "id": "64Js3amhV3Pa7ho3Io1PM1",
+          "title": "Docket (feat. Bully)",
+          "artists": "Blondshell, Bully"
+        },
+        {
+          "id": "3UURgDYcbOzELx4jVyKbwA",
+          "title": "Leash (Babygirl Original Soundtrack)",
+          "artists": "Sky Ferreira"
+        },
+        {
+          "id": "3ha9yXEYY9lBZEVXD3sYzG",
+          "title": "Starburned and Unkissed",
+          "artists": "Caroline Polachek"
+        },
+        {
+          "id": "4KF3lAWZe5ZW6buU2RZ50Y",
+          "title": "Vaster Than Empires (featuring Alan Sparhawk)",
+          "artists": "Trent Reznor and Atticus Ross, Alan Sparhawk, BJ Burton"
+        },
+        {
+          "id": "7LMXRhf27EwcBQo2oLkcBa",
+          "title": "Waiting For Stevie",
+          "artists": "Pearl Jam"
+        }
+      ]
+    },
+    "2025": {
+      "playlistId": "0WplxqNHOgKxnlLJYkbuvK",
+      "tracks": [
+        {
+          "id": "1nyWOn19RBU0J9LIzgfNJK",
+          "title": "Corinthians",
+          "artists": "billy woods, Despot, El-P"
+        },
+        {
+          "id": "4tajrt0QHkRxOKJ5yYHrGz",
+          "title": "Melodie Is A Wound",
+          "artists": "Stereolab"
+        },
+        {
+          "id": "7IpWpWnpsFPqZwc1ADfEwI",
+          "title": "T&A",
+          "artists": "Blondshell"
+        },
+        {
+          "id": "1lbNgoJ5iMrMluCyhI4OQP",
+          "title": "Victory Lap",
+          "artists": "Fred again.., Skepta, PlaqueBoyMax"
+        },
+        {
+          "id": "0k9JIBszlCqCa4SpXI353F",
+          "title": "BIRDS",
+          "artists": "Turnstile"
+        },
+        {
+          "id": "7JJT5XgtT9Fq7aLQ7MbAD7",
+          "title": "Cinderella",
+          "artists": "Model/Actriz"
+        },
+        {
+          "id": "554qQSs9lpRVq6TlaaiIKT",
+          "title": "4 Raws",
+          "artists": "EsDeeKid"
+        },
+        {
+          "id": "3znSvEwBq09We4cxxmwlZM",
+          "title": "Chains & Whips",
+          "artists": "Clipse, Kendrick Lamar, Pharrell Williams, Pusha T, Malice"
+        },
+        {
+          "id": "5QCfOMH5K7bS4dH7H7PNeI",
+          "title": "Tonight",
+          "artists": "PinkPantheress"
+        },
+        {
+          "id": "5UW4tA4j23YL6kDfRw3rWT",
+          "title": "mangetout",
+          "artists": "Wet Leg"
+        },
+        {
+          "id": "0yzIr8JB1jI78nP3KFtXVi",
+          "title": "Bologna",
+          "artists": "Destroyer, Fiver"
+        },
+        {
+          "id": "7n9X3iO90ewgkHP8dUChWN",
+          "title": "Passenger Seat",
+          "artists": "Wolf Alice"
+        },
+        {
+          "id": "6q69wsnTERf5URBpPDP9eD",
+          "title": "Suddenly",
+          "artists": "Brian Eno, Beatie Wolfe"
+        },
+        {
+          "id": "4ORvXsPK9AJmDzm36BYcdy",
+          "title": "Reliquia",
+          "artists": "ROSALÍA"
+        },
+        {
+          "id": "02kTd6gB8IsBwPygDTHE4c",
+          "title": "Nettles",
+          "artists": "Ethel Cain"
+        },
+        {
+          "id": "6VVsdg9qPosc2dn35nXqs6",
+          "title": "Get Still",
+          "artists": "Alan Sparhawk, Trampled by Turtles"
+        },
+        {
+          "id": "33Wi8Etr6ljOsBViBOKWQ5",
+          "title": "Idiot Box",
+          "artists": "Sharon Van Etten"
+        },
+        {
+          "id": "6TeKbncyK62smlAvPy1dNa",
+          "title": "Eusexua",
+          "artists": "FKA twigs"
+        },
+        {
+          "id": "0rd72Flcqkc8KIcjAT9Fol",
+          "title": "Iona",
+          "artists": "Sister Ray Davies"
+        },
+        {
+          "id": "0EZ0x0i38nuPn9DXpgIBsF",
+          "title": "A thousand lies",
+          "artists": "Smerz"
+        },
+        {
+          "id": "5TFD2bmFKGhoCRbX61nXY5",
+          "title": "NUEVAYoL",
+          "artists": "Bad Bunny"
+        },
+        {
+          "id": "5Pr0dZZjoGqnWzlASF1ESU",
+          "title": "Garden",
+          "artists": "Maria Somerville"
+        },
+        {
+          "id": "4EbKAHT7I23BeXQFJ041Ls",
+          "title": "Play",
+          "artists": "james K"
+        },
+        {
+          "id": "5cVPVZJK7Kl1h3zoezocx0",
+          "title": "Spit",
+          "artists": "Gelli Haha"
+        },
+        {
+          "id": "5GHYjIrLwK4e7WTTZZcJt5",
+          "title": "Total euphoria",
+          "artists": "caroline"
+        }
+      ]
+    },
+    "2026": {
+      "playlistId": "0CvkKbWxjmoyNwljf1U74Z",
+      "tracks": [
+        {
+          "id": "4sTeXE85vlMftYDfnBApN3",
+          "title": "You're Not Alone - Dance Review",
+          "artists": "Courtesy, Erika de Casier"
+        },
+        {
+          "id": "1md8v8FG46KecYiMap2XTD",
+          "title": "Eyes of the World featuring Sky Ferreira",
+          "artists": "Charli xcx, Sky Ferreira"
+        },
+        {
+          "id": "54ajfggKjqC6CY4nKYMfPB",
+          "title": "Carried It All Around",
+          "artists": "The Besnard Lakes"
+        },
+        {
+          "id": "7EcldKQZHuizgKU4b7UbSk",
+          "title": "Klouds Will Carry Me To Sleep",
+          "artists": "Gelli Haha"
+        },
+        {
+          "id": "4dUOhTTMy4ITIbNQKPKYFP",
+          "title": "Going Shopping",
+          "artists": "The Strokes"
+        },
+        {
+          "id": "7EozbJ2yEDSWs7mYrfZ6eC",
+          "title": "Danger",
+          "artists": "Nia Archives"
+        },
+        {
+          "id": "6JSb9ZQroda8Lgd4rF8o60",
+          "title": "Miss You",
+          "artists": "Ms Ray, Nourished by Time"
+        },
+        {
+          "id": "7g8NvGPy7TfdLnZIXAFYXR",
+          "title": "The Lake",
+          "artists": "Fever Ray"
+        },
+        {
+          "id": "63LbUgoYrvopbT2auOnTys",
+          "title": "Long Way to Fall",
+          "artists": "Bedouine"
+        },
+        {
+          "id": "04LTubtEypnO64P6S6sP7Z",
+          "title": "One Stop",
+          "artists": "Aldous Harding"
+        },
+        {
+          "id": "0iYedju2KpaVf0pLKBtwvv",
+          "title": "Portrait Of A Lady On Fire",
+          "artists": "Kelsey Lu"
+        },
+        {
+          "id": "5pNs6lPWpytU3rp7k5m9YN",
+          "title": "Forever",
+          "artists": "Hekt, Smerz"
+        },
+        {
+          "id": "49j6SvuvWfbEKZKzsHCdLJ",
+          "title": "stupid song",
+          "artists": "Olivia Rodrigo"
+        },
+        {
+          "id": "0snzpWpjUj6dxRFrsNQOZs",
+          "title": "if you wanna party, come over to my house",
+          "artists": "Fcukers"
+        },
+        {
+          "id": "2twFHRISC3PWbHTVHvVYve",
+          "title": "Sometimes I believe in God (Sometimes I believe in Me)",
+          "artists": "Bassvictim"
+        },
+        {
+          "id": "7ga18SwJQ0nsigswfazZ9N",
+          "title": "Year of the Dragon",
+          "artists": "Bassvictim, Worldpeace DMT"
+        },
+        {
+          "id": "1IkSG0zP2JfECRpgPcr9Uq",
+          "title": "mangetout - The Dare remix",
+          "artists": "Wet Leg, The Dare"
+        },
+        {
+          "id": "4P1zfoLVuBfKHGShgXUjQy",
+          "title": "YES GODDD",
+          "artists": "Slayyyter"
+        },
+        {
+          "id": "6PMIn9EswrhH9MhvnA5qIa",
+          "title": "Balam =^..^= Says IPv09082024 Strawberry Head",
+          "artists": "Fire-Toolz"
+        },
+        {
+          "id": "6ZhcNDQXtbE3JCtxsAYh9b",
+          "title": "Somewhere Good",
+          "artists": "Tara Clerkin Trio"
+        },
+        {
+          "id": "7b8Q7CPNLqnsHj8jwJKQ2x",
+          "title": "Meaning Business",
+          "artists": "Wendy Eisenberg"
+        },
+        {
+          "id": "7IM4xK4W4n06UAV48ZXMup",
+          "title": "White Feather Hawk Tail Deer Hunter",
+          "artists": "Lana Del Rey"
+        },
+        {
+          "id": "6DHV44sKNB0hchQaGCq4Hv",
+          "title": "Plenty For All The Masses",
+          "artists": "Dagmar Zuniga"
+        },
+        {
+          "id": "3XOapyiO6vB1v6k9KqHz2O",
+          "title": "Why Do Men Sing",
+          "artists": "Bill Callahan"
+        },
+        {
+          "id": "0CGFMWGcwZIuEPvjYdmgMd",
+          "title": "Is Loser An Emotion You Feel Too?",
+          "artists": "The Femcels"
+        },
+        {
+          "id": "0giFRlECatzUl0T0iBMyhP",
+          "title": "Rachel's Song",
+          "artists": "Julianna Barwick, Mary Lattimore"
+        },
+        {
+          "id": "3wnBqgXscin5xmRqq7trIP",
+          "title": "G.O.D. And The Broken Ribs",
+          "artists": "Jack White"
+        },
+        {
+          "id": "7bUGV0iRkAlZ4qeGix6O9H",
+          "title": "LIFE KEEPS GOING",
+          "artists": "Genesis Owusu"
+        },
+        {
+          "id": "5Ckcc7WY6Q7QI6RcP9XzVA",
+          "title": "Anywhere",
+          "artists": "Ratboys"
+        },
+        {
+          "id": "2kqQoTZ4b5D8lLtMlUrZcC",
+          "title": "Dopamine",
+          "artists": "Robyn"
+        },
+        {
+          "id": "70hWEnSlRAI5ibDlB8LI8Q",
+          "title": "ENGLISH PARTY",
+          "artists": "Nirosta Steel"
+        },
+        {
+          "id": "2P8CNrkpifFsc1LYjGXE3w",
+          "title": "BOSS TRIX (BENNY'S SONG)",
+          "artists": "Nirosta Steel"
+        },
+        {
+          "id": "0g8FizeHVo2cG7qxBfmckf",
+          "title": "SS26",
+          "artists": "Charli xcx"
+        },
+        {
+          "id": "1uOXplf6PuWRgwd7m818t8",
+          "title": "God Damn (Finito)",
+          "artists": "Avalon Emerson"
+        },
+        {
+          "id": "3M955tNqy7VD1vJ1BUXLW4",
+          "title": "Prophetic Life",
+          "artists": "Babe Dylan"
+        },
+        {
+          "id": "4wwOje67xW4mPCf8JvmWYK",
+          "title": "Heart Has To Work So Hard",
+          "artists": "Blondshell"
+        },
+        {
+          "id": "1JoXpOp0Apo6i8oGwBGu6n",
+          "title": "11,000 Volts",
+          "artists": "Sunday Mourners"
+        },
+        {
+          "id": "5rx8P84jKRWQicXgRAn7i0",
+          "title": "PLAY ME",
+          "artists": "Kim Gordon"
+        },
+        {
+          "id": "6aITiIE9yq8AmxM5Pzfw1T",
+          "title": "See Out Loud",
+          "artists": "Interpol"
+        },
+        {
+          "id": "2LZZFoUonV4oO9vKCxVBAP",
+          "title": "Barking at the Sun",
+          "artists": "No Joy"
+        },
+        {
+          "id": "1Puye0dExeFoZvMJIaZGGG",
+          "title": "Familiar Dreams",
+          "artists": "Ravyn Lenae"
+        }
+      ]
+    }
+  }
 }

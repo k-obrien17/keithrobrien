@@ -1,6 +1,54 @@
 {
   "changes": [
     {
+      "date": "2026-08-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Backrooms",
+      "year": 2026,
+      "rank": 3
+    },
+    {
+      "date": "2026-08-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Sheep Detectives",
+      "year": 2026,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-08-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Pressure",
+      "year": 2026,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-08-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-08-03",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Backrooms",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-26",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Obsession",
+      "year": 2026
+    },
+    {
       "date": "2026-07-26",
       "domain": "movies",
       "type": "watched",

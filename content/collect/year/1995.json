@@ -30,6 +30,11 @@
         "album": "Different Class"
       },
       {
+        "track": "Connection",
+        "artist": "Elastica",
+        "album": "Elastica"
+      },
+      {
         "track": "Do You Know (What It Takes)",
         "artist": "Robyn",
         "album": "Robyn Is Here"
@@ -63,11 +68,6 @@
         "track": "Hyperballad",
         "artist": "Björk",
         "album": "Post"
-      },
-      {
-        "track": "I Got 5 On It",
-        "artist": "Luniz, Michael Marshall",
-        "album": "Operation Stackola"
       },
       {
         "track": "Ice Cream (feat. Ghostface Killah, Method Man & Cappadonna)",

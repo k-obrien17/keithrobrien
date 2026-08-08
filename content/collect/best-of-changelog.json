@@ -1,5 +1,20 @@
 {
-  "changes": [],
+  "changes": [
+    {
+      "date": "2026-08-08",
+      "type": "added",
+      "title": "Connection",
+      "artists": "Elastica",
+      "year": 1995
+    },
+    {
+      "date": "2026-08-08",
+      "type": "removed",
+      "title": "I Got 5 On It",
+      "artists": "Luniz, Michael Marshall",
+      "year": 1995
+    }
+  ],
   "snapshots": {
     "1979": {
       "playlistId": "23JuMZqOAyl07hvZVRSheM",
@@ -2110,9 +2125,9 @@
           "artists": "GZA, Method Man"
         },
         {
-          "id": "4IYKjN1DrYzxKXt0umJqsG",
-          "title": "I Got 5 On It",
-          "artists": "Luniz, Michael Marshall"
+          "id": "1UXKz5vm5qjRrzAM3JZSts",
+          "title": "Connection",
+          "artists": "Elastica"
         },
         {
           "id": "1iMiDCOk9e2yxwaM38Z346",

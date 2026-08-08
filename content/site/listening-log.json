@@ -16,6 +16,11 @@
       "artists": "Charli xcx"
     },
     {
+      "id": "3EnMpeoPYtFVFqO3306SfD",
+      "title": "Tiny Raisin",
+      "artists": "Suki Waterhouse"
+    },
+    {
       "id": "5cVPVZJK7Kl1h3zoezocx0",
       "title": "Spit",
       "artists": "Gelli Haha"
@@ -101,11 +106,6 @@
       "artists": "Wolf Parade"
     },
     {
-      "id": "7ntyEanGyzdOitxuDYLkTy",
-      "title": "Part Time Punks",
-      "artists": "Television Personalities"
-    },
-    {
       "id": "6o6Dmd2gQW3BXzyzxMHnfz",
       "title": "Winter Beats",
       "artists": "I Break Horses"
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-08-08",
+      "type": "added",
+      "title": "Tiny Raisin",
+      "artists": "Suki Waterhouse"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "removed",
+      "title": "Part Time Punks",
+      "artists": "Television Personalities"
+    },
     {
       "date": "2026-08-02",
       "type": "added",

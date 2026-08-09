@@ -38,3 +38,11 @@ jobs:
           git add content/collect/digest-state.json
           git commit -m "chore(collect): advance changelog digest state"
           git push
+
+      - name: Ping healthchecks.io (success)
+        if: success()
+        run: curl -fsS -m 10 --retry 3 "https://hc-ping.com/${{ secrets.HC_UUID_CHANGELOG_DIGEST }}" || true
+
+      - name: Ping healthchecks.io (failure)
+        if: failure()
+        run: curl -fsS -m 10 --retry 3 "https://hc-ping.com/${{ secrets.HC_UUID_CHANGELOG_DIGEST }}/fail" || true

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CollectHeader } from "@/components/collect-header";
 import { Section } from "@/components/section";
-import { getMusicChangelog, type ChangelogEntry } from "@/lib/site-content";
+import { getCollectChangelog, type ChangelogEntry } from "@/lib/site-content";
 
 export const metadata: Metadata = {
   title: "Changelog",
@@ -65,10 +65,11 @@ function EntryRow({ entry }: { entry: ChangelogEntry }) {
         {domainLabel(entry)}
       </span>
       <span className="flex-1 text-[var(--color-muted)]">{describeEntry(entry)}</span>
-      <span className="text-[var(--color-faint)] w-[60px] text-right shrink-0">
+      <span className="text-[var(--color-faint)] w-[80px] text-right shrink-0">
         {new Date(entry.date).toLocaleDateString("en-US", {
           month: "short",
           day: "numeric",
+          year: "numeric",
           timeZone: "UTC",
         })}
       </span>
@@ -77,16 +78,16 @@ function EntryRow({ entry }: { entry: ChangelogEntry }) {
 }
 
 export default function ChangelogPage() {
-  const entries = getMusicChangelog();
+  const entries = getCollectChangelog();
 
   return (
     <>
       <CollectHeader crumb="// collect · changelog" title="Changelog">
         <p>
-          Every change to the living lists above: tracks moving in and out of
-          Theseus&apos; Playlist and the Best-of-YYYY playlists, and titles
-          entering, leaving, or reshuffling the movies and TV top 10s and the
-          per-year top 5 film lists.
+          Every change to the living lists in /collect: tracks moving in and
+          out of Theseus&apos; Playlist and the Best-of-YYYY playlists, and
+          titles entering, leaving, or reshuffling the movies and TV top 10s
+          and the per-year top 5 film lists.
         </p>
       </CollectHeader>
 

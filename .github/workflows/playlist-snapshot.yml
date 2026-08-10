@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: collect-changelog-commit
+
 jobs:
   snapshot:
     runs-on: ubuntu-latest

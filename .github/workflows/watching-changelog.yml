@@ -11,6 +11,9 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: collect-changelog-commit
+
 jobs:
   diff:
     runs-on: ubuntu-latest

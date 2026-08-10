@@ -99,7 +99,7 @@ export interface ChangelogEntry {
   previousRank?: number;
 }
 
-export function getMusicChangelog(): ChangelogEntry[] {
+export function getCollectChangelog(): ChangelogEntry[] {
   const playlist: ChangelogEntry[] = getListeningChanges().map((c) => ({
     date: c.date,
     domain: "playlist",

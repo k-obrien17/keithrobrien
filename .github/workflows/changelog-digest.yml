@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: collect-changelog-commit
+
 jobs:
   digest:
     runs-on: ubuntu-latest

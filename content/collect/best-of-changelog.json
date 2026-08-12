@@ -1,6 +1,48 @@
 {
   "changes": [
     {
+      "date": "2026-08-12",
+      "type": "added",
+      "title": "Ghosts",
+      "artists": "Ladytron",
+      "year": 2008
+    },
+    {
+      "date": "2026-08-12",
+      "type": "removed",
+      "title": "American Boy",
+      "artists": "Estelle, Kanye West",
+      "year": 2008
+    },
+    {
+      "date": "2026-08-12",
+      "type": "added",
+      "title": "Soft Power",
+      "artists": "Ladytron",
+      "year": 2005
+    },
+    {
+      "date": "2026-08-12",
+      "type": "removed",
+      "title": "What I Say And What I Mean",
+      "artists": "The Like",
+      "year": 2005
+    },
+    {
+      "date": "2026-08-12",
+      "type": "added",
+      "title": "Paco!",
+      "artists": "Ladytron",
+      "year": 2001
+    },
+    {
+      "date": "2026-08-12",
+      "type": "removed",
+      "title": "Uzi (Pinky Ring) (feat. U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa & GZA)",
+      "artists": "Wu-Tang Clan, U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa, GZA",
+      "year": 2001
+    },
+    {
       "date": "2026-08-08",
       "type": "added",
       "title": "Connection",
@@ -2880,11 +2922,6 @@
           "artists": "The Strokes"
         },
         {
-          "id": "1fCs3LuvVDSnLss2Dy7vt8",
-          "title": "Uzi (Pinky Ring) (feat. U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa & GZA)",
-          "artists": "Wu-Tang Clan, U-God, Raekwon, Ghostface Killah, RZA, Method Man, Inspectah Deck, Masta Killa, GZA"
-        },
-        {
           "id": "55mJleti2WfWEFNFcBduhc",
           "title": "Schism",
           "artists": "TOOL"
@@ -2953,6 +2990,11 @@
           "id": "3cJh89D0za2SW705fNBo3b",
           "title": "Where's Your Head At",
           "artists": "Basement Jaxx"
+        },
+        {
+          "id": "0sPF5yBhenmWHam9qvnSIv",
+          "title": "Paco!",
+          "artists": "Ladytron"
         },
         {
           "id": "32kmXl5F8I3XDVKNfwwM4J",
@@ -3475,6 +3517,11 @@
           "artists": "Caribou"
         },
         {
+          "id": "78a7Z2OIPNySBCtyA8RDX1",
+          "title": "Soft Power",
+          "artists": "Ladytron"
+        },
+        {
           "id": "6Wce7iw9Mnr8LQFT0OsT5i",
           "title": "Rollercoaster",
           "artists": "Sleater-Kinney"
@@ -3493,11 +3540,6 @@
           "id": "1mnqraQ8oV8MX92rdOFLWW",
           "title": "1 Thing",
           "artists": "Amerie"
-        },
-        {
-          "id": "6mlymjDyNTiDbD4GTxK0Tt",
-          "title": "What I Say And What I Mean",
-          "artists": "The Like"
         },
         {
           "id": "2YxXuCdbUpil3P7tRjhW1t",
@@ -3835,11 +3877,6 @@
           "artists": "Hot Chip"
         },
         {
-          "id": "22UDw8rSfLbUsaAGTXQ4Z8",
-          "title": "American Boy",
-          "artists": "Estelle, Kanye West"
-        },
-        {
           "id": "5J2aWRLoOL57CUkkzZjZWy",
           "title": "Hearts On Fire",
           "artists": "Cut Copy"
@@ -3858,6 +3895,11 @@
           "id": "0BiYKvf5gJ9bGNJnngyDkU",
           "title": "You! Me! Dancing! - Remastered",
           "artists": "Los Campesinos!"
+        },
+        {
+          "id": "4wIZspOLYmjCbA3nA6bI8u",
+          "title": "Ghosts",
+          "artists": "Ladytron"
         },
         {
           "id": "1nRKULvpYvnrgWEGhiIuck",

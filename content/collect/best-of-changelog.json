@@ -1,6 +1,27 @@
 {
   "changes": [
     {
+      "date": "2026-08-17",
+      "type": "added",
+      "title": "Lost Boys",
+      "artists": "Phoebe Bridgers",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-17",
+      "type": "added",
+      "title": "Felt Tip",
+      "artists": "Love Is All",
+      "year": 2006
+    },
+    {
+      "date": "2026-08-17",
+      "type": "removed",
+      "title": "Reason To Believe",
+      "artists": "Dashboard Confessional",
+      "year": 2006
+    },
+    {
       "date": "2026-08-12",
       "type": "added",
       "title": "Ghosts",
@@ -3627,11 +3648,6 @@
           "artists": "Swan Lake"
         },
         {
-          "id": "0x8AsvZvWejr7RwvMerxoy",
-          "title": "Reason To Believe",
-          "artists": "Dashboard Confessional"
-        },
-        {
           "id": "3DiCOFDPnyUIU03qdmURN0",
           "title": "Thursday",
           "artists": "Asobi Seksu"
@@ -3645,6 +3661,11 @@
           "id": "2SZsqtAcbrluWuFDal9e4p",
           "title": "You Are the Generation That Bought More Shoes and You Get What You Deserve",
           "artists": "Johnny Boy"
+        },
+        {
+          "id": "1OjWknTDSlE6n3bKGaH3tR",
+          "title": "Felt Tip",
+          "artists": "Love Is All"
         },
         {
           "id": "6LhQNP3yh7vj1J4qZXKmwH",
@@ -6365,6 +6386,11 @@
           "id": "1Puye0dExeFoZvMJIaZGGG",
           "title": "Familiar Dreams",
           "artists": "Ravyn Lenae"
+        },
+        {
+          "id": "6eoIuFQSEXcwQqr0RnFdW8",
+          "title": "Lost Boys",
+          "artists": "Phoebe Bridgers"
         }
       ]
     }

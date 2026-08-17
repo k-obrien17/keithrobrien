@@ -4,6 +4,7 @@ import { Section } from "@/components/section";
 import { IndexTable } from "@/components/index-table";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/writing";
+import { getInProgressPlaylist } from "@/lib/collect";
 import {
   getHome,
   getListening,
@@ -18,6 +19,7 @@ export default function Home() {
   const shipped = getRecentlyShipped();
   const listening = getListening();
   const listeningChanges = getListeningChanges().slice(0, 6);
+  const inProgress = getInProgressPlaylist();
 
   return (
     <>
@@ -95,6 +97,39 @@ export default function Home() {
               ],
             }))}
           />
+        </Section>
+      )}
+
+      {/* In-progress best-of playlist */}
+      {inProgress && (
+        <Section label={`Best of ${inProgress.year}`}>
+          <p className="text-[12.5px] leading-[1.8] text-[var(--color-muted)] mb-6 max-w-[580px]">
+            The {inProgress.year} list, gathered as the year happens. Final
+            tracklist and ranking land here in December.
+          </p>
+          <iframe
+            src={`https://open.spotify.com/embed/playlist/${inProgress.playlistId}?theme=0`}
+            width="100%"
+            height="352"
+            style={{ border: 0 }}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title={`Spotify playlist: best of ${inProgress.year}, in progress`}
+          />
+          <a
+            href={inProgress.spotifyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            open in Spotify &rarr;
+          </a>
+          <Link
+            href={`/collect/${inProgress.year}`}
+            className="inline-block mt-8 text-[12.5px] text-[var(--color-muted)] transition-opacity hover:opacity-55"
+          >
+            full {inProgress.year} archive &rarr;
+          </Link>
         </Section>
       )}
 

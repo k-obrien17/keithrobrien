@@ -79,3 +79,26 @@ export function getMusicYears(): number[] {
 export function getFilmYears(): number[] {
   return getYears().filter((y) => getYearData(y).film.length > 0);
 }
+
+export type InProgressPlaylist = {
+  year: number;
+  spotifyUrl: string;
+  playlistId: string;
+};
+
+/**
+ * The newest year with a Spotify playlist started but no tracklist curated
+ * yet, i.e. the current "best of" in progress. Returns null once that
+ * year's tracklist is published (music.tracks stops being empty).
+ */
+export function getInProgressPlaylist(): InProgressPlaylist | null {
+  for (const year of getYears()) {
+    const hand = readHandYear(year);
+    const spotifyUrl = hand.music?.spotify_url;
+    if (!spotifyUrl || (hand.music?.tracks.length ?? 0) > 0) continue;
+    const playlistId = spotifyUrl.split("/playlist/")[1]?.split("?")[0];
+    if (!playlistId) continue;
+    return { year, spotifyUrl, playlistId };
+  }
+  return null;
+}

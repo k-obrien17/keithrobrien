@@ -10,6 +10,7 @@
     { "label": "Bylines", "desc": "400+ published pieces across 30+ outlets", "href": "/bylines" },
     { "label": "Writing", "desc": "Essays under my own name", "href": "/writing" },
     { "label": "Projects", "desc": "What I build and run on the side", "href": "/projects" },
+    { "label": "Collect", "desc": "Music, film, and TV year-based rankings", "href": "/collect" },
     { "label": "About", "desc": "Who I am, how to reach me", "href": "/about" }
   ]
 }

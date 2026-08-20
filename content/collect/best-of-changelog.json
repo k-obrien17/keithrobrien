@@ -1,6 +1,13 @@
 {
   "changes": [
     {
+      "date": "2026-08-20",
+      "type": "added",
+      "title": "Artificial Intelligence",
+      "artists": "Nite Jewel",
+      "year": 2009
+    },
+    {
       "date": "2026-08-17",
       "type": "added",
       "title": "Lost Boys",
@@ -4096,6 +4103,11 @@
           "id": "4V0x90QcMh4ZxwHzEWOdtK",
           "title": "Feel It All Around",
           "artists": "Washed Out"
+        },
+        {
+          "id": "7xTrdxMoZ92VrCyvWmjddB",
+          "title": "Artificial Intelligence",
+          "artists": "Nite Jewel"
         }
       ]
     },

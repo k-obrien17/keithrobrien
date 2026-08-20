@@ -31,19 +31,19 @@
       "artists": "DEVO"
     },
     {
-      "id": "0snzpWpjUj6dxRFrsNQOZs",
-      "title": "if you wanna party, come over to my house",
-      "artists": "Fcukers"
+      "id": "6eoIuFQSEXcwQqr0RnFdW8",
+      "title": "Lost Boys",
+      "artists": "Phoebe Bridgers"
     },
     {
-      "id": "6AGWnEHVj4BgTITahsYgfT",
-      "title": "Fools Gold",
-      "artists": "Tgv"
+      "id": "6VyR9z26oKw6BvlwSjqvoY",
+      "title": "Girlfriend Is Better - 2005 Remaster",
+      "artists": "Talking Heads"
     },
     {
-      "id": "1OnvHAiH0cSoaefsPOoQwc",
-      "title": "Manila - Headman Mix",
-      "artists": "Seelenluft"
+      "id": "0pfTlQJBOV4LUmF8qqrVy5",
+      "title": "Deadly Valentine",
+      "artists": "Charlotte Gainsbourg"
     },
     {
       "id": "2s6wCS3vDZFPY9NOTlPXJZ",
@@ -127,6 +127,42 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-08-20",
+      "type": "added",
+      "title": "Lost Boys",
+      "artists": "Phoebe Bridgers"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "added",
+      "title": "Girlfriend Is Better - 2005 Remaster",
+      "artists": "Talking Heads"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "added",
+      "title": "Deadly Valentine",
+      "artists": "Charlotte Gainsbourg"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "removed",
+      "title": "if you wanna party, come over to my house",
+      "artists": "Fcukers"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "removed",
+      "title": "Fools Gold",
+      "artists": "Tgv"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "removed",
+      "title": "Manila - Headman Mix",
+      "artists": "Seelenluft"
+    },
     {
       "date": "2026-08-08",
       "type": "added",

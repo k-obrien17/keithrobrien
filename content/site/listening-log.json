@@ -1,9 +1,14 @@
 {
   "snapshot": [
     {
-      "id": "49j6SvuvWfbEKZKzsHCdLJ",
-      "title": "stupid song",
-      "artists": "Olivia Rodrigo"
+      "id": "2aR3Hs6ioznnfBaI1rArDi",
+      "title": "Hammond Song",
+      "artists": "Wolf Alice"
+    },
+    {
+      "id": "3EnMpeoPYtFVFqO3306SfD",
+      "title": "Tiny Raisin",
+      "artists": "Suki Waterhouse"
     },
     {
       "id": "0BgPrNelWyvk0C5recZeKE",
@@ -16,19 +21,14 @@
       "artists": "Charli xcx"
     },
     {
-      "id": "3EnMpeoPYtFVFqO3306SfD",
-      "title": "Tiny Raisin",
-      "artists": "Suki Waterhouse"
-    },
-    {
       "id": "5cVPVZJK7Kl1h3zoezocx0",
       "title": "Spit",
       "artists": "Gelli Haha"
     },
     {
-      "id": "0rVbLdk2mZf0w90Xh69mjC",
-      "title": "That's Good",
-      "artists": "DEVO"
+      "id": "3Oa8vnNXStoOHLbJwwMEDP",
+      "title": "Lips Like Sugar",
+      "artists": "Echo & the Bunnymen"
     },
     {
       "id": "6eoIuFQSEXcwQqr0RnFdW8",
@@ -127,6 +127,30 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-08-24",
+      "type": "added",
+      "title": "Hammond Song",
+      "artists": "Wolf Alice"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "added",
+      "title": "Lips Like Sugar",
+      "artists": "Echo & the Bunnymen"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "removed",
+      "title": "stupid song",
+      "artists": "Olivia Rodrigo"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "removed",
+      "title": "That's Good",
+      "artists": "DEVO"
+    },
     {
       "date": "2026-08-20",
       "type": "added",

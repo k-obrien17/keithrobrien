@@ -1,6 +1,13 @@
 {
   "changes": [
     {
+      "date": "2026-08-24",
+      "type": "added",
+      "title": "In & Out",
+      "artists": "Ravyn Lenae",
+      "year": 2026
+    },
+    {
       "date": "2026-08-20",
       "type": "added",
       "title": "Artificial Intelligence",
@@ -6403,6 +6410,11 @@
           "id": "6eoIuFQSEXcwQqr0RnFdW8",
           "title": "Lost Boys",
           "artists": "Phoebe Bridgers"
+        },
+        {
+          "id": "6KLLoGHAIYPfNYfRo4U1Ql",
+          "title": "In & Out",
+          "artists": "Ravyn Lenae"
         }
       ]
     }

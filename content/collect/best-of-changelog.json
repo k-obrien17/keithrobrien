@@ -1,6 +1,20 @@
 {
   "changes": [
     {
+      "date": "2026-08-27",
+      "type": "added",
+      "title": "I Believe in You - 1997 Remaster",
+      "artists": "Talk Talk",
+      "year": 1988
+    },
+    {
+      "date": "2026-08-27",
+      "type": "removed",
+      "title": "Good Thing",
+      "artists": "Fine Young Cannibals",
+      "year": 1988
+    },
+    {
       "date": "2026-08-24",
       "type": "added",
       "title": "In & Out",
@@ -1367,11 +1381,6 @@
           "artists": "Living Colour"
         },
         {
-          "id": "6lRkdG1HurVS72F9GoBeWJ",
-          "title": "Good Thing",
-          "artists": "Fine Young Cannibals"
-        },
-        {
           "id": "1I0qu4PsBjAHfJHy9wy5AA",
           "title": "Chains of Love",
           "artists": "Erasure"
@@ -1390,6 +1399,11 @@
           "id": "2cReSKmcyhe6lw8QSj5AYD",
           "title": "End Of The Line",
           "artists": "Traveling Wilburys"
+        },
+        {
+          "id": "3SzoVeS9Eaxt6dmfXF0fPo",
+          "title": "I Believe in You - 1997 Remaster",
+          "artists": "Talk Talk"
         }
       ]
     },

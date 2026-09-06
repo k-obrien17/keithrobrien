@@ -1,6 +1,55 @@
 {
   "changes": [
     {
+      "date": "2026-08-27",
+      "type": "added",
+      "title": "I Believe in You - 1997 Remaster",
+      "artists": "Talk Talk",
+      "year": 1988
+    },
+    {
+      "date": "2026-08-27",
+      "type": "removed",
+      "title": "Good Thing",
+      "artists": "Fine Young Cannibals",
+      "year": 1988
+    },
+    {
+      "date": "2026-08-24",
+      "type": "added",
+      "title": "In & Out",
+      "artists": "Ravyn Lenae",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-20",
+      "type": "added",
+      "title": "Artificial Intelligence",
+      "artists": "Nite Jewel",
+      "year": 2009
+    },
+    {
+      "date": "2026-08-17",
+      "type": "added",
+      "title": "Lost Boys",
+      "artists": "Phoebe Bridgers",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-17",
+      "type": "added",
+      "title": "Felt Tip",
+      "artists": "Love Is All",
+      "year": 2006
+    },
+    {
+      "date": "2026-08-17",
+      "type": "removed",
+      "title": "Reason To Believe",
+      "artists": "Dashboard Confessional",
+      "year": 2006
+    },
+    {
       "date": "2026-08-12",
       "type": "added",
       "title": "Ghosts",
@@ -564,7 +613,7 @@
         {
           "id": "1QlogZxaAT35c3HqjJt1JH",
           "title": "Situation",
-          "artists": "Yaz"
+          "artists": "YAZ"
         },
         {
           "id": "274111AbitFzAPZ10tbj6e",
@@ -604,7 +653,7 @@
         {
           "id": "4LGQTdp6uOkrlgO8mmlLA1",
           "title": "State Farm",
-          "artists": "Yaz"
+          "artists": "YAZ"
         },
         {
           "id": "3v4h4wyAZe2pBQv6uK5KhP",
@@ -1332,11 +1381,6 @@
           "artists": "Living Colour"
         },
         {
-          "id": "6lRkdG1HurVS72F9GoBeWJ",
-          "title": "Good Thing",
-          "artists": "Fine Young Cannibals"
-        },
-        {
           "id": "1I0qu4PsBjAHfJHy9wy5AA",
           "title": "Chains of Love",
           "artists": "Erasure"
@@ -1355,6 +1399,11 @@
           "id": "2cReSKmcyhe6lw8QSj5AYD",
           "title": "End Of The Line",
           "artists": "Traveling Wilburys"
+        },
+        {
+          "id": "3SzoVeS9Eaxt6dmfXF0fPo",
+          "title": "I Believe in You - 1997 Remaster",
+          "artists": "Talk Talk"
         }
       ]
     },
@@ -2397,9 +2446,19 @@
       "playlistId": "3G9T4n1G1AQWgMIWzkdiUA",
       "tracks": [
         {
-          "id": "0QUNsfM5lsFWRo46A39Rc2",
-          "title": "Red",
-          "artists": "12 RODS"
+          "id": "7cz70nyRXlCJOE85whEkgU",
+          "title": "Flagpole Sitta",
+          "artists": "Harvey Danger"
+        },
+        {
+          "id": "7KwZNVEaqikRSBSpyhXK2j",
+          "title": "Hypnotize - 2014 Remaster",
+          "artists": "The Notorious B.I.G."
+        },
+        {
+          "id": "0MyY4WcN7DIfbSmp5yej5z",
+          "title": "Da Funk",
+          "artists": "Daft Punk"
         },
         {
           "id": "1id6H6vcwSB9GGv9NXh5cl",
@@ -2422,9 +2481,9 @@
           "artists": "The Chemical Brothers"
         },
         {
-          "id": "0MyY4WcN7DIfbSmp5yej5z",
-          "title": "Da Funk",
-          "artists": "Daft Punk"
+          "id": "0QUNsfM5lsFWRo46A39Rc2",
+          "title": "Red",
+          "artists": "12 RODS"
         },
         {
           "id": "3XtkcPHbYX0BImTQLlbSVN",
@@ -2450,11 +2509,6 @@
           "id": "39CFOvYse9fcMhIwyS73Fl",
           "title": "Into My Arms",
           "artists": "Nick Cave & The Bad Seeds"
-        },
-        {
-          "id": "7KwZNVEaqikRSBSpyhXK2j",
-          "title": "Hypnotize - 2014 Remaster",
-          "artists": "The Notorious B.I.G."
         },
         {
           "id": "47PSYUK5a0uR87DUc9NR2g",
@@ -2515,11 +2569,6 @@
           "id": "1TfNHfBWSRibIvGBuuIA6S",
           "title": "Diesel Power",
           "artists": "The Prodigy"
-        },
-        {
-          "id": "7cz70nyRXlCJOE85whEkgU",
-          "title": "Flagpole Sitta",
-          "artists": "Harvey Danger"
         }
       ]
     },
@@ -3627,11 +3676,6 @@
           "artists": "Swan Lake"
         },
         {
-          "id": "0x8AsvZvWejr7RwvMerxoy",
-          "title": "Reason To Believe",
-          "artists": "Dashboard Confessional"
-        },
-        {
           "id": "3DiCOFDPnyUIU03qdmURN0",
           "title": "Thursday",
           "artists": "Asobi Seksu"
@@ -3645,6 +3689,11 @@
           "id": "2SZsqtAcbrluWuFDal9e4p",
           "title": "You Are the Generation That Bought More Shoes and You Get What You Deserve",
           "artists": "Johnny Boy"
+        },
+        {
+          "id": "1OjWknTDSlE6n3bKGaH3tR",
+          "title": "Felt Tip",
+          "artists": "Love Is All"
         },
         {
           "id": "6LhQNP3yh7vj1J4qZXKmwH",
@@ -4075,6 +4124,11 @@
           "id": "4V0x90QcMh4ZxwHzEWOdtK",
           "title": "Feel It All Around",
           "artists": "Washed Out"
+        },
+        {
+          "id": "7xTrdxMoZ92VrCyvWmjddB",
+          "title": "Artificial Intelligence",
+          "artists": "Nite Jewel"
         }
       ]
     },
@@ -6364,6 +6418,16 @@
         {
           "id": "1Puye0dExeFoZvMJIaZGGG",
           "title": "Familiar Dreams",
+          "artists": "Ravyn Lenae"
+        },
+        {
+          "id": "6eoIuFQSEXcwQqr0RnFdW8",
+          "title": "Lost Boys",
+          "artists": "Phoebe Bridgers"
+        },
+        {
+          "id": "6KLLoGHAIYPfNYfRo4U1Ql",
+          "title": "In & Out",
           "artists": "Ravyn Lenae"
         }
       ]

@@ -1,7 +1,5 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Positioning
 
 keithrobrien.com is Keith O'Brien's personal site: a static-first hub for his 400+ piece bylines archive, personal writing, side projects, and public profile/press-kit context. When in doubt, keep it static: no database, no auth, no CMS. Content lives in the repo, not in a backend.

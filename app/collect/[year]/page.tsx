@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Section } from "@/components/section";
 import { CollectHeader } from "@/components/collect-header";
+import { YearHighlights } from "@/components/year-highlights";
 import {
   MusicList,
   FilmList,
@@ -10,7 +11,8 @@ import {
   SpotifyLink,
   ComingSoon,
 } from "@/components/collect-lists";
-import { getYears, getYearData } from "@/lib/collect";
+import { getYears, getYearData, getTopFilm } from "@/lib/collect";
+import { getAlbumOfYear } from "@/lib/album-of-year";
 
 export function generateStaticParams() {
   return getYears().map((y) => ({ year: String(y) }));
@@ -91,6 +93,10 @@ export default async function YearPage({
           )}
         </p>
       </CollectHeader>
+
+      <Section label="At a glance">
+        <YearHighlights album={getAlbumOfYear(y)} film={getTopFilm(y)} />
+      </Section>
 
       <Section label="Music">
         {data.music ? (

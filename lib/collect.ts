@@ -70,6 +70,13 @@ export function getYearData(year: number): YearData {
   };
 }
 
+/** The highest-scored film for a year, or null if there's no film data yet. */
+export function getTopFilm(year: number): Film | null {
+  const films = getYearData(year).film;
+  if (films.length === 0) return null;
+  return films.reduce((best, f) => (f.score > best.score ? f : best));
+}
+
 /** Years that have a songs-of-the-year list, newest first. */
 export function getMusicYears(): number[] {
   return getYears().filter((y) => getYearData(y).music);

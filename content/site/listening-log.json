@@ -56,9 +56,9 @@
       "artists": "Dum Dum Girls"
     },
     {
-      "id": "4dUOhTTMy4ITIbNQKPKYFP",
-      "title": "Going Shopping",
-      "artists": "The Strokes"
+      "id": "1RyIA87KYGavtK0xiVXwDH",
+      "title": "Hallogallo",
+      "artists": "NEU!"
     },
     {
       "id": "6UaBLyflmUdrucnmyBFJA2",
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-09-07",
+      "type": "added",
+      "title": "Hallogallo",
+      "artists": "NEU!"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "removed",
+      "title": "Going Shopping",
+      "artists": "The Strokes"
+    },
     {
       "date": "2026-08-24",
       "type": "added",

@@ -1,6 +1,48 @@
 {
   "changes": [
     {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Votive",
+      "artists": "The New Pornographers",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Ne Plus Ultra",
+      "artists": "ear",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Ad Astra",
+      "artists": "Deerhunter",
+      "year": 2015
+    },
+    {
+      "date": "2026-09-10",
+      "type": "removed",
+      "title": "Oh My",
+      "artists": "WESTSIDE BOOGIE",
+      "year": 2015
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Carolyn's Fingers",
+      "artists": "Cocteau Twins",
+      "year": 1988
+    },
+    {
+      "date": "2026-09-10",
+      "type": "removed",
+      "title": "Dangerous",
+      "artists": "Roxette",
+      "year": 1988
+    },
+    {
       "date": "2026-08-27",
       "type": "added",
       "title": "I Believe in You - 1997 Remaster",
@@ -1371,11 +1413,6 @@
           "artists": "my bloody valentine"
         },
         {
-          "id": "0vyzaguBNqoFgJvSHYa5Fi",
-          "title": "Dangerous",
-          "artists": "Roxette"
-        },
-        {
           "id": "4WG7Z3bNM3iE4vCYcXsxNx",
           "title": "Cult of Personality (2023 Remaster)",
           "artists": "Living Colour"
@@ -1404,6 +1441,11 @@
           "id": "3SzoVeS9Eaxt6dmfXF0fPo",
           "title": "I Believe in You - 1997 Remaster",
           "artists": "Talk Talk"
+        },
+        {
+          "id": "7I5TgzRBPcnUafTJaZFbfy",
+          "title": "Carolyn's Fingers",
+          "artists": "Cocteau Twins"
         }
       ]
     },
@@ -4786,16 +4828,6 @@
       "playlistId": "4pu62mQgn292OEJDzdjeeV",
       "tracks": [
         {
-          "id": "0N3W5peJUQtI4eyR6GJT5O",
-          "title": "King Kunta",
-          "artists": "Kendrick Lamar"
-        },
-        {
-          "id": "4YPafsGyzXWry3ZWUAhYBn",
-          "title": "Oh My",
-          "artists": "WESTSIDE BOOGIE"
-        },
-        {
           "id": "5ThQC1HTthOfzxRaqAJWJN",
           "title": "Air",
           "artists": "Waxahatchee"
@@ -4819,6 +4851,11 @@
           "id": "20nWVcL69RbD6xF1mafrHO",
           "title": "Let It Grow",
           "artists": "Maximum Balloon, Karen O, Tunde Adebimpe"
+        },
+        {
+          "id": "0N3W5peJUQtI4eyR6GJT5O",
+          "title": "King Kunta",
+          "artists": "Kendrick Lamar"
         },
         {
           "id": "1j6kDJttn6wbVyMaM42Nxm",
@@ -4909,6 +4946,11 @@
           "id": "7lPgKA5mLFNmGPMdb07OlM",
           "title": "Loud Places",
           "artists": "Jamie xx, Romy"
+        },
+        {
+          "id": "0dDF7eWMC3COwJ6Hf9w3zk",
+          "title": "Ad Astra",
+          "artists": "Deerhunter"
         }
       ]
     },
@@ -6429,6 +6471,16 @@
           "id": "6KLLoGHAIYPfNYfRo4U1Ql",
           "title": "In & Out",
           "artists": "Ravyn Lenae"
+        },
+        {
+          "id": "0GZD2gykkJDvFSEC1Ewbh3",
+          "title": "Votive",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "3JcLs0pJ2u3ptbFDfbGxBg",
+          "title": "Ne Plus Ultra",
+          "artists": "ear"
         }
       ]
     }

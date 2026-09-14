@@ -1,6 +1,90 @@
 {
   "changes": [
     {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Finisher",
+      "artists": "Arca",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Heavy Water/I'd Rather Be Sleeping",
+      "artists": "Grouper",
+      "year": 2008
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Call It A Ritual",
+      "artists": "Wolf Parade",
+      "year": 2008
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Your Eyes",
+      "artists": "The Sundays",
+      "year": 1997
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Summertime",
+      "artists": "The Sundays",
+      "year": 1997
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "If I Were with Her Now",
+      "artists": "Spiritualized",
+      "year": 1992
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Strange",
+      "artists": "Galaxie 500",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Falling",
+      "artists": "Julee Cruise",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Waiting Room",
+      "artists": "Fugazi",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Trouble Me",
+      "artists": "10,000 Maniacs",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Walking With Jesus",
+      "artists": "Spacemen 3",
+      "year": 1988
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Peek-A-Boo",
+      "artists": "Siouxsie and the Banshees",
+      "year": 1988
+    },
+    {
       "date": "2026-09-10",
       "type": "added",
       "title": "Votive",
@@ -1368,11 +1452,6 @@
           "artists": "Morrissey"
         },
         {
-          "id": "3VkyKA0iCT1ABwaSjb0kpf",
-          "title": "Peek-A-Boo",
-          "artists": "Siouxsie and the Banshees"
-        },
-        {
           "id": "7c1Dar0pIAW7w5TzaGjt9t",
           "title": "Jane Says",
           "artists": "Jane's Addiction"
@@ -1436,6 +1515,11 @@
           "id": "2cReSKmcyhe6lw8QSj5AYD",
           "title": "End Of The Line",
           "artists": "Traveling Wilburys"
+        },
+        {
+          "id": "0Cbg6lpFMOm0b9BR8u0Wb4",
+          "title": "Walking With Jesus",
+          "artists": "Spacemen 3"
         },
         {
           "id": "3SzoVeS9Eaxt6dmfXF0fPo",
@@ -1518,14 +1602,19 @@
           "artists": "Beastie Boys"
         },
         {
-          "id": "2DBlfjL5chsdeULzhTp5K8",
-          "title": "Waiting Room",
-          "artists": "Fugazi"
-        },
-        {
           "id": "2SHTKB8YYlawTGIuJ2b2ok",
           "title": "About A Girl",
           "artists": "Nirvana"
+        },
+        {
+          "id": "2TTAPkrGQQOZkaUTUlt21Q",
+          "title": "Strange",
+          "artists": "Galaxie 500"
+        },
+        {
+          "id": "31CYUJj5f9lbQ0Qqm9PzK5",
+          "title": "Falling",
+          "artists": "Julee Cruise"
         },
         {
           "id": "5fqcIHU6DhQtFKVO5XSdQs",
@@ -1561,11 +1650,6 @@
           "id": "6MhvA51DJ1gG5AZztMD9bP",
           "title": "Round & Round - 2015 Remaster",
           "artists": "New Order"
-        },
-        {
-          "id": "5nLhswlXx18vI65KkKKFgx",
-          "title": "Trouble Me",
-          "artists": "10,000 Maniacs"
         },
         {
           "id": "3rUVrxExy58koSwc7mn5JW",
@@ -1961,6 +2045,11 @@
           "id": "5IOYJMFleVeJzBateO7XB8",
           "title": "Push th' Little Daisies",
           "artists": "Ween"
+        },
+        {
+          "id": "2ozI3VNDpzQbpVtZ34Y61G",
+          "title": "If I Were with Her Now",
+          "artists": "Spiritualized"
         }
       ]
     },
@@ -2583,8 +2672,8 @@
           "artists": "Spiritualized"
         },
         {
-          "id": "4TwaeQT1YTeBUBRB8NeSCo",
-          "title": "Summertime",
+          "id": "1s7Y9dMvqpoE4UKtlgD60f",
+          "title": "Your Eyes",
           "artists": "The Sundays"
         },
         {
@@ -3993,11 +4082,6 @@
           "artists": "Ladytron"
         },
         {
-          "id": "1nRKULvpYvnrgWEGhiIuck",
-          "title": "Call It A Ritual",
-          "artists": "Wolf Parade"
-        },
-        {
           "id": "4UhvA8bL35Pza2idEIXC78",
           "title": "For Our Elegant Caste",
           "artists": "of Montreal"
@@ -4036,6 +4120,11 @@
           "id": "4TNn3Jnqws7M2tMFK70U9h",
           "title": "Strange Overtones",
           "artists": "David Byrne, Brian Eno"
+        },
+        {
+          "id": "6IUwiHsyKAZtfBy37Wu4ij",
+          "title": "Heavy Water/I'd Rather Be Sleeping",
+          "artists": "Grouper"
         }
       ]
     },
@@ -6481,6 +6570,11 @@
           "id": "3JcLs0pJ2u3ptbFDfbGxBg",
           "title": "Ne Plus Ultra",
           "artists": "ear"
+        },
+        {
+          "id": "12yJ650FQQYYJtfeiZq7X5",
+          "title": "Finisher",
+          "artists": "Arca"
         }
       ]
     }

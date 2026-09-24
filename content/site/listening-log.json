@@ -46,6 +46,11 @@
       "artists": "Charlotte Gainsbourg"
     },
     {
+      "id": "0CLex45IpTEpI0bnqdP51H",
+      "title": "What Would I Want? Sky",
+      "artists": "Animal Collective"
+    },
+    {
       "id": "2s6wCS3vDZFPY9NOTlPXJZ",
       "title": "Take Me Home - 2016 Remaster",
       "artists": "Phil Collins"
@@ -54,6 +59,11 @@
       "id": "1vmLYO46fRL0gXHb7SuWVs",
       "title": "Evil Blooms",
       "artists": "Dum Dum Girls"
+    },
+    {
+      "id": "3JcLs0pJ2u3ptbFDfbGxBg",
+      "title": "Ne Plus Ultra",
+      "artists": "ear"
     },
     {
       "id": "1RyIA87KYGavtK0xiVXwDH",
@@ -111,22 +121,36 @@
       "artists": "I Break Horses"
     },
     {
-      "id": "5G3o1jScllBpuCxVRlsDDI",
+      "id": "47PSYUK5a0uR87DUc9NR2g",
+      "title": "Stereo",
+      "artists": "Pavement"
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-09-24",
+      "type": "added",
+      "title": "What Would I Want? Sky",
+      "artists": "Animal Collective"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "added",
+      "title": "Ne Plus Ultra",
+      "artists": "ear"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "removed",
       "title": "The Songs That We Sing",
       "artists": "Charlotte Gainsbourg"
     },
     {
-      "id": "47PSYUK5a0uR87DUc9NR2g",
-      "title": "Stereo",
-      "artists": "Pavement"
-    },
-    {
-      "id": "5UBqe2ZSMZYybVMOsS7Alk",
+      "date": "2026-09-24",
+      "type": "removed",
       "title": "Endless Factories",
       "artists": "Division Of Laura Lee"
-    }
-  ],
-  "changes": [
+    },
     {
       "date": "2026-09-07",
       "type": "added",

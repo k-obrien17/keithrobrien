@@ -1,6 +1,20 @@
 {
   "changes": [
     {
+      "date": "2026-09-28",
+      "type": "added",
+      "title": "God Sometimes",
+      "artists": "Julia Jacklin",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-28",
+      "type": "added",
+      "title": "Feeding Time",
+      "artists": "M83",
+      "year": 2026
+    },
+    {
       "date": "2026-09-17",
       "type": "added",
       "title": "Walkabout (W/ Noah Lennox)",
@@ -6619,6 +6633,16 @@
           "id": "12yJ650FQQYYJtfeiZq7X5",
           "title": "Finisher",
           "artists": "Arca"
+        },
+        {
+          "id": "1w5AX01UsrRSKEa1yfIjNY",
+          "title": "God Sometimes",
+          "artists": "Julia Jacklin"
+        },
+        {
+          "id": "5tttIgG3pSqfwe4PeRkZ1g",
+          "title": "Feeding Time",
+          "artists": "M83"
         }
       ]
     }

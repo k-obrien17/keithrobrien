@@ -11,11 +11,6 @@
       "artists": "Suki Waterhouse"
     },
     {
-      "id": "0BgPrNelWyvk0C5recZeKE",
-      "title": "Sick Beat",
-      "artists": "Kero Kero Bonito"
-    },
-    {
       "id": "0g8FizeHVo2cG7qxBfmckf",
       "title": "SS26",
       "artists": "Charli xcx"
@@ -124,9 +119,26 @@
       "id": "47PSYUK5a0uR87DUc9NR2g",
       "title": "Stereo",
       "artists": "Pavement"
+    },
+    {
+      "id": "1w5AX01UsrRSKEa1yfIjNY",
+      "title": "God Sometimes",
+      "artists": "Julia Jacklin"
     }
   ],
   "changes": [
+    {
+      "date": "2026-09-28",
+      "type": "added",
+      "title": "God Sometimes",
+      "artists": "Julia Jacklin"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "removed",
+      "title": "Sick Beat",
+      "artists": "Kero Kero Bonito"
+    },
     {
       "date": "2026-09-24",
       "type": "added",

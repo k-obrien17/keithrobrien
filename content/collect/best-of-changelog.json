@@ -1,6 +1,216 @@
 {
   "changes": [
     {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "borderline",
+      "artists": "L'Rain",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "You Take My Breath Away",
+      "artists": "The Knife",
+      "year": 2003
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "Milkshake",
+      "artists": "Kelis",
+      "year": 2003
+    },
+    {
+      "date": "2026-09-28",
+      "type": "added",
+      "title": "God Sometimes",
+      "artists": "Julia Jacklin",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-28",
+      "type": "added",
+      "title": "Feeding Time",
+      "artists": "M83",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-17",
+      "type": "added",
+      "title": "Walkabout (W/ Noah Lennox)",
+      "artists": "Atlas Sound, Noah Lennox",
+      "year": 2009
+    },
+    {
+      "date": "2026-09-17",
+      "type": "removed",
+      "title": "Hold The Line",
+      "artists": "Major Lazer, Mr. Lex, Santigold",
+      "year": 2009
+    },
+    {
+      "date": "2026-09-17",
+      "type": "removed",
+      "title": "Artificial Intelligence",
+      "artists": "Nite Jewel",
+      "year": 2009
+    },
+    {
+      "date": "2026-09-17",
+      "type": "added",
+      "title": "Desire Lines",
+      "artists": "Lush",
+      "year": 1994
+    },
+    {
+      "date": "2026-09-17",
+      "type": "removed",
+      "title": "Parklife - 2012 Remaster",
+      "artists": "Blur",
+      "year": 1994
+    },
+    {
+      "date": "2026-09-17",
+      "type": "added",
+      "title": "Untogether",
+      "artists": "Lush",
+      "year": 1992
+    },
+    {
+      "date": "2026-09-17",
+      "type": "removed",
+      "title": "Push th' Little Daisies",
+      "artists": "Ween",
+      "year": 1992
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Finisher",
+      "artists": "Arca",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Heavy Water/I'd Rather Be Sleeping",
+      "artists": "Grouper",
+      "year": 2008
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Call It A Ritual",
+      "artists": "Wolf Parade",
+      "year": 2008
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Your Eyes",
+      "artists": "The Sundays",
+      "year": 1997
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Summertime",
+      "artists": "The Sundays",
+      "year": 1997
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "If I Were with Her Now",
+      "artists": "Spiritualized",
+      "year": 1992
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Strange",
+      "artists": "Galaxie 500",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Falling",
+      "artists": "Julee Cruise",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Waiting Room",
+      "artists": "Fugazi",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Trouble Me",
+      "artists": "10,000 Maniacs",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-14",
+      "type": "added",
+      "title": "Walking With Jesus",
+      "artists": "Spacemen 3",
+      "year": 1988
+    },
+    {
+      "date": "2026-09-14",
+      "type": "removed",
+      "title": "Peek-A-Boo",
+      "artists": "Siouxsie and the Banshees",
+      "year": 1988
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Votive",
+      "artists": "The New Pornographers",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Ne Plus Ultra",
+      "artists": "ear",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Ad Astra",
+      "artists": "Deerhunter",
+      "year": 2015
+    },
+    {
+      "date": "2026-09-10",
+      "type": "removed",
+      "title": "Oh My",
+      "artists": "WESTSIDE BOOGIE",
+      "year": 2015
+    },
+    {
+      "date": "2026-09-10",
+      "type": "added",
+      "title": "Carolyn's Fingers",
+      "artists": "Cocteau Twins",
+      "year": 1988
+    },
+    {
+      "date": "2026-09-10",
+      "type": "removed",
+      "title": "Dangerous",
+      "artists": "Roxette",
+      "year": 1988
+    },
+    {
       "date": "2026-08-27",
       "type": "added",
       "title": "I Believe in You - 1997 Remaster",
@@ -1326,11 +1536,6 @@
           "artists": "Morrissey"
         },
         {
-          "id": "3VkyKA0iCT1ABwaSjb0kpf",
-          "title": "Peek-A-Boo",
-          "artists": "Siouxsie and the Banshees"
-        },
-        {
           "id": "7c1Dar0pIAW7w5TzaGjt9t",
           "title": "Jane Says",
           "artists": "Jane's Addiction"
@@ -1371,11 +1576,6 @@
           "artists": "my bloody valentine"
         },
         {
-          "id": "0vyzaguBNqoFgJvSHYa5Fi",
-          "title": "Dangerous",
-          "artists": "Roxette"
-        },
-        {
           "id": "4WG7Z3bNM3iE4vCYcXsxNx",
           "title": "Cult of Personality (2023 Remaster)",
           "artists": "Living Colour"
@@ -1401,9 +1601,19 @@
           "artists": "Traveling Wilburys"
         },
         {
+          "id": "0Cbg6lpFMOm0b9BR8u0Wb4",
+          "title": "Walking With Jesus",
+          "artists": "Spacemen 3"
+        },
+        {
           "id": "3SzoVeS9Eaxt6dmfXF0fPo",
           "title": "I Believe in You - 1997 Remaster",
           "artists": "Talk Talk"
+        },
+        {
+          "id": "7I5TgzRBPcnUafTJaZFbfy",
+          "title": "Carolyn's Fingers",
+          "artists": "Cocteau Twins"
         }
       ]
     },
@@ -1476,14 +1686,19 @@
           "artists": "Beastie Boys"
         },
         {
-          "id": "2DBlfjL5chsdeULzhTp5K8",
-          "title": "Waiting Room",
-          "artists": "Fugazi"
-        },
-        {
           "id": "2SHTKB8YYlawTGIuJ2b2ok",
           "title": "About A Girl",
           "artists": "Nirvana"
+        },
+        {
+          "id": "2TTAPkrGQQOZkaUTUlt21Q",
+          "title": "Strange",
+          "artists": "Galaxie 500"
+        },
+        {
+          "id": "31CYUJj5f9lbQ0Qqm9PzK5",
+          "title": "Falling",
+          "artists": "Julee Cruise"
         },
         {
           "id": "5fqcIHU6DhQtFKVO5XSdQs",
@@ -1519,11 +1734,6 @@
           "id": "6MhvA51DJ1gG5AZztMD9bP",
           "title": "Round & Round - 2015 Remaster",
           "artists": "New Order"
-        },
-        {
-          "id": "5nLhswlXx18vI65KkKKFgx",
-          "title": "Trouble Me",
-          "artists": "10,000 Maniacs"
         },
         {
           "id": "3rUVrxExy58koSwc7mn5JW",
@@ -1886,6 +2096,11 @@
           "artists": "Pete Rock & C.L. Smooth"
         },
         {
+          "id": "1jMhREZUQHgSO1tt1Bzte4",
+          "title": "Untogether",
+          "artists": "Lush"
+        },
+        {
           "id": "786h4kDeZiX5nYvOwA3wtE",
           "title": "These Are Days",
           "artists": "10,000 Maniacs"
@@ -1916,9 +2131,9 @@
           "artists": "Sugar"
         },
         {
-          "id": "5IOYJMFleVeJzBateO7XB8",
-          "title": "Push th' Little Daisies",
-          "artists": "Ween"
+          "id": "2ozI3VNDpzQbpVtZ34Y61G",
+          "title": "If I Were with Her Now",
+          "artists": "Spiritualized"
         }
       ]
     },
@@ -2146,16 +2361,6 @@
           "artists": "Liz Phair"
         },
         {
-          "id": "3R9bx0Y0yBLZqEvbhF7aV2",
-          "title": "Parklife - 2012 Remaster",
-          "artists": "Blur"
-        },
-        {
-          "id": "01OXa5tVuCssU6j8TY7kxr",
-          "title": "Words",
-          "artists": "Low"
-        },
-        {
           "id": "4j3obTRIyR7QzvdeQz9vaO",
           "title": "Babies",
           "artists": "Pulp"
@@ -2179,6 +2384,16 @@
           "id": "6xUMt58RCX98m7g0KcMwAS",
           "title": "Feel the Pain",
           "artists": "Dinosaur Jr."
+        },
+        {
+          "id": "01OXa5tVuCssU6j8TY7kxr",
+          "title": "Words",
+          "artists": "Low"
+        },
+        {
+          "id": "7Bv26qd7JX525wGCmhrPtj",
+          "title": "Desire Lines",
+          "artists": "Lush"
         }
       ]
     },
@@ -2541,8 +2756,8 @@
           "artists": "Spiritualized"
         },
         {
-          "id": "4TwaeQT1YTeBUBRB8NeSCo",
-          "title": "Summertime",
+          "id": "1s7Y9dMvqpoE4UKtlgD60f",
+          "title": "Your Eyes",
           "artists": "The Sundays"
         },
         {
@@ -3226,6 +3441,11 @@
           "artists": "TV On The Radio"
         },
         {
+          "id": "3NlAkVIhq67sFHkBkc0qZc",
+          "title": "You Take My Breath Away",
+          "artists": "The Knife"
+        },
+        {
           "id": "5RfHPp6rqTv0uNffw10xG4",
           "title": "Mine's Not a High Horse",
           "artists": "The Shins"
@@ -3339,11 +3559,6 @@
           "id": "0VXp4zDspR993l2hIKW17g",
           "title": "Anthems For A Seventeen Year-Old Girl",
           "artists": "Broken Social Scene"
-        },
-        {
-          "id": "4LmzPJDil70LpiApWfOI6O",
-          "title": "Milkshake",
-          "artists": "Kelis"
         }
       ]
     },
@@ -3951,11 +4166,6 @@
           "artists": "Ladytron"
         },
         {
-          "id": "1nRKULvpYvnrgWEGhiIuck",
-          "title": "Call It A Ritual",
-          "artists": "Wolf Parade"
-        },
-        {
           "id": "4UhvA8bL35Pza2idEIXC78",
           "title": "For Our Elegant Caste",
           "artists": "of Montreal"
@@ -3994,6 +4204,11 @@
           "id": "4TNn3Jnqws7M2tMFK70U9h",
           "title": "Strange Overtones",
           "artists": "David Byrne, Brian Eno"
+        },
+        {
+          "id": "6IUwiHsyKAZtfBy37Wu4ij",
+          "title": "Heavy Water/I'd Rather Be Sleeping",
+          "artists": "Grouper"
         }
       ]
     },
@@ -4061,11 +4276,6 @@
           "artists": "JJ"
         },
         {
-          "id": "0L9mcdi3lnv1h4D9mPusjY",
-          "title": "Hold The Line",
-          "artists": "Major Lazer, Mr. Lex, Santigold"
-        },
-        {
           "id": "7kXEraNzzctTNCJ2Ta6FU4",
           "title": "Kinda Like a Big Deal (feat. Kanye West)",
           "artists": "Clipse, Kanye West"
@@ -4096,6 +4306,11 @@
           "artists": "Phoenix"
         },
         {
+          "id": "2e3KUBfcAwAyQtgbeUBKob",
+          "title": "Walkabout (W/ Noah Lennox)",
+          "artists": "Atlas Sound, Noah Lennox"
+        },
+        {
           "id": "5FRmsiVS8ybJHQCV0fjuI1",
           "title": "This Tornado Loves You",
           "artists": "Neko Case"
@@ -4124,11 +4339,6 @@
           "id": "4V0x90QcMh4ZxwHzEWOdtK",
           "title": "Feel It All Around",
           "artists": "Washed Out"
-        },
-        {
-          "id": "7xTrdxMoZ92VrCyvWmjddB",
-          "title": "Artificial Intelligence",
-          "artists": "Nite Jewel"
         }
       ]
     },
@@ -4786,16 +4996,6 @@
       "playlistId": "4pu62mQgn292OEJDzdjeeV",
       "tracks": [
         {
-          "id": "0N3W5peJUQtI4eyR6GJT5O",
-          "title": "King Kunta",
-          "artists": "Kendrick Lamar"
-        },
-        {
-          "id": "4YPafsGyzXWry3ZWUAhYBn",
-          "title": "Oh My",
-          "artists": "WESTSIDE BOOGIE"
-        },
-        {
           "id": "5ThQC1HTthOfzxRaqAJWJN",
           "title": "Air",
           "artists": "Waxahatchee"
@@ -4819,6 +5019,11 @@
           "id": "20nWVcL69RbD6xF1mafrHO",
           "title": "Let It Grow",
           "artists": "Maximum Balloon, Karen O, Tunde Adebimpe"
+        },
+        {
+          "id": "0N3W5peJUQtI4eyR6GJT5O",
+          "title": "King Kunta",
+          "artists": "Kendrick Lamar"
         },
         {
           "id": "1j6kDJttn6wbVyMaM42Nxm",
@@ -4909,6 +5114,11 @@
           "id": "7lPgKA5mLFNmGPMdb07OlM",
           "title": "Loud Places",
           "artists": "Jamie xx, Romy"
+        },
+        {
+          "id": "0dDF7eWMC3COwJ6Hf9w3zk",
+          "title": "Ad Astra",
+          "artists": "Deerhunter"
         }
       ]
     },
@@ -6429,6 +6639,36 @@
           "id": "6KLLoGHAIYPfNYfRo4U1Ql",
           "title": "In & Out",
           "artists": "Ravyn Lenae"
+        },
+        {
+          "id": "0GZD2gykkJDvFSEC1Ewbh3",
+          "title": "Votive",
+          "artists": "The New Pornographers"
+        },
+        {
+          "id": "3JcLs0pJ2u3ptbFDfbGxBg",
+          "title": "Ne Plus Ultra",
+          "artists": "ear"
+        },
+        {
+          "id": "12yJ650FQQYYJtfeiZq7X5",
+          "title": "Finisher",
+          "artists": "Arca"
+        },
+        {
+          "id": "1w5AX01UsrRSKEa1yfIjNY",
+          "title": "God Sometimes",
+          "artists": "Julia Jacklin"
+        },
+        {
+          "id": "5tttIgG3pSqfwe4PeRkZ1g",
+          "title": "Feeding Time",
+          "artists": "M83"
+        },
+        {
+          "id": "4z3ta7NIjD4GHBipQZhbsN",
+          "title": "borderline",
+          "artists": "L'Rain"
         }
       ]
     }

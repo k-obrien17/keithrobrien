@@ -1,6 +1,27 @@
 {
   "changes": [
     {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "borderline",
+      "artists": "L'Rain",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "You Take My Breath Away",
+      "artists": "The Knife",
+      "year": 2003
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "Milkshake",
+      "artists": "Kelis",
+      "year": 2003
+    },
+    {
       "date": "2026-09-28",
       "type": "added",
       "title": "God Sometimes",
@@ -3420,6 +3441,11 @@
           "artists": "TV On The Radio"
         },
         {
+          "id": "3NlAkVIhq67sFHkBkc0qZc",
+          "title": "You Take My Breath Away",
+          "artists": "The Knife"
+        },
+        {
           "id": "5RfHPp6rqTv0uNffw10xG4",
           "title": "Mine's Not a High Horse",
           "artists": "The Shins"
@@ -3533,11 +3559,6 @@
           "id": "0VXp4zDspR993l2hIKW17g",
           "title": "Anthems For A Seventeen Year-Old Girl",
           "artists": "Broken Social Scene"
-        },
-        {
-          "id": "4LmzPJDil70LpiApWfOI6O",
-          "title": "Milkshake",
-          "artists": "Kelis"
         }
       ]
     },
@@ -6643,6 +6664,11 @@
           "id": "5tttIgG3pSqfwe4PeRkZ1g",
           "title": "Feeding Time",
           "artists": "M83"
+        },
+        {
+          "id": "4z3ta7NIjD4GHBipQZhbsN",
+          "title": "borderline",
+          "artists": "L'Rain"
         }
       ]
     }

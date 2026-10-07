@@ -6,6 +6,11 @@
       "artists": "Wolf Alice"
     },
     {
+      "id": "3WNQkHBwqR55oFppX5m8PN",
+      "title": "Big Muzzy",
+      "artists": "Fine"
+    },
+    {
       "id": "3EnMpeoPYtFVFqO3306SfD",
       "title": "Tiny Raisin",
       "artists": "Suki Waterhouse"
@@ -19,6 +24,11 @@
       "id": "5cVPVZJK7Kl1h3zoezocx0",
       "title": "Spit",
       "artists": "Gelli Haha"
+    },
+    {
+      "id": "4z3ta7NIjD4GHBipQZhbsN",
+      "title": "borderline",
+      "artists": "L'Rain"
     },
     {
       "id": "3Oa8vnNXStoOHLbJwwMEDP",
@@ -36,19 +46,9 @@
       "artists": "Talking Heads"
     },
     {
-      "id": "0pfTlQJBOV4LUmF8qqrVy5",
-      "title": "Deadly Valentine",
-      "artists": "Charlotte Gainsbourg"
-    },
-    {
       "id": "0CLex45IpTEpI0bnqdP51H",
       "title": "What Would I Want? Sky",
       "artists": "Animal Collective"
-    },
-    {
-      "id": "2s6wCS3vDZFPY9NOTlPXJZ",
-      "title": "Take Me Home - 2016 Remaster",
-      "artists": "Phil Collins"
     },
     {
       "id": "1vmLYO46fRL0gXHb7SuWVs",
@@ -71,11 +71,6 @@
       "artists": "The Pains Of Being Pure At Heart"
     },
     {
-      "id": "2P8CNrkpifFsc1LYjGXE3w",
-      "title": "BOSS TRIX (BENNY'S SONG)",
-      "artists": "Nirosta Steel"
-    },
-    {
       "id": "4wwOje67xW4mPCf8JvmWYK",
       "title": "Heart Has To Work So Hard",
       "artists": "Blondshell"
@@ -96,14 +91,19 @@
       "artists": "Magazine"
     },
     {
+      "id": "4xdSqbBFNdlQ6SdqcbF29w",
+      "title": "Full of Fire",
+      "artists": "The Knife"
+    },
+    {
+      "id": "4yDPUrGef0gWT4LSS13lwy",
+      "title": "Mother Of Pearl",
+      "artists": "Roxy Music"
+    },
+    {
       "id": "7BOUaOK4K71aRcf1gTbV0B",
       "title": "Can't Get Over You With You",
       "artists": "ML Buch"
-    },
-    {
-      "id": "0wZurfElW3yOHscb38vBL8",
-      "title": "Whatever Happened To My Rock 'N' Roll (Punk Song)",
-      "artists": "Black Rebel Motorcycle Club"
     },
     {
       "id": "6ZwdMyNfYEejW0ADt7pZy8",
@@ -127,6 +127,54 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "Big Muzzy",
+      "artists": "Fine"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "borderline",
+      "artists": "L'Rain"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "Full of Fire",
+      "artists": "The Knife"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "added",
+      "title": "Mother Of Pearl",
+      "artists": "Roxy Music"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "Deadly Valentine",
+      "artists": "Charlotte Gainsbourg"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "Take Me Home - 2016 Remaster",
+      "artists": "Phil Collins"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "BOSS TRIX (BENNY'S SONG)",
+      "artists": "Nirosta Steel"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "removed",
+      "title": "Whatever Happened To My Rock 'N' Roll (Punk Song)",
+      "artists": "Black Rebel Motorcycle Club"
+    },
     {
       "date": "2026-09-28",
       "type": "added",

@@ -1,6 +1,41 @@
 {
   "changes": [
     {
+      "date": "2026-10-12",
+      "type": "added",
+      "title": "She Drives Me Crazy",
+      "artists": "Fine Young Cannibals",
+      "year": 1984
+    },
+    {
+      "date": "2026-10-12",
+      "type": "added",
+      "title": "Tainted Love",
+      "artists": "Soft Cell",
+      "year": 1984
+    },
+    {
+      "date": "2026-10-12",
+      "type": "added",
+      "title": "Just Can't Get Enough",
+      "artists": "Depeche Mode",
+      "year": 1984
+    },
+    {
+      "date": "2026-10-12",
+      "type": "added",
+      "title": "99 Luftballons",
+      "artists": "Nena",
+      "year": 1984
+    },
+    {
+      "date": "2026-10-12",
+      "type": "added",
+      "title": "Tarzan Boy",
+      "artists": "Baltimora",
+      "year": 1984
+    },
+    {
       "date": "2026-10-07",
       "type": "added",
       "title": "borderline",
@@ -1094,6 +1129,31 @@
           "id": "5vmRQ3zELMLUQPo2FLQ76x",
           "title": "Smalltown Boy",
           "artists": "Bronski Beat"
+        },
+        {
+          "id": "4d6eqRtpDX7tydHJGDZUBQ",
+          "title": "She Drives Me Crazy",
+          "artists": "Fine Young Cannibals"
+        },
+        {
+          "id": "58E1XVmZTODC67YNjneuXM",
+          "title": "Tainted Love",
+          "artists": "Soft Cell"
+        },
+        {
+          "id": "0qi4b1l0eT3jpzeNHeFXDT",
+          "title": "Just Can't Get Enough",
+          "artists": "Depeche Mode"
+        },
+        {
+          "id": "2IJftBfq7pJ43tfnOR0RB3",
+          "title": "99 Luftballons",
+          "artists": "Nena"
+        },
+        {
+          "id": "273uCXd7NPrInaiNqtkOrA",
+          "title": "Tarzan Boy",
+          "artists": "Baltimora"
         }
       ]
     },

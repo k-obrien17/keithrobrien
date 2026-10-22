@@ -1,6 +1,20 @@
 {
   "changes": [
     {
+      "date": "2026-10-22",
+      "type": "added",
+      "title": "Open Up Your Mouth to Love",
+      "artists": "Francis of Delirium",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-22",
+      "type": "removed",
+      "title": "Is Loser An Emotion You Feel Too?",
+      "artists": "The Femcels",
+      "year": 2026
+    },
+    {
       "date": "2026-10-12",
       "type": "added",
       "title": "She Drives Me Crazy",
@@ -6606,11 +6620,6 @@
           "artists": "Bill Callahan"
         },
         {
-          "id": "0CGFMWGcwZIuEPvjYdmgMd",
-          "title": "Is Loser An Emotion You Feel Too?",
-          "artists": "The Femcels"
-        },
-        {
           "id": "0giFRlECatzUl0T0iBMyhP",
           "title": "Rachel's Song",
           "artists": "Julianna Barwick, Mary Lattimore"
@@ -6729,6 +6738,11 @@
           "id": "4z3ta7NIjD4GHBipQZhbsN",
           "title": "borderline",
           "artists": "L'Rain"
+        },
+        {
+          "id": "4ddE3Po3hwdIxDpS4wEAq5",
+          "title": "Open Up Your Mouth to Love",
+          "artists": "Francis of Delirium"
         }
       ]
     }

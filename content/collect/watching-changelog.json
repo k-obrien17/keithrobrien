@@ -1,6 +1,654 @@
 {
   "changes": [
     {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "entered",
+      "title": "You Can See Everything",
+      "year": 2026,
+      "rank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "rank-change",
+      "title": "The Royal Tenenbaums",
+      "year": 2001,
+      "rank": 7,
+      "previousRank": 8
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "rank-change",
+      "title": "The Talented Mr. Ripley",
+      "year": 1999,
+      "rank": 8,
+      "previousRank": 9
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "rank-change",
+      "title": "The Nice Guys",
+      "year": 2016,
+      "rank": 9,
+      "previousRank": 10
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "entered",
+      "title": "L.A. Confidential",
+      "year": 1997,
+      "rank": 10
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "exited",
+      "title": "The Handmaiden",
+      "year": 2016,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "movies",
+      "type": "exited",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "previousRank": 7
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Station Eleven",
+      "year": 2021,
+      "rank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Twin Peaks",
+      "year": 1990,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "The Leftovers",
+      "year": 2014,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Mad Men",
+      "year": 2007,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Devs",
+      "year": 2020,
+      "rank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Halt and Catch Fire",
+      "year": 2014,
+      "rank": 6
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "The Wire",
+      "year": 2002,
+      "rank": 7,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Breaking Bad",
+      "year": 2008,
+      "rank": 8,
+      "previousRank": 6
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "The Sopranos",
+      "year": 1999,
+      "rank": 9,
+      "previousRank": 7
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Detroiters",
+      "year": 2017,
+      "rank": 10
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Fargo",
+      "year": 2014,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Veep",
+      "year": 2012,
+      "previousRank": 8
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Barry",
+      "year": 2018,
+      "previousRank": 9
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Better Call Saul",
+      "year": 2015,
+      "previousRank": 10
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Paris, Texas",
+      "year": 1984,
+      "rank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Once Upon a Time in America",
+      "year": 1984,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Indiana Jones and the Temple of Doom",
+      "year": 1984,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Amadeus",
+      "year": 1984,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Ghostbusters",
+      "year": 1984,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Nineteen Eighty-Four",
+      "year": 1984,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "The Last of the Mohicans",
+      "year": 1992,
+      "rank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Batman Returns",
+      "year": 1992,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "The Pianist",
+      "year": 2002,
+      "rank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Adaptation.",
+      "year": 2002,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "28 Days Later",
+      "year": 2002,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "25th Hour",
+      "year": 2002,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Confessions of a Dangerous Mind",
+      "year": 2002,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "X2",
+      "year": 2003,
+      "rank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Matrix Reloaded",
+      "year": 2003,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Matchstick Men",
+      "year": 2003,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Before Sunset",
+      "year": 2004,
+      "rank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Manchurian Candidate",
+      "year": 2004,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Collateral",
+      "year": 2004,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "A History of Violence",
+      "year": 2005,
+      "rank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Flightplan",
+      "year": 2005,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Batman Begins",
+      "year": 2005,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Squid and the Whale",
+      "year": 2005,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Munich",
+      "year": 2005,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Nice Guys",
+      "year": 2016,
+      "rank": 1,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Handmaiden",
+      "year": 2016,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "The Father",
+      "year": 2020,
+      "rank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Tenet",
+      "year": 2020,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Possessor",
+      "year": 2020,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Another Round",
+      "year": 2020,
+      "rank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Da 5 Bloods",
+      "year": 2020,
+      "rank": 5,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Sound of Metal",
+      "year": 2020,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Mank",
+      "year": 2020,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Hamnet",
+      "year": 2025,
+      "rank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Marty Supreme",
+      "year": 2025,
+      "rank": 3,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Train Dreams",
+      "year": 2025,
+      "rank": 4,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "If I Had Legs I'd Kick You",
+      "year": 2025,
+      "rank": 5,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "The Mastermind",
+      "year": 2025,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "You Can See Everything",
+      "year": 2026,
+      "rank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "The Odyssey",
+      "year": 2026,
+      "rank": 2,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "entered",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "year": 2026,
+      "rank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Obsession",
+      "year": 2026,
+      "rank": 4,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "rank-change",
+      "title": "Backrooms",
+      "year": 2026,
+      "rank": 5,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "The Sheep Detectives",
+      "year": 2026,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-07",
+      "domain": "annual",
+      "type": "exited",
+      "title": "Pressure",
+      "year": 2026,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-06",
+      "domain": "movies",
+      "type": "watched",
+      "title": "UNABOMBER",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-06",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Animals",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-06",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Resident Evil",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-06",
+      "domain": "movies",
+      "type": "watched",
+      "title": "Tony",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-30",
+      "domain": "movies",
+      "type": "watched",
+      "title": "You Can See Everything",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-26",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Tales from the Crypt",
+      "year": 1989
+    },
+    {
+      "date": "2026-09-26",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Moon Knight",
+      "year": 2022
+    },
+    {
+      "date": "2026-09-26",
+      "domain": "tv",
+      "type": "watched",
+      "title": "The Last Man on Earth",
+      "year": 2015
+    },
+    {
+      "date": "2026-09-26",
+      "domain": "tv",
+      "type": "watched",
+      "title": "The Terror",
+      "year": 2018
+    },
+    {
+      "date": "2026-09-26",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Yellowjackets",
+      "year": 2021
+    },
+    {
       "date": "2026-08-07",
       "domain": "annual",
       "type": "entered",

@@ -1,6 +1,104 @@
 {
   "changes": [
     {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "God I Wonder",
+      "artists": "Bassvictim",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Girl Wars",
+      "artists": "Bassvictim",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Mummy Daddy",
+      "artists": "Bassvictim",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "star balcony",
+      "artists": "heavensouls",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Nicole Kidman",
+      "artists": "ADÉLA",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+      "artists": "The Avalanches, Portraits Of Tracy",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Crown Jewel",
+      "artists": "Eartheater",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Rewind",
+      "artists": "feeble little horse",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Hit My Head All Day",
+      "artists": "Dry Cleaning",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "The Cute Things",
+      "artists": "Dry Cleaning",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Let Me Love You Like A Woman",
+      "artists": "Lana Del Rey",
+      "year": 2021
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Kiss Me More (feat. SZA)",
+      "artists": "Doja Cat, SZA",
+      "year": 2021
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Regiment",
+      "artists": "Brian Eno, David Byrne",
+      "year": 1981
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "The Stroke - Remastered 2010",
+      "artists": "Billy Squier",
+      "year": 1981
+    },
+    {
       "date": "2026-10-22",
       "type": "added",
       "title": "Open Up Your Mouth to Love",
@@ -675,11 +773,6 @@
           "artists": "The Who"
         },
         {
-          "id": "52KvuGmgcgRdrLMXOtda0E",
-          "title": "The Stroke - Remastered 2010",
-          "artists": "Billy Squier"
-        },
-        {
           "id": "7p6nk4JQDZjJHxizpz94MX",
           "title": "Anything Could Happen",
           "artists": "The Clean"
@@ -753,6 +846,11 @@
           "id": "4ViqRfZoOGFryXi8BDh6Gj",
           "title": "Megatron Man",
           "artists": "Patrick Cowley"
+        },
+        {
+          "id": "70ZJqNYyi9euVNGwjqTWXS",
+          "title": "Regiment",
+          "artists": "Brian Eno, David Byrne"
         }
       ]
     },
@@ -3097,7 +3195,7 @@
         {
           "id": "4pdLZsxq0y5oJDb6Cxlokw",
           "title": "You Got Me",
-          "artists": "The Roots, Tariq Trotter, Erykah Badu, Eve"
+          "artists": "The Roots, Erykah Badu, Eve"
         },
         {
           "id": "5l7icgnicl7JToRxPkSXyy",
@@ -5890,11 +5988,6 @@
           "artists": "Jessie Ware"
         },
         {
-          "id": "748mdHapucXQri7IAO8yFK",
-          "title": "Kiss Me More (feat. SZA)",
-          "artists": "Doja Cat, SZA"
-        },
-        {
           "id": "6pjJUY0O4XgrYFGf9SwD7u",
           "title": "Wet Dream",
           "artists": "Wet Leg"
@@ -5958,6 +6051,11 @@
           "id": "2ZnEPfXm1CZzhGOn1Ay4mZ",
           "title": "VBS",
           "artists": "Lucy Dacus"
+        },
+        {
+          "id": "1gxdWpeOUBpvB908fiZs4D",
+          "title": "Let Me Love You Like A Woman",
+          "artists": "Lana Del Rey"
         },
         {
           "id": "6AqFR4UHMbdlMPcJGrynXV",
@@ -6743,6 +6841,56 @@
           "id": "4ddE3Po3hwdIxDpS4wEAq5",
           "title": "Open Up Your Mouth to Love",
           "artists": "Francis of Delirium"
+        },
+        {
+          "id": "4r6ZKQ64i2BVf1ZRl4yWRu",
+          "title": "God I Wonder",
+          "artists": "Bassvictim"
+        },
+        {
+          "id": "5vhhXkI12GJCmhA0vvQwFr",
+          "title": "Girl Wars",
+          "artists": "Bassvictim"
+        },
+        {
+          "id": "0YgNsdoLFkPQorfDs3ZFvb",
+          "title": "Mummy Daddy",
+          "artists": "Bassvictim"
+        },
+        {
+          "id": "1oH6QDby30worPY9JS1Fx8",
+          "title": "star balcony",
+          "artists": "heavensouls"
+        },
+        {
+          "id": "70cHKK8bHAfJrOGVnfRG9J",
+          "title": "Nicole Kidman",
+          "artists": "ADÉLA"
+        },
+        {
+          "id": "32oEEIjEsjx4oB2bMnNYYs",
+          "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+          "artists": "The Avalanches, Portraits Of Tracy"
+        },
+        {
+          "id": "2RxCAkAfunFJbrImtXMcTR",
+          "title": "Crown Jewel",
+          "artists": "Eartheater"
+        },
+        {
+          "id": "5dO7SoTU75M2UVVmPKx1kv",
+          "title": "Rewind",
+          "artists": "feeble little horse"
+        },
+        {
+          "id": "0quJpknjZo8gMmwzMhiHb3",
+          "title": "Hit My Head All Day",
+          "artists": "Dry Cleaning"
+        },
+        {
+          "id": "2QI37RE8gRAb8TeYYe6ZoV",
+          "title": "The Cute Things",
+          "artists": "Dry Cleaning"
         }
       ]
     }

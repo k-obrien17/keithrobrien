@@ -1,9 +1,19 @@
 {
   "snapshot": [
     {
-      "id": "2aR3Hs6ioznnfBaI1rArDi",
-      "title": "Hammond Song",
-      "artists": "Wolf Alice"
+      "id": "32oEEIjEsjx4oB2bMnNYYs",
+      "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+      "artists": "The Avalanches, Portraits Of Tracy"
+    },
+    {
+      "id": "70cHKK8bHAfJrOGVnfRG9J",
+      "title": "Nicole Kidman",
+      "artists": "ADÉLA"
+    },
+    {
+      "id": "0hLMQ5IzxzZuFYYUOPz7Be",
+      "title": "From a Motel 6",
+      "artists": "Yo La Tengo"
     },
     {
       "id": "3WNQkHBwqR55oFppX5m8PN",
@@ -14,11 +24,6 @@
       "id": "3EnMpeoPYtFVFqO3306SfD",
       "title": "Tiny Raisin",
       "artists": "Suki Waterhouse"
-    },
-    {
-      "id": "0g8FizeHVo2cG7qxBfmckf",
-      "title": "SS26",
-      "artists": "Charli xcx"
     },
     {
       "id": "5cVPVZJK7Kl1h3zoezocx0",
@@ -41,14 +46,14 @@
       "artists": "Phoebe Bridgers"
     },
     {
-      "id": "6VyR9z26oKw6BvlwSjqvoY",
-      "title": "Girlfriend Is Better - 2005 Remaster",
-      "artists": "Talking Heads"
-    },
-    {
       "id": "0CLex45IpTEpI0bnqdP51H",
       "title": "What Would I Want? Sky",
       "artists": "Animal Collective"
+    },
+    {
+      "id": "418IM6oc3VOqWCYpPnp4uJ",
+      "title": "Two Face",
+      "artists": "L'Rain"
     },
     {
       "id": "1vmLYO46fRL0gXHb7SuWVs",
@@ -59,11 +64,6 @@
       "id": "3JcLs0pJ2u3ptbFDfbGxBg",
       "title": "Ne Plus Ultra",
       "artists": "ear"
-    },
-    {
-      "id": "1RyIA87KYGavtK0xiVXwDH",
-      "title": "Hallogallo",
-      "artists": "NEU!"
     },
     {
       "id": "6UaBLyflmUdrucnmyBFJA2",
@@ -81,16 +81,6 @@
       "artists": "Boko Yout"
     },
     {
-      "id": "0qRSrdDK4xj1doRViNPYwM",
-      "title": "Roadrunner (Alternative Version)",
-      "artists": "The Modern Lovers"
-    },
-    {
-      "id": "2Ex6uJZ6hsCMr4Ky6D3rdE",
-      "title": "Definitive Gaze",
-      "artists": "Magazine"
-    },
-    {
       "id": "4xdSqbBFNdlQ6SdqcbF29w",
       "title": "Full of Fire",
       "artists": "The Knife"
@@ -101,9 +91,14 @@
       "artists": "Roxy Music"
     },
     {
-      "id": "7BOUaOK4K71aRcf1gTbV0B",
-      "title": "Can't Get Over You With You",
-      "artists": "ML Buch"
+      "id": "3SYfbd0hznSw3MFTH0jiER",
+      "title": "(Druun)",
+      "artists": "DIIV"
+    },
+    {
+      "id": "2QI37RE8gRAb8TeYYe6ZoV",
+      "title": "The Cute Things",
+      "artists": "Dry Cleaning"
     },
     {
       "id": "6ZwdMyNfYEejW0ADt7pZy8",
@@ -124,9 +119,98 @@
       "id": "1w5AX01UsrRSKEa1yfIjNY",
       "title": "God Sometimes",
       "artists": "Julia Jacklin"
+    },
+    {
+      "id": "70ZJqNYyi9euVNGwjqTWXS",
+      "title": "Regiment",
+      "artists": "Brian Eno, David Byrne"
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+      "artists": "The Avalanches, Portraits Of Tracy"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Nicole Kidman",
+      "artists": "ADÉLA"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "From a Motel 6",
+      "artists": "Yo La Tengo"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Two Face",
+      "artists": "L'Rain"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "(Druun)",
+      "artists": "DIIV"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "The Cute Things",
+      "artists": "Dry Cleaning"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "added",
+      "title": "Regiment",
+      "artists": "Brian Eno, David Byrne"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Hammond Song",
+      "artists": "Wolf Alice"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "SS26",
+      "artists": "Charli xcx"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Girlfriend Is Better - 2005 Remaster",
+      "artists": "Talking Heads"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Hallogallo",
+      "artists": "NEU!"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Roadrunner (Alternative Version)",
+      "artists": "The Modern Lovers"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Definitive Gaze",
+      "artists": "Magazine"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "removed",
+      "title": "Can't Get Over You With You",
+      "artists": "ML Buch"
+    },
     {
       "date": "2026-10-07",
       "type": "added",

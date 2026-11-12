@@ -1,6 +1,48 @@
 {
   "changes": [
     {
+      "date": "2026-11-12",
+      "type": "added",
+      "title": "Ride",
+      "artists": "TV On The Radio",
+      "year": 2014
+    },
+    {
+      "date": "2026-11-12",
+      "type": "removed",
+      "title": "Every Time the Sun Comes Up",
+      "artists": "Sharon Van Etten",
+      "year": 2014
+    },
+    {
+      "date": "2026-11-12",
+      "type": "added",
+      "title": "Ruin",
+      "artists": "Cat Power",
+      "year": 2012
+    },
+    {
+      "date": "2026-11-12",
+      "type": "removed",
+      "title": "I Belong in Your Arms",
+      "artists": "Chairlift",
+      "year": 2012
+    },
+    {
+      "date": "2026-11-12",
+      "type": "added",
+      "title": "Shadow of a Doubt",
+      "artists": "Sonic Youth",
+      "year": 1986
+    },
+    {
+      "date": "2026-11-12",
+      "type": "removed",
+      "title": "Green Light",
+      "artists": "Sonic Youth",
+      "year": 1986
+    },
+    {
       "date": "2026-11-09",
       "type": "added",
       "title": "God I Wonder",
@@ -1443,11 +1485,6 @@
           "artists": "Talking Heads"
         },
         {
-          "id": "0eB9O5XdPzpvQLGKpZTy4R",
-          "title": "Green Light",
-          "artists": "Sonic Youth"
-        },
-        {
           "id": "4tvV5DsE34n0NPp6lIkk04",
           "title": "With You",
           "artists": "The Flaming Lips"
@@ -1501,6 +1538,11 @@
           "id": "3v9ELl9T121dhadZyIiQVn",
           "title": "Thorn in My Side - Remastered",
           "artists": "Eurythmics, Annie Lennox, Dave Stewart"
+        },
+        {
+          "id": "0mYaDPgvNkXgXS3TVjuITD",
+          "title": "Shadow of a Doubt",
+          "artists": "Sonic Youth"
         },
         {
           "id": "00IrSynHsun7DpDrLkRIjM",
@@ -4853,14 +4895,14 @@
           "artists": "Odd Future"
         },
         {
-          "id": "0aqRkWPAL9BGCvvdSiXaE9",
-          "title": "I Belong in Your Arms",
-          "artists": "Chairlift"
-        },
-        {
           "id": "4jhdcYyWYx6d60j60OQDCa",
           "title": "Kill For Love",
           "artists": "Chromatics"
+        },
+        {
+          "id": "1n0iHqATRnMzoxsIGmzIoR",
+          "title": "Ruin",
+          "artists": "Cat Power"
         },
         {
           "id": "6HPZo9krwjbhMGKbqVkkDQ",
@@ -5038,14 +5080,19 @@
       "playlistId": "6vcLoxeGajJrStCN89jheV",
       "tracks": [
         {
-          "id": "2UQvYQJmA7wVi9o98kdGg8",
-          "title": "Sick Beat",
-          "artists": "Kero Kero Bonito"
+          "id": "0ZHsZPBWaoJbnFCiP9W3T0",
+          "title": "Ride",
+          "artists": "TV On The Radio"
         },
         {
           "id": "58054gxqDuwvoBXZXHJ8sJ",
           "title": "Evil Blooms",
           "artists": "Dum Dum Girls"
+        },
+        {
+          "id": "2UQvYQJmA7wVi9o98kdGg8",
+          "title": "Sick Beat",
+          "artists": "Kero Kero Bonito"
         },
         {
           "id": "5hSWVcAtSK8PUoLr8eomMG",
@@ -5146,11 +5193,6 @@
           "id": "0Zn4jYnGokSATIvpNLJAGd",
           "title": "CIRCLONT6A [141.98][syrobonkus mix]",
           "artists": "Aphex Twin"
-        },
-        {
-          "id": "38ydcsbayM4oX21Hhu84DT",
-          "title": "Every Time the Sun Comes Up",
-          "artists": "Sharon Van Etten"
         },
         {
           "id": "7mNfRjYiEpP5FqXIRPPKY1",

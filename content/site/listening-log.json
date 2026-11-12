@@ -101,9 +101,9 @@
       "artists": "Dry Cleaning"
     },
     {
-      "id": "6ZwdMyNfYEejW0ADt7pZy8",
-      "title": "You Are a Runner and I Am My Father's Son",
-      "artists": "Wolf Parade"
+      "id": "1n0iHqATRnMzoxsIGmzIoR",
+      "title": "Ruin",
+      "artists": "Cat Power"
     },
     {
       "id": "6o6Dmd2gQW3BXzyzxMHnfz",
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-12",
+      "type": "added",
+      "title": "Ruin",
+      "artists": "Cat Power"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "removed",
+      "title": "You Are a Runner and I Am My Father's Son",
+      "artists": "Wolf Parade"
+    },
     {
       "date": "2026-11-12",
       "type": "added",

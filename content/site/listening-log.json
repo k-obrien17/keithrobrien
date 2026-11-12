@@ -36,11 +36,6 @@
       "artists": "L'Rain"
     },
     {
-      "id": "3Oa8vnNXStoOHLbJwwMEDP",
-      "title": "Lips Like Sugar",
-      "artists": "Echo & the Bunnymen"
-    },
-    {
       "id": "6eoIuFQSEXcwQqr0RnFdW8",
       "title": "Lost Boys",
       "artists": "Phoebe Bridgers"
@@ -69,6 +64,11 @@
       "id": "6UaBLyflmUdrucnmyBFJA2",
       "title": "The Tenure Itch",
       "artists": "The Pains Of Being Pure At Heart"
+    },
+    {
+      "id": "0mYaDPgvNkXgXS3TVjuITD",
+      "title": "Shadow of a Doubt",
+      "artists": "Sonic Youth"
     },
     {
       "id": "4wwOje67xW4mPCf8JvmWYK",
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-12",
+      "type": "added",
+      "title": "Shadow of a Doubt",
+      "artists": "Sonic Youth"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "removed",
+      "title": "Lips Like Sugar",
+      "artists": "Echo & the Bunnymen"
+    },
     {
       "date": "2026-11-09",
       "type": "added",

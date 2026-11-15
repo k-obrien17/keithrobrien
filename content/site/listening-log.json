@@ -6,6 +6,11 @@
       "artists": "The Avalanches, Portraits Of Tracy"
     },
     {
+      "id": "2w6AYp7c3d4D3hbOISz0i0",
+      "title": "Girl/Boy Song",
+      "artists": "Aphex Twin"
+    },
+    {
       "id": "70cHKK8bHAfJrOGVnfRG9J",
       "title": "Nicole Kidman",
       "artists": "ADÉLA"
@@ -76,9 +81,9 @@
       "artists": "Blondshell"
     },
     {
-      "id": "6s59nNEC7q70YxfI1LQwJ3",
-      "title": "IGNORED",
-      "artists": "Boko Yout"
+      "id": "00839RHIOqd7KUunk009jh",
+      "title": "Moby Octopad",
+      "artists": "Yo La Tengo"
     },
     {
       "id": "4xdSqbBFNdlQ6SdqcbF29w",
@@ -111,11 +116,6 @@
       "artists": "I Break Horses"
     },
     {
-      "id": "47PSYUK5a0uR87DUc9NR2g",
-      "title": "Stereo",
-      "artists": "Pavement"
-    },
-    {
       "id": "1w5AX01UsrRSKEa1yfIjNY",
       "title": "God Sometimes",
       "artists": "Julia Jacklin"
@@ -127,6 +127,30 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Girl/Boy Song",
+      "artists": "Aphex Twin"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Moby Octopad",
+      "artists": "Yo La Tengo"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "IGNORED",
+      "artists": "Boko Yout"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "Stereo",
+      "artists": "Pavement"
+    },
     {
       "date": "2026-11-12",
       "type": "added",

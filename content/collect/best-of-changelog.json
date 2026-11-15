@@ -1,6 +1,104 @@
 {
   "changes": [
     {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Run Free",
+      "artists": "Snoh Aalegra",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "See Out Loud",
+      "artists": "Interpol",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Scratchcard Lanyard",
+      "artists": "Dry Cleaning",
+      "year": 2021
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "Like I Used To",
+      "artists": "Sharon Van Etten, Angel Olsen",
+      "year": 2021
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "No One's Easy to Love",
+      "artists": "Sharon Van Etten",
+      "year": 2019
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "bury a friend",
+      "artists": "Billie Eilish",
+      "year": 2019
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Lust For Life",
+      "artists": "Girls",
+      "year": 2009
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "year": 2009
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "We Share Our Mothers' Health",
+      "artists": "The Knife",
+      "year": 2006
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "What Goes Around.../...Comes Around (Interlude)",
+      "artists": "Justin Timberlake",
+      "year": 2006
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "The Leanover",
+      "artists": "Life Without Buildings",
+      "year": 2000
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "Woah! - Radio Mix",
+      "artists": "Black Rob",
+      "year": 2000
+    },
+    {
+      "date": "2026-11-15",
+      "type": "removed",
+      "title": "The Rain (Supa Dupa Fly)",
+      "artists": "Missy Elliott",
+      "year": 1997
+    },
+    {
+      "date": "2026-11-15",
+      "type": "added",
+      "title": "Blue Flowers",
+      "artists": "Dr. Octagon",
+      "year": 1996
+    },
+    {
       "date": "2026-11-12",
       "type": "added",
       "title": "Ride",
@@ -2868,6 +2966,11 @@
           "id": "7aQjPecQdIuNd1sz3KCDhD",
           "title": "Lovefool",
           "artists": "The Cardigans"
+        },
+        {
+          "id": "1xQ1v0xnKgZyQX90f75bKt",
+          "title": "Blue Flowers",
+          "artists": "Dr. Octagon"
         }
       ]
     },
@@ -2928,11 +3031,6 @@
           "id": "7rirnJpDaADuZJsS8Y6Qmq",
           "title": "Latyrx",
           "artists": "Latyrx"
-        },
-        {
-          "id": "2WRzpLD8qDRrxMXc63E5WJ",
-          "title": "The Rain (Supa Dupa Fly)",
-          "artists": "Missy Elliott"
         },
         {
           "id": "39CFOvYse9fcMhIwyS73Fl",
@@ -3305,11 +3403,6 @@
           "artists": "Wu-Tang Clan, RZA, Method Man, Ghostface Killah, Raekwon, U-God"
         },
         {
-          "id": "5fZjSIReYPJIPwpvrsyW3o",
-          "title": "Woah! - Radio Mix",
-          "artists": "Black Rob"
-        },
-        {
           "id": "5uHnDHx5J48FdT6FjwA7Z8",
           "title": "Pure Shores",
           "artists": "All Saints"
@@ -3353,6 +3446,11 @@
           "id": "5HaOloWn9b5PJtxvE6Vtke",
           "title": "Colorbars",
           "artists": "Elliott Smith"
+        },
+        {
+          "id": "0lE2Jl13AfiAONJKrrXDxD",
+          "title": "The Leanover",
+          "artists": "Life Without Buildings"
         },
         {
           "id": "0ja5aZwGxpdDT1sKNL67t7",
@@ -4080,11 +4178,6 @@
           "artists": "Belle and Sebastian"
         },
         {
-          "id": "76D83dghHeE2NFedPFD4tf",
-          "title": "What Goes Around.../...Comes Around (Interlude)",
-          "artists": "Justin Timberlake"
-        },
-        {
           "id": "52PuLmsxTDOI2WAqpzYjoT",
           "title": "Lloyd, I'm Ready To Be Heartbroken",
           "artists": "Camera Obscura"
@@ -4140,6 +4233,11 @@
           "artists": "Yeah Yeah Yeahs"
         },
         {
+          "id": "6ojmR67gXlPsstfUq1ywhc",
+          "title": "We Share Our Mothers' Health",
+          "artists": "The Knife"
+        },
+        {
           "id": "2YtjxB2AchCLWQiBH3Zzfk",
           "title": "Anorak Christmas",
           "artists": "Sally Shapiro"
@@ -4170,19 +4268,19 @@
       "playlistId": "6L7gwRF3RyFr9GXMOAd70Z",
       "tracks": [
         {
-          "id": "2aQx1i3XjtB3TSN4J770Iv",
-          "title": "Phantom Limb",
-          "artists": "The Shins"
+          "id": "1Wxr20soUWINL8tQCpks4f",
+          "title": "You Could Have Both",
+          "artists": "The Long Blondes"
+        },
+        {
+          "id": "4dGeYtPSCYsWAxgra44XTT",
+          "title": "Tram 21",
+          "artists": "Electrelane"
         },
         {
           "id": "3TcmqdciWnQOXxYohhERbP",
           "title": "(Antichrist Television Blues)",
           "artists": "Arcade Fire"
-        },
-        {
-          "id": "1Wxr20soUWINL8tQCpks4f",
-          "title": "You Could Have Both",
-          "artists": "The Long Blondes"
         },
         {
           "id": "2yPoXCs7BSIUrucMdK5PzV",
@@ -4195,9 +4293,9 @@
           "artists": "The Horrors"
         },
         {
-          "id": "4dGeYtPSCYsWAxgra44XTT",
-          "title": "Tram 21",
-          "artists": "Electrelane"
+          "id": "2aQx1i3XjtB3TSN4J770Iv",
+          "title": "Phantom Limb",
+          "artists": "The Shins"
         },
         {
           "id": "3X8gOyVXP93Tslnz9Bxw24",
@@ -4495,11 +4593,6 @@
           "artists": "Clipse, Kanye West"
         },
         {
-          "id": "5wfllwdjglyQislkskYLBv",
-          "title": "Day 'N' Nite (nightmare)",
-          "artists": "Kid Cudi"
-        },
-        {
           "id": "48BjV0btlPa5xzSQYPUHTy",
           "title": "Swans",
           "artists": "Camera Obscura"
@@ -4523,6 +4616,11 @@
           "id": "2e3KUBfcAwAyQtgbeUBKob",
           "title": "Walkabout (W/ Noah Lennox)",
           "artists": "Atlas Sound, Noah Lennox"
+        },
+        {
+          "id": "5Xwnop0rKigPgdYv6X3vIP",
+          "title": "Lust For Life",
+          "artists": "Girls"
         },
         {
           "id": "5FRmsiVS8ybJHQCV0fjuI1",
@@ -5775,11 +5873,6 @@
           "artists": "Sharon Van Etten"
         },
         {
-          "id": "4SSnFejRGlZikf02HLewEF",
-          "title": "bury a friend",
-          "artists": "Billie Eilish"
-        },
-        {
           "id": "6yZpYg5kCzSEjcD43KMIJQ",
           "title": "It's All About You",
           "artists": "MUNYA"
@@ -5853,6 +5946,11 @@
           "id": "41uX0L4bro4KfKtDIIEFFe",
           "title": "FUN!",
           "artists": "Vince Staples"
+        },
+        {
+          "id": "3p0YazIk9m0WS11ZtpPa7I",
+          "title": "No One's Easy to Love",
+          "artists": "Sharon Van Etten"
         }
       ]
     },
@@ -6070,11 +6168,6 @@
           "artists": "Tirzah"
         },
         {
-          "id": "1kZpYFQHUKv4xHELaaUSqP",
-          "title": "Like I Used To",
-          "artists": "Sharon Van Etten, Angel Olsen"
-        },
-        {
           "id": "5aj8lG8Gh4C0DzGW7lvwEl",
           "title": "Our Time",
           "artists": "Lia Ices"
@@ -6093,6 +6186,11 @@
           "id": "2ZnEPfXm1CZzhGOn1Ay4mZ",
           "title": "VBS",
           "artists": "Lucy Dacus"
+        },
+        {
+          "id": "5NtATk9xTMCKBlL46IJoXC",
+          "title": "Scratchcard Lanyard",
+          "artists": "Dry Cleaning"
         },
         {
           "id": "1gxdWpeOUBpvB908fiZs4D",
@@ -6933,6 +7031,16 @@
           "id": "2QI37RE8gRAb8TeYYe6ZoV",
           "title": "The Cute Things",
           "artists": "Dry Cleaning"
+        },
+        {
+          "id": "6VJVixLUtloZT1dcvJhMqV",
+          "title": "Run Free",
+          "artists": "Snoh Aalegra"
+        },
+        {
+          "id": "32rGbTvS1MXQ8ipl0Ap8e2",
+          "title": "See Out Loud",
+          "artists": "Interpol"
         }
       ]
     }

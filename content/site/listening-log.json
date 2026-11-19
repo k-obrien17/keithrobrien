@@ -66,11 +66,6 @@
       "artists": "ear"
     },
     {
-      "id": "6UaBLyflmUdrucnmyBFJA2",
-      "title": "The Tenure Itch",
-      "artists": "The Pains Of Being Pure At Heart"
-    },
-    {
       "id": "0mYaDPgvNkXgXS3TVjuITD",
       "title": "Shadow of a Doubt",
       "artists": "Sonic Youth"
@@ -79,6 +74,11 @@
       "id": "4wwOje67xW4mPCf8JvmWYK",
       "title": "Heart Has To Work So Hard",
       "artists": "Blondshell"
+    },
+    {
+      "id": "4tbeWDBcrA7qX6kaRQUD02",
+      "title": "Magnet's Coil",
+      "artists": "Sebadoh"
     },
     {
       "id": "00839RHIOqd7KUunk009jh",
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-19",
+      "type": "added",
+      "title": "Magnet's Coil",
+      "artists": "Sebadoh"
+    },
+    {
+      "date": "2026-11-19",
+      "type": "removed",
+      "title": "The Tenure Itch",
+      "artists": "The Pains Of Being Pure At Heart"
+    },
     {
       "date": "2026-11-15",
       "type": "added",

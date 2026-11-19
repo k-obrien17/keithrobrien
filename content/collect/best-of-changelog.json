@@ -1,6 +1,34 @@
 {
   "changes": [
     {
+      "date": "2026-11-19",
+      "type": "added",
+      "title": "Magnet's Coil",
+      "artists": "Sebadoh",
+      "year": 1994
+    },
+    {
+      "date": "2026-11-19",
+      "type": "removed",
+      "title": "Supersonic (Remastered)",
+      "artists": "Oasis",
+      "year": 1994
+    },
+    {
+      "date": "2026-11-19",
+      "type": "added",
+      "title": "In Between",
+      "artists": "Beat Happening",
+      "year": 1988
+    },
+    {
+      "date": "2026-11-19",
+      "type": "removed",
+      "title": "One (Remastered)",
+      "artists": "Metallica",
+      "year": 1988
+    },
+    {
       "date": "2026-11-15",
       "type": "added",
       "title": "Run Free",
@@ -1878,11 +1906,6 @@
           "artists": "N.W.A."
         },
         {
-          "id": "0LAcM6I7ijW4VVW0aytl1t",
-          "title": "One (Remastered)",
-          "artists": "Metallica"
-        },
-        {
           "id": "6XXcWVWc4Y8Msqypisg105",
           "title": "you made me realise",
           "artists": "my bloody valentine"
@@ -1926,6 +1949,11 @@
           "id": "7I5TgzRBPcnUafTJaZFbfy",
           "title": "Carolyn's Fingers",
           "artists": "Cocteau Twins"
+        },
+        {
+          "id": "2SBbI2Uv2yq9LpGSZP3jTT",
+          "title": "In Between",
+          "artists": "Beat Happening"
         }
       ]
     },
@@ -2663,6 +2691,11 @@
           "artists": "Nick Cave & The Bad Seeds"
         },
         {
+          "id": "4tbeWDBcrA7qX6kaRQUD02",
+          "title": "Magnet's Coil",
+          "artists": "Sebadoh"
+        },
+        {
           "id": "6CHENx8iqzMwavTIz8s0gm",
           "title": "Violet",
           "artists": "Hole"
@@ -2676,11 +2709,6 @@
           "id": "4j3obTRIyR7QzvdeQz9vaO",
           "title": "Babies",
           "artists": "Pulp"
-        },
-        {
-          "id": "2audnG64ggVIYMaKsqA1ot",
-          "title": "Supersonic (Remastered)",
-          "artists": "Oasis"
         },
         {
           "id": "56SkdBKyR2zOkjk6wVFI9s",

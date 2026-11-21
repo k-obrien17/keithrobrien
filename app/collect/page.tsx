@@ -91,9 +91,23 @@ function LaneRow({ lane }: { lane: Lane }) {
   );
 }
 
+const SITE_URL = "https://www.keithrobrien.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Collect",
+  description:
+    "What Keith O'Brien is watching, listening to, and reading: all-time top tens, songs of the year, and favorite films by year.",
+  url: `${SITE_URL}/collect`,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  author: { "@id": `${SITE_URL}/#person` },
+};
+
 export default function CollectPage() {
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
           {"// collect"}

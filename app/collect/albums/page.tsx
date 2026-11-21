@@ -66,11 +66,25 @@ function Meta({ children }: { children: React.ReactNode }) {
   );
 }
 
+const SITE_URL = "https://www.keithrobrien.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Albums",
+  description:
+    "Keith O'Brien's top-ranked albums, pulled from a personal album-ranking app. Exact order, not a vibe.",
+  url: `${SITE_URL}/collect/albums`,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  author: { "@id": `${SITE_URL}/#person` },
+};
+
 export default function AlbumsPage() {
   const top = data.top_albums as Entry[];
 
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
           {"// collect · albums"}

@@ -26,11 +26,25 @@ export const metadata: Metadata = {
   },
 };
 
+const SITE_URL = "https://www.keithrobrien.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Music",
+  description:
+    "Keith O'Brien's music: songs of the year by year, plus an all-time list. Hand-curated, with Spotify links.",
+  url: `${SITE_URL}/collect/music`,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  author: { "@id": `${SITE_URL}/#person` },
+};
+
 export default function MusicPage() {
   const years = getMusicYears();
 
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       <CollectHeader crumb="// collect · music" title="Music">
         <p>
           What I&apos;m listening to, kept by hand. Songs of the year are ranked

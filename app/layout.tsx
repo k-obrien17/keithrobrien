@@ -158,7 +158,7 @@ export default function RootLayout({
           {JSON.stringify(jsonLd)}
         </script>
         <Nav />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer />
         <Analytics />
       </body>

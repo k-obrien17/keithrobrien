@@ -1,6 +1,9 @@
 import { getHome, getAbout, getLlmsPreamble } from "@/lib/site-content";
 import { projects } from "@/lib/projects";
 import { getAllPosts, getPost } from "@/lib/writing";
+import watching from "@/content/collect/watching.json";
+import albums from "@/content/collect/albums.json";
+import albumOfYear from "@/content/collect/album-of-year.json";
 
 export const dynamic = "force-static";
 
@@ -83,8 +86,49 @@ ${
     : "_No published posts yet._"
 }`;
 
+  const topMovies = (watching.top_movies ?? [])
+    .map((f: { title: string; year: number; score: number }, i: number) => `${i + 1}. ${f.title} (${f.year}) — ${f.score}`)
+    .join("\n");
+
+  const topTv = (watching.top_tv ?? [])
+    .map((f: { title: string; year: number; score: number }, i: number) => `${i + 1}. ${f.title} (${f.year}) — ${f.score}`)
+    .join("\n");
+
+  const topAlbums = (albums.top_albums ?? [])
+    .slice(0, 10)
+    .map((a: { title: string; artist: string; year: number; score: number }, i: number) => `${i + 1}. ${a.artist}, *${a.title}* (${a.year}) — ${a.score}`)
+    .join("\n");
+
+  const aoty = Object.entries(albumOfYear.by_year ?? {})
+    .sort(([a], [b]) => Number(b) - Number(a))
+    .slice(0, 10)
+    .map(([y, a]: [string, { title: string; artist: string; score: number }]) => `- ${y}: ${a.artist}, *${a.title}* (${a.score})`)
+    .join("\n");
+
+  const collectBlock = `## Collect
+
+What Keith is watching, listening to, and reading. Curated personal rankings, not algorithmic.
+
+### Top 10 Films of All Time
+
+${topMovies}
+
+### Top 10 TV Series of All Time
+
+${topTv}
+
+### Top 10 Albums of All Time
+
+${topAlbums}
+
+### Album of the Year (most recent 10)
+
+${aoty}
+
+Best-of-year playlists (25 songs per year) run from 1979 to 2025 at /collect/music. Per-year film and TV rankings at /collect/watching.`;
+
   const body =
-    [PREAMBLE, homeBlock, aboutBlock, projectsBlock, writingBlock].join(
+    [PREAMBLE, homeBlock, aboutBlock, projectsBlock, writingBlock, collectBlock].join(
       "\n\n",
     ) + "\n";
 

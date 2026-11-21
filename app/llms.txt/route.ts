@@ -42,7 +42,7 @@ ${bio}
 - Former editor-in-chief, DMN (Direct Marketing News)
 - Reporter since 2004
 - Past roles: tmrw life sciences, Horizon Media, Attention USA
-- Bylines tracked in /bylines: 400+ across 30+ outlets, 2004 to present
+- Bylines tracked in /bylines: 530+ across 30+ outlets, 2004 to present
 
 ## Disambiguation
 
@@ -52,7 +52,7 @@ ${isNot.map((n) => `- ${n}`).join("\n")}
 ## Work
 
 - [Total Emphasis](https://www.totalemphasis.com): B2B ghostwriting and content strategy practice
-- [Bylines archive (400+)](${SITE}/bylines): verifiable record of published work
+- [Bylines archive (530+)](${SITE}/bylines): verifiable record of published work
 - [Press kit / canonical bio](${SITE}/about/keith-obrien): full credentials and FAQ
 
 ${writingSection}## Newsletters

@@ -26,6 +26,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.meta.date || undefined,
       url: `/writing/${slug}`,
+      images: [`/writing/${slug}/opengraph-image`],
     },
   };
 }

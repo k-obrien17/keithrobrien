@@ -67,6 +67,19 @@ function Meta({ children }: { children: React.ReactNode }) {
   );
 }
 
+const SITE_URL = "https://www.keithrobrien.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Watching",
+  description:
+    "Movies and TV Keith O'Brien is watching: a top 10 of all time and the most recently rated.",
+  url: `${SITE_URL}/collect/watching`,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  author: { "@id": `${SITE_URL}/#person` },
+};
+
 export default function WatchingPage() {
   const top = data.top_movies as Entry[];
   const topTv = data.top_tv as Entry[];
@@ -75,6 +88,7 @@ export default function WatchingPage() {
 
   return (
     <>
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       <Container className="pt-[104px] pb-[64px]">
         <p className="text-[12.5px] text-[var(--color-accent)] tracking-[0.04em] mb-7">
           {"// collect · watching"}

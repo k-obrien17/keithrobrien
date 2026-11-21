@@ -26,6 +26,12 @@ export function Nav() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-white/[0.88] backdrop-blur-[8px]">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-4 focus:z-50 focus:px-3 focus:py-1.5 focus:text-[12.5px] focus:bg-[var(--color-fg)] focus:text-white focus:rounded"
+      >
+        Skip to content
+      </a>
       <nav className="max-w-[940px] mx-auto px-8 py-5 flex items-baseline justify-between">
         <Link
           href="/"
@@ -40,6 +46,7 @@ export function Nav() {
             <Link
               key={link.href}
               href={link.href}
+              aria-current={isActive(link.href) ? "page" : undefined}
               className={`transition-opacity hover:opacity-55 ${
                 isActive(link.href)
                   ? "text-[var(--color-fg)]"
@@ -85,6 +92,7 @@ export function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
+                aria-current={isActive(link.href) ? "page" : undefined}
                 className={`transition-opacity hover:opacity-55 ${
                   isActive(link.href)
                     ? "text-[var(--color-fg)]"

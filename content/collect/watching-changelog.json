@@ -1,6 +1,173 @@
 {
   "changes": [
     {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "The Wire",
+      "year": 2002,
+      "rank": 1,
+      "previousRank": 7
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Fargo",
+      "year": 2014,
+      "rank": 2
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "entered",
+      "title": "The Rehearsal",
+      "year": 2022,
+      "rank": 3
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Halt and Catch Fire",
+      "year": 2014,
+      "rank": 4,
+      "previousRank": 6
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "The Leftovers",
+      "year": 2014,
+      "rank": 5,
+      "previousRank": 3
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Mad Men",
+      "year": 2007,
+      "rank": 6,
+      "previousRank": 4
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Station Eleven",
+      "year": 2021,
+      "rank": 7,
+      "previousRank": 1
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "rank-change",
+      "title": "Twin Peaks",
+      "year": 1990,
+      "rank": 8,
+      "previousRank": 2
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Curb Your Enthusiasm",
+      "year": 2000,
+      "rank": 9
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "entered",
+      "title": "Arrested Development",
+      "year": 2003,
+      "rank": 10
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Devs",
+      "year": 2020,
+      "previousRank": 5
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Breaking Bad",
+      "year": 2008,
+      "previousRank": 8
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "exited",
+      "title": "The Sopranos",
+      "year": 1999,
+      "previousRank": 9
+    },
+    {
+      "date": "2026-11-21",
+      "domain": "tv",
+      "type": "exited",
+      "title": "Detroiters",
+      "year": 2017,
+      "previousRank": 10
+    },
+    {
+      "date": "2026-11-10",
+      "domain": "movies",
+      "type": "watched",
+      "title": "National Lampoon's European Vacation",
+      "year": 1985
+    },
+    {
+      "date": "2026-11-10",
+      "domain": "movies",
+      "type": "watched",
+      "title": "The Uprising",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-08",
+      "domain": "tv",
+      "type": "watched",
+      "title": "MINDHUNTER",
+      "year": 2017
+    },
+    {
+      "date": "2026-11-08",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Justified",
+      "year": 2010
+    },
+    {
+      "date": "2026-11-08",
+      "domain": "tv",
+      "type": "watched",
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005
+    },
+    {
+      "date": "2026-11-08",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Six Feet Under",
+      "year": 2001
+    },
+    {
+      "date": "2026-11-08",
+      "domain": "tv",
+      "type": "watched",
+      "title": "Curb Your Enthusiasm",
+      "year": 2000
+    },
+    {
       "date": "2026-11-07",
       "domain": "movies",
       "type": "entered",

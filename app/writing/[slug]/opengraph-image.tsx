@@ -4,8 +4,6 @@ import { getAllPosts, getPost } from "@/lib/writing";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
 }

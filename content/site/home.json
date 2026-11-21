@@ -4,10 +4,10 @@
   "introPrefix": "I make complicated knowledge work in public. Operator-ghostwriter, former editor-in-chief of PRWeek, and founder of ",
   "introHighlight": "Total Emphasis",
   "introSuffix": ", building the systems the work runs on. Brooklyn.",
-  "secondary": "This is the hub: the bylines archive (400+ published pieces), the side projects I run, the essays I publish, and how to reach me.",
+  "secondary": "This is the hub: the bylines archive (530+ published pieces), the side projects I run, the essays I publish, and how to reach me.",
   "facets": [
     { "label": "Total Emphasis", "desc": "B2B ghostwriting practice", "href": "https://www.totalemphasis.com", "external": true },
-    { "label": "Bylines", "desc": "400+ published pieces across 30+ outlets", "href": "/bylines" },
+    { "label": "Bylines", "desc": "530+ published pieces across 25+ outlets", "href": "/bylines" },
     { "label": "Writing", "desc": "Essays under my own name", "href": "/writing" },
     { "label": "Projects", "desc": "What I build and run on the side", "href": "/projects" },
     { "label": "Collect", "desc": "Music, film, and TV year-based rankings", "href": "/collect" },

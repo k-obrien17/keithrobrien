@@ -8,12 +8,12 @@ import { getAbout } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Keith O'Brien is the founder and operator of Total Emphasis, a B2B content strategy practice. Previously: tmrw life sciences, Haymarket, Horizon, Attention USA.",
+    "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Keith O'Brien",
     description:
-      "Keith O'Brien is the founder and operator of Total Emphasis, a B2B content strategy practice. Previously: tmrw life sciences, Haymarket, Horizon, Attention USA.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
     url: "/about",
     type: "website",
     siteName: "Keith O'Brien",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "About Keith O'Brien",
     description:
-      "Keith O'Brien is the founder and operator of Total Emphasis, a B2B content strategy practice. Previously: tmrw life sciences, Haymarket, Horizon, Attention USA.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   },
 };
 

@@ -42,7 +42,7 @@ ${bio}
 - Former editor-in-chief, DMN (Direct Marketing News)
 - Reporter since 2004
 - Past roles: tmrw life sciences, Horizon Media, Attention USA
-- Bylines tracked in /bylines: 530+ across 30+ outlets, 2004 to present
+- Bylines tracked in /bylines: 530+ across 25+ outlets, 2004 to present
 
 ## Disambiguation
 

@@ -30,24 +30,24 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   title: {
-    default: "Keith O'Brien: B2B Executive Ghostwriter, Former PRWeek EIC",
+    default: "Keith O'Brien: Content Strategist, Builder/Operator",
     template: "%s · Keith O'Brien",
   },
   description:
-    "Keith O'Brien is a B2B content strategist and executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis. Operator-ghostwriter for B2B founders and executives. Builds the systems his work runs on.",
+    "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   openGraph: {
-    title: "Keith O'Brien, B2B Executive Ghostwriter",
+    title: "Keith O'Brien, Content Strategist and Builder/Operator",
     description:
-      "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
     url: SITE_URL,
     siteName: "Keith O'Brien",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Keith O'Brien, B2B Executive Ghostwriter",
+    title: "Keith O'Brien, Content Strategist and Builder/Operator",
     description:
-      "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   },
 };
 
@@ -60,11 +60,11 @@ const jsonLd = {
       name: "Keith O'Brien",
       alternateName: "Keith R. O'Brien",
       url: SITE_URL,
-      jobTitle: "B2B Executive Ghostwriter",
+      jobTitle: "Content Strategist",
       description:
-        "Keith O'Brien is a B2B content strategist and executive ghostwriter and former editor-in-chief of PRWeek. Founder of Total Emphasis (2017). 20+ years driving measurable results for Fortune 500 companies, startups, and everyone in between, including IBM, Realeyes, UpWave, and UST. Operates as an operator-ghostwriter for B2B founders and executives, building the systems his work runs on. Based in Brooklyn.",
+        "Keith O'Brien is a content strategist, builder/operator, and tinkerer who creates a lot of content: 700+ published pieces of executive thought leadership across bylines, LinkedIn, newsletters, and white papers, plus the systems that make that output possible. He is the proprietor and lead consultant of Total Emphasis, a Brooklyn content systems, strategy, and ghostwriting firm that helps B2B founders, executives, and their organizations turn what they know into thought leadership people read. Based in Brooklyn.",
       disambiguatingDescription:
-        "B2B executive ghostwriter and founder of Total Emphasis. Former editor-in-chief of PRWeek. Based in Brooklyn, New York. Not the late Cardinal Keith O'Brien of Scotland, the Irish boxer, or the longform journalist Keith O'Brien who authored Paradise Falls and Outside Shot.",
+        "Content strategist and builder/operator, proprietor of Total Emphasis. Based in Brooklyn, New York. Not the late Cardinal Keith O'Brien of Scotland, the Irish boxer, or the longform journalist Keith O'Brien who authored Paradise Falls and Outside Shot.",
       homeLocation: {
         "@type": "Place",
         name: "Brooklyn, New York",
@@ -84,7 +84,7 @@ const jsonLd = {
       hasOccupation: [
         {
           "@type": "Occupation",
-          name: "B2B Executive Ghostwriter",
+          name: "Content Strategist and Builder/Operator",
           occupationalCategory: "Content Strategy",
         },
         {

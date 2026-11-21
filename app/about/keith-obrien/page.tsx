@@ -8,12 +8,12 @@ const PAGE_URL = `${SITE_URL}/about/keith-obrien`;
 export const metadata: Metadata = {
   title: "Bio",
   description:
-    "Keith O'Brien is a B2B executive ghostwriter and former PRWeek editor-in-chief. He founded Total Emphasis in 2017.",
+    "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   alternates: { canonical: "/about/keith-obrien" },
   openGraph: {
-    title: "Keith O'Brien, B2B Executive Ghostwriter",
+    title: "Keith O'Brien, Content Strategist and Builder/Operator",
     description:
-      "Keith O'Brien is a B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
     url: "/about/keith-obrien",
     type: "profile",
     siteName: "Keith O'Brien",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     images: ["/opengraph-image"],
-    title: "Keith O'Brien, B2B Executive Ghostwriter",
+    title: "Keith O'Brien, Content Strategist and Builder/Operator",
     description:
-      "B2B executive ghostwriter and former PRWeek editor-in-chief. Founder of Total Emphasis.",
+      "Keith O'Brien is a content strategist and builder/operator with 700+ published pieces of executive thought leadership. Proprietor of Total Emphasis.",
   },
 };
 
@@ -90,9 +90,9 @@ const jsonLd = {
       "@type": "ProfilePage",
       "@id": `${PAGE_URL}#profilepage`,
       url: PAGE_URL,
-      name: "Keith O'Brien, B2B Executive Ghostwriter",
+      name: "Keith O'Brien, Content Strategist and Builder/Operator",
       description:
-        "Press-kit bio for Keith O'Brien, B2B executive ghostwriter and former PRWeek editor-in-chief, founder of Total Emphasis.",
+        "Press-kit bio for Keith O'Brien, content strategist and builder/operator, proprietor of Total Emphasis.",
       mainEntity: { "@id": `${SITE_URL}/#person` },
       isPartOf: { "@id": `${SITE_URL}/#website` },
     },

@@ -22,7 +22,7 @@ export default function OpengraphImage() {
           Keith O&apos;Brien
         </div>
         <div style={{ fontSize: 36, color: "#b9512a", marginTop: 16, fontFamily: "monospace" }}>
-          B2B executive ghostwriter · Former PRWeek EIC
+          Content strategist · Builder/operator
         </div>
       </div>
     ),

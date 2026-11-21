@@ -1,8 +1,10 @@
 import { ImageResponse } from "next/og";
+import { notFound } from "next/navigation";
 import { getAllPosts, getPost } from "@/lib/writing";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -15,7 +17,8 @@ export default async function OgImage({
 }) {
   const { slug } = await params;
   const post = getPost(slug);
-  const title = post?.meta.title ?? "Writing";
+  if (!post || post.meta.draft) notFound();
+  const title = post.meta.title;
 
   return new ImageResponse(
     (

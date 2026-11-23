@@ -1,6 +1,41 @@
 {
   "changes": [
     {
+      "date": "2026-11-23",
+      "type": "added",
+      "title": "Opera",
+      "artists": "M83",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-23",
+      "type": "added",
+      "title": "Taste",
+      "artists": "Magik Markers",
+      "year": 2007
+    },
+    {
+      "date": "2026-11-23",
+      "type": "removed",
+      "title": "No One's Gonna Love You",
+      "artists": "Band of Horses",
+      "year": 2007
+    },
+    {
+      "date": "2026-11-23",
+      "type": "added",
+      "title": "What Else Is There? - Thin White Duke Mix",
+      "artists": "Röyksopp",
+      "year": 2005
+    },
+    {
+      "date": "2026-11-23",
+      "type": "removed",
+      "title": "Lose Control (feat. Ciara & Fat Man Scoop)",
+      "artists": "Missy Elliott, Ciara, Fatman Scoop",
+      "year": 2005
+    },
+    {
       "date": "2026-11-19",
       "type": "added",
       "title": "Magnet's Coil",
@@ -4041,6 +4076,11 @@
           "artists": "LCD Soundsystem"
         },
         {
+          "id": "4Fr6fS9B8HiAJ1VLwgPmIk",
+          "title": "What Else Is There? - Thin White Duke Mix",
+          "artists": "Röyksopp"
+        },
+        {
           "id": "43pZjkhBz717I5X8xepfwm",
           "title": "My Friend Dario",
           "artists": "Vitalic"
@@ -4086,11 +4126,6 @@
           "artists": "Clap Your Hands Say Yeah"
         },
         {
-          "id": "0UaMYEvWZi0ZqiDOoHU3YI",
-          "title": "Lose Control (feat. Ciara & Fat Man Scoop)",
-          "artists": "Missy Elliott, Ciara, Fatman Scoop"
-        },
-        {
           "id": "24PWKmemCvqfyVXODhoKHW",
           "title": "Sittin' Sidewayz (feat. Big Pokey)",
           "artists": "Paul Wall, Big Pokey"
@@ -4131,11 +4166,6 @@
           "artists": "Sleater-Kinney"
         },
         {
-          "id": "5Vt0rEdLdrCMajmncRqT4S",
-          "title": "Hoppípolla - 2025 Remaster",
-          "artists": "Sigur Rós"
-        },
-        {
           "id": "2eTac8uKjsZ5EWO6d0tuVp",
           "title": "Ride a White Horse",
           "artists": "Goldfrapp"
@@ -4159,6 +4189,11 @@
           "id": "36Ad2OVdv1nLKlrSrgt9OU",
           "title": "Silver Rider",
           "artists": "Low"
+        },
+        {
+          "id": "5Vt0rEdLdrCMajmncRqT4S",
+          "title": "Hoppípolla - 2025 Remaster",
+          "artists": "Sigur Rós"
         }
       ]
     },
@@ -4411,14 +4446,14 @@
           "artists": "Justice"
         },
         {
-          "id": "2IvNxLl01CTAfCOA103Tgx",
-          "title": "No One's Gonna Love You",
-          "artists": "Band of Horses"
-        },
-        {
           "id": "0do3zfmbVl5DiGxUXrbhrT",
           "title": "Sycamore",
           "artists": "Bill Callahan"
+        },
+        {
+          "id": "4V433Fm3e7X9fksUd5jq8x",
+          "title": "Taste",
+          "artists": "Magik Markers"
         }
       ]
     },
@@ -7069,6 +7104,11 @@
           "id": "32rGbTvS1MXQ8ipl0Ap8e2",
           "title": "See Out Loud",
           "artists": "Interpol"
+        },
+        {
+          "id": "5qAP0UlSh9bLSJ5WcWiEt3",
+          "title": "Opera",
+          "artists": "M83"
         }
       ]
     }

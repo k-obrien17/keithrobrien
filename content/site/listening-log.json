@@ -71,9 +71,9 @@
       "artists": "Sonic Youth"
     },
     {
-      "id": "4wwOje67xW4mPCf8JvmWYK",
-      "title": "Heart Has To Work So Hard",
-      "artists": "Blondshell"
+      "id": "3WGiMyK486Aat4b9ZxuHic",
+      "title": "Happy",
+      "artists": "The Wrens"
     },
     {
       "id": "4tbeWDBcrA7qX6kaRQUD02",
@@ -127,6 +127,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-23",
+      "type": "added",
+      "title": "Happy",
+      "artists": "The Wrens"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "removed",
+      "title": "Heart Has To Work So Hard",
+      "artists": "Blondshell"
+    },
     {
       "date": "2026-11-19",
       "type": "added",

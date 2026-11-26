@@ -1,6 +1,27 @@
 {
   "changes": [
     {
+      "date": "2026-11-26",
+      "type": "added",
+      "title": "Ivy",
+      "artists": "Worldpeace DMT",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-26",
+      "type": "added",
+      "title": "Angel Is Broken",
+      "artists": "Atlas Sound",
+      "year": 2011
+    },
+    {
+      "date": "2026-11-26",
+      "type": "removed",
+      "title": "Countdown",
+      "artists": "Beyoncé",
+      "year": 2011
+    },
+    {
       "date": "2026-11-23",
       "type": "added",
       "title": "Opera",
@@ -4936,11 +4957,6 @@
           "artists": "WILD FLAG"
         },
         {
-          "id": "7nAeBxnvQYT01pzDnsiL3p",
-          "title": "Countdown",
-          "artists": "Beyoncé"
-        },
-        {
           "id": "6u0x5ad9ewHvs3z6u9Oe3c",
           "title": "Under Cover of Darkness",
           "artists": "The Strokes"
@@ -4974,6 +4990,11 @@
           "id": "6Hyb6MfkxiG3VVYTfFJEVC",
           "title": "Try to Sleep",
           "artists": "Low"
+        },
+        {
+          "id": "1CcS3BOIj3h2nagiyiDnZ6",
+          "title": "Angel Is Broken",
+          "artists": "Atlas Sound"
         }
       ]
     },
@@ -7109,6 +7130,11 @@
           "id": "5qAP0UlSh9bLSJ5WcWiEt3",
           "title": "Opera",
           "artists": "M83"
+        },
+        {
+          "id": "3HGZUb5t818Ie2MsJJZhMq",
+          "title": "Ivy",
+          "artists": "Worldpeace DMT"
         }
       ]
     }
